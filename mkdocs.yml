@@ -1,0 +1,171 @@
+site_name: Tad Zeila Code
+theme:
+  name: material
+  logo: assets/logo/cat_white.png
+  text: Noto Serif Medium
+  code: Roboto Mono Medium
+  highlightjs: true
+  hljs_style: github
+  hljs_style_dark: github-dark
+  palette:
+  - scheme: default
+    primary: indigo
+    accent: pink
+    toggle:
+      icon: material/brightness-4
+      name: Switch to dark mode
+  - scheme: slate
+    primary: indigo
+    accent: pink
+    toggle:
+      icon: material/brightness-7
+      name: Switch to light mode
+  features:
+    - content.code.annotation
+    - content.code.copy
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.instant
+    - navigation.footer
+    - navigation.tracking
+
+plugins:
+  - search
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
+
+nav:
+  # ---------- Home (Main page) ----------
+  - Prefer:
+    - About: index.md
+    - Compiled language: Programming/compiled-language.md
+    - Hybrid language: Programming/hybrid-language.md
+    - Interpreted language: Programming/interpreted-language.md
+    - Non Programming language: NonProgramming/non-programming-language.md
+  - C: Programming/c/c.md
+  - C++:
+    - Overview: Programming/cpp/cpp-0-overview.md
+    - Install: Programming/cpp/cpp-0-install.md
+    - Tutorial:
+      - HelloWorld: Programming/cpp/cpp-0-helloworld.md
+      - Data Types: Programming/cpp/cpp-1-datatypes.md
+      - Basic Operator: Programming/cpp/cpp-1-basic-operator.md
+      - Flow Control: Programming/cpp/cpp-1-flow-control.md
+      - Input and Output: Programming/cpp/cpp-1-input-and-output.md
+      - Condition & Loop: Programming/cpp/cpp-1-condition-loop.md
+      - Command Line Arguments: Programming/cpp/cpp-1-command-line-arguments.md
+      - Basic Bit Operator: Programming/cpp/cpp-1-bit-operator.md
+      - Namespace: Programming/cpp/cpp-1-namespace.md
+      - Define: Programming/cpp/cpp-1-define.md
+      - Include: Programming/cpp/cpp-1-include.md
+      - Feature:
+        - Function: Programming/cpp/cpp-2-function.md
+        - Lambda: Programming/cpp/cpp-2-lambda.md
+        - Function as Parameter: Programming/cpp/cpp-2-function-as-parameter.md
+      - Pointer:
+        - Pointer: Programming/cpp/cpp-3-pointer.md
+        - Smart Pointer: Programming/cpp/cpp-3-smart-pointer.md
+        - Raw Pointer: Programming/cpp/cpp-3-raw-pointer.md
+        - Memory Model: Programming/cpp/cpp-3-memory-model.md
+    - STANDARD LIBRARY STD:
+      - Datatype:
+        - std::string: Programming/cpp/cpp-3-std-string.md
+        - std::vector: Programming/cpp/cpp-3-std-vector.md
+        - std::list: Programming/cpp/cpp-3-std-list.md
+        - std::unordered_map: Programming/cpp/cpp-3-std-unordered_map.md
+      - Function:
+        - std::sort: Programming/cpp/cpp-3-std-sort.md
+        - std::make_share: Programming/cpp/cpp-3-std-make_share.md
+        - std::distance: Programming/cpp/cpp-3-std-distance.md
+        - std::hash: Programming/cpp/cpp-3-std-hash.md
+        - std::unique: Programming/cpp/cpp-3-std-unique.md
+        - std::shuffle: Programming/cpp/cpp-3-std-shuffle.md
+        - std::rotate: Programming/cpp/cpp-3-std-rotate.md
+    - Project:
+      - Giải bảng Sudoku:  Programming/cpp/cpp-project-solver-sudoku.md
+    - Reference & Document: Programming/cpp/cpp-reference-document.md
+  - C#: Programming/c-sharp/c-sharp.md
+  - Rust:
+    - Setup: Programming/Rust/rust-setup.md
+    - Document: Programming/Rust/rust-document.md
+    - Tutorial:
+      - HelloWorld: Programming/Rust/rust-helloworld.md
+      - Variables: Programming/Rust/rust-variables.md
+      - I/O Printer: Programming/Rust/rust-io-printer.md
+  - Java:
+    - Overview:
+      - Java: Programming/Java/java-introduce.md
+      - JDK, JRE và JVM: Programming/Java/java-jdk-jre-jvm.md
+      - Install: Programming/Java/java-install.md
+      - HelloWorld: Programming/Java/java-helloworld.md
+    - Basic:
+      - Basic Syntax: Programming/Java/java-basic-synctax.md
+      - Datatypes & Variables: Programming/Java/java-basic-datatypes-and-variables.md
+  - Javascript:
+    - Getting Start: Programming/Javascript/javascript.md
+  - Python:
+    - Python Common Setup: Programming/Python/python.md
+    - Cài đặt:
+      - Resased Version: Programming/Python/python-resased-version.md
+      - Any Version: Programming/Python/python-any-version.md
+    - Lập trình:
+      - Hello World: Programming/Python/python-hello-world.md
+  - Kotlin:
+    - Kotlin: Programming/Kotlin/kotlin.md
+    - Basic Concept: Programming/Kotlin/kotlin-basic-tour.md
+  - PhP: Programming/php/php.md
+  - Web:
+    - HTML: NonProgramming/html/html.md
+    - CSS: NonProgramming/css/css.md
+  - Draw Chart:
+    - Mermaid:
+      - Overview: NonProgramming/Mermaid/mermaid-overview.md
+    - PlantUml: NonProgramming/PlantUml/plantuml.md
+  - Text:
+    - Markdown: NonProgramming/Markdown/markdown.md
+    - Latex: NonProgramming/LaTex/latex.md
+    - Katex: NonProgramming/KaTex/katex.md
+  # ---------- Practice ----------
+  - Practice:
+    - Prepare: Practice/practice.md
+    - Leetcode:
+      - Leetcode 39: Practice/leetcode-0039.md
+      - Leetcode 46: Practice/leetcode-0046.md
+      - Leetcode 47: Practice/leetcode-0047.md
+      - Leetcode 1486: Practice/leetcode-1486.md
+
+extra_css:
+  - assets/stylesheets/theme.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+extra_javascript:
+  - assets/scripts/katex.js
+  - assets/scripts/keyevent.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/dothanhdathp
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/tad.zeila?locale=vi_VN
