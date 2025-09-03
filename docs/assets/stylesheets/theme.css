@@ -40,7 +40,7 @@
 }
 
 [data-md-color-primary=indigo] {
-    --md-primary-fg-color: #5e2a2a;
+    --md-primary-fg-color: #a33737;
 }
 
 /* Full width = max-width: initial; or try 100% or 1280px or ...  */
@@ -53,7 +53,10 @@
 }
 
 .md-tabs {
-  background-color: #744343;
+  background-color: #8d2b2b;
+}
+.md-footer {
+    background-color: #8d2b2b;
 }
 
 body {
