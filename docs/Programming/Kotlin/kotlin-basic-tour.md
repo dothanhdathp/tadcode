@@ -68,7 +68,7 @@ fun main() {
 ```
 
 !!! warning "Warning"
-    Chúng tôi khuyên bạn nên khai báo tất cả các biến là chỉ đọc __*read-only*__ (`val`) theo mặc định. Chỉ sử dụng các biến có thể thay đổi - __*mutable*__ (`var`) nếu bạn thực sự cần.Bằng cách đó, bạn ít có khả năng vô tình thay đổi thứ gì đó không có nghĩa là thay đổi.
+    Chúng tôi khuyên bạn nên khai báo tất cả các biến là chỉ đọc __*read-only*__ (`val`) theo mặc định. Chỉ sử dụng các biến có thể thay đổi - __*mutable*__ (`var`) nếu bạn thực sự cần. Bằng cách đó, bạn ít có khả năng vô tình thay đổi thứ gì đó không có nghĩa là thay đổi.
 
 ### Mẫu String
 

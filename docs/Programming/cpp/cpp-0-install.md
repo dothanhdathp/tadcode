@@ -6,10 +6,10 @@ Cho Windows có nhiều cách để sử dụng như tải về và công cụ s
 - [Code::Blocks](https://www.codeblocks.org/)
 - [Dev-C++](https://www.bloodshed.net/), ...
 
-Nhưng tôi nghĩ tốt nhất nên dùng `msys2` vì nó có vẻ được khuyến nghị bởi [Visual Studio Code](../../Software/VSCode/software-vscode-install.md).
+Nhưng tôi nghĩ tốt nhất nên dùng `msys2` vì nó có vẻ được khuyến nghị bởi [Visual Studio Code](https://dothanhdathp.github.io/taddev/Software/VSCode/software-vscode-install/).
 
 1. Tải msys và cài đặt từ trang chủ [MSYS2](https://www.msys2.org/)
-1. Sau đó tải [VSCode](../../Software/VSCode/software-vscode-install.md) để code C++
+1. Sau đó tải [VSCode](https://dothanhdathp.github.io/taddev/Software/VSCode/software-vscode-install/) để code C++
 1. Theo hướng dẫn trong này [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw) để tải về 
 1. Sau khi tải sẽ có:
     - `x86_64-w64-mingw32-g++.exe`

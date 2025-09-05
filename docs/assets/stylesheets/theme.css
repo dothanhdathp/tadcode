@@ -37,6 +37,8 @@
     /* --code-font-family: 'Noto Sans Mono Light'; */
     --md-text-font: "NotoSerifMedium";
     --md-code-font: "JetBrains Mono";
+    /* Fix font light be too bright by opacity */
+    --tertiary-theme-color: #ffae00F0;
 }
 
 [data-md-color-primary=indigo] {
