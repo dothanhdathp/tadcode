@@ -29,6 +29,7 @@ Một cách khác, sử dụng [_online compiler_](https://play.kotlinlang.org/)
 ## Tham khảo
 
 Bạn có thể tham khảo ngôn ngữ này bằng đường dẫn:
+
 - [Kotlin docs](https://kotlinlang.org/docs/home.html)
 - [Wikipedia Kotlin](https://en.wikipedia.org/wiki/Kotlin_(programming_language))
 - [Why Jetbrains Invented And Promotes Kotlin](https://www.reddit.com/r/programming/comments/7kmquq/why_jetbrains_invented_and_promotes_kotlin/)

@@ -37,10 +37,12 @@
     /* --code-font-family: 'Noto Sans Mono Light'; */
     --md-text-font: "NotoSerifMedium";
     --md-code-font: "JetBrains Mono";
+    /* Fix font light be too bright by opacity */
+    --tertiary-theme-color: #ffae00F0;
 }
 
 [data-md-color-primary=indigo] {
-    --md-primary-fg-color: #5e2a2a;
+    --md-primary-fg-color: #a33737;
 }
 
 /* Full width = max-width: initial; or try 100% or 1280px or ...  */
@@ -53,7 +55,10 @@
 }
 
 .md-tabs {
-  background-color: #744343;
+  background-color: #8d2b2b;
+}
+.md-footer {
+    background-color: #8d2b2b;
 }
 
 body {
