@@ -112,3 +112,9 @@ Với:
 
 !!! note "Note"
     Chủ yếu mình lưu lại phần này để xem mẫu viết chương trình kiểm thử nhiều phương án. Lưu lại nó và sử dụng sau này cho nhiều chương trình khác. ... Nếu có dịp quay lại hãy bổ sung hoặc tái cấu trúc điều này vào mục tốt hơn.
+
+## Một số trang luyện tập
+
+- Leetcode
+- CodeChef
+- HackeRrank

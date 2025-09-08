@@ -108,8 +108,8 @@ nav:
     - Cài đặt:
       - Resased Version: Programming/Python/python-resased-version.md
       - Any Version: Programming/Python/python-any-version.md
-    - Lập trình:
-      - Hello World: Programming/Python/python-hello-world.md
+    - Basic:
+      - Basic Concept: Programming/Python/python-basic-concept.md
   - Kotlin:
     - Kotlin: Programming/Kotlin/kotlin.md
     - Basic Concept: Programming/Kotlin/kotlin-basic-tour.md
