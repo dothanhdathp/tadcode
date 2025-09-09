@@ -18,7 +18,7 @@ Hello World
 
 ## Syntax (cú pháp)
 
-### Chung
+### Tổng quát
 
 1. Python không cần `;` để kết thúc câu
 1. Các khối của Python được xác định bằng cách lùi đầu dòng (`TAB`).
@@ -68,6 +68,9 @@ E <class 'str'>
 - `type(var)` là cách để xác định kiểu biến.
 - Python không phân biệt `char` và `str` như __C++__
 
+!!! info "Info"
+    Hàm `type()` trả về loại của biến được truyền vào dưới dạng `str`
+
 ## Số học
 
 ### Không giới hạn
@@ -100,8 +103,9 @@ b = 2_147_483_000
 
 print(a*b)
 ```
-
-__*Kết quả vẫn như cũ*__
+```txt
+4611683235289000000
+```
 
 ### Tự động ép kiểu
 
@@ -199,3 +203,7 @@ print(x)
 print(y)
 print(z)
 ```
+
+## Tham khảo
+
+- [Python Example](https://www.w3schools.com/python/python_examples.asp)
