@@ -42,7 +42,9 @@ nav:
     - Hybrid language: Programming/hybrid-language.md
     - Interpreted language: Programming/interpreted-language.md
     - Non Programming language: NonProgramming/non-programming-language.md
-  - C: Programming/c/c.md
+  - C:
+    - Giới thiệu: Programming/c/c.md
+    - Makefile: Programming/c/c-makefile.md
   - C++:
     - Overview: Programming/cpp/cpp-0-overview.md
     - Install: Programming/cpp/cpp-0-install.md
@@ -81,6 +83,8 @@ nav:
         - std::unique: Programming/cpp/cpp-3-std-unique.md
         - std::shuffle: Programming/cpp/cpp-3-std-shuffle.md
         - std::rotate: Programming/cpp/cpp-3-std-rotate.md
+    - Build Tool:
+      - Make: Programming/cpp/cpp-build-tool-make.md
     - Project:
       - Giải bảng Sudoku:  Programming/cpp/cpp-project-solver-sudoku.md
     - Reference & Document: Programming/cpp/cpp-reference-document.md
