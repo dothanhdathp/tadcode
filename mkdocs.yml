@@ -32,7 +32,8 @@ theme:
 plugins:
   - search
   - plantuml:
-      puml_url: https://www.plantuml.com/plantuml/
+      # puml_url: https://www.plantuml.com/plantuml/
+      puml_url: http://192.168.102.72:7777/plantuml/
 
 nav:
   # ---------- Home (Main page) ----------
@@ -120,18 +121,19 @@ nav:
   - Kotlin:
     - Kotlin: Programming/Kotlin/kotlin.md
     - Basic Concept: Programming/Kotlin/kotlin-basic-tour.md
-  - PhP: Programming/php/php.md
   - Web:
     - HTML: NonProgramming/html/html.md
     - CSS: NonProgramming/css/css.md
-  - Draw Chart:
-    - Mermaid:
-      - Overview: NonProgramming/Mermaid/mermaid-overview.md
-    - PlantUml: NonProgramming/PlantUml/plantuml.md
-  - Text:
+    - PhP: Programming/php/php.md
+  - Another:
     - Markdown: NonProgramming/Markdown/markdown.md
     - Latex: NonProgramming/LaTex/latex.md
     - Katex: NonProgramming/KaTex/katex.md
+    - PlantUml:
+      - Overview: NonProgramming/PlantUml/plantuml.md
+      - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
+    - Mermaid:
+      - Overview: NonProgramming/Mermaid/mermaid-overview.md
   # ---------- Practice ----------
   - Practice:
     - Prepare: Practice/practice.md
