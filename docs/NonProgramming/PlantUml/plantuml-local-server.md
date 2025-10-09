@@ -1,7 +1,6 @@
-# Local Server
+# \[PlantUml\] Local Server
 
 ## Cho máy Ubuntu
-
 
 - Install Java:
     ```text

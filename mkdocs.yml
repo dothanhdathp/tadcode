@@ -32,8 +32,7 @@ theme:
 plugins:
   - search
   - plantuml:
-      # puml_url: https://www.plantuml.com/plantuml/
-      puml_url: http://192.168.102.72:7777/plantuml/
+      puml_url: https://www.plantuml.com/plantuml/
 
 nav:
   # ---------- Home (Main page) ----------
@@ -132,6 +131,33 @@ nav:
     - PlantUml:
       - Overview: NonProgramming/PlantUml/plantuml.md
       - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
+      - UML Diagrams:
+        - Sequence diagram: NonProgramming/PlantUml/plantuml-sequence-diagram.md
+        - Usecase diagram: NonProgramming/PlantUml/plantuml-usecase-diagram.md
+        - Class diagram: NonProgramming/PlantUml/plantuml-class-diagram.md
+        - Object diagram: NonProgramming/PlantUml/plantuml-object-diagram.md
+        - Activity diagram: NonProgramming/PlantUml/plantuml-activity-diagram.md
+        - Component diagram: NonProgramming/PlantUml/plantuml-component-diagram.md
+        - Deployment diagram: NonProgramming/PlantUml/plantuml-deployment-diagram.md
+        - State diagram: NonProgramming/PlantUml/plantuml-state-diagram.md
+        - Timing diagram: NonProgramming/PlantUml/plantuml-timing-diagram.md
+      - Non-UML Diagrams:
+        - JSON data: NonProgramming/PlantUml/plantuml-json-data.md
+        - YAML data: NonProgramming/PlantUml/plantuml-yaml-data.md
+        - EBNF diagram: NonProgramming/PlantUml/plantuml-ebnf-diagram.md
+        - Regex diagram: NonProgramming/PlantUml/plantuml-regex-diagram.md
+        - Network diagram (nwdiag): NonProgramming/PlantUml/plantuml-network-diagram-nwdiag.md
+        - UI mockups (salt): NonProgramming/PlantUml/plantuml-ui-mockups-salt.md
+        - Archimate diagram: NonProgramming/PlantUml/plantuml-archimate-diagram.md
+        - SDL: NonProgramming/PlantUml/plantuml-sdl.md
+        - Ditaa diagram: NonProgramming/PlantUml/plantuml-ditaa-diagram.md
+        - Gantt diagram: NonProgramming/PlantUml/plantuml-gantt-diagram.md
+        - Chronology diagram: NonProgramming/PlantUml/plantuml-chronology-diagram.md
+        - MindMap diagram: NonProgramming/PlantUml/plantuml-mindmap-diagram.md
+        - WBS diagram: NonProgramming/PlantUml/plantuml-wbs-diagram.md
+        - Mathematics: NonProgramming/PlantUml/plantuml-mathematics.md
+        - IE diagram: NonProgramming/PlantUml/plantuml-ie-diagram.md
+        - ER diagram: NonProgramming/PlantUml/plantuml-er-diagram.md
     - Mermaid:
       - Overview: NonProgramming/Mermaid/mermaid-overview.md
   # ---------- Practice ----------
