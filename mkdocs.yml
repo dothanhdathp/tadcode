@@ -108,8 +108,9 @@ nav:
   - Javascript:
     - Getting Start: Programming/Javascript/javascript.md
   - Python:
-    - Python Common Setup: Programming/Python/python.md
+    - Giới thiệu: Programming/Python/python.md
     - Cài đặt:
+      - Windows: Programming/Python/python-install-windows.md
       - Resased Version: Programming/Python/python-resased-version.md
       - Any Version: Programming/Python/python-any-version.md
     - Cơ bản:
@@ -132,11 +133,11 @@ nav:
       - Overview: NonProgramming/PlantUml/plantuml.md
       - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
       - UML Diagrams:
-        - Sequence diagram: NonProgramming/PlantUml/plantuml-sequence-diagram.md
+        - Sequence diagram ⭐: NonProgramming/PlantUml/plantuml-sequence-diagram.md
         - Usecase diagram: NonProgramming/PlantUml/plantuml-usecase-diagram.md
         - Class diagram: NonProgramming/PlantUml/plantuml-class-diagram.md
         - Object diagram: NonProgramming/PlantUml/plantuml-object-diagram.md
-        - Activity diagram: NonProgramming/PlantUml/plantuml-activity-diagram.md
+        - Activity diagram ⭐: NonProgramming/PlantUml/plantuml-activity-diagram.md
         - Component diagram: NonProgramming/PlantUml/plantuml-component-diagram.md
         - Deployment diagram: NonProgramming/PlantUml/plantuml-deployment-diagram.md
         - State diagram: NonProgramming/PlantUml/plantuml-state-diagram.md
@@ -153,8 +154,8 @@ nav:
         - Ditaa diagram: NonProgramming/PlantUml/plantuml-ditaa-diagram.md
         - Gantt diagram: NonProgramming/PlantUml/plantuml-gantt-diagram.md
         - Chronology diagram: NonProgramming/PlantUml/plantuml-chronology-diagram.md
-        - MindMap diagram: NonProgramming/PlantUml/plantuml-mindmap-diagram.md
-        - WBS diagram: NonProgramming/PlantUml/plantuml-wbs-diagram.md
+        - MindMap diagram ⭐: NonProgramming/PlantUml/plantuml-mindmap-diagram.md
+        - WBS diagram ⭐: NonProgramming/PlantUml/plantuml-wbs-diagram.md
         - Mathematics: NonProgramming/PlantUml/plantuml-mathematics.md
         - IE diagram: NonProgramming/PlantUml/plantuml-ie-diagram.md
         - ER diagram: NonProgramming/PlantUml/plantuml-er-diagram.md

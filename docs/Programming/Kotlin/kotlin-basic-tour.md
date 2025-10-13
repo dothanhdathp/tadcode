@@ -74,7 +74,7 @@ fun main() {
 
 Thật hữu ích khi biết cách in nội dung của các biến thành đầu ra tiêu chuẩn. Bạn có thể làm điều này với các mẫu chuỗi. Bạn có thể sử dụng các biểu thức mẫu để truy cập dữ liệu được lưu trữ trong các biến và các đối tượng khác và chuyển đổi chúng thành các chuỗi. Giá trị chuỗi là một chuỗi các ký tự trong dấu ngoặc kép `"`. Biểu thức mẫu luôn bắt đầu bằng dấu hiệu đô la `$`.
 
-Để đánh giá một đoạn mã trong biểu thức mẫu, hãy đặt mã trong niềng răng xoăn `{}` sau dấu hiệu đô la `$`.
+Để đánh giá một đoạn mã trong biểu thức mẫu, hãy đặt mã trong dấu ngoặc kép `{}` sau ký hiệu đô la `$`.
 
 Ví dụ:
 
@@ -116,6 +116,7 @@ customers /= 3            // Example of division: 10
 
 println(customers) // 10
 ```
+
 ### Các kiểu
 
 | Category                   | Basic types                        | Example code                                                |
@@ -139,11 +140,11 @@ fun main() {
 }
 ```
 
-__*Code láo:*__
+__*Code sai:*__
 
 ```kotlin
-    val d: Int
-    println(d)
+val d: Int
+println(d)
 ```
 
 __*Lỗi báo ra:*__

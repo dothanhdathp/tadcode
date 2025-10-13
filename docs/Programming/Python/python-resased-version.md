@@ -109,7 +109,7 @@ ln -s /usr/bin/python /usr/bin/python3.12.3
 
 Với hệ điều hành Windows thì đó gần như là điều bắt buộc vì các phần mềm hệ thống có vẻ chẳng bao giờ nằm gọn ở một chỗ, thế nên có một số cài đặt sau nên được thêm vào biến môi trường trên Windows. Các biến môi trường cần thêm là:
 
-```bash
+```text
 %USERPROFILE%\AppData\Local\Programs\Python\Python$\
 %USERPROFILE%\AppData\Local\Programs\Python\Python$\Scripts
 ```
