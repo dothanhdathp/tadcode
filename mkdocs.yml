@@ -33,6 +33,7 @@ plugins:
   - search
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
+  - graph
 
 nav:
   # ---------- Home (Main page) ----------
@@ -46,7 +47,7 @@ nav:
     - Giới thiệu: Programming/c/c.md
     - Makefile: Programming/c/c-makefile.md
   - C++:
-    - Overview: Programming/cpp/cpp-0-overview.md
+    - C++: Programming/cpp/cpp.md
     - Install: Programming/cpp/cpp-0-install.md
     - Tutorial:
       - Hello World: Programming/cpp/cpp-0-helloworld.md
@@ -88,8 +89,10 @@ nav:
     - Project:
       - Giải bảng Sudoku:  Programming/cpp/cpp-project-solver-sudoku.md
     - Reference & Document: Programming/cpp/cpp-reference-document.md
-  - C#: Programming/c-sharp/c-sharp.md
+  - C#:
+    - C#: Programming/c-sharp/c-sharp.md
   - Rust:
+    - Rust: Programming/Rust/rust.md
     - Setup: Programming/Rust/rust-setup.md
     - Document: Programming/Rust/rust-document.md
     - Tutorial:
@@ -97,8 +100,8 @@ nav:
       - Variables: Programming/Rust/rust-variables.md
       - I/O Printer: Programming/Rust/rust-io-printer.md
   - Java:
+    - Java: Programming/Java/java.md
     - Overview:
-      - Java: Programming/Java/java-introduce.md
       - JDK, JRE và JVM: Programming/Java/java-jdk-jre-jvm.md
       - Install: Programming/Java/java-install.md
       - HelloWorld: Programming/Java/java-helloworld.md
@@ -108,7 +111,7 @@ nav:
   - Javascript:
     - Getting Start: Programming/Javascript/javascript.md
   - Python:
-    - Giới thiệu: Programming/Python/python.md
+    - Python: Programming/Python/python.md
     - Cài đặt:
       - Windows: Programming/Python/python-install-windows.md
       - Resased Version: Programming/Python/python-resased-version.md
@@ -130,7 +133,7 @@ nav:
     - Latex: NonProgramming/LaTex/latex.md
     - Katex: NonProgramming/KaTex/katex.md
     - PlantUml:
-      - Overview: NonProgramming/PlantUml/plantuml.md
+      - PlantUml: NonProgramming/PlantUml/plantuml.md
       - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
       - UML Diagrams:
         - Sequence diagram ⭐: NonProgramming/PlantUml/plantuml-sequence-diagram.md
@@ -160,7 +163,7 @@ nav:
         - IE diagram: NonProgramming/PlantUml/plantuml-ie-diagram.md
         - ER diagram: NonProgramming/PlantUml/plantuml-er-diagram.md
     - Mermaid:
-      - Overview: NonProgramming/Mermaid/mermaid-overview.md
+      - Mermaid: NonProgramming/Mermaid/mermaid.md
   # ---------- Practice ----------
   - Practice:
     - Prepare: Practice/practice.md
