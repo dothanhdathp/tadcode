@@ -1,3 +1,5 @@
+# \[C++\] Lambda Function
+
 ## Định nghĩa
 
 Hàm _lambda_, hay đơn giản là “lambda”, là một <u>hàm ẩn danh</u> (không có tên) được định nghĩa tại chỗ, trong mã nguồn của bạn và với cú pháp ngắn gọn. Hàm _lambda_ được giới thiệu trong C++11 và kể từ đó đã trở thành một tính năng được sử dụng rộng rãi, đặc biệt là khi kết hợp với các thuật toán __Thư viện chuẩn (std)__.

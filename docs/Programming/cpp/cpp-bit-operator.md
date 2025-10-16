@@ -1,4 +1,4 @@
-# Basic Bit Operator
+# \[C++\] Bit Operator
 
 ## Bit Operator?
 

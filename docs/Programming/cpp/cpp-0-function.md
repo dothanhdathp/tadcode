@@ -1,3 +1,5 @@
+# \[C++\] Hàm
+
 > Hàm là một nhóm __các__ câu lệnh thực hiện một nhiệm vụ cụ thể, được tổ chức như một đơn vị riêng biệt trong một chương trình. Hàm giúp chia nhỏ mã thành các khối nhỏ hơn, dễ quản lý và có thể tái sử dụng.
 
 ## Định nghĩa một hàm
@@ -72,3 +74,9 @@ int multiplyNumbers(int x, int y) {
 Trong ví dụ này, chúng ta sử dụng một nguyên mẫu hàm `multiplyNumbers()` trước khi định nghĩa nó. Theo cách này, chúng ta có thể gọi hàm từ hàm `main()` mặc dù nó chưa được định nghĩa trong mã.
 
 Tìm hiểu thêm từ các nguồn sau: [Introduction to functions](https://www.learncpp.com/cpp-tutorial/introduction-to-functions/)
+
+## Note
+
+!!! info "Info"
+    - [Lambda Function](cpp-2-lambda.md)
+    - [Function as Parameter](cpp-2-function-as-parameter.md)

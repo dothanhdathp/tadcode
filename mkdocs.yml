@@ -49,27 +49,33 @@ nav:
   - C++:
     - C++: Programming/cpp/cpp.md
     - Install: Programming/cpp/cpp-0-install.md
-    - Tutorial:
+    - Starter:
       - Hello World: Programming/cpp/cpp-0-helloworld.md
-      - Data Types: Programming/cpp/cpp-1-datatypes.md
-      - Basic Operator: Programming/cpp/cpp-1-basic-operator.md
-      - Flow Control: Programming/cpp/cpp-1-flow-control.md
-      - Input and Output: Programming/cpp/cpp-1-input-and-output.md
-      - Condition & Loop: Programming/cpp/cpp-1-condition-loop.md
-      - Command Line Arguments: Programming/cpp/cpp-1-command-line-arguments.md
-      - Basic Bit Operator: Programming/cpp/cpp-1-bit-operator.md
+      - Kiểu biến: Programming/cpp/cpp-primitive-datatypes.md
+      - Operator: Programming/cpp/cpp-operator.md
+      - Điều khiển luồng: Programming/cpp/cpp-flow-control.md
+      - Input/Output: Programming/cpp/cpp-input-and-output.md
+      - Vòng lặp: Programming/cpp/cpp-loop.md
+      - Bit Operator: Programming/cpp/cpp-bit-operator.md
       - Namespace: Programming/cpp/cpp-1-namespace.md
       - Define: Programming/cpp/cpp-1-define.md
       - Include: Programming/cpp/cpp-1-include.md
-      - Feature:
-        - Function: Programming/cpp/cpp-2-function.md
-        - Lambda: Programming/cpp/cpp-2-lambda.md
-        - Function as Parameter: Programming/cpp/cpp-2-function-as-parameter.md
-      - Pointer:
-        - Pointer: Programming/cpp/cpp-3-pointer.md
-        - Smart Pointer: Programming/cpp/cpp-3-smart-pointer.md
-        - Raw Pointer: Programming/cpp/cpp-3-raw-pointer.md
-        - Memory Model: Programming/cpp/cpp-3-memory-model.md
+      - Hàm: Programming/cpp/cpp-0-function.md
+      - Con trỏ: Programming/cpp/cpp-pointer.md
+    - Beginer:
+      - Container: Programming/cpp/cpp-container.md
+      - String: Programming/cpp/cpp-string.md
+      - Array: Programming/cpp/cpp-array.md
+      - Vector: Programming/cpp/cpp-vector.md
+      - List: Programming/cpp/cpp-list.md
+      - Map: Programming/cpp/cpp-map.md
+    - Advance:
+      - Lambda Function: Programming/cpp/cpp-2-lambda.md
+      - Function as Parameter: Programming/cpp/cpp-2-function-as-parameter.md
+      - Smart Pointer: Programming/cpp/cpp-3-smart-pointer.md
+      - Raw Pointer: Programming/cpp/cpp-3-raw-pointer.md
+      - Memory Model: Programming/cpp/cpp-3-memory-model.md
+      - Command Line Arguments: Programming/cpp/cpp-command-line-arguments.md
     - STANDARD LIBRARY STD:
       - Datatype:
         - std::string: Programming/cpp/cpp-3-std-string.md

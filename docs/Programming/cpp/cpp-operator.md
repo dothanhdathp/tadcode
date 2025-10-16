@@ -1,4 +1,4 @@
-# Basic Operator
+# \[C++\] Operator
 
 ## Math Operator
 

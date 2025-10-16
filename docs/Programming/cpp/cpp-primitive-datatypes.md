@@ -1,4 +1,4 @@
-# Data Type (Kiểu Biến)
+# \[C++\] Kiểu biến
 
 ## Primitive Data Types (Các loại biến cơ bản)
 

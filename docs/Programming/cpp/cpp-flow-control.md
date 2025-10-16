@@ -1,6 +1,11 @@
-# Flow Control
+# \[C++\] Điều khiển luồng
 
-## if/else
+- Có ba các điều khiển luồng cơ bản là:
+    - Điều kiện `IF/ELSE`
+    - Vòng lặp vô tận `WHILE`
+    - Lệnh nhảy `GOTO`
+
+## IF/ELSE
 
 `if/else` đơn giản là kiểm tra đúng sai, luồng đơn giản như này:
 
@@ -41,7 +46,7 @@ Kết quả:
 0 1 2 3 4 5 6 7 8 9
 ```
 
-## while
+## WHILE
 
 `while` nghĩa là vòng lặp có điều kiện:
 
@@ -61,7 +66,7 @@ Dòng lệnh đó thực hiện như sau:
 - Dòng lệnh `count = count + 1` là chính giá trị đó được tự tăng lên `1`.
 - Sau đó đến khi `count` đến `10` thì sẽ thoát vòng lặp
 
-## goto
+## GOTO
 
 `goto` cần một _nhãn dán_ được đặt tên, hãy xem qua ví dụ dưới này:
 

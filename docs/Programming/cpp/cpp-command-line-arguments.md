@@ -1,4 +1,6 @@
-# Command Line Arguments
+# \[C++\] Command Line Arguments
+
+Nhận đối số đầu vào từ chương trình và thực thi.
 
 ## Chương trình
 
