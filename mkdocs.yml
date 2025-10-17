@@ -92,6 +92,8 @@ nav:
         - std::rotate: Programming/cpp/cpp-3-std-rotate.md
     - Build Tool:
       - Make: Programming/cpp/cpp-build-tool-make.md
+    - Concept:
+      - Named Requirements: Programming/cpp/cpp-named-requirements.md
     - Project:
       - Giải bảng Sudoku:  Programming/cpp/cpp-project-solver-sudoku.md
     - Reference & Document: Programming/cpp/cpp-reference-document.md

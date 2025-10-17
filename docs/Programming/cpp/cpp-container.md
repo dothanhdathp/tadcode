@@ -15,3 +15,9 @@ Một khái niệm về _container_ phổ biến trong các ngôn ngữ lập tr
 Associative Containers
 - __Vector__ cũng là chuỗi, nhưng nó cho phép thêm phần tử, tự do mở rộng
 - Chuỗi là một danh sách __tĩnh__. Tức không thể thêm được phần tử.
+
+Một số dạng container cần thoả mãn một số yêu cầu thiết kế trong [Named Requirements](cpp-named-requirements.md#container)
+
+## 
+
+gltestsrc ! glupload ! tee name=t t. ! queue name=t0 ! glcolorconvert ! glimagesink name="VSYNC_0" t. ! queue name=t1 ! glcolorconvert ! glimagesink name="VSYNC_1" t. ! queue name=t2 ! glcolorconvert ! gldownload ! video/x-raw,format=I420 ! x264enc tune=zerolatency ! rtph264pay ! multiudpsink name="MULTI_UDP_SINK" sync=true async=false androidaudiosrc ! audioconvert ! voaacenc ! rtpmp4gpay ! udpsink host=127.0.0.1 port=5002
