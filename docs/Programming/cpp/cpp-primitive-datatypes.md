@@ -111,8 +111,10 @@ int main()
 	return EXIT_SUCCESS;
 }
 ```
+
 Kết quả:
-```bash
+
+```txt
 10
 0.5
 1.5
@@ -140,8 +142,10 @@ int main()
 	return EXIT_SUCCESS;
 }
 ```
+
 Kết quả:
-```bash
+
+```txt
 1
 2
 Hello
@@ -183,8 +187,10 @@ int main() {
     return EXIT_SUCCESS;
 }
 ```
+
 Kết quả:
-```bash
+
+```txt
 4294967295
 ```
 
@@ -215,8 +221,10 @@ int main()
 	return EXIT_SUCCESS; 
 }
 ```
+
 Kết quả:
-```bash
+
+```txt
 -27648
 2000000000
 ```

@@ -20,7 +20,7 @@ int main()
 	return EXIT_SUCCESS; 
 }
 ```
-```bash
+```txt
 0
 1
 2
@@ -32,6 +32,7 @@ int main()
 8
 9
 ```
+
 Tiến trình vòng lặp __FOR__ như sau:
 
 ```puml
@@ -63,10 +64,13 @@ int main()
 	return EXIT_SUCCESS; 
 }
 ```
+
 Chương trình thoát với điều kiện cho đến khi biến `i` đến giá trị `100`
-```bash
+
+```txt
 100
 ```
+
 Vòng lặp có sơ đồ như sau:
 
 ```puml

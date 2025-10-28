@@ -39,7 +39,7 @@
     --md-text-font: "NotoSerifMedium";
     --md-code-font: "JetBrains Mono";
     /* Fix font light be too bright by opacity */
-    --tertiary-theme-color: #ffae00F0;
+    --tertiary-theme-color: #00b7fff0;
 }
 
 [data-md-color-primary=indigo] {
@@ -53,10 +53,11 @@
   --md-typeset-a-color: #2d4150;
   --custom-color-theme-h1--theme: #2d4150;
   --custom-color-theme-h2--theme: #3b4f72;
-  --custom-color-theme-h3--theme: #1a5bcc;
+  --custom-color-theme-h3--theme: #1f4991;
   --custom-color-theme-h4--theme: #ff5e00;
   --custom-color-theme-h5--theme: #ff2200;
   --custom-color-theme-h6--theme: #004b55;
+  --md-code-bg-color: #d2dde0;
 }
 /* Dark theme */
 [data-md-color-scheme=slate] {
@@ -146,11 +147,11 @@ mark.blue {
 
 th {
   background-color: #5188ff5b;
-  font-size: larger;
+  font-size: unset;
 }
 
 td {
-  font-size: large;
+  font-size: small;
 }
 
 /* code */

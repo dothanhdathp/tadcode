@@ -30,6 +30,7 @@ if(condition) {
     // does false
 }
 ```
+
 ## for
 
 `for` là vòng lặp, chạy 
@@ -42,7 +43,7 @@ for(int i=0; i<10; ++i) {
 
 Kết quả:
 
-```bash
+```txt
 0 1 2 3 4 5 6 7 8 9
 ```
 
@@ -57,9 +58,11 @@ while(count < 10) {
     count = count + 1;
 }
 ```
-```bash
+
+```txt
 0 1 2 3 4 5 6 7 8 9
 ```
+
 Dòng lệnh đó thực hiện như sau:
 - `count` khởi động với giá trị bằng `0`
 - Sau đó vì `count < 10`, điều kiện vẫn đúng nên sẽ thực hiện dòng lệnh trong dấu `{}`

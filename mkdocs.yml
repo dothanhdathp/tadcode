@@ -48,21 +48,25 @@ nav:
     - Makefile: Programming/c/c-makefile.md
   - C++:
     - C++: Programming/cpp/cpp.md
-    - Install: Programming/cpp/cpp-0-install.md
+    - Overview: Programming/cpp/cpp-overview.md
+    - Install:
+      - Windows: Programming/cpp/cpp-install-for-windows.md
+      - Linux: Programming/cpp/cpp-install-for-linux.md
     - Starter:
-      - Hello World: Programming/cpp/cpp-0-helloworld.md
+      - Hello World: Programming/cpp/cpp-helloworld.md
       - Kiểu biến: Programming/cpp/cpp-primitive-datatypes.md
       - Operator: Programming/cpp/cpp-operator.md
       - Điều khiển luồng: Programming/cpp/cpp-flow-control.md
       - Input/Output: Programming/cpp/cpp-input-and-output.md
       - Vòng lặp: Programming/cpp/cpp-loop.md
       - Bit Operator: Programming/cpp/cpp-bit-operator.md
-      - Namespace: Programming/cpp/cpp-1-namespace.md
-      - Define: Programming/cpp/cpp-1-define.md
+      - Namespace: Programming/cpp/cpp-namespace.md
+      - Define: Programming/cpp/cpp-define.md
       - Include: Programming/cpp/cpp-1-include.md
       - Hàm: Programming/cpp/cpp-0-function.md
       - Con trỏ: Programming/cpp/cpp-pointer.md
     - Beginer:
+      - Standard Library: Programming/cpp/cpp-std-standard-library.md
       - Container: Programming/cpp/cpp-container.md
       - String: Programming/cpp/cpp-string.md
       - Array: Programming/cpp/cpp-array.md
@@ -102,11 +106,11 @@ nav:
   - Rust:
     - Rust: Programming/Rust/rust.md
     - Setup: Programming/Rust/rust-setup.md
-    - Document: Programming/Rust/rust-document.md
     - Tutorial:
-      - HelloWorld: Programming/Rust/rust-helloworld.md
+      - Hello World: Programming/Rust/rust-helloworld.md
       - Variables: Programming/Rust/rust-variables.md
       - I/O Printer: Programming/Rust/rust-io-printer.md
+    - Document: Programming/Rust/rust-document.md
   - Java:
     - Java: Programming/Java/java.md
     - Overview:
@@ -121,7 +125,7 @@ nav:
   - Python:
     - Python: Programming/Python/python.md
     - Cài đặt:
-      - Windows: Programming/Python/python-install-windows.md
+      - Window: Programming/Python/python-install-windows.md
       - Resased Version: Programming/Python/python-resased-version.md
       - Any Version: Programming/Python/python-any-version.md
     - Cơ bản:
