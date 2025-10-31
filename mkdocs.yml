@@ -100,6 +100,7 @@ nav:
       - Named Requirements: Programming/cpp/cpp-named-requirements.md
     - Project:
       - Giải bảng Sudoku:  Programming/cpp/cpp-project-solver-sudoku.md
+      - "\u2003Code":  Programming/cpp/cpp-project-solver-sudoku-code.md
     - Reference & Document: Programming/cpp/cpp-reference-document.md
   - C#:
     - C#: Programming/c-sharp/c-sharp.md

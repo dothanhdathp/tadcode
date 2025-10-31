@@ -31,7 +31,7 @@
     --quaternary-theme-color: #8b1a8f90; /* Light theme text */
     --soft-gray-theme-color: #E2E2E2; /* Accent color */
     --code-color: black;
-  --code-background-color: #fdddb490;
+    --code-background-color: #fdddb490;
     --code-font-family: "JetBrains Mono";
     --md-bg-light-color: #d3d3e9;
     --md-bg-dark-color: #020226;
@@ -91,7 +91,6 @@
 }
 .md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
   font-weight: bold;
-  text-decoration: underline;
 }
   
 .md-typeset h1 {
