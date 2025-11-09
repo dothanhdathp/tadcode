@@ -1,0 +1,231 @@
+site_name: Tad Zeila Code
+theme:
+  name: material
+  logo: assets/logo/cat_white.png
+  text: Noto Serif Medium
+  code: Roboto Mono Medium
+  highlightjs: true
+  hljs_style: github
+  hljs_style_dark: github-dark
+  palette:
+  - scheme: default
+    primary: indigo
+    accent: pink
+    toggle:
+      icon: material/brightness-4
+      name: Switch to dark mode
+  - scheme: slate
+    primary: indigo
+    accent: pink
+    toggle:
+      icon: material/brightness-7
+      name: Switch to light mode
+  features:
+    - content.code.annotation
+    - content.code.copy
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.instant
+    - navigation.footer
+    - navigation.tracking
+
+plugins:
+  - search
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
+  - graph
+
+nav:
+  # ---------- Home (Main page) ----------
+  - Prefer:
+    - About: index.md
+    - Compiled language: Programming/compiled-language.md
+    - Hybrid language: Programming/hybrid-language.md
+    - Interpreted language: Programming/interpreted-language.md
+    - Non Programming language: NonProgramming/non-programming-language.md
+  - Dev:
+    - Common:
+      - Lập trình hướng đối tượng: Dev/OOP/oop.md
+    - DataStruct:
+      - Overview: Dev/DataStruct/dev-dataStruct-overview.md
+    - Algorithm:
+      - Overview: Dev/Algorithm/dev-algorithm-overview.md
+      - Độ phức tạp thuật toán: Dev/Algorithm/dev-algorithm-algorithmic-complexity.md
+      - Sorting:
+        - About Sort: Dev/Algorithm/dev-algorithm-sort.md
+        - Selection Sort: Dev/Algorithm/dev-algorithm-selection-sort.md
+        - Bubble Sort: Dev/Algorithm/dev-algorithm-bubble-sort.md
+        - Insertion Sort: Dev/Algorithm/dev-algorithm-insertion-sort.md
+        - Quick Sort: Dev/Algorithm/dev-algorithm-quick-sort.md
+        - Counting Sort: Dev/Algorithm/dev-algorithm-counting-sort.md
+      - Hash:
+        - FNV1a: Dev/Algorithm/dev-algorithm-hashing-fnv1a.md
+    - Design Pattern:
+      - Overview: Dev/Design_Pattern/dev-design-pattern-overview.md
+  - C:
+    - Giới thiệu: Programming/c/c.md
+    - In/Out: Programming/c/c-in-out.md
+    - Note:
+      - Makefile: Programming/c/c-makefile.md
+  - C++:
+    - C++: Programming/cpp/cpp.md
+    - Overview: Programming/cpp/cpp-overview.md
+    - Install:
+      - Windows: Programming/cpp/cpp-install-for-windows.md
+      - Linux: Programming/cpp/cpp-install-for-linux.md
+    - Level 1:
+      - Hello World: Programming/cpp/cpp-helloworld.md
+      - Kiểu Biến: Programming/cpp/cpp-primitive-datatypes.md
+      - Toán Tử: Programming/cpp/cpp-operator.md
+      - Điều khiển luồng: Programming/cpp/cpp-flow-control.md
+      - InOut: Programming/cpp/cpp-in-out.md
+      - Vòng lặp: Programming/cpp/cpp-loop.md
+      - Bit Operator: Programming/cpp/cpp-bit-operator.md
+      - Namespace: Programming/cpp/cpp-namespace.md
+      - Define: Programming/cpp/cpp-define.md
+      - Include: Programming/cpp/cpp-include.md
+      - Hàm: Programming/cpp/cpp-function.md
+      - Pointer (Con trỏ): Programming/cpp/cpp-pointer.md
+      - Standard Library: Programming/cpp/cpp-std-standard-library.md
+      - Container: Programming/cpp/cpp-container.md
+      - String: Programming/cpp/cpp-string.md
+      - Array: Programming/cpp/cpp-array.md
+      - Vector: Programming/cpp/cpp-vector.md
+      - List: Programming/cpp/cpp-list.md
+      - Map: Programming/cpp/cpp-map.md
+    - Level 2:
+      - Lambda Function: Programming/cpp/cpp-lambda-function.md
+      - Function as Parameter: Programming/cpp/cpp-function-as-parameter.md
+      - Smart Pointer: Programming/cpp/cpp-smart-pointer.md
+      - Raw Pointer: Programming/cpp/cpp-raw-pointer.md
+      - Memory Model: Programming/cpp/cpp-memory-model.md
+      - Command Line Arguments: Programming/cpp/cpp-command-line-arguments.md
+    - Build:
+      - Make Tool: Programming/cpp/cpp-build-tool-make.md
+      - Makefile Ex: Programming/cpp/cpp-makefile-example.md
+    - Concept:
+      - Named Requirements: Programming/cpp/cpp-named-requirements.md
+    - Project:
+      - Giải bảng Sudoku:  Programming/cpp/cpp-project-solver-sudoku.md
+      - "\u2003Code":  Programming/cpp/cpp-project-solver-sudoku-code.md
+    - Refer&Doc: Programming/cpp/cpp-reference-document.md
+    - Discuss: Programming/cpp/cpp-reference-document.md
+  - C#:
+    - C#: Programming/c-sharp/c-sharp.md
+  - Rust:
+    - Rust: Programming/Rust/rust.md
+    - Setup: Programming/Rust/rust-setup.md
+    - Tutorial:
+      - Hello World: Programming/Rust/rust-helloworld.md
+      - Variables: Programming/Rust/rust-variables.md
+      - I/O Printer: Programming/Rust/rust-io-printer.md
+    - Document: Programming/Rust/rust-document.md
+  - Java:
+    - Java: Programming/Java/java.md
+    - Overview:
+      - JDK, JRE và JVM: Programming/Java/java-jdk-jre-jvm.md
+      - Install: Programming/Java/java-install.md
+      - HelloWorld: Programming/Java/java-helloworld.md
+    - Basic:
+      - Basic Syntax: Programming/Java/java-basic-synctax.md
+      - Datatypes & Variables: Programming/Java/java-basic-datatypes-and-variables.md
+  - Javascript:
+    - Getting Start: Programming/Javascript/javascript.md
+  - Python:
+    - Python: Programming/Python/python.md
+    - Cài đặt:
+      - Window: Programming/Python/python-install-windows.md
+      - Resased Version: Programming/Python/python-resased-version.md
+      - Any Version: Programming/Python/python-any-version.md
+    - Cơ bản:
+      - Căn bản: Programming/Python/python-basic-concept.md
+      - String: Programming/Python/python-string.md
+      - Toán tử: Programming/Python/python-operator.md
+      - Điều khiển luồng: Programming/Python/python-control-flow-statements.md
+  - Kotlin:
+    - Kotlin: Programming/Kotlin/kotlin.md
+    - Basic Concept: Programming/Kotlin/kotlin-basic-tour.md
+  - Web:
+    - HTML: NonProgramming/html/html.md
+    - CSS: NonProgramming/css/css.md
+    - PhP: Programming/php/php.md
+  - Another:
+    - Markdown: NonProgramming/Markdown/markdown.md
+    - Latex: NonProgramming/LaTex/latex.md
+    - Katex: NonProgramming/KaTex/katex.md
+    - PlantUml:
+      - PlantUml: NonProgramming/PlantUml/plantuml.md
+      - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
+      - UML Diagrams:
+        - Sequence diagram ⭐: NonProgramming/PlantUml/plantuml-sequence-diagram.md
+        - Usecase diagram: NonProgramming/PlantUml/plantuml-usecase-diagram.md
+        - Class diagram: NonProgramming/PlantUml/plantuml-class-diagram.md
+        - Object diagram: NonProgramming/PlantUml/plantuml-object-diagram.md
+        - Activity diagram ⭐: NonProgramming/PlantUml/plantuml-activity-diagram.md
+        - Component diagram: NonProgramming/PlantUml/plantuml-component-diagram.md
+        - Deployment diagram: NonProgramming/PlantUml/plantuml-deployment-diagram.md
+        - State diagram: NonProgramming/PlantUml/plantuml-state-diagram.md
+        - Timing diagram: NonProgramming/PlantUml/plantuml-timing-diagram.md
+      - Non-UML Diagrams:
+        - JSON data: NonProgramming/PlantUml/plantuml-json-data.md
+        - YAML data: NonProgramming/PlantUml/plantuml-yaml-data.md
+        - EBNF diagram: NonProgramming/PlantUml/plantuml-ebnf-diagram.md
+        - Regex diagram: NonProgramming/PlantUml/plantuml-regex-diagram.md
+        - Network diagram (nwdiag): NonProgramming/PlantUml/plantuml-network-diagram-nwdiag.md
+        - UI mockups (salt): NonProgramming/PlantUml/plantuml-ui-mockups-salt.md
+        - Archimate diagram: NonProgramming/PlantUml/plantuml-archimate-diagram.md
+        - SDL: NonProgramming/PlantUml/plantuml-sdl.md
+        - Ditaa diagram: NonProgramming/PlantUml/plantuml-ditaa-diagram.md
+        - Gantt diagram: NonProgramming/PlantUml/plantuml-gantt-diagram.md
+        - Chronology diagram: NonProgramming/PlantUml/plantuml-chronology-diagram.md
+        - MindMap diagram ⭐: NonProgramming/PlantUml/plantuml-mindmap-diagram.md
+        - WBS diagram ⭐: NonProgramming/PlantUml/plantuml-wbs-diagram.md
+        - Mathematics: NonProgramming/PlantUml/plantuml-mathematics.md
+        - IE diagram: NonProgramming/PlantUml/plantuml-ie-diagram.md
+        - ER diagram: NonProgramming/PlantUml/plantuml-er-diagram.md
+    - Mermaid:
+      - Mermaid: NonProgramming/Mermaid/mermaid.md
+  # ---------- Practice ----------
+  - Practice:
+    - Prepare: Practice/practice.md
+    - Leetcode:
+      - Leetcode 39: Practice/leetcode-0039.md
+      - Leetcode 46: Practice/leetcode-0046.md
+      - Leetcode 47: Practice/leetcode-0047.md
+      - Leetcode 1486: Practice/leetcode-1486.md
+
+extra_css:
+  - assets/stylesheets/theme.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+extra_javascript:
+  - assets/scripts/katex.js
+  - assets/scripts/keyevent.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/dothanhdathp
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/tad.zeila?locale=vi_VN
