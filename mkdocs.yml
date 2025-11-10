@@ -36,13 +36,14 @@ plugins:
   - graph
 
 nav:
-  # ---------- Home (Main page) ----------
+  #############################################################################################################################################################
   - Prefer:
     - About: index.md
     - Compiled language: Programming/compiled-language.md
     - Hybrid language: Programming/hybrid-language.md
     - Interpreted language: Programming/interpreted-language.md
     - Non Programming language: NonProgramming/non-programming-language.md
+  #############################################################################################################################################################
   - Dev:
     - Common:
       - Lập trình hướng đối tượng: Dev/OOP/oop.md
@@ -62,11 +63,13 @@ nav:
         - FNV1a: Dev/Algorithm/dev-algorithm-hashing-fnv1a.md
     - Design Pattern:
       - Overview: Dev/Design_Pattern/dev-design-pattern-overview.md
+  #############################################################################################################################################################
   - C:
     - Giới thiệu: Programming/c/c.md
     - In/Out: Programming/c/c-in-out.md
     - Note:
       - Makefile: Programming/c/c-makefile.md
+  #############################################################################################################################################################
   - C++:
     - C++: Programming/cpp/cpp.md
     - Overview: Programming/cpp/cpp-overview.md
@@ -110,8 +113,10 @@ nav:
       - "\u2003Code":  Programming/cpp/cpp-project-solver-sudoku-code.md
     - Refer&Doc: Programming/cpp/cpp-reference-document.md
     - Discuss: Programming/cpp/cpp-reference-document.md
+  #############################################################################################################################################################
   - C#:
     - C#: Programming/c-sharp/c-sharp.md
+  #############################################################################################################################################################
   - Rust:
     - Rust: Programming/Rust/rust.md
     - Setup: Programming/Rust/rust-setup.md
@@ -120,6 +125,7 @@ nav:
       - Variables: Programming/Rust/rust-variables.md
       - I/O Printer: Programming/Rust/rust-io-printer.md
     - Document: Programming/Rust/rust-document.md
+  #############################################################################################################################################################
   - Java:
     - Java: Programming/Java/java.md
     - Overview:
@@ -129,8 +135,10 @@ nav:
     - Basic:
       - Basic Syntax: Programming/Java/java-basic-synctax.md
       - Datatypes & Variables: Programming/Java/java-basic-datatypes-and-variables.md
+  #############################################################################################################################################################
   - Javascript:
     - Getting Start: Programming/Javascript/javascript.md
+  #############################################################################################################################################################
   - Python:
     - Python: Programming/Python/python.md
     - Cài đặt:
@@ -142,17 +150,25 @@ nav:
       - String: Programming/Python/python-string.md
       - Toán tử: Programming/Python/python-operator.md
       - Điều khiển luồng: Programming/Python/python-control-flow-statements.md
+  #############################################################################################################################################################
   - Kotlin:
     - Kotlin: Programming/Kotlin/kotlin.md
     - Basic Concept: Programming/Kotlin/kotlin-basic-tour.md
+  #############################################################################################################################################################
   - Web:
     - HTML: NonProgramming/html/html.md
     - CSS: NonProgramming/css/css.md
     - PhP: Programming/php/php.md
-  - Another:
+  #############################################################################################################################################################
+  - Misc.Lang:
     - Markdown: NonProgramming/Markdown/markdown.md
     - Latex: NonProgramming/LaTex/latex.md
-    - Katex: NonProgramming/KaTex/katex.md
+    - Katex:
+      - Mở đầu: NonProgramming/KaTex/katex.md
+      - Hướng dẫn căn bản: NonProgramming/KaTex/katex.md
+      - Chữ Hy Lạp: NonProgramming/KaTex/katex-greek-letter.md
+      - Ký Tự Toán: NonProgramming/KaTex/katex-math-letter.md
+      - Dấu trọng âm: NonProgramming/KaTex/katex-greek-letter.md
     - PlantUml:
       - PlantUml: NonProgramming/PlantUml/plantuml.md
       - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
@@ -185,7 +201,7 @@ nav:
         - ER diagram: NonProgramming/PlantUml/plantuml-er-diagram.md
     - Mermaid:
       - Mermaid: NonProgramming/Mermaid/mermaid.md
-  # ---------- Practice ----------
+  #############################################################################################################################################################
   - Practice:
     - Prepare: Practice/practice.md
     - Leetcode:

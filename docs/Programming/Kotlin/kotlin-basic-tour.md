@@ -49,7 +49,7 @@ fun main() {
 
 Nếu cố tình gắn, sẽ bị lỗi:
 
-```bash title="Kết quả"
+```bash title="Làm sai"
 fun main() {
     val popcorn = 5    // There are 5 boxes of popcorn
     val hotdog = 7     // There are 7 hotdogs

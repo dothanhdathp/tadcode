@@ -82,7 +82,9 @@
 .md-main__inner.md-grid.full-width {
   max-width: initial;
 }
-
+.md-typeset {
+  font-size: 0.6rem
+}
 .md-tabs {
   background-color: #2d4150;
 }
