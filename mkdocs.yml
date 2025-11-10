@@ -165,10 +165,10 @@ nav:
     - Latex: NonProgramming/LaTex/latex.md
     - Katex:
       - Mở đầu: NonProgramming/KaTex/katex.md
-      - Hướng dẫn căn bản: NonProgramming/KaTex/katex.md
       - Chữ Hy Lạp: NonProgramming/KaTex/katex-greek-letter.md
       - Ký Tự Toán: NonProgramming/KaTex/katex-math-letter.md
-      - Dấu trọng âm: NonProgramming/KaTex/katex-greek-letter.md
+      - Kích Thước:  NonProgramming/KaTex/katex-text-size.md
+      - Dấu Ngoặc:  NonProgramming/KaTex/katex-delimiters.md
     - PlantUml:
       - PlantUml: NonProgramming/PlantUml/plantuml.md
       - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
@@ -205,6 +205,7 @@ nav:
   - Practice:
     - Prepare: Practice/practice.md
     - Leetcode:
+      - Leetcode: Practice/leetcode.md
       - Leetcode 39: Practice/leetcode-0039.md
       - Leetcode 46: Practice/leetcode-0046.md
       - Leetcode 47: Practice/leetcode-0047.md
