@@ -85,6 +85,9 @@
 .md-typeset {
   font-size: 0.6rem
 }
+.md-typeset a {
+  color: #ff0077;
+}
 .md-tabs {
   background-color: #2d4150;
 }

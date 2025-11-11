@@ -76,43 +76,45 @@ nav:
     - Install:
       - Windows: Programming/cpp/cpp-install-for-windows.md
       - Linux: Programming/cpp/cpp-install-for-linux.md
-    - Level 1:
+    - Example:
       - Hello World: Programming/cpp/cpp-helloworld.md
+      - Giải bảng Sudoku:
+        - Note: Programming/cpp/cpp-project-solver-sudoku.md
+        - Code:  Programming/cpp/cpp-project-solver-sudoku-code.md
+    - Biến:
       - Kiểu Biến: Programming/cpp/cpp-primitive-datatypes.md
+      - Map: Programming/cpp/cpp-map.md
+      - String: Programming/cpp/cpp-string.md
+      - Array: Programming/cpp/cpp-array.md
+      - Vector: Programming/cpp/cpp-vector.md
+      - List: Programming/cpp/cpp-list.md
+      - Pointer (Con trỏ): Programming/cpp/cpp-pointer.md
+      - Smart Pointer: Programming/cpp/cpp-smart-pointer.md
+      - Raw Pointer: Programming/cpp/cpp-raw-pointer.md
+      - Lambda Function: Programming/cpp/cpp-lambda-function.md
+      - Function as Parameter: Programming/cpp/cpp-function-as-parameter.md
+    - Chức Năng:
       - Toán Tử: Programming/cpp/cpp-operator.md
       - Điều khiển luồng: Programming/cpp/cpp-flow-control.md
       - InOut: Programming/cpp/cpp-in-out.md
       - Vòng lặp: Programming/cpp/cpp-loop.md
       - Bit Operator: Programming/cpp/cpp-bit-operator.md
+      - Hàm: Programming/cpp/cpp-function.md
+      - Container: Programming/cpp/cpp-container.md
+    - Định Danh:
       - Namespace: Programming/cpp/cpp-namespace.md
       - Define: Programming/cpp/cpp-define.md
       - Include: Programming/cpp/cpp-include.md
-      - Hàm: Programming/cpp/cpp-function.md
-      - Pointer (Con trỏ): Programming/cpp/cpp-pointer.md
       - Standard Library: Programming/cpp/cpp-std-standard-library.md
-      - Container: Programming/cpp/cpp-container.md
-      - String: Programming/cpp/cpp-string.md
-      - Array: Programming/cpp/cpp-array.md
-      - Vector: Programming/cpp/cpp-vector.md
-      - List: Programming/cpp/cpp-list.md
-      - Map: Programming/cpp/cpp-map.md
-    - Level 2:
-      - Lambda Function: Programming/cpp/cpp-lambda-function.md
-      - Function as Parameter: Programming/cpp/cpp-function-as-parameter.md
-      - Smart Pointer: Programming/cpp/cpp-smart-pointer.md
-      - Raw Pointer: Programming/cpp/cpp-raw-pointer.md
+      - Input Arguments: Programming/cpp/cpp-command-line-arguments.md
+    - Lý Thuyết:
       - Memory Model: Programming/cpp/cpp-memory-model.md
-      - Command Line Arguments: Programming/cpp/cpp-command-line-arguments.md
+      - Named Requirements: Programming/cpp/cpp-named-requirements.md
     - Build:
       - Make Tool: Programming/cpp/cpp-build-tool-make.md
       - Makefile Ex: Programming/cpp/cpp-makefile-example.md
-    - Concept:
-      - Named Requirements: Programming/cpp/cpp-named-requirements.md
-    - Project:
-      - Giải bảng Sudoku:  Programming/cpp/cpp-project-solver-sudoku.md
-      - "\u2003Code":  Programming/cpp/cpp-project-solver-sudoku-code.md
     - Refer&Doc: Programming/cpp/cpp-reference-document.md
-    - Discuss: Programming/cpp/cpp-reference-document.md
+    # - Discuss:
   #############################################################################################################################################################
   - C#:
     - C#: Programming/c-sharp/c-sharp.md
@@ -120,9 +122,10 @@ nav:
   - Rust:
     - Rust: Programming/Rust/rust.md
     - Setup: Programming/Rust/rust-setup.md
-    - Tutorial:
+    - Example:
       - Hello World: Programming/Rust/rust-helloworld.md
-      - Variables: Programming/Rust/rust-variables.md
+    - Tutorial 1:
+      - Biến: Programming/Rust/rust-variables.md
       - I/O Printer: Programming/Rust/rust-io-printer.md
     - Document: Programming/Rust/rust-document.md
   #############################################################################################################################################################
@@ -206,10 +209,10 @@ nav:
     - Prepare: Practice/practice.md
     - Leetcode:
       - Leetcode: Practice/leetcode.md
-      - Leetcode 39: Practice/leetcode-0039.md
-      - Leetcode 46: Practice/leetcode-0046.md
-      - Leetcode 47: Practice/leetcode-0047.md
-      - Leetcode 1486: Practice/leetcode-1486.md
+      - Two Sum: Practice/leetcode-0001.md
+      - Combination Sum: Practice/leetcode-0039.md
+      - Permutations: Practice/leetcode-0046.md
+      - Permutations II: Practice/leetcode-0047.md
 
 extra_css:
   - assets/stylesheets/theme.css

@@ -64,7 +64,7 @@ Ngoài ra còn một số tài liệu khác được tổng hợp từ hai ngu�
 
 #### Nghiên cứu tự do
 
-- The C++ Programming Language - _(Bjarne Stroustrup)_
+- [The C++ Programming Language - _(Bjarne Stroustrup)_](https://mega.nz/file/2REE2Y5Q#lMIA5THF189T3oECiOq0N9alJlAqSn-mGBB2ebfbdbc)
 - C++ Standard Library Tutorial and Reference - _(Nicolai Josuttis)_
 - The C++ IO Streams and Locales - _(Angelika Langer and Klaus Kreft)_
 - [Modern C++ Turtorial - Ou Changkun](https://github.com/changkun/modern-cpp-tutorial)

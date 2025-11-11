@@ -1,4 +1,4 @@
-# Rust HelloWorld
+# \[Rust\] HelloWorld
 
 ## Bắt đầu với rustc
 
@@ -79,7 +79,7 @@ Hello, world!
 
 ## Makefile
 
-Nhưng mà vì __Cargo__ chạy hơi chậm nên mình thích dùng __Makefile__ hơn. Để chạy nò thì đơn giản là sử dụng __Msys2__ để chạy với `make`. Trước đó thì cần tải gói cài đặt của `rustc` từ bài trước.
+Nhưng mà vì __Cargo__ chạy hơi chậm nên mình thích dùng __Makefile__ để chạy trực tiếp `rustc` hơn. Để chạy nò thì đơn giản là sử dụng __Msys2__ để chạy với `make`. Trước đó thì cần tải gói cài đặt của `rustc` từ bài trước.
 
 Đây là tệp __Makefile__ mẫu:
 
@@ -105,3 +105,10 @@ Rồi sau đó chạy lệnh dưới này để _build_ và _run_
 ```bash
 make clean && make main && ./main.exe
 ```
+
+> Nếu chạy trực tiếp trên Linux thì không cần cầu qua __*msys*__ nữa
+
+## Liên Kết
+
+- [Biến](rust-variables.md)
+- [I/O Printer](rust-io-printer.md)

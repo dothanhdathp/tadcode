@@ -97,6 +97,7 @@ Tổ hợp biến cơ bản của C++ gồm có:
 - `bool` : giá trị logic đúng sai (`true`/`false`)
 
 Hãy thử
+
 ```c++
 int main()
 {
