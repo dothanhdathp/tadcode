@@ -37,16 +37,16 @@ plugins:
 
 nav:
   #############################################################################################################################################################
-  - Prefer:
-    - About: index.md
-    - Compiled language: Programming/compiled-language.md
-    - Hybrid language: Programming/hybrid-language.md
-    - Interpreted language: Programming/interpreted-language.md
-    - Non Programming language: NonProgramming/non-programming-language.md
-    - Tốc Độ Trong Ngôn Ngữ Lập Trình: Common/common-speed-of-language.md
-  #############################################################################################################################################################
   - Dev:
+    - About This Page: index.md
+    - Các Loại NNLT:
+      - Compiled language: Programming/compiled-language.md
+      - Hybrid language: Programming/hybrid-language.md
+      - Interpreted language: Programming/interpreted-language.md
+      - Non Programming language: NonProgramming/non-programming-language.md
     - Common:
+      - Tham Chiếu Và Tham Trị: Common/tham-chieu-va-tham-tri.md
+      - Tốc Độ Trong Ngôn Ngữ Lập Trình: Common/common-speed-of-language.md
       - Lập trình hướng đối tượng: Dev/OOP/oop.md
     - DataStruct:
       - Overview: Dev/DataStruct/dev-dataStruct-overview.md
@@ -124,9 +124,14 @@ nav:
     - Rust: Programming/Rust/rust.md
     - Setup: Programming/Rust/rust-setup.md
     - Example:
-      - Hello World: Programming/Rust/rust-helloworld.md
-    - Tutorial 1:
+      - Hello World: Programming/Rust/rust-example-helloworld.md
+      - Variables: Programming/Rust/rust-example-variables.md
+      - Primitives: Programming/Rust/rust-example-primitives.md
+    - Chương 1:
       - Biến: Programming/Rust/rust-variables.md
+      - Biến Phức Hợp: Programming/Rust/rust-compound-variables.md
+      - Hàm: Programming/Rust/rust-function.md
+      - Phương Thức: Programming/Rust/rust-operator.md
       - I/O Printer: Programming/Rust/rust-io-printer.md
     - Document: Programming/Rust/rust-document.md
   #############################################################################################################################################################
@@ -169,10 +174,12 @@ nav:
     - Latex: NonProgramming/LaTex/latex.md
     - Katex:
       - Mở đầu: NonProgramming/KaTex/katex.md
-      - Chữ Hy Lạp: NonProgramming/KaTex/katex-greek-letter.md
       - Ký Tự Toán: NonProgramming/KaTex/katex-math-letter.md
-      - Kích Thước:  NonProgramming/KaTex/katex-text-size.md
+      - So Sánh: NonProgramming/KaTex/katex-math-compare.md
+      - Chữ Hy Lạp: NonProgramming/KaTex/katex-greek-letter.md
       - Dấu Ngoặc:  NonProgramming/KaTex/katex-delimiters.md
+      - Kích Thước:  NonProgramming/KaTex/katex-text-size.md
+      - Biểu Tượng Và Dấu: NonProgramming/KaTex/katex-math-symbols-and-punctuation.md
     - PlantUml:
       - PlantUml: NonProgramming/PlantUml/plantuml.md
       - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
@@ -214,7 +221,9 @@ nav:
       - Combination Sum: Practice/leetcode-0039.md
       - Permutations: Practice/leetcode-0046.md
       - Permutations II: Practice/leetcode-0047.md
-
+  - Build Tool:
+    - Make:
+      - Make: Build/make.md
 extra_css:
   - assets/stylesheets/theme.css
   - https://unpkg.com/katex@0/dist/katex.min.css

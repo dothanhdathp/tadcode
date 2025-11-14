@@ -4,6 +4,7 @@
 
 - Cài đặt Rust từ [trang chủ](https://www.rust-lang.org/).
 - Tải rust từ trang [Install](https://www.rust-lang.org/tools/install) của họ.
+- Hoặc tải về tại [Rustup Toolchain Installer](https://rustup.rs/)
 
 ## Cài đặt cho Windows
 

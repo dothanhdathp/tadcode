@@ -1,148 +1,96 @@
 # \[Rust\] Biến
 
-## Common
+## Định Nghĩa
 
-### let
+- Biến đại diện cho dữ liệu có thể sử dụng tính toán.
 
-<div class="note-red">
-Có 2 điểm cực kỳ quan trọng trong việc khai báo biến ở Rust đó là:
+## Khai Báo Biến
 
-1. Rust là ngôn ngữ bậc cao nên Rust cũng cho phép khai báo với kiểu biến ngầm định.
-1. Nếu không có sửa đổi, thì biến trong Rust sẽ __mặc định ở chế độ không thể sửa__.
-</div><br>
-
-Nghĩa là __về mặc định, biến trong ngôn ngữ này sẽ được khai báo là <u>bất biến</u>__. Đó là điểm khác biệt với một số ngôn ngữ khác.
-
-Để tạo một biến trong ngôn ngữ _rust_, sử dụng ký hiệu `let`.
-Ví dụ, thử tạo biến và in ra với chương trình sau:
+Để tạo một biến sử dụng `let`:
 
 ```rust
 let x = 10;
 ```
 
-Kết quả:
-
-```bash
-x = 10
-```
-
-👉 Không cần khai báo kiểu biến là ___interger___. Vì `x=10` nên trình biên dịch tự động cho phép nó là kiểu số nguyên.
-
-Giờ hãy thử sửa đổi nhỏ như sau:
+* Biến được khởi tạo nhưng không thể thay đổi tức là nếu cố gán lại giá trị khác vào `x` sẽ gây ra lỗi. Muốn biến có khả năng sửa đổi, khai  báo thêm với `mut` tượng trưng cho __*mutable*__
 
 ```rust
 let x = 10;
-x = 20;
+x = 20; // complie error
 ```
-
-Chương trình biên dịch sẽ thông báo là:
-```bash
-error[E0384]: cannot assign twice to immutable variable `x`
- --> main.rs:4:5
-  |
-3 |     let x = 10;
-  |         -
-  |         |
-  |         first assignment to `x`
-  |         help: consider making this binding mutable: `mut x`
-4 |     x = 20;
-  |     ^^^^^^ cannot assign twice to immutable variable
-
-error: aborting due to 1 previous error; 1 warning emitted
-```
-
-Như có thể thấy, chương trình không cho phép bạn gán giá trị khác vào biến đã sử dụng.
-
-### let mut
-
-Không thể khai báo biến có thể sửa đổi với `let`. Muốn sửa đổi được giá trị của biến thì dùng `let mut`.
 
 ```rust
 let mut x = 10;
-x = 20;
-```
-Biên dịch thử và kết quả đây:
-
-```bash
-x = 20
+x = 20; // ok
 ```
 
-Đương nhiên là không vấn đề nhưng vẫn có cảnh báo:
+## Kiểu Nguyên Thuỷ
 
-```bash
-warning: value assigned to `x` is never read
- --> main.rs:3:13
-  |
-3 |     let mut x = 10;
-  |             ^
-  |
-  = help: maybe it is overwritten before being read?
-  = note: `#[warn(unused_assignments)]` on by default
+### Kiểu Nguyên Thuỷ
 
-warning: 1 warning emitted
-```
+Như mọi ngôn ngữ, các kiểu biến nguyên thuỷ được hỗ trợ là số __*tự nhiên*__, __*số thực*__, __*boolean*__ _(logic so sánh)_ và kiểu __*ký tự*__.
 
-👉 Đấy là do khi khai báo đầu tiên `x` là `10` nhưng bạn không hề sử dụng thôi, không có gì quan trọng cả.
+__Các kiểu nguyên thuỷ và kích thước__:
 
-## Variables Type
+|                   | 8-bit  | 16-bit | 32-bit | 64-bit | 128-bit |
+| :---------------- | :----: | :----: | :----: | :----: | :-----: |
+| Interger          |  `i8`  | `i16`  | `i32`  | `i64`  | `i128`  |
+| Unsigned Interger |  `u8`  | `u16`  | `u32`  | `u64`  | `u128`  |
+| Float             |        |        | `f32`  | `f64`  |         |
+| Boolean           | `bool` |        |        |        |         |
+| Character         |        |        | `char` |        |         |
 
-### Auto Type
+- Ngoài các số nguyên kể trên còn có hai loại là `isize` và `usize`. Hai kiểu này không có kích thước cụ thể mà nó sẽ phụ thuộc vào kiến trúc vi xử lý _(`64-bit` hoặc `32-bit`)_
+- Các số thực được sử dụng theo chuẩn __IEEE-754__, nghĩa __*số thập phân luôn là số có dấu*__.
+- <mark>Kiểu ký tự trong Rust được mở rộng lên _4 bytes_</mark>, cho phép nó hiển thị được nhiều ký tự hơn so với bảng mã __ASCII__ thông thường.
+- Ký tự trong __Rust__ yêu cầu khai báo trong dấu `'`, dấu `"` không chấp nhận.
 
-Rust là ngôn ngữ bậc cao nên có hỗ trợ tính năng tự động xác định loại của ngôn ngữ bậc cao. Nghĩa là sau khi khai báo, nó sẽ tự động tìm loại dữ liệu phù hợp cho các biến.
+### Khoảng Giá Trị
 
-### Scalar Types - Xác Định Loại
+Cũng như các loại giá trị khác, thường __Số Nguyên Có Dấu__ sẽ có khoảng giá trị từ $[(-2^{N-1}) \to (2^{N-1}-1)]$, với $N$ là số `bits` mà biến đó có thể sử dụng. Ví dụ với `i32` (thường sử dụng nhất) sẽ có khoảng giá trị là $[(-2^{31}) \to (2^{31}-1)]$ hay cụ thể là từ $[-2,147,483,647 \to 2,147,483,646]$.
 
-> Kiểu _vô hướng_
+Với __Số Nguyên Không Dấu__, khoảng giá trị được mở rộng lên $[0 \to 2^{N}-1]$. Đại biểu với `u32` sẽ là $[0 \to 4,294,967,295]$
 
-Kiểu vô hướng đại diện cho một giá trị duy nhất. Rust có bốn loại vô hướng chính: `integers` _(số nguyên)_, `floating-point numbers` _(số dấu phẩy động)_, `Booleans`, vả `characters` _(ký tự)_. Diều này cũng bắt gặp ở rất nhiều các ngôn ngữ lập trình khác.
-
-#### Integer Types
-
-| Length  | Signed | Unsigned |
-| :------ | :----- | :------- |
-| 8-bit   | i8     | u8       |
-| 16-bit  | i16    | u16      |
-| 32-bit  | i32    | u32      |
-| 64-bit  | i64    | u64      |
-| 128-bit | i128   | u128     |
-| arch    | isize  | usize    |
-
-Ví dụ:
-
-```rust
-let x:i32 = 10;
-```
-
-Trong bảng trên, các số nguyên đều có kích thước rõ ràng  rồi trừ có `isize` và `usize` có độ dài là `arch`, tức là nó phụ thuộc vào kích thước thanh ghi. Nếu hệ điều hành là `32-bit` thì độ dài của nó sẽ là `32-bit`, tương tự với `64-bit`.
+### Một Số Cách Viết Khác
 
 Ngoài việc có thể khai báo trực tiếp, các số nguyên còn có thể <mark>khai báo ở nhiều dạng khác nhau</mark> theo như bảng dưới đây:
 
-| Chữ số                         | Ví dụ       |
-| :----------------------------- | :---------- |
-| Số thập phân                   | 98_222      |
-| Thập lục phân                  | 0xff        |
-| bát phân                       | 0o77        |
-| nhị phân                       | 0b1111_0000 |
-| Byte _(chỉ cho phép với `u8`)_ | b'A'        |
+| Chữ số                         | Ví dụ         | Ví dụ                                                           |
+| :----------------------------- | :------------ | :-------------------------------------------------------------- |
+| Số thập phân                   | `98_222`      | *Các chữ số có thể dùng dấu _ để phân cách khi viết các số lớn* |
+| Thập lục phân                  | `0xff`        |                                                                 |
+| bát phân                       | `0o77`        |                                                                 |
+| nhị phân                       | `0b1111_0000` |                                                                 |
+| Byte _(chỉ cho phép với `u8`)_ | `b'A'`        |                                                                 |
+| Float                          | `1e2`         |                                                                 |
 
-Ví dụ với dòng đầu - _số thập phân_ - có thể sử dụng dấu `_` để ngăn cách giữa các số mà không ảnh hưởng, việc này là để hỗ trợ viết các số quá dài và dễ dàng đọc hơn, còn về bản chất số không đổi. Ví dụ:
-
-```rust
+```rust title "Ví dụ"
 let x:i64 = 100_000_000_000; // 100000000000
 ```
 
-Lúc này giá trị của `x` sẽ là `100000000000`, có điều nếu để nguyên nhìn sẽ rất khó nhìn ra nó là 100 tỉ.
+## Tính Tự Động
 
-#### Floating-Point Types
+Biến trong Rust sẽ được tự động lựa chọn kiểu phù hợp nếu không có khai báo kiểu từ đầu.
 
-Số thập phân chi có 2 dạng là `f32` và `f64`, khai báo tương tự.
+## Khai Báo Kiểu
 
-#### The Boolean Type
+Khai báo kiểu có thể sử dụng khai báo trước hoặc sau:
 
-Số thập phân chi có 1 dạng là `bool`.
+```rust
+let x: u32 = 10;
+let y = 10u32;
+```
 
-#### The Character Type
+> Cả hai cách trên đều hợp lệ.
+> - Cách 1 khai báo kiểu `u32` cho biến __x__
+> - Cách 2 khai báo kiểu `u32` cho giá trị `10`. Lúc này giá trị của biến bị ép sang kiểu của biến.
 
-Số thập phân chi có 1 dạng là `char`.
+Xem ví dụ: [Rust Example Primitives](rust-example-primitives.md#primitives)
 
-Và lưu ý là nó tương đương với `4 byte` ở dạng `UTF` bình thường, không phải dàng cho các ký tự đặc biệt. Vì thế không thể dùng để khai báo cho các ký tự đặc biệt. Chẳng hạn bộ chữ Trung Quốc sẽ cần một bộ ký tự mở rộng vì `4 byte` không đủ để địng nghĩa cho toàn bộ ký tự tiếng Trung.
+## Tác Dụng
+
+- Để thực hiện tính toán trên biến thường sử dụng các [Phương Thức](rust-operator.md) hoặc sử dụng để [Điểu Khiển Luồng](rust-flow-control.md)
+- Khi các phép tính và điều khiển quá lớn cho một mục đích, các biến sẽ được sử dụng là các đối số cho [Hàm](rust-function.md)
+
+> Bài Tiếp: [Biến Phức Hợp](rust-compound-variables.md)
+
