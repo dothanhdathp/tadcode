@@ -1,4 +1,4 @@
-# Rust Print
+# \[Rust\] Print
 
 ## Các hàm in
 
@@ -45,8 +45,10 @@ fn main() {
     println!("Output: {var1}, {var0}, {var2}, {var1}", var0=0, var1=1, var2=2);
 }
 ```
+
 Kết quả:
-```bash
+
+```text
 Output: 0
 Output: 10, 0, 20, 10
 Output: 10, 0, 20, 10

@@ -127,12 +127,13 @@ nav:
       - Hello World: Programming/Rust/rust-example-helloworld.md
       - Variables: Programming/Rust/rust-example-variables.md
       - Primitives: Programming/Rust/rust-example-primitives.md
-    - Chương 1:
+    - Phần I:
       - Biến: Programming/Rust/rust-variables.md
       - Biến Phức Hợp: Programming/Rust/rust-compound-variables.md
       - Hàm: Programming/Rust/rust-function.md
       - Phương Thức: Programming/Rust/rust-operator.md
       - I/O Printer: Programming/Rust/rust-io-printer.md
+      - Điều Khiển Luồng: Programming/Rust/rust-control-flow.md
     - Document: Programming/Rust/rust-document.md
   #############################################################################################################################################################
   - Java:
