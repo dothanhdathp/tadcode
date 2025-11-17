@@ -21,6 +21,6 @@ Tài liệu này sẽ luôn gồm hai phần được liên kết với nhau là
 
 ## 🔰 Tutorial
 
-- [Hello World](rust-helloworld.md)
+- [Hello World](rust-example-helloworld.md)
 - [Variables](rust-variables.md)
 - [I/O Printer](rust-io-printer.md)

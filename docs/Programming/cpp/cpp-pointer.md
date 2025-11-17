@@ -62,5 +62,5 @@ int main()
 
 - Con trỏ trong C
 
-- [Smart Pointer](cpp-3-smart-pointer.md)
-- [Raw Pointer](cpp-3-raw-pointer.md)
+- [Smart Pointer](cpp-smart-pointer.md)
+- [Raw Pointer](cpp-raw-pointer.md)

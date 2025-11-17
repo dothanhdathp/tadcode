@@ -78,5 +78,5 @@ Tìm hiểu thêm từ các nguồn sau: [Introduction to functions](https://www
 ## Note
 
 !!! info "Info"
-    - [Lambda Function](cpp-2-lambda.md)
-    - [Function as Parameter](cpp-2-function-as-parameter.md)
+    - [Lambda Function](cpp-lambda-function.md)
+    - [Function as Parameter](cpp-function-as-parameter.md)

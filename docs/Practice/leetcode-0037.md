@@ -1,8 +1,8 @@
-# Giải bảng Sudoku
+# \[LeetCode\]<br>37. Sudoku Solver
 
 ## Lịch sử
 
-Bắt đầu từ một câu đố trên https://leetcode.com/problems/sudoku-solver/. Ngồi mày mò cách giải nhưng không thành công, ít nhất là mình cũng có thể giải được mấy bảng sudoku đơn giản.
+Bắt đầu từ một câu đố trên [https://leetcode.com/problems/sudoku-solver/](https://leetcode.com/problems/sudoku-solver/). Ngồi mày mò cách giải nhưng không thành công, ít nhất là mình cũng có thể giải được mấy bảng sudoku đơn giản.
 
 ## Mã nguồn
 

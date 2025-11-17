@@ -1,23 +1,30 @@
-# \[C++\]
+# \[C++\] Overview
 
-## [C++ Overview](cpp-overview.md)
+## C++ Overview
 
-## Cài đặt
+1. C++ is a _cross-platform language_(<mark>ngôn ngữ đa nền tảng</mark>), hiệu suất cao.
+1. C++ được phát triển bởi __Bjarne Stroustrup__ như là phần mở rộng của ngôn ngữ C
+1. C++ cho lập trình viên <mark>khả năng quản lý tài nguyên và bộ nhớ rất mạnh mẽ</mark>.
 
-- [Windows](cpp-install-for-windows.md)
-- [Linux](cpp-install-for-linux.md)
+> - Phiên bản thường được dùng nhất là C++11
+> - Phiên bản mới nhất nhất hiện có là C++20
 
-## Người mới bắt đầu
+## Tại sao nên học C++?
 
-- [Hello World](cpp-helloworld.md)
-- [Kiểu biến](cpp-primitive-datatypes.md)
-- [Operator](cpp-operator.md)
-- [Điều khiển luồng](cpp-flow-control.md)
-- [Input/Output](cpp-input-and-output.md)
-- [Vòng lặp](cpp-loop.md)
-- [Bit Operator](cpp-bit-operator.md)
-- [Namespace](cpp-namespace.md)
-- [Define](cpp-define.md)
-- [Include](cpp-1-include.md)
-- [Hàm](cpp-0-function.md)
-- [Con trỏ](cpp-pointer.md)
+### Điểm mạnh
+
+- Phổ biến
+- Nhanh
+- Đem lại kiến thức tốt về tài nguyên máy tính
+- Ngôn ngữ tốt nhất để 
+- Hỗ trợ đa nền tảng
+
+### Điểm Yếu
+
+- Khó thành thạo.
+- Khó học và cần rất nhiều kiến thức, nếu không sẽ tạo ra rất nhiều mã xấu.
+- Mặc dù hỗ trợ đa nền tảng nhưng càn có trình biên dịch hỗ trợ, C++ không thực sự làm tốt việc này.
+
+## Road Map
+
+- Học [Data Type](cpp-primitive-datatypes.md)

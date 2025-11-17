@@ -229,3 +229,8 @@ Kết quả:
 -27648
 2000000000
 ```
+
+## Biến Phức Hợp
+
+- [Pointer](cpp-pointer.md)
+- [String](cpp-string.md)
