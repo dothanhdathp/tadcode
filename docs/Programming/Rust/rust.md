@@ -24,3 +24,7 @@ Tài liệu này sẽ luôn gồm hai phần được liên kết với nhau là
 - [Hello World](rust-example-helloworld.md)
 - [Variables](rust-variables.md)
 - [I/O Printer](rust-io-printer.md)
+
+## Rust Playground
+
+- [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2024)
