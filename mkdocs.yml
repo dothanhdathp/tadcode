@@ -1,4 +1,4 @@
-site_name: Tad Zeila Code
+site_name: Tad Code
 theme:
   name: material
   logo: assets/logo/cat_white.png
@@ -39,57 +39,65 @@ nav:
   #############################################################################################################################################################
   - Dev:
     - About This Page: index.md
-    - ▏Các Loại NNLT:
+    - ❖ Các Loại NNLT:
       - Compiled language: Programming/compiled-language.md
       - Hybrid language: Programming/hybrid-language.md
       - Interpreted language: Programming/interpreted-language.md
       - Non Programming language: NonProgramming/non-programming-language.md
-    - ▏Common:
+    - ❖ Common:
       - Tham Chiếu Và Tham Trị: Common/tham-chieu-va-tham-tri.md
       - Tốc Độ Trong Ngôn Ngữ Lập Trình: Common/common-speed-of-language.md
       - Lập trình hướng đối tượng: Dev/OOP/oop.md
       - Iterators: Common/iterators.md
-      - ASCII Table: Common/common-ASCII-table.md
-    - ▏DataStruct:
+      - ASCII: Common/common-ASCII.md
+    - ❖ DataStruct:
       - Overview: Dev/DataStruct/dev-dataStruct-overview.md
-    - ▏Algorithm:
+    - ❖ Algorithm:
       - Algorithm: Dev/Algorithm/dev-algorithm-overview.md
       - Độ phức tạp thuật toán: Dev/Algorithm/dev-algorithm-algorithmic-complexity.md
-      - ▏Sorting:
+      - ❖ Sorting:
         - About Sort: Dev/Algorithm/dev-algorithm-sort.md
         - Selection Sort: Dev/Algorithm/dev-algorithm-selection-sort.md
         - Bubble Sort: Dev/Algorithm/dev-algorithm-bubble-sort.md
         - Insertion Sort: Dev/Algorithm/dev-algorithm-insertion-sort.md
         - Quick Sort: Dev/Algorithm/dev-algorithm-quick-sort.md
         - Counting Sort: Dev/Algorithm/dev-algorithm-counting-sort.md
-      - ▏Hash:
+      - ❖ Hash:
         - FNV1a: Dev/Algorithm/dev-algorithm-hashing-fnv1a.md
       - Wavefunction Collapse: Dev/Algorithm/dev-wavefunction-collapse.md
-    - ▏Design Pattern:
+    - ❖ Design Pattern:
       - Overview: Dev/Design_Pattern/dev-design-pattern-overview.md
   #############################################################################################################################################################
   - C:
     - C: Programming/c/c.md
-    - In/Out: Programming/c/c-in-out.md
-    - ▏Note:
+    - ❖ Data Types:
+      - Data Types: Programming/c/c-data-types.md
+      - Chuỗi: Programming/c/c-array.md
+      - Pointer: Programming/c/c-pointer.md
+    - ❖ In/Out:
+      - printf: Programming/c/c-printf.md
+      - scanf: Programming/c/c-scanf.md
+    - ❖ File:
+      - fprintf: Programming/c/c-fprintf.md
+    - ❖ Note:
       - Makefile: Programming/c/c-makefile.md
   #############################################################################################################################################################
   - C++:
     - C++: Programming/cpp/cpp.md
-    - ▏Cài Đặt:
+    - ❖ Cài Đặt:
       - Windows: Programming/cpp/cpp-install-for-windows.md
       - Linux: Programming/cpp/cpp-install-for-linux.md
-    - ▏Variables:
+    - ❖ Variables:
       - Data Types: Programming/cpp/cpp-primitive-datatypes.md
-      - ▏Pointer:
+      - ❖ Pointer:
         - Pointer: Programming/cpp/cpp-pointer.md
         - Smart Pointer: Programming/cpp/cpp-smart-pointer.md
         - Raw Pointer: Programming/cpp/cpp-raw-pointer.md
-      - ▏String:
+      - ❖ String:
         - String: Programming/cpp/cpp-string.md
         - Tạo Và Huỷ: Programming/cpp/cpp-string-construct-deconstruct.md
         - Truy Cập: Programming/cpp/cpp-string-index.md
-    - ▏Container:
+    - ❖ Container:
       - Container: Programming/cpp/cpp-container.md
       - Array: Programming/cpp/cpp-array.md
       - Vector: Programming/cpp/cpp-vector.md
@@ -97,30 +105,30 @@ nav:
       - Map: Programming/cpp/cpp-map.md
       - Unordered Map: Programming/cpp/cpp-unordered-map.md
       - Initializer List: Programming/cpp/cpp-initializer-list.md
-    - ▏Feature:
+    - ❖ Feature:
       - Math Operator: Programming/cpp/cpp-operator.md
       - Bit Operator: Programming/cpp/cpp-bit-operator.md
       - Điều khiển luồng: Programming/cpp/cpp-flow-control.md
       - InOut: Programming/cpp/cpp-in-out.md
       - Vòng lặp: Programming/cpp/cpp-loop.md
-      - ▏Function:
+      - ❖ Function:
         - Hàm: Programming/cpp/cpp-function.md
         - Lambda Function: Programming/cpp/cpp-lambda-function.md
         - Function as Parameter: Programming/cpp/cpp-function-as-parameter.md
-    - ▏Tiền Xử Lý:
+    - ❖ Tiền Xử Lý:
       - Include: Programming/cpp/cpp-include.md
       - Define: Programming/cpp/cpp-define.md
       - Namespace: Programming/cpp/cpp-namespace.md
       - Input Arguments: Programming/cpp/cpp-command-line-arguments.md
       - Memory Model: Programming/cpp/cpp-memory-model.md
       - Named Requirements: Programming/cpp/cpp-named-requirements.md
-    - ▏Khái Niệm:
+    - ❖ Khái Niệm:
       - Standard Library: Programming/cpp/cpp-std-standard-library.md
       - Iterator:  Programming/cpp/cpp-iterator.md
-    - ▏Build:
+    - ❖ Build:
       - Make Tool: Programming/cpp/cpp-build-tool-make.md
       - Makefile Ex: Programming/cpp/cpp-makefile-example.md
-    - ▏Example:
+    - ❖ Example:
       - Hello World: Programming/cpp/cpp-helloworld.md
     - Refer&Doc: Programming/cpp/cpp-reference-document.md
     # - Discuss:
@@ -131,11 +139,11 @@ nav:
   - Rust:
     - Rust: Programming/Rust/rust.md
     - Setup: Programming/Rust/rust-setup.md
-    - ▏Example:
+    - ❖ Example:
       - Hello World: Programming/Rust/rust-example-helloworld.md
       - Variables: Programming/Rust/rust-example-variables.md
       - Primitives: Programming/Rust/rust-example-primitives.md
-    - ▏Phần I:
+    - ❖ Phần I:
       - Biến: Programming/Rust/rust-variables.md
       - Biến Phức Hợp: Programming/Rust/rust-compound-variables.md
       - Hàm: Programming/Rust/rust-function.md
@@ -146,11 +154,11 @@ nav:
   #############################################################################################################################################################
   - Java:
     - Java: Programming/Java/java.md
-    - ▏Overview:
+    - ❖ Overview:
       - JDK, JRE và JVM: Programming/Java/java-jdk-jre-jvm.md
       - Install: Programming/Java/java-install.md
       - HelloWorld: Programming/Java/java-helloworld.md
-    - ▏Basic:
+    - ❖ Basic:
       - Basic Syntax: Programming/Java/java-basic-synctax.md
       - Datatypes & Variables: Programming/Java/java-basic-datatypes-and-variables.md
   #############################################################################################################################################################
@@ -159,11 +167,11 @@ nav:
   #############################################################################################################################################################
   - Python:
     - Python: Programming/Python/python.md
-    - ▏Cài đặt:
+    - ❖ Cài đặt:
       - Window: Programming/Python/python-install-windows.md
       - Resased Version: Programming/Python/python-resased-version.md
       - Any Version: Programming/Python/python-any-version.md
-    - ▏Cơ bản:
+    - ❖ Cơ bản:
       - Căn bản: Programming/Python/python-basic-concept.md
       - String: Programming/Python/python-string.md
       - Toán tử: Programming/Python/python-operator.md
@@ -181,7 +189,7 @@ nav:
   - Misc.Lang:
     - Markdown: NonProgramming/Markdown/markdown.md
     - Latex: NonProgramming/LaTex/latex.md
-    - ▏Katex:
+    - ❖ Katex:
       - Katex: NonProgramming/KaTex/katex.md
       - Ký Tự Toán: NonProgramming/KaTex/katex-math-letter.md
       - So Sánh: NonProgramming/KaTex/katex-math-compare.md
@@ -189,10 +197,10 @@ nav:
       - Dấu Ngoặc:  NonProgramming/KaTex/katex-delimiters.md
       - Kích Thước:  NonProgramming/KaTex/katex-text-size.md
       - Biểu Tượng Và Dấu: NonProgramming/KaTex/katex-math-symbols-and-punctuation.md
-    - ▏PlantUml:
+    - ❖ PlantUml:
       - PlantUml: NonProgramming/PlantUml/plantuml.md
       - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
-      - ▏UML Diagrams:
+      - ❖ UML Diagrams:
         - Sequence diagram ⭐: NonProgramming/PlantUml/plantuml-sequence-diagram.md
         - Usecase diagram: NonProgramming/PlantUml/plantuml-usecase-diagram.md
         - Class diagram: NonProgramming/PlantUml/plantuml-class-diagram.md
@@ -202,7 +210,7 @@ nav:
         - Deployment diagram: NonProgramming/PlantUml/plantuml-deployment-diagram.md
         - State diagram: NonProgramming/PlantUml/plantuml-state-diagram.md
         - Timing diagram: NonProgramming/PlantUml/plantuml-timing-diagram.md
-      - ▏Non-UML Diagrams:
+      - ❖ Non-UML Diagrams:
         - JSON data: NonProgramming/PlantUml/plantuml-json-data.md
         - YAML data: NonProgramming/PlantUml/plantuml-yaml-data.md
         - EBNF diagram: NonProgramming/PlantUml/plantuml-ebnf-diagram.md
@@ -219,14 +227,14 @@ nav:
         - Mathematics: NonProgramming/PlantUml/plantuml-mathematics.md
         - IE diagram: NonProgramming/PlantUml/plantuml-ie-diagram.md
         - ER diagram: NonProgramming/PlantUml/plantuml-er-diagram.md
-    - ▏Mermaid:
+    - ❖ Mermaid:
       - Mermaid: NonProgramming/Mermaid/mermaid.md
   #############################################################################################################################################################
   - Practice:
-    - ▏Prepare: Practice/practice.md
-    - ▏Leetcode:
+    - ❖ Prepare: Practice/practice.md
+    - ❖ Leetcode:
       - Leetcode: Practice/leetcode.md
-      - ▏List: 
+      - ❖ List: 
         - 1. Two Sum: Practice/leetcode-0001.md
         - 2. Add Two Numbers: Practice/leetcode-0002.md
         - 3. Longest Substring Without Repeating Characters: Practice/leetcode-0003.md
@@ -246,7 +254,7 @@ nav:
         - 47. Permutations II: Practice/leetcode-0047.md
         - 1486. 3 XOR Operation in an Array: Practice/leetcode-1486.md
   - Build Tool:
-    - ▏Make:
+    - ❖ Make:
       - Make: Build/make.md
 extra_css:
   - assets/stylesheets/theme.css

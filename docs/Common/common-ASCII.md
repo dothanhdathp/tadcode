@@ -1,4 +1,8 @@
-# ASCII Table
+# ASCII
+
+## ASCII là gì?
+
+## ASCII Table
 
 | Dec | Hex |  Char  | Dec | Hex | Char | Dec | Hex |  Char   |
 | :-: | :-: | :----: | :-: | :-: | :--: | :-: | :-: | :-----: |
