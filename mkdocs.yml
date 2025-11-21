@@ -40,33 +40,39 @@ nav:
   - Dev:
     - About This Page: index.md
     - ❖ Các Loại NNLT:
-      - Compiled language: Programming/compiled-language.md
-      - Hybrid language: Programming/hybrid-language.md
-      - Interpreted language: Programming/interpreted-language.md
-      - Non Programming language: NonProgramming/non-programming-language.md
+      - 🔖Compiled language: Programming/compiled-language.md
+      - 🔖Hybrid language: Programming/hybrid-language.md
+      - 🔖Interpreted language: Programming/interpreted-language.md
+      - 🔖Non Programming language: NonProgramming/non-programming-language.md
     - ❖ Common:
       - Tham Chiếu Và Tham Trị: Common/tham-chieu-va-tham-tri.md
       - Tốc Độ Trong Ngôn Ngữ Lập Trình: Common/common-speed-of-language.md
       - Lập trình hướng đối tượng: Dev/OOP/oop.md
       - Iterators: Common/iterators.md
       - ASCII: Common/common-ASCII.md
-    - ❖ DataStruct:
-      - Overview: Dev/DataStruct/dev-dataStruct-overview.md
-    - ❖ Algorithm:
-      - Algorithm: Dev/Algorithm/dev-algorithm-overview.md
-      - Độ phức tạp thuật toán: Dev/Algorithm/dev-algorithm-algorithmic-complexity.md
-      - ❖ Sorting:
-        - About Sort: Dev/Algorithm/dev-algorithm-sort.md
-        - Selection Sort: Dev/Algorithm/dev-algorithm-selection-sort.md
-        - Bubble Sort: Dev/Algorithm/dev-algorithm-bubble-sort.md
-        - Insertion Sort: Dev/Algorithm/dev-algorithm-insertion-sort.md
-        - Quick Sort: Dev/Algorithm/dev-algorithm-quick-sort.md
-        - Counting Sort: Dev/Algorithm/dev-algorithm-counting-sort.md
-      - ❖ Hash:
-        - FNV1a: Dev/Algorithm/dev-algorithm-hashing-fnv1a.md
-      - Wavefunction Collapse: Dev/Algorithm/dev-wavefunction-collapse.md
-    - ❖ Design Pattern:
-      - Overview: Dev/Design_Pattern/dev-design-pattern-overview.md
+    - ❖ Tham Khảo:
+      - Alan Turing: Common/common-alan-turing.md
+  - Data S.:
+    - 🔖Data Struct: Dev/DataStruct/dev-data-struct.md
+    - Linear:
+      - Stack: Dev/DataStruct/dev-data-struct-stack.md
+  - Alg.:
+    - 🔖Algorithm: Algorithm/algorithm-overview.md
+    - Độ phức tạp thuật toán: Algorithm/algorithm-algorithmic-complexity.md
+    - ❖ Sorting:
+      - About Sort: Algorithm/algorithm-sort.md
+      - Selection Sort: Algorithm/algorithm-selection-sort.md
+      - Bubble Sort: Algorithm/algorithm-bubble-sort.md
+      - Insertion Sort: Algorithm/algorithm-insertion-sort.md
+      - Quick Sort: Algorithm/algorithm-quick-sort.md
+      - Counting Sort: Algorithm/algorithm-counting-sort.md
+    - ❖ Hash:
+      - Hash:  Algorithm/algorithm-hash.md
+      - FNV1a: Algorithm/algorithm-hashing-fnv1a.md
+    - Wavefunction Collapse: Algorithm/wavefunction-collapse.md
+  - Data P.:
+    - Design Pattern: Dev/Design_Pattern/dev-data-struct.md
+    - Array: Dev/Design_Pattern/dev-data-struct-array.md
   #############################################################################################################################################################
   - C:
     - C: Programming/c/c.md
@@ -83,7 +89,7 @@ nav:
       - Makefile: Programming/c/c-makefile.md
   #############################################################################################################################################################
   - C++:
-    - C++: Programming/cpp/cpp.md
+    - 🔖C++: Programming/cpp/cpp.md
     - ❖ Cài Đặt:
       - Windows: Programming/cpp/cpp-install-for-windows.md
       - Linux: Programming/cpp/cpp-install-for-linux.md
@@ -119,6 +125,7 @@ nav:
       - Include: Programming/cpp/cpp-include.md
       - Define: Programming/cpp/cpp-define.md
       - Namespace: Programming/cpp/cpp-namespace.md
+      - Template: Programming/cpp/cpp-template.md
       - Input Arguments: Programming/cpp/cpp-command-line-arguments.md
       - Memory Model: Programming/cpp/cpp-memory-model.md
       - Named Requirements: Programming/cpp/cpp-named-requirements.md
@@ -130,6 +137,7 @@ nav:
       - Makefile Ex: Programming/cpp/cpp-makefile-example.md
     - ❖ Example:
       - Hello World: Programming/cpp/cpp-helloworld.md
+      - My Stack: Programming/cpp/cpp-exmaple-my-stack.md
     - Refer&Doc: Programming/cpp/cpp-reference-document.md
     # - Discuss:
   #############################################################################################################################################################
@@ -137,7 +145,7 @@ nav:
     - C#: Programming/c-sharp/c-sharp.md
   #############################################################################################################################################################
   - Rust:
-    - Rust: Programming/Rust/rust.md
+    - 🔖Rust: Programming/Rust/rust.md
     - Setup: Programming/Rust/rust-setup.md
     - ❖ Example:
       - Hello World: Programming/Rust/rust-example-helloworld.md
@@ -153,7 +161,7 @@ nav:
     - Document: Programming/Rust/rust-document.md
   #############################################################################################################################################################
   - Java:
-    - Java: Programming/Java/java.md
+    - 🔖Java: Programming/Java/java.md
     - ❖ Overview:
       - JDK, JRE và JVM: Programming/Java/java-jdk-jre-jvm.md
       - Install: Programming/Java/java-install.md
@@ -163,10 +171,10 @@ nav:
       - Datatypes & Variables: Programming/Java/java-basic-datatypes-and-variables.md
   #############################################################################################################################################################
   - Javascript:
-    - Getting Start: Programming/Javascript/javascript.md
+    - 🔖Javascript: Programming/Javascript/javascript.md
   #############################################################################################################################################################
   - Python:
-    - Python: Programming/Python/python.md
+    - 🔖Python: Programming/Python/python.md
     - ❖ Cài đặt:
       - Window: Programming/Python/python-install-windows.md
       - Resased Version: Programming/Python/python-resased-version.md
@@ -178,7 +186,7 @@ nav:
       - Điều khiển luồng: Programming/Python/python-control-flow-statements.md
   #############################################################################################################################################################
   - Kotlin:
-    - Kotlin: Programming/Kotlin/kotlin.md
+    - 🔖Kotlin: Programming/Kotlin/kotlin.md
     - Basic Concept: Programming/Kotlin/kotlin-basic-tour.md
   #############################################################################################################################################################
   - Web:
@@ -201,11 +209,11 @@ nav:
       - PlantUml: NonProgramming/PlantUml/plantuml.md
       - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
       - ❖ UML Diagrams:
-        - Sequence diagram ⭐: NonProgramming/PlantUml/plantuml-sequence-diagram.md
+        - 📍Sequence diagram: NonProgramming/PlantUml/plantuml-sequence-diagram.md
         - Usecase diagram: NonProgramming/PlantUml/plantuml-usecase-diagram.md
         - Class diagram: NonProgramming/PlantUml/plantuml-class-diagram.md
         - Object diagram: NonProgramming/PlantUml/plantuml-object-diagram.md
-        - Activity diagram ⭐: NonProgramming/PlantUml/plantuml-activity-diagram.md
+        - 📍Activity diagram: NonProgramming/PlantUml/plantuml-activity-diagram.md
         - Component diagram: NonProgramming/PlantUml/plantuml-component-diagram.md
         - Deployment diagram: NonProgramming/PlantUml/plantuml-deployment-diagram.md
         - State diagram: NonProgramming/PlantUml/plantuml-state-diagram.md
@@ -222,8 +230,8 @@ nav:
         - Ditaa diagram: NonProgramming/PlantUml/plantuml-ditaa-diagram.md
         - Gantt diagram: NonProgramming/PlantUml/plantuml-gantt-diagram.md
         - Chronology diagram: NonProgramming/PlantUml/plantuml-chronology-diagram.md
-        - MindMap diagram ⭐: NonProgramming/PlantUml/plantuml-mindmap-diagram.md
-        - WBS diagram ⭐: NonProgramming/PlantUml/plantuml-wbs-diagram.md
+        - 📍MindMap diagram: NonProgramming/PlantUml/plantuml-mindmap-diagram.md
+        - 📍WBS diagram: NonProgramming/PlantUml/plantuml-wbs-diagram.md
         - Mathematics: NonProgramming/PlantUml/plantuml-mathematics.md
         - IE diagram: NonProgramming/PlantUml/plantuml-ie-diagram.md
         - ER diagram: NonProgramming/PlantUml/plantuml-er-diagram.md
@@ -253,9 +261,18 @@ nav:
         - 46. Permutations: Practice/leetcode-0046.md
         - 47. Permutations II: Practice/leetcode-0047.md
         - 1486. 3 XOR Operation in an Array: Practice/leetcode-1486.md
-  - Build Tool:
+  - Tools:
+    - Tools: Tools/tools.md
+    - ❖ GNU:
+      - 📍GNU: tools/tools-gnu.md
+      - GCC: tools/tools-gnu-gcc.md
+      - G++: tools/tools-gnu-g++.md
+    - ❖ LLVM:
+      - 📍LLVM: Tools/tools-llvm.md
+    - ❖ Clang:
+      - 📍Clang: Tools/tools-clang.md
     - ❖ Make:
-      - Make: Build/make.md
+      - Make: Tools/make.md
 extra_css:
   - assets/stylesheets/theme.css
   - https://unpkg.com/katex@0/dist/katex.min.css

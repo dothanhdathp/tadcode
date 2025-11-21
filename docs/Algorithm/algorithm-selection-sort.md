@@ -17,3 +17,13 @@ __Selection Sort__ là một thuật toán sắp xếp đơn giản và trực q
     }
     return 0;
     ```
+
+Các bước thực hiện:
+
+- Lấy từng phần tử trong danh sách gọi là __phần tử được chọn__, so sánh với các phần tử tiếp theo trong chuỗi, gọi là __phần tử bị chọn__.
+- Nếu sắp xếp từ nhỏ đến lớn thì:
+    - __phần tử bị chọn__ < __phần tử được chọn__ thì đổi chỗ hai số.
+- Nếu sắp xếp từ lớn đến nhỏ thì:
+    - __phần tử bị chọn__ > __phần tử được chọn__ thì đổi chỗ hai số.
+
+Khi kết thúc chuỗi, __phần tử được chọn__ sẽ luôn được ở vị trí của nó.
