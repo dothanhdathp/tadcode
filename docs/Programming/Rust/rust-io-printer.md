@@ -31,7 +31,7 @@ Kết quả:
 << Line 4 >><< Line 5 >>
 ```
 
-## Formatted Print
+## Normal Print
 
 Có các cách sau để in kết quả ra ngoài màn hình bằng `println!` _(các hàm khác như `print!`, `println!`, `eprint!`, `eprintln!`)_ cũng có cách xài tương tự.
 

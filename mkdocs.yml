@@ -40,10 +40,10 @@ nav:
   - Dev:
     - About This Page: index.md
     - ❖ Các Loại NNLT:
-      - 🔖Compiled language: Programming/compiled-language.md
-      - 🔖Hybrid language: Programming/hybrid-language.md
-      - 🔖Interpreted language: Programming/interpreted-language.md
-      - 🔖Non Programming language: NonProgramming/non-programming-language.md
+      - Compiled language: Programming/compiled-language.md
+      - Hybrid language: Programming/hybrid-language.md
+      - Interpreted language: Programming/interpreted-language.md
+      - Non Programming language: NonProgramming/non-programming-language.md
     - ❖ Common:
       - Tham Chiếu Và Tham Trị: Common/tham-chieu-va-tham-tri.md
       - Tốc Độ Trong Ngôn Ngữ Lập Trình: Common/common-speed-of-language.md
@@ -53,11 +53,11 @@ nav:
     - ❖ Tham Khảo:
       - Alan Turing: Common/common-alan-turing.md
   - Data S.:
-    - 🔖Data Struct: Dev/DataStruct/dev-data-struct.md
+    - 🌐Data Struct: Dev/DataStruct/dev-data-struct.md
     - Linear:
       - Stack: Dev/DataStruct/dev-data-struct-stack.md
   - Alg.:
-    - 🔖Algorithm: Algorithm/algorithm-overview.md
+    - 🌐Algorithm: Algorithm/algorithm-overview.md
     - Độ phức tạp thuật toán: Algorithm/algorithm-algorithmic-complexity.md
     - ❖ Sorting:
       - About Sort: Algorithm/algorithm-sort.md
@@ -89,7 +89,7 @@ nav:
       - Makefile: Programming/c/c-makefile.md
   #############################################################################################################################################################
   - C++:
-    - 🔖C++: Programming/cpp/cpp.md
+    - 🌐C++: Programming/cpp/cpp.md
     - ❖ Cài Đặt:
       - Windows: Programming/cpp/cpp-install-for-windows.md
       - Linux: Programming/cpp/cpp-install-for-linux.md
@@ -145,7 +145,7 @@ nav:
     - C#: Programming/c-sharp/c-sharp.md
   #############################################################################################################################################################
   - Rust:
-    - 🔖Rust: Programming/Rust/rust.md
+    - 🌐Rust: Programming/Rust/rust.md
     - Setup: Programming/Rust/rust-setup.md
     - ❖ Example:
       - Hello World: Programming/Rust/rust-example-helloworld.md
@@ -157,11 +157,17 @@ nav:
       - Hàm: Programming/Rust/rust-function.md
       - Phương Thức: Programming/Rust/rust-operator.md
       - I/O Printer: Programming/Rust/rust-io-printer.md
-      - Điều Khiển Luồng: Programming/Rust/rust-flow-control.md
+      - ❖ Điều Khiển Luồng:
+        - Flow Control: Programming/Rust/rust-flow-control.md
+        - If/Else: Programming/Rust/rust-flow-control-if-else.md
+        - Loop: Programming/Rust/rust-flow-control-loop.md
+        - While: Programming/Rust/rust-flow-control-while.md
+        - For: Programming/Rust/rust-flow-control-for.md
+        - Match: Programming/Rust/rust-flow-control-match.md
     - Document: Programming/Rust/rust-document.md
   #############################################################################################################################################################
   - Java:
-    - 🔖Java: Programming/Java/java.md
+    - 🌐Java: Programming/Java/java.md
     - ❖ Overview:
       - JDK, JRE và JVM: Programming/Java/java-jdk-jre-jvm.md
       - Install: Programming/Java/java-install.md
@@ -171,10 +177,10 @@ nav:
       - Datatypes & Variables: Programming/Java/java-basic-datatypes-and-variables.md
   #############################################################################################################################################################
   - Javascript:
-    - 🔖Javascript: Programming/Javascript/javascript.md
+    - 🌐Javascript: Programming/Javascript/javascript.md
   #############################################################################################################################################################
   - Python:
-    - 🔖Python: Programming/Python/python.md
+    - 🌐Python: Programming/Python/python.md
     - ❖ Cài đặt:
       - Window: Programming/Python/python-install-windows.md
       - Resased Version: Programming/Python/python-resased-version.md
@@ -186,7 +192,7 @@ nav:
       - Điều khiển luồng: Programming/Python/python-control-flow-statements.md
   #############################################################################################################################################################
   - Kotlin:
-    - 🔖Kotlin: Programming/Kotlin/kotlin.md
+    - 🌐Kotlin: Programming/Kotlin/kotlin.md
     - Basic Concept: Programming/Kotlin/kotlin-basic-tour.md
   #############################################################################################################################################################
   - Web:
@@ -205,6 +211,7 @@ nav:
       - Dấu Ngoặc:  NonProgramming/KaTex/katex-delimiters.md
       - Kích Thước:  NonProgramming/KaTex/katex-text-size.md
       - Biểu Tượng Và Dấu: NonProgramming/KaTex/katex-math-symbols-and-punctuation.md
+      - Macro: NonProgramming/KaTex/katex-macro.md
     - ❖ PlantUml:
       - PlantUml: NonProgramming/PlantUml/plantuml.md
       - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
