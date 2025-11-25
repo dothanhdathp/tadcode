@@ -234,3 +234,7 @@ Kết quả:
 
 - [Pointer](cpp-pointer.md)
 - [String](cpp-string.md)
+
+## Giới Hạn
+
+- [Numeric Limits](cpp-std-numeric-limits.md)

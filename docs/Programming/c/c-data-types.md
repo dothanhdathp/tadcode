@@ -69,3 +69,7 @@ mm    ![](img/c-data-types.svg)
 ### union
 ### structure
 ### enum
+
+## Limit
+
+- Xem giới hạn các số trong C tại [Numeric Limits](c-numeric-limits.md)

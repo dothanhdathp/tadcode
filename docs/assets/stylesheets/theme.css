@@ -150,7 +150,8 @@ mark.blue {
 /* Change table size */
 
 th {
-  background-color: #5188ff5b;
+  background-color: #2d4150;
+  color: white;
   font-size: unset;
 }
 

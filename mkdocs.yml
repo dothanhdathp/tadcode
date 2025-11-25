@@ -81,6 +81,7 @@ nav:
       - Data Types: Programming/c/c-data-types.md
       - Chuỗi: Programming/c/c-array.md
       - Pointer: Programming/c/c-pointer.md
+      - "[C] Numeric Limits": Programming/c/c-numeric-limits.md
     - ❖ In/Out:
       - printf: Programming/c/c-printf.md
       - scanf: Programming/c/c-scanf.md
@@ -110,6 +111,7 @@ nav:
           - String: Programming/cpp/cpp-string.md
           - Tạo Và Huỷ: Programming/cpp/cpp-string-construct-deconstruct.md
           - Truy Cập: Programming/cpp/cpp-string-index.md
+        - "[C++] Numeric Limits": Programming/cpp/cpp-std-numeric-limits.md
       - Non Primitive:
         - Bitset: Programming/cpp/cpp-std-bitset.md
     - ❖ Container:
