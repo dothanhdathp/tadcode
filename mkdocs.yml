@@ -66,10 +66,11 @@ nav:
       - Insertion Sort: Algorithm/algorithm-insertion-sort.md
       - Quick Sort: Algorithm/algorithm-quick-sort.md
       - Counting Sort: Algorithm/algorithm-counting-sort.md
+      - Radix Sort: Algorithm/algorithm-radix-sort.md
     - ❖ Hash:
       - Hash:  Algorithm/algorithm-hash.md
       - FNV1a: Algorithm/algorithm-hashing-fnv1a.md
-    - Wavefunction Collapse: Algorithm/wavefunction-collapse.md
+      - Wavefunction Collapse: Algorithm/wavefunction-collapse.md
   - Data P.:
     - Design Pattern: Dev/Design_Pattern/dev-data-struct.md
     - Array: Dev/Design_Pattern/dev-data-struct-array.md
@@ -85,7 +86,12 @@ nav:
       - scanf: Programming/c/c-scanf.md
     - ❖ File:
       - fprintf: Programming/c/c-fprintf.md
-    - ❖ Note:
+    - ❖ Compiler:
+      - Trình Biên Dịch: Programming/c/c-compiler.md
+      - Các Giai Đoạn: Programming/c/c-translation-phases.md
+      - Bộ Tiền Xử Lý: Programming/c/c-preprocessor.md
+      - Bộ Tiền Xử Lý: Programming/c/c-replacing-text-macros.md
+    - ❖ ????:
       - Makefile: Programming/c/c-makefile.md
   #############################################################################################################################################################
   - C++:
@@ -93,16 +99,19 @@ nav:
     - ❖ Cài Đặt:
       - Windows: Programming/cpp/cpp-install-for-windows.md
       - Linux: Programming/cpp/cpp-install-for-linux.md
-    - ❖ Variables:
-      - Data Types: Programming/cpp/cpp-primitive-datatypes.md
-      - ❖ Pointer:
-        - Pointer: Programming/cpp/cpp-pointer.md
-        - Smart Pointer: Programming/cpp/cpp-smart-pointer.md
-        - Raw Pointer: Programming/cpp/cpp-raw-pointer.md
-      - ❖ String:
-        - String: Programming/cpp/cpp-string.md
-        - Tạo Và Huỷ: Programming/cpp/cpp-string-construct-deconstruct.md
-        - Truy Cập: Programming/cpp/cpp-string-index.md
+    - ❖ Biến:
+      - Primitive:
+        - Primitive: Programming/cpp/cpp-primitive-datatypes.md
+        - ❖ Pointer:
+          - Pointer: Programming/cpp/cpp-pointer.md
+          - Smart Pointer: Programming/cpp/cpp-smart-pointer.md
+          - Raw Pointer: Programming/cpp/cpp-raw-pointer.md
+        - ❖ String:
+          - String: Programming/cpp/cpp-string.md
+          - Tạo Và Huỷ: Programming/cpp/cpp-string-construct-deconstruct.md
+          - Truy Cập: Programming/cpp/cpp-string-index.md
+      - Non Primitive:
+        - Bitset: Programming/cpp/cpp-std-bitset.md
     - ❖ Container:
       - Container: Programming/cpp/cpp-container.md
       - Array: Programming/cpp/cpp-array.md
@@ -135,10 +144,11 @@ nav:
     - ❖ Build:
       - Make Tool: Programming/cpp/cpp-build-tool-make.md
       - Makefile Ex: Programming/cpp/cpp-makefile-example.md
+    - Refer&Doc: Programming/cpp/cpp-reference-document.md
     - ❖ Example:
       - Hello World: Programming/cpp/cpp-helloworld.md
       - My Stack: Programming/cpp/cpp-exmaple-my-stack.md
-    - Refer&Doc: Programming/cpp/cpp-reference-document.md
+      - Support Header: Programming/cpp/cpp-exmaple-support-header.md
     # - Discuss:
   #############################################################################################################################################################
   - C#:
@@ -200,18 +210,8 @@ nav:
     - CSS: NonProgramming/css/css.md
     - PhP: Programming/php/php.md
   #############################################################################################################################################################
-  - Misc.Lang:
+  - Misc:
     - Markdown: NonProgramming/Markdown/markdown.md
-    - Latex: NonProgramming/LaTex/latex.md
-    - ❖ Katex:
-      - Katex: NonProgramming/KaTex/katex.md
-      - Ký Tự Toán: NonProgramming/KaTex/katex-math-letter.md
-      - So Sánh: NonProgramming/KaTex/katex-math-compare.md
-      - Chữ Hy Lạp: NonProgramming/KaTex/katex-greek-letter.md
-      - Dấu Ngoặc:  NonProgramming/KaTex/katex-delimiters.md
-      - Kích Thước:  NonProgramming/KaTex/katex-text-size.md
-      - Biểu Tượng Và Dấu: NonProgramming/KaTex/katex-math-symbols-and-punctuation.md
-      - Macro: NonProgramming/KaTex/katex-macro.md
     - ❖ PlantUml:
       - PlantUml: NonProgramming/PlantUml/plantuml.md
       - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
@@ -274,9 +274,9 @@ nav:
   - Tools:
     - Tools: Tools/tools.md
     - ❖ GNU:
-      - 📍GNU: tools/tools-gnu.md
-      - GCC: tools/tools-gnu-gcc.md
-      - G++: tools/tools-gnu-g++.md
+      - 📍GNU: Tools/tools-gnu.md
+      - GCC: Tools/tools-gnu-gcc.md
+      - G++: Tools/tools-gnu-g++.md
     - ❖ LLVM:
       - 📍LLVM: Tools/tools-llvm.md
     - ❖ Clang:
