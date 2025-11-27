@@ -285,6 +285,8 @@ nav:
       - 📍Clang: Tools/tools-clang.md
     - ❖ Make:
       - Make: Tools/make.md
+      - Install: Tools/make-install.md
+      - Example: Tools/make-example.md
 extra_css:
   - assets/stylesheets/theme.css
   - https://unpkg.com/katex@0/dist/katex.min.css
