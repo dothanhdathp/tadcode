@@ -4,7 +4,7 @@
 
 <div class="grid cards" markdown>
 
-- C
+- [C](c/c.md)
 - [C++](cpp/cpp.md)
 - [C#](c-sharp/c-sharp.md)
 - [Java](Java/java.md)

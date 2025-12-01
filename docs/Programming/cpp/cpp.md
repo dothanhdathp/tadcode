@@ -28,3 +28,8 @@
 ## Road Map
 
 - Học [Data Type](cpp-primitive-datatypes.md)
+
+## Tham Khảo
+
+1. Trang web tham khảo chính thống của ngôn ngữ __C++__ này ở: [https://en.cppreference.com/index.html](https://en.cppreference.com/index.html)
+1. Một trang web khác cũng phổ biến không kém là: [https://cplusplus.com/reference/](https://cplusplus.com/reference/)

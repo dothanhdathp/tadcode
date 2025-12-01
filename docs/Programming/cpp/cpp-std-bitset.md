@@ -1,5 +1,7 @@
 # \[C++\] Bitset
 
+> Source: [std::bitset](https://en.cppreference.com/w/cpp/utility/bitset.html)
+
 ## Định Nghĩa
 
 - Mẫu lớp __bitset__ biểu diễn một chuỗi bit có kích thước cố định $N$.

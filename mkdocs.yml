@@ -46,18 +46,22 @@ nav:
       - Non Programming language: NonProgramming/non-programming-language.md
     - ❖ Common:
       - Tham Chiếu Và Tham Trị: Common/tham-chieu-va-tham-tri.md
+      - Memory Leaks: Common/common-memory-leaks.md
+      - Dangling Pointers: Common/common-dangling-pointers.md
       - Tốc Độ Trong Ngôn Ngữ Lập Trình: Common/common-speed-of-language.md
       - Lập trình hướng đối tượng: Dev/OOP/oop.md
       - Iterators: Common/iterators.md
       - ASCII: Common/common-ASCII.md
     - ❖ Tham Khảo:
       - Alan Turing: Common/common-alan-turing.md
+  #############################################################################################################################################################
   - Data S.:
-    - 🌐Data Struct: Dev/DataStruct/dev-data-struct.md
+    - Data Struct: Dev/DataStruct/dev-data-struct.md
     - Linear:
       - Stack: Dev/DataStruct/dev-data-struct-stack.md
+  #############################################################################################################################################################
   - Alg.:
-    - 🌐Algorithm: Algorithm/algorithm-overview.md
+    - Algorithm: Algorithm/algorithm-overview.md
     - Độ phức tạp thuật toán: Algorithm/algorithm-algorithmic-complexity.md
     - ❖ Sorting:
       - About Sort: Algorithm/algorithm-sort.md
@@ -71,6 +75,7 @@ nav:
       - Hash:  Algorithm/algorithm-hash.md
       - FNV1a: Algorithm/algorithm-hashing-fnv1a.md
       - Wavefunction Collapse: Algorithm/wavefunction-collapse.md
+  #############################################################################################################################################################
   - Data P.:
     - Design Pattern: Dev/Design_Pattern/dev-data-struct.md
     - Array: Dev/Design_Pattern/dev-data-struct-array.md
@@ -96,53 +101,69 @@ nav:
       - Makefile: Programming/c/c-makefile.md
   #############################################################################################################################################################
   - C++:
-    - 🌐C++: Programming/cpp/cpp.md
+    - Overview:
+      - 🔴 C++: Programming/cpp/cpp.md
+      - ℹ️ Thư Viện STD: Programming/cpp/cpp-std.md
     - ❖ Cài Đặt:
       - Windows: Programming/cpp/cpp-install-for-windows.md
       - Linux: Programming/cpp/cpp-install-for-linux.md
     - ❖ Biến:
       - Primitive:
-        - Primitive: Programming/cpp/cpp-primitive-datatypes.md
-        - ❖ Pointer:
-          - Pointer: Programming/cpp/cpp-pointer.md
-          - Smart Pointer: Programming/cpp/cpp-smart-pointer.md
-          - Raw Pointer: Programming/cpp/cpp-raw-pointer.md
+        - 🟩 Primitive: Programming/cpp/cpp-primitive-datatypes.md
+        - ❖ Pointer :
+          - 🟩 Pointer: Programming/cpp/cpp-pointer.md
+          - 🟦 Smart Pointer: Programming/cpp/cpp-smart-pointer.md
+          - 🟦 Raw Pointer: Programming/cpp/cpp-raw-pointer.md
         - ❖ String:
-          - String: Programming/cpp/cpp-string.md
-          - Tạo Và Huỷ: Programming/cpp/cpp-string-construct-deconstruct.md
-          - Truy Cập: Programming/cpp/cpp-string-index.md
-        - "[C++] Numeric Limits": Programming/cpp/cpp-std-numeric-limits.md
+          - 🟩 String: Programming/cpp/cpp-string.md
+          - 🟩 Tạo Và Huỷ: Programming/cpp/cpp-string-construct-deconstruct.md
+          - 🟩 Truy Cập: Programming/cpp/cpp-string-index.md
+        - 🟩 [C++] Numeric Limits: Programming/cpp/cpp-std-numeric-limits.md
       - Non Primitive:
-        - Bitset: Programming/cpp/cpp-std-bitset.md
+        - 🟦 Bitset: Programming/cpp/cpp-std-bitset.md
     - ❖ Container:
-      - Container: Programming/cpp/cpp-container.md
-      - Array: Programming/cpp/cpp-array.md
-      - Vector: Programming/cpp/cpp-vector.md
-      - List: Programming/cpp/cpp-list.md
-      - Map: Programming/cpp/cpp-map.md
-      - Unordered Map: Programming/cpp/cpp-unordered-map.md
-      - Initializer List: Programming/cpp/cpp-initializer-list.md
+      - STD Container: Programming/cpp/cpp-std-container.md
+      - 🟩 STD Array: Programming/cpp/cpp-array.md
+      - 🟩 STD Vector: Programming/cpp/cpp-vector.md
+      - 🟩 STD List: Programming/cpp/cpp-list.md
+      - 🟦 STD Map: Programming/cpp/cpp-map.md
+      - 🟦 STD Unordered Map: Programming/cpp/cpp-unordered-map.md
+      - ℹ️ STD Initializer_List: Programming/cpp/cpp-initializer-list.md
+      - 🟩 Stack/Queue/Deque: Programming/cpp/cpp-initializer-list.md
+    - ❖ Class:
+      - Class: Programming/cpp/cpp-class.md
     - ❖ Feature:
-      - Math Operator: Programming/cpp/cpp-operator.md
-      - Bit Operator: Programming/cpp/cpp-bit-operator.md
-      - Điều khiển luồng: Programming/cpp/cpp-flow-control.md
-      - InOut: Programming/cpp/cpp-in-out.md
-      - Vòng lặp: Programming/cpp/cpp-loop.md
-      - ❖ Function:
-        - Hàm: Programming/cpp/cpp-function.md
-        - Lambda Function: Programming/cpp/cpp-lambda-function.md
-        - Function as Parameter: Programming/cpp/cpp-function-as-parameter.md
+      - 🟩 Math Operator: Programming/cpp/cpp-operator.md
+      - 🟩 Bit Operator: Programming/cpp/cpp-bit-operator.md
+      - 🟩 Điều khiển luồng: Programming/cpp/cpp-flow-control.md
+      - 🟩 InOut: Programming/cpp/cpp-in-out.md
+      - 🟩 Vòng lặp: Programming/cpp/cpp-loop.md
+    - ❖ Function:
+      - 🟩 Hàm: Programming/cpp/cpp-function.md
+      - 🟦 Lambda Function: Programming/cpp/cpp-lambda-function.md
+      - 🟦 Function as Parameter: Programming/cpp/cpp-function-as-parameter.md
+    - ❖ STD Function:
+      - 🟦 STD Iterators : Programming/cpp/cpp-std-iterators.md
+      - 🟦 STD Algorithms: Programming/cpp/cpp-std-algorithms.md
+      - 🟦 STD Math: Programming/cpp/cpp-std-sort.md
+      - 🟦 STD Utility: Programming/cpp/cpp-std-sort.md
+      - 🟦 STD IO: Programming/cpp/cpp-std-sort.md
+      - 🟪 STD System: Programming/cpp/cpp-std-sort.md
+      - 🟪 STD Chrono: Programming/cpp/cpp-std-sort.md
+      - 🟪 STD Type_Traits: Programming/cpp/cpp-std-sort.md
+      - ℹ️ STD Format: Programming/cpp/cpp-std-sort.md
+      - ℹ️ STD Ranges: Programming/cpp/cpp-std-sort.md
     - ❖ Tiền Xử Lý:
-      - Include: Programming/cpp/cpp-include.md
-      - Define: Programming/cpp/cpp-define.md
-      - Namespace: Programming/cpp/cpp-namespace.md
-      - Template: Programming/cpp/cpp-template.md
-      - Input Arguments: Programming/cpp/cpp-command-line-arguments.md
-      - Memory Model: Programming/cpp/cpp-memory-model.md
-      - Named Requirements: Programming/cpp/cpp-named-requirements.md
+      - 🟩 Include: Programming/cpp/cpp-include.md
+      - 🟩 Define: Programming/cpp/cpp-define.md
+      - 🟦 Namespace: Programming/cpp/cpp-namespace.md
+      - 🟦 Template: Programming/cpp/cpp-template.md
+      - 🟦 Input Arguments: Programming/cpp/cpp-command-line-arguments.md
+      - 🟦 Memory Model: Programming/cpp/cpp-memory-model.md
+      - 🟦 Named Requirements: Programming/cpp/cpp-named-requirements.md
     - ❖ Khái Niệm:
-      - Standard Library: Programming/cpp/cpp-std-standard-library.md
-      - Iterator:  Programming/cpp/cpp-iterator.md
+      - 🟩 Standard Library: Programming/cpp/cpp-std-standard-library.md
+      - 🟦 Iterator:  Programming/cpp/cpp-iterator.md
     - ❖ Build:
       - Make Tool: Programming/cpp/cpp-build-tool-make.md
       - Makefile Ex: Programming/cpp/cpp-makefile-example.md
@@ -151,13 +172,12 @@ nav:
       - Hello World: Programming/cpp/cpp-helloworld.md
       - My Stack: Programming/cpp/cpp-exmaple-my-stack.md
       - Support Header: Programming/cpp/cpp-exmaple-support-header.md
-    # - Discuss:
   #############################################################################################################################################################
   - C#:
-    - C#: Programming/c-sharp/c-sharp.md
+    - 🔴 C#: Programming/c-sharp/c-sharp.md
   #############################################################################################################################################################
   - Rust:
-    - 🌐Rust: Programming/Rust/rust.md
+    - 🔴 Rust: Programming/Rust/rust.md
     - Setup: Programming/Rust/rust-setup.md
     - ❖ Example:
       - Hello World: Programming/Rust/rust-example-helloworld.md
@@ -179,7 +199,7 @@ nav:
     - Document: Programming/Rust/rust-document.md
   #############################################################################################################################################################
   - Java:
-    - 🌐Java: Programming/Java/java.md
+    - 🔴 Java: Programming/Java/java.md
     - ❖ Overview:
       - JDK, JRE và JVM: Programming/Java/java-jdk-jre-jvm.md
       - Install: Programming/Java/java-install.md
@@ -189,10 +209,10 @@ nav:
       - Datatypes & Variables: Programming/Java/java-basic-datatypes-and-variables.md
   #############################################################################################################################################################
   - Javascript:
-    - 🌐Javascript: Programming/Javascript/javascript.md
+    - 🔴 Javascript: Programming/Javascript/javascript.md
   #############################################################################################################################################################
   - Python:
-    - 🌐Python: Programming/Python/python.md
+    - 🔴 Python: Programming/Python/python.md
     - ❖ Cài đặt:
       - Window: Programming/Python/python-install-windows.md
       - Resased Version: Programming/Python/python-resased-version.md
@@ -204,17 +224,17 @@ nav:
       - Điều khiển luồng: Programming/Python/python-control-flow-statements.md
   #############################################################################################################################################################
   - Kotlin:
-    - 🌐Kotlin: Programming/Kotlin/kotlin.md
+    - 🔴 Kotlin: Programming/Kotlin/kotlin.md
     - Basic Concept: Programming/Kotlin/kotlin-basic-tour.md
   #############################################################################################################################################################
   - Web:
-    - HTML: NonProgramming/html/html.md
-    - CSS: NonProgramming/css/css.md
-    - PhP: Programming/php/php.md
+    - 🔴 HTML: NonProgramming/html/html.md
+    - 🔴 CSS: NonProgramming/css/css.md
+    - 🔴 PhP: Programming/php/php.md
   #############################################################################################################################################################
   - Misc:
-    - Markdown: NonProgramming/Markdown/markdown.md
-    - ❖ PlantUml:
+    - 🔴 Markdown: NonProgramming/Markdown/markdown.md
+    - 🔴 PlantUml:
       - PlantUml: NonProgramming/PlantUml/plantuml.md
       - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
       - ❖ UML Diagrams:
@@ -244,18 +264,18 @@ nav:
         - Mathematics: NonProgramming/PlantUml/plantuml-mathematics.md
         - IE diagram: NonProgramming/PlantUml/plantuml-ie-diagram.md
         - ER diagram: NonProgramming/PlantUml/plantuml-er-diagram.md
-    - ❖ Mermaid:
+    - 🔴 Mermaid:
       - Mermaid: NonProgramming/Mermaid/mermaid.md
   #############################################################################################################################################################
   - Matlab:
     - Matlab: Matlab/matlab.md
   #############################################################################################################################################################
   - Practice:
-    - ❖ Prepare: Practice/practice.md
-    - ❖ Leetcode:
-      - Leetcode: Practice/leetcode.md
-      - ❖ List: 
-        - 1. Two Sum: Practice/leetcode-0001.md
+    - 🔴 Prepare: Practice/practice.md
+    - Leetcode:
+      - 🔴 Leetcode: Practice/leetcode.md
+      - ❖ List:
+        - 1. Two Sum 🌟: Practice/leetcode-0001.md
         - 2. Add Two Numbers: Practice/leetcode-0002.md
         - 3. Longest Substring Without Repeating Characters: Practice/leetcode-0003.md
         - 4. Median of Two Sorted Arrays: Practice/leetcode-0004.md
@@ -263,12 +283,12 @@ nav:
         - 7. Reverse Integer: Practice/leetcode-0007.md
         - 8. String to Integer (atoi): Practice/leetcode-0008.md
         - 9. Palindrome Number: Practice/leetcode-0009.md
-        - 11. Container With Most Water: Practice/leetcode-0011.md
+        - 11. Container With Most Water 🌟: Practice/leetcode-0011.md
         - 12. Integer to Roman: Practice/leetcode-0012.md
         - 13. Roman to Integer: Practice/leetcode-0013.md
         - 14. Longest Common Prefix: Practice/leetcode-0014.md
         - 15. 3Sum: Practice/leetcode-0015.md
-        - 37. Sudoku Solver: Practice/leetcode-0037.md
+        - 37. Sudoku Solver 🌟: Practice/leetcode-0037.md
         - 39. Combination Sum: Practice/leetcode-0039.md
         - 46. Permutations: Practice/leetcode-0046.md
         - 47. Permutations II: Practice/leetcode-0047.md
