@@ -274,25 +274,9 @@ nav:
     - 🔴 Prepare: Practice/practice.md
     - Leetcode:
       - 🔴 Leetcode: Practice/leetcode.md
-      - ❖ List:
-        - 1. Two Sum 🌟: Practice/leetcode-0001.md
-        - 2. Add Two Numbers: Practice/leetcode-0002.md
-        - 3. Longest Substring Without Repeating Characters: Practice/leetcode-0003.md
-        - 4. Median of Two Sorted Arrays: Practice/leetcode-0004.md
-        - 6. Zigzag Conversion: Practice/leetcode-0006.md
-        - 7. Reverse Integer: Practice/leetcode-0007.md
-        - 8. String to Integer (atoi): Practice/leetcode-0008.md
-        - 9. Palindrome Number: Practice/leetcode-0009.md
-        - 11. Container With Most Water 🌟: Practice/leetcode-0011.md
-        - 12. Integer to Roman: Practice/leetcode-0012.md
-        - 13. Roman to Integer: Practice/leetcode-0013.md
-        - 14. Longest Common Prefix: Practice/leetcode-0014.md
-        - 15. 3Sum: Practice/leetcode-0015.md
-        - 37. Sudoku Solver 🌟: Practice/leetcode-0037.md
-        - 39. Combination Sum: Practice/leetcode-0039.md
-        - 46. Permutations: Practice/leetcode-0046.md
-        - 47. Permutations II: Practice/leetcode-0047.md
-        - 1486. 3 XOR Operation in an Array: Practice/leetcode-1486.md
+      - Leetcode 1-99: Practice/leetcode-1-to-99.md
+      - 179. Largest Number: Practice/leetcode-0179.md
+      - 1486. 3 XOR Operation in an Array: Practice/leetcode-1486.md
   - Tools:
     - Tools: Tools/tools.md
     - ❖ GNU:

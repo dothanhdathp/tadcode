@@ -8,7 +8,7 @@ Tổ hợp các loại ngôn ngữ kỹ thuật.
 
 Các tệp chủ đề có các ký hiệu như sau hầy hết là dành cho việc học theo __RoadMap__. Các ký hiệu đó có ý nghĩa là:
 
-- _`không có ký hiệu`_: Chủ đề không quan trọng, thông tin hoặc chưa sắp xếp.
+- `không có ký hiệu`: Chủ đề không quan trọng, thông tin hoặc chưa sắp xếp.
     - Các chủ đề có màu đều là các chủ đề nên học.
 - 📕📒📗📘📙⛳📍⫷⫸◧▩▦▣▥▨▧⌀ⁱ⁹⁸⁷⁶⁵⁴³²¹⁰⩙⨊①④⑦②⑤⑧⑨⑥③⌖⋇
     - 🔶🔸🔷🔻🔺🔹🔴🟠🟡⚪⚫🟤🟣🔵🟢®️©️™️🔅🚩🔅⭕❌💥🔖🏷️📀💿
