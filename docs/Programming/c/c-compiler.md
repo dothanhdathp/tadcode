@@ -6,4 +6,5 @@ Phần này không đi sâu vào cụ thể trình biên dịch mà chỉ đơn 
 
 Một số bộ công cụ biên dịch cho C gồm:
 
-- [GCC của GNU](../../Tools/tools-gnu-gcc.md)
+- [GNU GCC](/Tools/tools-gnu-gcc)
+- [GNU G++](/Tools/tools-gnu-g++)

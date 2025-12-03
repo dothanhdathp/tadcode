@@ -70,7 +70,7 @@ fn main() {
 
 ## Truyền Tham Chiếu & Truyền Tham Trị
 
-Nếu chưa biết __Tham Trị & Tham Vấn__ là gì thì đọc bài này [Tham Chiếu Và Tham Trị](../../Common/tham-chieu-va-tham-tri.md)
+Nếu chưa biết __Tham Trị & Tham Vấn__ là gì thì đọc bài này [Tham Chiếu Và Tham Trị](/Common/tham-chieu-va-tham-tri)
 
 ### Truyền Tham Chiếu
 

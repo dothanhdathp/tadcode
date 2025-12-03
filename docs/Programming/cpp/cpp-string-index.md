@@ -2,7 +2,7 @@
 
 ## Iterators
 
-Đây là các con trỏ [Iterators](../../Common/iterators.md) đến các vị trí phần tử nằm trong chuỗi. Chúng gồm
+Đây là các con trỏ [Iterators](/Common/iterators) đến các vị trí phần tử nằm trong chuỗi. Chúng gồm
 
 | Tên Hàm     | Tác dụng                     |
 | :---------- | :--------------------------- |

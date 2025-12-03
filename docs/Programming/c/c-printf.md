@@ -117,14 +117,14 @@ Bộ xác định phụ độ dài sửa đổi độ dài của kiểu dữ li�
 
 ## Ký Tự Đặc Biệt
 
-Một số ký tự đặc biệt giống trên bảng mã [bảng mã ASCII](../../Common/common-ASCII.md) không phải một ký tự thuần như ký tự trên bàn phím. Các ký tự đó được gọi là các __*ký tự đặt biệt*__. Các ký tự ngoài khả năng biểu diễn một hình gì đó còn có tác dụng:
+Một số ký tự đặc biệt giống trên bảng mã [bảng mã ASCII](/Common/common-ASCII) không phải một ký tự thuần như ký tự trên bàn phím. Các ký tự đó được gọi là các __*ký tự đặt biệt*__. Các ký tự ngoài khả năng biểu diễn một hình gì đó còn có tác dụng:
 
 - `\n`: Xuống dòng
 - `\t`: Tab, tạo khoảng trắng
 
 ## Ghi nhớ
 
-- Hàm __*printf*__ sẽ tự động chuyển đổi để phù hợp đầu ra. Ví dụ ở ký tự `'A'` nếu ép hiển thị dưới dạng số nguyên thập phân thì nó sẽ in ra giá trị của ký tự đó trên [bảng mã ASCII](../../Common/common-ASCII.md)
+- Hàm __*printf*__ sẽ tự động chuyển đổi để phù hợp đầu ra. Ví dụ ở ký tự `'A'` nếu ép hiển thị dưới dạng số nguyên thập phân thì nó sẽ in ra giá trị của ký tự đó trên [bảng mã ASCII](/Common/common-ASCII)
 - Trường hợp không thể chuyển đổi, ví dụ như `%s` với con trỏ __NULL__ sẽ gây lỗi và chết chương trình.
 - Trường hợp không có đầu và sẽ thường bị rơi vào trường hợp __*con trỏ không xác định*__. Ví dự như sau:
     ```c

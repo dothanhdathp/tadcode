@@ -36,7 +36,7 @@ mm    ![](img/c-data-types.svg)
 #### char
 
 - Dữ liệu kiểu ký tự, chữ cơ bản.
-- Các _ký tự_ được định nghĩa theo [bảng mã ASCII](../../Common/common-ASCII.md)
+- Các _ký tự_ được định nghĩa theo [bảng mã ASCII](/Common/common-ASCII)
 - C không có __*câu, đoạn văn*__. char chỉ đại diện cho __*từng ký tự đơn lẻ*__. Muốn có một __*đoạn văn bản*__ cần sử dụng một kiểu khác là [chuỗi dữ liệu](c-array.md)
 
 #### bool

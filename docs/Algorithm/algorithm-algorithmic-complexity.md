@@ -25,3 +25,8 @@ Các hàm số thường dùng là $O(n)$, $O(n^2)$, $O(n+k)$, $O(n.log(n))$, ..
     ![](img/dev-algorithm-grapth.png)
     <figcaption>Đồ thị tốc độ tăng của một số thuật toán</figcaption>
 </figure>
+
+
+## Tham Khảo
+
+- [Competitive Programmers Handbook, Chapter 2 Time complexity](http://localhost:8002/Program/competitive-programmers-handbook/2/)

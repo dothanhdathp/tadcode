@@ -22,7 +22,7 @@ Nhiều `shared_ptr` có thể sở hữu cùng một đối tượng. Đối t�
 
 ### Lý Do
 
-lỗi rò rỉ bộ nhớ (memory leaks) và các vấn đề về con trỏ treo (dangling pointers).
+lỗi rò rỉ bộ nhớ (memory leaks) và các vấn đề về con trỏ treo ([dangling pointers](/Common/common-dangling-pointers)).
 
 ### Các Loại
 
