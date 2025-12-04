@@ -277,20 +277,26 @@ nav:
       - Leetcode 1-99: Practice/leetcode-1-to-99.md
       - 179. Largest Number: Practice/leetcode-0179.md
       - 1486. 3 XOR Operation in an Array: Practice/leetcode-1486.md
-  - Tools:
-    - Tools: Tools/tools.md
-    - ❖ GNU:
-      - 📍GNU: Tools/tools-gnu.md
-      - GCC: Tools/tools-gnu-gcc.md
-      - G++: Tools/tools-gnu-g++.md
-    - ❖ LLVM:
-      - 📍LLVM: Tools/tools-llvm.md
-    - ❖ Clang:
-      - 📍Clang: Tools/tools-clang.md
-    - ❖ Make:
-      - Make: Tools/make.md
-      - Install: Tools/make-install.md
-      - Example: Tools/make-example.md
+  - Build:
+    - Build: Tools/tools.md
+    - ❖ Build Tools:
+      - ❖ GNU:
+        - 📍GNU: Tools/tools-gnu.md
+        - GCC: Tools/tools-gnu-gcc.md
+        - G++: Tools/tools-gnu-g++.md
+      - ❖ LLVM:
+        - 📍LLVM: Tools/tools-llvm.md
+      - ❖ Clang:
+        - 📍Clang: Tools/tools-clang.md
+    - ❖ Meta-Build System:
+      - Meta-Build System: Tools/meta-build-system.md
+      - ❖ Make:
+        - Make: Tools/make.md
+        - Install: Tools/make-install.md
+        - Example: Tools/make-example.md
+      - ❖ Cmake:
+        - Cmake: Tools/cmake.md
+
 extra_css:
   - assets/stylesheets/theme.css
   - https://unpkg.com/katex@0/dist/katex.min.css

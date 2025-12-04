@@ -25,3 +25,9 @@ Các tệp chủ đề có các ký hiệu như sau hầy hết là dành cho vi
 - ℹ️ : Thông tin thêm. Các kiến thức này ít khi cần dùng đến.
 
 Ngoài ra ký hiệu cũng được sử dụng để đánh dấu cho một bài hoặc một chủ đề thú vị nào đó. Thường là trong phần luyện tập các bài __*leetcode*__
+
+## This is Header 2
+### This is Header 3
+#### This is Header 4
+##### This is Header 5
+###### This is Header 6
