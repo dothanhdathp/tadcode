@@ -7,11 +7,8 @@
 - [C](c/c.md)
 - [C++](cpp/cpp.md)
 - [C#](c-sharp/c-sharp.md)
-- [Java](Java/java.md)
 - [Python](Python/python.md)
-- Kotlin
 - [Rust](Rust/rust.md)
-- PHP
 
 </div>
 

@@ -57,7 +57,7 @@
   --custom-color-theme-h4--theme: #005523;
   --custom-color-theme-h5--theme: #7c2828;
   --custom-color-theme-h6--theme: #004b55;
-  --custom-color-link: #1a8f62;
+  --custom-color-link: #1e7755;
   --md-code-bg-color: #d2dde0;
 }
 /* Dark theme */
@@ -80,7 +80,10 @@
 /* .md-grid {
   max-width: initial;
 } */
-
+.md-nav {
+  font-size: .5rem;
+  line-height: 1.5;
+}
 .md-main__inner.md-grid.full-width {
   max-width: initial;
 }

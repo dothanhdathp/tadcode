@@ -1,4 +1,4 @@
-# \[Data P.\] Stack
+# \[Data Struct\] Stack
 
 ## Định Nghĩa
 

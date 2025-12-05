@@ -54,22 +54,8 @@ mm    ![](img/c-data-types.svg)
     - Loại biến không cần quan tâm, chỉ cần biết nó là một kiểu biến.
 - Tác dụng và ý nghĩa của kiểu dữ liệu này thường gắn liền với kiến thức về [pointer]() nhiều hơn.
 
-### Example
+## Liên Kết
 
-
-
-## Derived Data Types
-
-### array
-### pointer
-### function
-
-## User Defined Data Types
-
-### union
-### structure
-### enum
-
-## Limit
-
-- Xem giới hạn các số trong C tại [Numeric Limits](c-numeric-limits.md)
+- [Giới Hạn Số](c-numeric-limits.md)
+- [Derived Data Types](c-derived-data-types.md)
+- [User Defined Data Types](c-user-defined-data-types.md)
