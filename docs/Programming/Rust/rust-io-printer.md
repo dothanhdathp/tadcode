@@ -1,6 +1,6 @@
 # \[Rust\] Print
 
-## Các hàm in
+## Các hàm output
 
 Các hàm in kết quả ra màn hình:
 
@@ -31,9 +31,13 @@ Kết quả:
 << Line 4 >><< Line 5 >>
 ```
 
-## Normal Print
+## Thứ tự in
 
 Có các cách sau để in kết quả ra ngoài màn hình bằng `println!` _(các hàm khác như `print!`, `println!`, `eprint!`, `eprintln!`)_ cũng có cách xài tương tự.
+
+- __*Cách 1*__: Giá trị của các biến sẽ được thay thế lần lượt bằng `{}`.
+- __*Cách 2*__: Trong dấu `{index}` có thể được lựa chọn bằng _index_ được để trong đấu `{}`. Và nó sẽ chọn đúng vị trí được đánh theo số. Với vị trí được để sau trong mỗi dáu `{}` sẽ theo sau đúng với vị trí của biến theo sau chuỗi __*prompt*__.
+- __*Cách 3*__: Có một cách khác là đưa vào theo tên và giá trị in ra tự động theo đúng như tên của biến được đặt.
 
 ```rust
 fn main() {
@@ -54,8 +58,5 @@ Output: 10, 0, 20, 10
 Output: 10, 0, 20, 10
 ```
 
-- Cách 1: Giá trị của các biến sẽ được thay thế trong `{}`
-- Cách 2: Trong dấu `{x}` có thể được lựa chọn bằng _index_ được để trong đấu `{}`. Và nó sẽ chọn đúng vị trí được đánh theo số.
-- Cách 3: Có một cách khác là đưa vào theo tên và giá trị in ra tự động tìm được đúng tên.
-
 ## Formatted Print
+

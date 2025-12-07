@@ -1,4 +1,4 @@
-# Rust Setup
+# \[Rust\] Install
 
 ## Tải về bản cài đặt
 

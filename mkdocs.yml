@@ -182,7 +182,7 @@ nav:
   - Rust:
     - ♦️ Rust: Programming/Rust/rust.md
     - Setup: Programming/Rust/rust-setup.md
-    - ❖ Phần I:
+    - ❖ Rust Basic:
       - Biến: Programming/Rust/rust-variables.md
       - Biến Phức Hợp: Programming/Rust/rust-compound-variables.md
       - Hàm: Programming/Rust/rust-function.md
@@ -195,6 +195,7 @@ nav:
         - While: Programming/Rust/rust-flow-control-while.md
         - For: Programming/Rust/rust-flow-control-for.md
         - Match: Programming/Rust/rust-flow-control-match.md
+    # - ❖ Rust Advance:
     - ❖ Example:
       - Hello World: Programming/Rust/rust-example-helloworld.md
       - Variables: Programming/Rust/rust-example-variables.md

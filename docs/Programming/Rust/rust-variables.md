@@ -64,7 +64,7 @@ Ngoài việc có thể khai báo trực tiếp, các số nguyên còn có th�
 | Byte _(chỉ cho phép với `u8`)_ | `b'A'`        |                                                                 |
 | Float                          | `1e2`         |                                                                 |
 
-```rust title "Ví dụ"
+```rust title="Ví dụ"
 let x:i64 = 100_000_000_000; // 100000000000
 ```
 

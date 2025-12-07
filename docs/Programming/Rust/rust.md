@@ -11,7 +11,7 @@ Rust mạnh mẽ nhất trong việc tạo ra các mã đơn giản mà an toàn
 
 ## Cài Đặt
 
-- [Rust Setup](rust-setup.md)
+- [Rust Install](rust-setup.md)
 
 ## Rust Document
 
