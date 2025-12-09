@@ -107,8 +107,3 @@ make clean && make main && ./main.exe
 ```
 
 > Nếu chạy trực tiếp trên Linux thì không cần cầu qua __*msys*__ nữa
-
-## Liên Kết
-
-- [Biến](rust-variables.md)
-- [I/O Printer](rust-io-printer.md)

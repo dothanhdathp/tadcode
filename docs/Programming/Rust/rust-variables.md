@@ -1,8 +1,22 @@
 # \[Rust\] Biến
 
+> Biến là thành phần cơ bản trong mọi ngôn ngữ lập trình.
+
 ## Định Nghĩa
 
-- Biến đại diện cho dữ liệu có thể sử dụng tính toán.
+- __Biến__ là thành phần cơ bản trong mọi ngôn ngữ lập trình.
+
+## Phân Loại
+
+Các kiểu biến chia làm hai loại chính là __*Primitives*__ _(tức kiểu biến nguyên thuỷ sẽ được hỗ trợ trực tiếp từ **complier** mà không cần thiết phải thêm thư viện ngoài)_ và __*Non Primitives*__ là các kiểu còn lại, có thể do người dùng tự định nghĩa hoặc thư viện sẽ hỗ trợ.
+
+__Primitives__ cũng chia làm hai loại:
+
+- [Scalar Types](rust-variables-scalar-types.md) _(Biến Đơn Hướng)_
+- [Compound Types](rust-variables-compound-types.md) _(Biến Phức Hợp)_
+
+!!! warning "Chú Ý"
+    Các phần tiếp theo cần nghiên cứu một chút ở kiểu biến [Scalar Types](rust-variables-scalar-types.md). Hãy đọc qua nếu khó hiểu.
 
 ## Khai Báo Biến
 
@@ -24,73 +38,56 @@ let mut x = 10;
 x = 20; // ok
 ```
 
-## Kiểu Nguyên Thuỷ
-
-### Kiểu Nguyên Thuỷ
-
-Như mọi ngôn ngữ, các kiểu biến nguyên thuỷ được hỗ trợ là số __*tự nhiên*__, __*số thực*__, __*boolean*__ _(logic so sánh)_ và kiểu __*ký tự*__.
-
-__Các kiểu nguyên thuỷ và kích thước__:
-
-|                   | 8-bit  | 16-bit | 32-bit | 64-bit | 128-bit |
-| :---------------- | :----: | :----: | :----: | :----: | :-----: |
-| Interger          |  `i8`  | `i16`  | `i32`  | `i64`  | `i128`  |
-| Unsigned Interger |  `u8`  | `u16`  | `u32`  | `u64`  | `u128`  |
-| Float             |        |        | `f32`  | `f64`  |         |
-| Boolean           | `bool` |        |        |        |         |
-| Character         |        |        | `char` |        |         |
-
-- Ngoài các số nguyên kể trên còn có hai loại là `isize` và `usize`. Hai kiểu này không có kích thước cụ thể mà nó sẽ phụ thuộc vào kiến trúc vi xử lý _(`64-bit` hoặc `32-bit`)_
-- Các số thực được sử dụng theo chuẩn __IEEE-754__, nghĩa __*số thập phân luôn là số có dấu*__.
-- <mark>Kiểu ký tự trong Rust được mở rộng lên _4 bytes_</mark>, cho phép nó hiển thị được nhiều ký tự hơn so với bảng mã __ASCII__ thông thường.
-- Ký tự trong __Rust__ yêu cầu khai báo trong dấu `'`, dấu `"` không chấp nhận.
-
-### Khoảng Giá Trị
-
-Cũng như các loại giá trị khác, thường __Số Nguyên Có Dấu__ sẽ có khoảng giá trị từ $[(-2^{N-1}) \to (2^{N-1}-1)]$, với $N$ là số `bits` mà biến đó có thể sử dụng. Ví dụ với `i32` (thường sử dụng nhất) sẽ có khoảng giá trị là $[(-2^{31}) \to (2^{31}-1)]$ hay cụ thể là từ $[-2,147,483,647 \to 2,147,483,646]$.
-
-Với __Số Nguyên Không Dấu__, khoảng giá trị được mở rộng lên $[0 \to 2^{N}-1]$. Đại biểu với `u32` sẽ là $[0 \to 4,294,967,295]$
-
-### Một Số Cách Viết Khác
-
-Ngoài việc có thể khai báo trực tiếp, các số nguyên còn có thể <mark>khai báo ở nhiều dạng khác nhau</mark> theo như bảng dưới đây:
-
-| Chữ số                         | Ví dụ         | Ví dụ                                                           |
-| :----------------------------- | :------------ | :-------------------------------------------------------------- |
-| Số thập phân                   | `98_222`      | *Các chữ số có thể dùng dấu _ để phân cách khi viết các số lớn* |
-| Thập lục phân                  | `0xff`        |                                                                 |
-| bát phân                       | `0o77`        |                                                                 |
-| nhị phân                       | `0b1111_0000` |                                                                 |
-| Byte _(chỉ cho phép với `u8`)_ | `b'A'`        |                                                                 |
-| Float                          | `1e2`         |                                                                 |
-
-```rust title="Ví dụ"
-let x:i64 = 100_000_000_000; // 100000000000
-```
-
 ## Tính Tự Động
 
-Biến trong Rust sẽ được tự động lựa chọn kiểu phù hợp nếu không có khai báo kiểu từ đầu.
+### Tự Động Chọn Kiểu
 
-## Khai Báo Kiểu
-
-Khai báo kiểu có thể sử dụng khai báo trước hoặc sau:
+Biến trong Rust sẽ được tự động lựa chọn kiểu phù hợp nếu không được khai báo mặc định. Tiến trình này cũng khá là giống __Python__. Ví dụ như:
 
 ```rust
-let x: u32 = 10;
-let y = 10u32;
+let x = 10;
+let y:i32 = 10;
 ```
 
-> Cả hai cách trên đều hợp lệ.
-> - Cách 1 khai báo kiểu `u32` cho biến __x__
-> - Cách 2 khai báo kiểu `u32` cho giá trị `10`. Lúc này giá trị của biến bị ép sang kiểu của biến.
+Cả hai biến __*x*__ và __*y*__ sẽ đều có cùng kiểu là __*interger 32 bits*__ `i32`. Có thể dùng chương trình dưới đây để kiểm tra loại của biến
 
-Xem ví dụ: [Rust Example Primitives](rust-example-primitives.md#primitives)
+```rust
+use std::any::type_name;
 
-## Tác Dụng
+fn print_type_of<T>(_: &T) {
+    // This prints the type name T is at runtime.
+    println!("Type is: {}", type_name::<T>());
+}
 
-- Để thực hiện tính toán trên biến thường sử dụng các [Phương Thức](rust-operator.md) hoặc sử dụng để [Điểu Khiển Luồng](rust-flow-control.md)
-- Khi các phép tính và điều khiển quá lớn cho một mục đích, các biến sẽ được sử dụng là các đối số cho [Hàm](rust-function.md)
+fn main() {
+    let x = 10;
+    let y:i32 = 10;
+    print_type_of(&x);
+    print_type_of(&y);
+}
+```
+```text title="Kết Quả"
+Type is: i32
+Type is: i32
+```
 
-> Bài Tiếp: [Biến Phức Hợp](rust-compound-variables.md)
+### Kiểu Tự Động Mặc Định
 
+Các kiểu biến tự động cũng có __mặc định__.
+
+- Số Nguyên (Interger): `i32`
+- Số Thực (Float): `f64` _(Theo tiêu chuẩn IEEE-754)_
+- _Các kiểu **bool** và **char** thì không có kiểu dữ liệu mở rộng nào khác nên bỏ qua._
+
+!!! question "Câu hỏi"
+    - ❓ Khi đầu vào khai báo vượt ngưỡng dữ liệu cơ bản thì sao?
+        - Lúc đó trình biên dịch sẽ có thông báo cảnh báo viết khai báo rõ ràng cho loại dữ liệu. __Rust__ không có kiểu _ngầm hiểu_ trong trường hợp này. Với các kiểu dữ liệu khi đã thoát khỏi quy chuẩn thì sẽ để người dùng tự định nghĩa.
+    - ❓ Nếu các phép toán gây vượt quá ngưỡng đầu vào thì sao?
+        - Trình biên dịch không biết, tự làm thôi.
+    
+## Tương Tác
+
+Các dạng thức tương tác với biến bao gồm:
+- [Phương Thức - Operator](rust-operator.md) sẽ có thể thay đổi giá trị của các biến.
+- [Điểu Khiển Luồng](rust-flow-control.md) sử dụng các biến dạng _boolean_ để xác định các luồng hoạt động cho chương trình.
+- [Hàm](rust-function.md) sẽ sử dụng cả hai phương thức trên. Lấy biến làm đối số và thực hiện các tương tác đưa ra kết quả hoặc phục vụ mục địch nào đó.

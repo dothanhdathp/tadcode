@@ -40,12 +40,12 @@ nav:
   - Coder:
     - Computer Science:
       - About Computer Science: index.md
-      - ❖ Các Loại NNLT:
+      - Các Loại NNLT:
         - Compiled Language: Programming/compiled-language.md
         - Hybrid Language: Programming/hybrid-language.md
         - Interpreted Language: Programming/interpreted-language.md
         - Non Programming Language: NonProgramming/non-programming-language.md
-      - ❖ Chung:
+      - Chung:
         - Tham Chiếu Và Tham Trị: CS/tham-chieu-va-tham-tri.md
         - Memory Leaks: CS/common-memory-leaks.md
         - Dangling Pointers: CS/common-dangling-pointers.md
@@ -53,17 +53,17 @@ nav:
         - Lập trình hướng đối tượng: Dev/OOP/oop.md
         - Iterators: CS/iterators.md
         - ASCII: CS/common-ASCII.md
-      - ❖ Tham Khảo:
+      - Tham Khảo:
         - Alan Turing: CS/common-alan-turing.md
     - Core Computer Science:
-      - ❖ Data Struct:
+      - Data Struct:
         - Data Struct: CS/data-struct.md
         - Linear:
           - Stack: CS/data-struct-stack.md
-      - ❖ Algorithm:
+      - Algorithm:
         - Algorithm: CS/algorithm-overview.md
         - Độ phức tạp thuật toán: CS/algorithm-algorithmic-complexity.md
-        - ❖ Sorting:
+        - Sorting:
           - About Sort: CS/algorithm-sort.md
           - Selection Sort: CS/algorithm-selection-sort.md
           - Bubble Sort: CS/algorithm-bubble-sort.md
@@ -71,61 +71,61 @@ nav:
           - Quick Sort: CS/algorithm-quick-sort.md
           - Counting Sort: CS/algorithm-counting-sort.md
           - Radix Sort: CS/algorithm-radix-sort.md
-        - ❖ Hash:
+        - Hash:
           - Hash:  CS/algorithm-hash.md
           - FNV1a: CS/algorithm-hashing-fnv1a.md
           - Wavefunction Collapse: CS/wavefunction-collapse.md
-      - ❖ Design Pattern:
+      - Design Pattern:
         - Design Pattern: CS/design-pattern.md
         - Array: CS/data-struct-array.md
-      - ❖ Programming Paradigms:
+      - Programming Paradigms:
         - Programming Paradigms: CS/programming-paradigms.md
         - OOP: CD/programming-paradigms-oop.md
   #############################################################################################################################################################
   - C:
-    - ♦️ C: Programming/c/c.md
-    - ❖ Data Types:
+    - 🇻🇳 C: Programming/c/c.md
+    - Data Types:
       - Data Types: Programming/c/c-data-types.md
       - Derived Data Types: Programming/c/c-derived-data-types.md
       - User Defined Data Types: Programming/c/c-user-defined-data-types.md
       - Chuỗi: Programming/c/c-array.md
       - Pointer: Programming/c/c-pointer.md
       - (C) Numeric Limits: Programming/c/c-numeric-limits.md
-    - ❖ In/Out:
+    - In/Out:
       - printf: Programming/c/c-printf.md
       - scanf: Programming/c/c-scanf.md
-    - ❖ File:
+    - File:
       - fprintf: Programming/c/c-fprintf.md
-    - ❖ Compiler:
+    - Compiler:
       - Trình Biên Dịch: Programming/c/c-compiler.md
       - Các Giai Đoạn: Programming/c/c-translation-phases.md
       - Bộ Tiền Xử Lý: Programming/c/c-preprocessor.md
       - Bộ Tiền Xử Lý: Programming/c/c-replacing-text-macros.md
-    - ❖ ????:
+    - ????:
       - Makefile: Programming/c/c-makefile.md
   #----------------------------------------#
   - C++:
     - Overview:
-      - ♦️ C++: Programming/cpp/cpp.md
+      - 🇻🇳 C++: Programming/cpp/cpp.md
       - Thư Viện STD: Programming/cpp/cpp-std.md
-    - ❖ Cài Đặt:
+    - Cài Đặt:
       - Windows: Programming/cpp/cpp-install-for-windows.md
       - Linux: Programming/cpp/cpp-install-for-linux.md
-    - ❖ Biến:
+    - Biến:
       - Primitive:
         - Primitive❗: Programming/cpp/cpp-primitive-datatypes.md
-        - ❖ Pointer :
+        - Pointer :
           - Pointer❗: Programming/cpp/cpp-pointer.md
           - Smart Pointer‼️: Programming/cpp/cpp-smart-pointer.md
           - Raw Pointer‼️: Programming/cpp/cpp-raw-pointer.md
-        - ❖ String:
+        - String:
           - String❗: Programming/cpp/cpp-string.md
           - Tạo Và Huỷ❗: Programming/cpp/cpp-string-construct-deconstruct.md
           - Truy Cập❗: Programming/cpp/cpp-string-index.md
         - (C++) Numeric Limits❗: Programming/cpp/cpp-std-numeric-limits.md
       - Non Primitive:
         - Bitset‼️: Programming/cpp/cpp-std-bitset.md
-    - ❖ Container:
+    - Container:
       - STD Container: Programming/cpp/cpp-std-container.md
       - STD Linear Types❗: Programming/cpp/cpp-linear-types.md
       - STD Array❗: Programming/cpp/cpp-array.md
@@ -136,19 +136,19 @@ nav:
       - STD Initializer_List❕: Programming/cpp/cpp-initializer-list.md
       - STD Set❕: Programming/cpp/cpp-set.md
       - STD Unordered Set❕: Programming/cpp/cpp-unordered-set.md
-    - ❖ Class:
+    - Class:
       - Class: Programming/cpp/cpp-class.md
-    - ❖ Feature:
+    - Feature:
       - Math Operator❗: Programming/cpp/cpp-operator.md
       - Bit Operator❗: Programming/cpp/cpp-bit-operator.md
       - Điều khiển luồng❗: Programming/cpp/cpp-flow-control.md
       - InOut❗: Programming/cpp/cpp-in-out.md
       - Vòng lặp❗: Programming/cpp/cpp-loop.md
-    - ❖ Function:
+    - Function:
       - Hàm❗: Programming/cpp/cpp-function.md
       - Lambda Function‼️: Programming/cpp/cpp-lambda-function.md
       - Function as Parameter‼️: Programming/cpp/cpp-function-as-parameter.md
-    - ❖ STD Function:
+    - STD Function:
       - STD Iterators‼️: Programming/cpp/cpp-std-iterators.md
       - STD Algorithms‼️: Programming/cpp/cpp-std-algorithms.md
       - STD Math‼️: Programming/cpp/cpp-std-sort.md
@@ -159,7 +159,7 @@ nav:
       - STD Type_Traits ⁉️: Programming/cpp/cpp-std-sort.md
       - STD Format❕: Programming/cpp/cpp-std-sort.md
       - STD Ranges❕: Programming/cpp/cpp-std-sort.md
-    - ❖ Tiền Xử Lý:
+    - Tiền Xử Lý:
       - Include❗: Programming/cpp/cpp-include.md
       - Define❗: Programming/cpp/cpp-define.md
       - Namespace‼️: Programming/cpp/cpp-namespace.md
@@ -167,95 +167,97 @@ nav:
       - Input Arguments‼️: Programming/cpp/cpp-command-line-arguments.md
       - Memory Model‼️: Programming/cpp/cpp-memory-model.md
       - Named Requirements‼️: Programming/cpp/cpp-named-requirements.md
-    - ❖ Khái Niệm:
+    - Khái Niệm:
       - Standard Library❗: Programming/cpp/cpp-std-standard-library.md
       - Iterator‼️:  Programming/cpp/cpp-iterator.md
-    - ❖ Build:
+    - Build:
       - Make Tool: Programming/cpp/cpp-build-tool-make.md
       - Makefile Ex: Programming/cpp/cpp-makefile-example.md
     - Refer&Doc: Programming/cpp/cpp-reference-document.md
-    - ❖ Example:
+    - Example:
       - Hello World: Programming/cpp/cpp-helloworld.md
       - My Stack: Programming/cpp/cpp-exmaple-my-stack.md
       - Support Header: Programming/cpp/cpp-exmaple-support-header.md
-    #----------------------------------------#
+  #----------------------------------------#
   - Rust:
-    - ♦️ Rust: Programming/Rust/rust.md
-    - Setup: Programming/Rust/rust-setup.md
-    - ❖ Rust Basic:
-      - Biến: Programming/Rust/rust-variables.md
-      - Biến Phức Hợp: Programming/Rust/rust-compound-variables.md
-      - Hàm: Programming/Rust/rust-function.md
-      - Phương Thức: Programming/Rust/rust-operator.md
-      - I/O Printer: Programming/Rust/rust-io-printer.md
-      - ❖ Điều Khiển Luồng:
-        - Flow Control: Programming/Rust/rust-flow-control.md
-        - If/Else: Programming/Rust/rust-flow-control-if-else.md
-        - Loop: Programming/Rust/rust-flow-control-loop.md
-        - While: Programming/Rust/rust-flow-control-while.md
-        - For: Programming/Rust/rust-flow-control-for.md
-        - Match: Programming/Rust/rust-flow-control-match.md
-    # - ❖ Rust Advance:
-    - ❖ Example:
+    - 🇻🇳 Rust: Programming/Rust/rust.md
+    - Prepare:
+      - Install: Programming/Rust/rust-install.md
+      - Prepare for Test: Programming/Rust/rust-prepare-for-test.md
+    - Biến:
+      - Variables: Programming/Rust/rust-variables.md
+      - Scalar: Programming/Rust/rust-variables-scalar-types.md
+      - Compound: Programming/Rust/rust-variables-compound-types.md
+    - Hàm: Programming/Rust/rust-function.md
+    - Phương Thức: Programming/Rust/rust-operator.md
+    - I/O Printer: Programming/Rust/rust-io-printer.md
+    - Điều Khiển Luồng:
+      - Flow Control: Programming/Rust/rust-flow-control.md
+      - If/Else: Programming/Rust/rust-flow-control-if-else.md
+      - Loop: Programming/Rust/rust-flow-control-loop.md
+      - While: Programming/Rust/rust-flow-control-while.md
+      - For: Programming/Rust/rust-flow-control-for.md
+      - Match: Programming/Rust/rust-flow-control-match.md
+    - Example:
       - Hello World: Programming/Rust/rust-example-helloworld.md
       - Variables: Programming/Rust/rust-example-variables.md
       - Primitives: Programming/Rust/rust-example-primitives.md
     - Document: Programming/Rust/rust-document.md
   #############################################################################################################################################################
   - Java:
-    - ♦️ Java: Programming/Java/java.md
-    - ❖ Overview:
+    - 🇻🇳 Java: Programming/Java/java.md
+    - Overview:
       - JDK, JRE và JVM: Programming/Java/java-jdk-jre-jvm.md
       - Install: Programming/Java/java-install.md
       - HelloWorld: Programming/Java/java-helloworld.md
-    - ❖ Basic:
+    - Basic:
       - Basic Syntax: Programming/Java/java-basic-synctax.md
       - Datatypes & Variables: Programming/Java/java-basic-datatypes-and-variables.md
   - Kotlin:
-    - ♦️ Kotlin: Programming/Kotlin/kotlin.md
+    - 🇻🇳 Kotlin: Programming/Kotlin/kotlin.md
     - Basic Concept: Programming/Kotlin/kotlin-basic-tour.md
   - Python:
-    - ♦️ Python: Programming/Python/python.md
-    - ❖ Cài đặt:
+    - 🇻🇳 Python: Programming/Python/python.md
+    - Cài đặt:
       - Window: Programming/Python/python-install-windows.md
       - Resased Version: Programming/Python/python-resased-version.md
       - Any Version: Programming/Python/python-any-version.md
-    - ❖ Cơ bản:
+    - Cơ bản:
       - Căn bản: Programming/Python/python-basic-concept.md
       - String: Programming/Python/python-string.md
       - Toán tử: Programming/Python/python-operator.md
       - Điều khiển luồng: Programming/Python/python-control-flow-statements.md
   #############################################################################################################################################################
   - Web:
-    - ♦️ HTML: NonProgramming/html/html.md
-    - ♦️ CSS: NonProgramming/css/css.md
-    - ♦️ PhP: Programming/php/php.md
+    - 🇻🇳 HTML: NonProgramming/html/html.md
+    - 🇻🇳 CSS: NonProgramming/css/css.md
+    - 🇻🇳 PhP: Programming/php/php.md
   #############################################################################################################################################################
   - Another:
     - Another Language: Programming/another-language.md
     - Assembly language: Programming/assembly-language.md
     - Programming language:
       - C#:
-        - ♦️ C#: Programming/c-sharp/c-sharp.md
+        - 🇻🇳 C#: Programming/c-sharp/c-sharp.md
       - Javascript:
-        - ♦️ Javascript: Programming/Javascript/javascript.md
+        - 🇻🇳 Javascript: Programming/Javascript/javascript.md
     - Non Programming language:
       # - Non Programming language: NonProgramming/non-programming-language.md
-      - ♦️ Markdown: NonProgramming/Markdown/markdown.md
-      - ♦️ PlantUml:
+      - 🇻🇳 Markdown: NonProgramming/Markdown/markdown.md
+      - 🇻🇳 PlantUml:
         - PlantUml: NonProgramming/PlantUml/plantuml.md
         - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
-        - ❖ UML Diagrams:
-          - Sequence diagram📌: NonProgramming/PlantUml/plantuml-sequence-diagram.md
+        - UML Diagrams:
+          - Sequence diagram ⚑: NonProgramming/PlantUml/plantuml-sequence-diagram.md
           - Usecase diagram: NonProgramming/PlantUml/plantuml-usecase-diagram.md
           - Class diagram: NonProgramming/PlantUml/plantuml-class-diagram.md
           - Object diagram: NonProgramming/PlantUml/plantuml-object-diagram.md
-          - Activity diagram📌: NonProgramming/PlantUml/plantuml-activity-diagram.md
+          - Activity diagram ⚑: NonProgramming/PlantUml/plantuml-activity-diagram.md
           - Component diagram: NonProgramming/PlantUml/plantuml-component-diagram.md
           - Deployment diagram: NonProgramming/PlantUml/plantuml-deployment-diagram.md
           - State diagram: NonProgramming/PlantUml/plantuml-state-diagram.md
           - Timing diagram: NonProgramming/PlantUml/plantuml-timing-diagram.md
-        - ❖ Non-UML Diagrams:
+        - Non-UML Diagrams:
           - JSON data: NonProgramming/PlantUml/plantuml-json-data.md
           - YAML data: NonProgramming/PlantUml/plantuml-yaml-data.md
           - EBNF diagram: NonProgramming/PlantUml/plantuml-ebnf-diagram.md
@@ -267,14 +269,14 @@ nav:
           - Ditaa diagram: NonProgramming/PlantUml/plantuml-ditaa-diagram.md
           - Gantt diagram: NonProgramming/PlantUml/plantuml-gantt-diagram.md
           - Chronology diagram: NonProgramming/PlantUml/plantuml-chronology-diagram.md
-          - MindMap diagram📌: NonProgramming/PlantUml/plantuml-mindmap-diagram.md
-          - WBS diagram📌: NonProgramming/PlantUml/plantuml-wbs-diagram.md
+          - MindMap diagram ⚑: NonProgramming/PlantUml/plantuml-mindmap-diagram.md
+          - WBS diagram ⚑: NonProgramming/PlantUml/plantuml-wbs-diagram.md
           - Mathematics: NonProgramming/PlantUml/plantuml-mathematics.md
           - IE diagram: NonProgramming/PlantUml/plantuml-ie-diagram.md
           - ER diagram: NonProgramming/PlantUml/plantuml-er-diagram.md
-      - ♦️ Mermaid:
+      - 🇻🇳 Mermaid:
         - Mermaid: NonProgramming/Mermaid/mermaid.md
-      - ♦️ Matlab:
+      - 🇻🇳 Matlab:
         - Matlab: Matlab/matlab.md
   #############################################################################################################################################################
   - Practice:
@@ -286,23 +288,23 @@ nav:
       - 1486. 3 XOR Operation in an Array: Practice/leetcode-1486.md
   - Tools:
     - Tools: Tools/tools.md
-    - ❖ Build Tools:
-      - ❖ GNU:
-        - GNU📌: Tools/tools-gnu.md
+    - Build Tools:
+      - GNU:
+        - GNU ⚑: Tools/tools-gnu.md
         - GCC: Tools/tools-gnu-gcc.md
         - G++: Tools/tools-gnu-g++.md
         - GDB: Tools/tools-gnu-gdb.md
-      - ❖ LLVM:
-        - LLVM📌: Tools/tools-llvm.md
-      - ❖ Clang:
-        - Clang📌: Tools/tools-clang.md
-    - ❖ Meta-Build System:
+      - LLVM:
+        - LLVM ⚑: Tools/tools-llvm.md
+      - Clang:
+        - Clang ⚑: Tools/tools-clang.md
+    - Meta-Build System:
       - Meta-Build System: Tools/meta-build-system.md
-      - ❖ Make:
+      - Make:
         - Make: Tools/make.md
         - Install: Tools/make-install.md
         - Example: Tools/make-example.md
-      - ❖ Cmake:
+      - Cmake:
         - Cmake: Tools/cmake.md
 
 extra_css:

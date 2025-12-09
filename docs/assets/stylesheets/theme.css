@@ -53,7 +53,7 @@
   --md-typeset-a-color: #2d4150;
   --custom-color-theme-h1--theme: #2d4150;
   --custom-color-theme-h2--theme: #3b4f72;
-  --custom-color-theme-h3--theme: #4d586b;
+  --custom-color-theme-h3--theme: #484684;
   --custom-color-theme-h4--theme: #005523;
   --custom-color-theme-h5--theme: #7c2828;
   --custom-color-theme-h6--theme: #004b55;
@@ -65,7 +65,7 @@
   --md-default-bg-color: #1e1e1e;
   --custom-color-theme-h1--theme: #94afc5;
   --custom-color-theme-h2--theme: #4f88a8;
-  --custom-color-theme-h3--theme: #5e81bd;
+  --custom-color-theme-h3--theme: #2a59b7;
   --custom-color-theme-h4--theme: #24753f;
   --custom-color-theme-h5--theme: #be6060;
   --custom-color-theme-h6--theme: #f990ff;
@@ -102,7 +102,14 @@
 .md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
   font-weight: bold;
 }
-  
+
+.md-nav__item .md-nav__link--active::after {
+  content: "🗁 ";
+  /* ➜≫◈ⁱ◫ ⊸⊶↠↳∠∟↵*/
+}
+label.md-nav__link::before {
+  content: "🖿 ";
+}
 .md-typeset h1 {
   font-weight: bold;
   text-align: center;
@@ -113,10 +120,14 @@
   font-weight: bold;
   color: var(--custom-color-theme-h2--theme);
 }
+.md-typeset h2::before { content: "🖈 "; }
+
 .md-typeset h3 {
-    font-weight: bold;
-    color: var(--custom-color-theme-h3--theme);
+  font-weight: bold;
+  color: var(--custom-color-theme-h3--theme);
 }
+.md-typeset h3::before { content: "» "; }
+
 .md-typeset h4 {
     font-weight: bold;
     color: var(--custom-color-theme-h4--theme);
