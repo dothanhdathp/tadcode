@@ -53,8 +53,8 @@
   --md-typeset-a-color: #2d4150;
   --custom-color-theme-h1--theme: #2d4150;
   --custom-color-theme-h2--theme: #3b4f72;
-  --custom-color-theme-h3--theme: #484684;
-  --custom-color-theme-h4--theme: #005523;
+  --custom-color-theme-h3--theme: #005540;
+  --custom-color-theme-h4--theme: #484684;
   --custom-color-theme-h5--theme: #7c2828;
   --custom-color-theme-h6--theme: #004b55;
   --custom-color-link: #1e7755;
@@ -65,8 +65,8 @@
   --md-default-bg-color: #1e1e1e;
   --custom-color-theme-h1--theme: #94afc5;
   --custom-color-theme-h2--theme: #4f88a8;
-  --custom-color-theme-h3--theme: #2a59b7;
-  --custom-color-theme-h4--theme: #24753f;
+  --custom-color-theme-h3--theme: #399283;
+  --custom-color-theme-h4--theme: #2a59b7;
   --custom-color-theme-h5--theme: #be6060;
   --custom-color-theme-h6--theme: #f990ff;
   --custom-color-link: #4aa582;
@@ -92,6 +92,9 @@
 }
 .md-typeset a {
   color: var(--custom-color-link);
+}
+a:not(.md-nav__link):not(.md-tabs__link):not(.md-nav__link--active):not(.md-header__button) {
+  font-style: italic;
 }
 .md-tabs {
   background-color: #2d4150;
