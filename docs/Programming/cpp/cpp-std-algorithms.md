@@ -63,7 +63,7 @@ Thường sẽ được sử dụng với `std::array`, `std::vector`, `std::lis
 
 Ở chế độ cơ bản, hàm này sẽ luôn sắp xếp từ bé đến lớn:
 
-```cpp "main.cpp"
+```cpp title="main.cpp"
 #include <iostream>
 #include <memory>
 #include <algorithm>
@@ -88,7 +88,7 @@ int main() {
 
 Chắc chắn có nhỏ hơn thì có lớn hơn. Trường hợp muốn sắp xếp có chiều thì có thể dùng các cờ như `std::greater`, `std::less` để chuyển đổi thuật toán sắp xếp:
 
-```cpp "main.cpp"
+```cpp title="main.cpp"
 #include <iostream>
 #include <memory>
 #include <algorithm>

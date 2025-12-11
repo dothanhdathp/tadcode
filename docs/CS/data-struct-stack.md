@@ -28,4 +28,3 @@ __Deque__ dữ liệu giống đường ống 2 chiều. Dữ liệu lấy ở t
 ## Tham Khảo
 
 - [Stack. What is it? What are the best implementations of a stack?](https://medium.com/@youssef.sawiris/stack-45051b2a4104)
-

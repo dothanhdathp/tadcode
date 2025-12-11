@@ -1,6 +1,6 @@
 @font-face {
   font-family: "PrimaryFont";
-  src: url("/assets/fonts/RadioCanada-Medium.ttf") format("truetype");
+  src: url("/assets/fonts/Barlow-Medium.ttf") format("truetype");
 }
 
 @font-face {
@@ -110,7 +110,7 @@
 label.md-nav__link::before {
   content: "🖿 ";
 }
-.md-typeset h1 {
+.md-typeset h1 {for i in $(ls | grep Medium); cp $i
   font-weight: bold;
   text-align: center;
   color: var(--custom-color-theme-h1--theme);
