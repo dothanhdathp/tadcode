@@ -37,51 +37,50 @@ plugins:
 
 nav:
   #############################################################################################################################################################
-  - Coder:
-    - Computer Science:
-      - About Computer Science: index.md
-      - Các Loại NNLT:
-        - Compiled Language: Programming/compiled-language.md
-        - Hybrid Language: Programming/hybrid-language.md
-        - Interpreted Language: Programming/interpreted-language.md
-        - Non Programming Language: NonProgramming/non-programming-language.md
-      - Chung:
-        - Tham Chiếu Và Tham Trị: CS/tham-chieu-va-tham-tri.md
-        - Memory Leaks: CS/common-memory-leaks.md
-        - Dangling Pointers: CS/common-dangling-pointers.md
-        - Tốc Độ Trong Ngôn Ngữ Lập Trình: CS/common-speed-of-language.md
-        - Lập trình hướng đối tượng: Dev/OOP/oop.md
-        - Iterators: CS/iterators.md
-        - ASCII: CS/common-ASCII.md
-      - Tham Khảo:
-        - Alan Turing: CS/common-alan-turing.md
-    - Core Computer Science:
-      - Data Struct:
-        - Data Struct: CS/data-struct.md
-        - Linear:
-          - Stack: CS/data-struct-stack.md
-      - Algorithm:
-        - Algorithm: CS/algorithm-overview.md
-        - Độ phức tạp thuật toán: CS/algorithm-algorithmic-complexity.md
-        - Sorting:
-          - About Sort: CS/algorithm-sort.md
-          - Selection Sort: CS/algorithm-selection-sort.md
-          - Bubble Sort: CS/algorithm-bubble-sort.md
-          - Insertion Sort: CS/algorithm-insertion-sort.md
-          - Quick Sort: CS/algorithm-quick-sort.md
-          - Counting Sort: CS/algorithm-counting-sort.md
-          - Radix Sort: CS/algorithm-radix-sort.md
-        - Hash:
-          - Hash:  CS/algorithm-hash.md
-          - FNV1a: CS/algorithm-hashing-fnv1a.md
-          - Wavefunction Collapse: CS/wavefunction-collapse.md
-      - Design Pattern:
-        - Design Pattern: CS/design-pattern.md
-        - Array: CS/data-struct-array.md
-      - Programming Paradigms:
-        - Programming Paradigms: CS/programming-paradigms.md
-        - OOP: CD/programming-paradigms-oop.md
+  - Computer Sci.:
+    - About Computer Science: index.md
+    - Các Loại NNLT:
+      - Compiled Language: Programming/compiled-language.md
+      - Hybrid Language: Programming/hybrid-language.md
+      - Interpreted Language: Programming/interpreted-language.md
+      - Non Programming Language: NonProgramming/non-programming-language.md
+    - Memory:
+      - Heap & Stack: CS/heap-and-stack.md
+      - Memory Leaks: CS/common-memory-leaks.md
+      - Dangling Pointers: CS/common-dangling-pointers.md
+      - Lập trình hướng đối tượng: Dev/OOP/oop.md
+      - Iterators: CS/iterators.md
+      - ASCII: CS/common-ASCII.md
+    - Programming Paradigms:
+      - Programming Paradigms: CS/programming-paradigms.md
+      - Tham Chiếu Và Tham Trị: CS/tham-chieu-va-tham-tri.md
+      - OOP: CD/programming-paradigms-oop.md
+    - Tham Khảo:
+      - Tốc Độ Trong Ngôn Ngữ Lập Trình: CS/common-speed-of-language.md
+      - Alan Turing: CS/common-alan-turing.md
   #############################################################################################################################################################
+  - Data Struct:
+    - Data Struct: CS/data-struct.md
+    - Linear:
+      - Stack: CS/data-struct-stack.md
+  - Algorithm:
+    - Algorithm: CS/algorithm-overview.md
+    - Độ phức tạp thuật toán: CS/algorithm-algorithmic-complexity.md
+    - Sorting:
+      - About Sort: CS/algorithm-sort.md
+      - Selection Sort: CS/algorithm-selection-sort.md
+      - Bubble Sort: CS/algorithm-bubble-sort.md
+      - Insertion Sort: CS/algorithm-insertion-sort.md
+      - Quick Sort: CS/algorithm-quick-sort.md
+      - Counting Sort: CS/algorithm-counting-sort.md
+      - Radix Sort: CS/algorithm-radix-sort.md
+    - Hash:
+      - Hash:  CS/algorithm-hash.md
+      - FNV1a: CS/algorithm-hashing-fnv1a.md
+      - Wavefunction Collapse: CS/wavefunction-collapse.md
+  - Design Pattern:
+    - Design Pattern: CS/design-pattern.md
+    - Array: CS/data-struct-array.md
   - C:
     - 🇻🇳 C: Programming/c/c.md
     - Data Types:
