@@ -72,10 +72,13 @@
   --custom-color-link: #4aa582;
 }
 [data-md-color-scheme=slate][data-md-color-primary=indigo] {
-    --md-typeset-a-color: #94afc5;
+  --md-typeset-a-color: #94afc5;
 }
 
 
+element.style {
+  background: var(--md-default-bg-color)
+}
 /* Full width = max-width: initial; or try 100% or 1280px or ...  */
 /* .md-grid {
   max-width: initial;
@@ -167,13 +170,14 @@ mark.blue {
 }
 
 /* Change table size */
-th {
-  background-color: #2d4150;
-  color: white;
-  font-size: unset;
+/* Change table size */
+.md-typeset table:not([class]) th {
+  background-color: #5188ff5b;
+  padding: 0.2em 1em 0.2em 1em;
+  font-size: small;
 }
-
-td {
+.md-typeset table:not([class]) td {
+  padding: 0.1em 1em 0.1em 1em;
   font-size: small;
 }
 

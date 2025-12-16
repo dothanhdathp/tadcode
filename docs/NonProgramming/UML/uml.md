@@ -1,0 +1,11 @@
+# \[UML\] Unified Modeling Language
+
+__Unified Modeling Language (UML)__ là một ngôn ngữ mô hình hóa trực quan, hướng đối tượng, có mục đích chung, cung cấp một cách để trực quan hóa kiến ​​trúc và thiết kế của một hệ thống, giống như một bản thiết kế chi tiết. UML định nghĩa ký hiệu cho nhiều loại sơ đồ tập trung vào các khía cạnh như hành vi, tương tác và cấu trúc.
+
+UML vừa là siêu mô hình hình thức vừa là tập hợp các mẫu đồ họa. Siêu mô hình xác định các thành phần trong mô hình hướng đối tượng như các lớp và thuộc tính. Về cơ bản, nó giống như siêu mô hình trong lập trình hướng đối tượng (OOP), tuy nhiên đối với OOP, siêu mô hình chủ yếu được sử dụng trong thời gian chạy để kiểm tra và sửa đổi động mô hình đối tượng ứng dụng. Siêu mô hình UML cung cấp nền tảng toán học, hình thức cho các khung nhìn đồ họa được sử dụng trong ngôn ngữ mô hình hóa để mô tả một hệ thống mới nổi.
+
+UML được tạo ra trong nỗ lực xác định ngôn ngữ chuẩn cho lập trình hướng đối tượng tại Hội nghị OOPSLA '95. Ban đầu, Grady Booch và James Rumbaugh đã hợp nhất các mô hình của họ thành một mô hình thống nhất. Tiếp theo là công ty Rational Software của Booch mua công ty Objectory của Ivar Jacobson và hợp nhất mô hình của họ vào UML. Vào thời điểm đó, Rational và Objectory là hai trong số những người chơi thống trị trong thế giới nhỏ bé của các nhà cung cấp độc lập các công cụ và phương pháp hướng đối tượng. Nhóm quản lý đối tượng (OMG) sau đó đã nắm quyền sở hữu UML.
+
+Việc tạo ra UML được thúc đẩy bởi mong muốn chuẩn hóa bản chất khác nhau của các hệ thống ký hiệu và cách tiếp cận thiết kế phần mềm vào thời điểm đó. Năm 1997, UML được Nhóm quản lý đối tượng (OMG) chấp nhận làm tiêu chuẩn và được tổ chức này quản lý kể từ đó. Năm 2005, UML cũng được Tổ chức Tiêu chuẩn hóa Quốc tế (ISO) và Ủy ban Kỹ thuật Điện Quốc tế (IEC) công bố là tiêu chuẩn ISO/IEC 19501. Kể từ đó, tiêu chuẩn này đã được sửa đổi định kỳ để bao gồm phiên bản mới nhất của UML.
+
+Hầu hết các nhà phát triển không sử dụng UML mà thay vào đó tạo ra các sơ đồ không chính thức hơn, thường được vẽ bằng tay. Tuy nhiên, những sơ đồ này thường bao gồm các phần tử từ UML.

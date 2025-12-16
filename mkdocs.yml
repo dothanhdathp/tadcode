@@ -232,51 +232,53 @@ nav:
     - 🇻🇳 CSS: NonProgramming/css/css.md
     - 🇻🇳 PhP: Programming/php/php.md
   #############################################################################################################################################################
-  - Another:
-    - Another Language: Programming/another-language.md
-    - Assembly language: Programming/assembly-language.md
-    - Programming language:
-      - C#:
-        - 🇻🇳 C#: Programming/c-sharp/c-sharp.md
-      - Javascript:
-        - 🇻🇳 Javascript: Programming/Javascript/javascript.md
-    - Non Programming language:
-      # - Non Programming language: NonProgramming/non-programming-language.md
-      - 🇻🇳 Markdown: NonProgramming/Markdown/markdown.md
-      - 🇻🇳 PlantUml:
-        - PlantUml: NonProgramming/PlantUml/plantuml.md
-        - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
-        - UML Diagrams:
-          - Sequence diagram ⚑: NonProgramming/PlantUml/plantuml-sequence-diagram.md
-          - Usecase diagram: NonProgramming/PlantUml/plantuml-usecase-diagram.md
-          - Class diagram: NonProgramming/PlantUml/plantuml-class-diagram.md
-          - Object diagram: NonProgramming/PlantUml/plantuml-object-diagram.md
-          - Activity diagram ⚑: NonProgramming/PlantUml/plantuml-activity-diagram.md
-          - Component diagram: NonProgramming/PlantUml/plantuml-component-diagram.md
-          - Deployment diagram: NonProgramming/PlantUml/plantuml-deployment-diagram.md
-          - State diagram: NonProgramming/PlantUml/plantuml-state-diagram.md
-          - Timing diagram: NonProgramming/PlantUml/plantuml-timing-diagram.md
-        - Non-UML Diagrams:
-          - JSON data: NonProgramming/PlantUml/plantuml-json-data.md
-          - YAML data: NonProgramming/PlantUml/plantuml-yaml-data.md
-          - EBNF diagram: NonProgramming/PlantUml/plantuml-ebnf-diagram.md
-          - Regex diagram: NonProgramming/PlantUml/plantuml-regex-diagram.md
-          - Network diagram (nwdiag): NonProgramming/PlantUml/plantuml-network-diagram-nwdiag.md
-          - UI mockups (salt): NonProgramming/PlantUml/plantuml-ui-mockups-salt.md
-          - Archimate diagram: NonProgramming/PlantUml/plantuml-archimate-diagram.md
-          - SDL: NonProgramming/PlantUml/plantuml-sdl.md
-          - Ditaa diagram: NonProgramming/PlantUml/plantuml-ditaa-diagram.md
-          - Gantt diagram: NonProgramming/PlantUml/plantuml-gantt-diagram.md
-          - Chronology diagram: NonProgramming/PlantUml/plantuml-chronology-diagram.md
-          - MindMap diagram ⚑: NonProgramming/PlantUml/plantuml-mindmap-diagram.md
-          - WBS diagram ⚑: NonProgramming/PlantUml/plantuml-wbs-diagram.md
-          - Mathematics: NonProgramming/PlantUml/plantuml-mathematics.md
-          - IE diagram: NonProgramming/PlantUml/plantuml-ie-diagram.md
-          - ER diagram: NonProgramming/PlantUml/plantuml-er-diagram.md
-      - 🇻🇳 Mermaid:
-        - Mermaid: NonProgramming/Mermaid/mermaid.md
-      - 🇻🇳 Matlab:
-        - Matlab: Matlab/matlab.md
+  - A.PL:
+    - Another Programming Language: Programming/another-programming-language.md
+    - Assembly: Programming/assembly-language.md
+    - C#:
+      - 🇻🇳 C#: Programming/c-sharp/c-sharp.md
+    - Javascript:
+      - 🇻🇳 Javascript: Programming/Javascript/javascript.md
+  - A.No.PL:
+    - Another Non Programming Language: NonProgramming/another-non-programming-language.md
+    - UML:
+      - UML: NonProgramming/UML/uml.md
+      - UML Class Diagram: NonProgramming/UML/uml-class-diagram.md
+    - 🇻🇳 Markdown: NonProgramming/Markdown/markdown.md
+    - 🇻🇳 PlantUml:
+      - PlantUml: NonProgramming/PlantUml/plantuml.md
+      - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
+      - UML Diagrams:
+        - Sequence diagram 🏲: NonProgramming/PlantUml/plantuml-sequence-diagram.md
+        - Usecase diagram: NonProgramming/PlantUml/plantuml-usecase-diagram.md
+        - Class diagram 🏲: NonProgramming/PlantUml/plantuml-class-diagram.md
+        - Object diagram: NonProgramming/PlantUml/plantuml-object-diagram.md
+        - Activity diagram 🏲: NonProgramming/PlantUml/plantuml-activity-diagram.md
+        - Component diagram: NonProgramming/PlantUml/plantuml-component-diagram.md
+        - Deployment diagram: NonProgramming/PlantUml/plantuml-deployment-diagram.md
+        - State diagram: NonProgramming/PlantUml/plantuml-state-diagram.md
+        - Timing diagram: NonProgramming/PlantUml/plantuml-timing-diagram.md
+      - Non-UML Diagrams:
+        - JSON data: NonProgramming/PlantUml/plantuml-json-data.md
+        - YAML data: NonProgramming/PlantUml/plantuml-yaml-data.md
+        - EBNF diagram: NonProgramming/PlantUml/plantuml-ebnf-diagram.md
+        - Regex diagram: NonProgramming/PlantUml/plantuml-regex-diagram.md
+        - Network diagram (nwdiag): NonProgramming/PlantUml/plantuml-network-diagram-nwdiag.md
+        - UI mockups (salt): NonProgramming/PlantUml/plantuml-ui-mockups-salt.md
+        - Archimate diagram: NonProgramming/PlantUml/plantuml-archimate-diagram.md
+        - SDL: NonProgramming/PlantUml/plantuml-sdl.md
+        - Ditaa diagram: NonProgramming/PlantUml/plantuml-ditaa-diagram.md
+        - Gantt diagram: NonProgramming/PlantUml/plantuml-gantt-diagram.md
+        - Chronology diagram: NonProgramming/PlantUml/plantuml-chronology-diagram.md
+        - MindMap diagram 🏲: NonProgramming/PlantUml/plantuml-mindmap-diagram.md
+        - WBS diagram 🏲: NonProgramming/PlantUml/plantuml-wbs-diagram.md
+        - Mathematics: NonProgramming/PlantUml/plantuml-mathematics.md
+        - IE diagram: NonProgramming/PlantUml/plantuml-ie-diagram.md
+        - ER diagram: NonProgramming/PlantUml/plantuml-er-diagram.md
+    - 🇻🇳 Mermaid:
+      - Mermaid: NonProgramming/Mermaid/mermaid.md
+    - 🇻🇳 Matlab:
+      - Matlab: Matlab/matlab.md
   #############################################################################################################################################################
   - Practice:
     - Prepare: Practice/practice.md
@@ -289,14 +291,14 @@ nav:
     - Tools: Tools/tools.md
     - Build Tools:
       - GNU:
-        - GNU ⚑: Tools/tools-gnu.md
+        - GNU 🏲: Tools/tools-gnu.md
         - GCC: Tools/tools-gnu-gcc.md
         - G++: Tools/tools-gnu-g++.md
         - GDB: Tools/tools-gnu-gdb.md
       - LLVM:
-        - LLVM ⚑: Tools/tools-llvm.md
+        - LLVM 🏲: Tools/tools-llvm.md
       - Clang:
-        - Clang ⚑: Tools/tools-clang.md
+        - Clang 🏲: Tools/tools-clang.md
     - Meta-Build System:
       - Meta-Build System: Tools/meta-build-system.md
       - Make:
