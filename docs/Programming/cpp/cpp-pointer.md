@@ -51,12 +51,13 @@ int main()
 }
 ```
 
+## Tìm Hiểu Thêm
 
-## Ghi chú
+Con trỏ nên coi là một __kiểu biến__, nó giống như dạng biến `int`, hay `long`, điều đó sẽ dễ dàng hơn nhiều trong việc hiểu cách thức mã của bạn hoạt động.
 
-!!! tip "Tip"
-    - Con trỏ cũng là một __kiểu biến__, nó giống như dạng biến `int`, hay `long`.
-        - Kiểu biến của con trỏ sẽ mang theo kiểu biến và kích thước.
+Con trỏ vốn là một khái niệm mơ hồ. Khác với các kiểu biến khác nó sẽ _không thực sự lưu giá trị_. Nó chỉ có đúng một thành phần là __địa chỉ__. Các thành phần khác như kích thước và kiểu được _trình biên dịch_ làm. Chính thế nên nếu bạn có thể lấy chính xác địa chỉ đến một hàm hoặc là biến nào đó của chương trình trong __*runtime*__ hoặc trên chính __*tệp nhị phân*__, mọi ngữ nghĩa đều không có ý nghĩa.
+
+Các kiểu biến nguyên thủy mới có `++`, `--` đối với con trỏ để nhảy đến địa chỉ liền kề. Việc xác định kích thước của dạng dữ liệu hay kiểu dữ liệu hoàn toàn do trình biên dịch __*(ghê vãi ò)*__. Chính thế nên mỗi khi viết một lớp tự định nghĩa, tốt nhất nên tự viết riêng toán tử nhảy địa chỉ.
 
 ## Liên kết
 

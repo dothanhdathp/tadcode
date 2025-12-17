@@ -1,4 +1,4 @@
-# \[C++\] Container
+# \[C++\] STD Container
 
 Các __Container__ đại diện cho các thùng chứa, hay dễ hiểu hơn chính là tập hợp của các loại __dữ liệu (biến)__ theo một kiến trúc được đặt tên.
 
@@ -9,9 +9,8 @@ Dưới đây là một số dạng thức của _container_
 Một khái niệm về _container_ phổ biến trong các ngôn ngữ lập trình gồm:
 
 - __Sequence Container__: Là các dạng danh sách có thứ tự, một số đại diện phổ biến là
-    - [Array (Chuỗi)](cpp-array.md): danh sách __tĩnh__. Không có khả năng mở rộng
-    - [Vector](cpp-vector.md): Danh sách như Array nhưng cho phép mở rộng ở hai đầu
-    - [Vector](cpp-vector.md): Danh sách như Array nhưng cho phép mở rộng ở hai đầu
+    - [Array (Chuỗi)](cpp-std-array.md): danh sách __tĩnh__. Không có khả năng mở rộng
+    - [Vector](cpp-std-vector.md): Danh sách như Array nhưng cho phép mở rộng ở hai đầu
 - __Associative Containers__:
     - [Map](cpp-map.md)
     - [Unordered Map‼](cpp-unordered-map.md)

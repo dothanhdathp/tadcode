@@ -112,67 +112,72 @@ nav:
       - Linux: Programming/cpp/cpp-install-for-linux.md
     - Biến:
       - Primitive:
-        - Primitive❗: Programming/cpp/cpp-primitive-datatypes.md
+        - ❗Primitive: Programming/cpp/cpp-primitive-datatypes.md
         - Pointer :
-          - Pointer❗: Programming/cpp/cpp-pointer.md
-          - Smart Pointer‼️: Programming/cpp/cpp-smart-pointer.md
-          - Raw Pointer‼️: Programming/cpp/cpp-raw-pointer.md
+          - ❗Pointer: Programming/cpp/cpp-pointer.md
+          - ‼️Smart Pointer: Programming/cpp/cpp-smart-pointer.md
+          - ‼️Raw Pointer: Programming/cpp/cpp-raw-pointer.md
         - String:
-          - String❗: Programming/cpp/cpp-string.md
-          - Tạo Và Huỷ❗: Programming/cpp/cpp-string-construct-deconstruct.md
-          - Truy Cập❗: Programming/cpp/cpp-string-index.md
-        - (C++) Numeric Limits❗: Programming/cpp/cpp-std-numeric-limits.md
+          - ❗String: Programming/cpp/cpp-string.md
+          - ❗Tạo Và Huỷ: Programming/cpp/cpp-string-construct-deconstruct.md
+          - ❗Truy Cập: Programming/cpp/cpp-string-index.md
+        - ❗(C++) Numeric Limits: Programming/cpp/cpp-std-numeric-limits.md
       - Non Primitive:
-        - Bitset‼️: Programming/cpp/cpp-std-bitset.md
-    - Container:
-      - STD Container: Programming/cpp/cpp-std-container.md
-      - STD Linear Types❗: Programming/cpp/cpp-linear-types.md
-      - STD Array❗: Programming/cpp/cpp-array.md
-      - STD Vector❗: Programming/cpp/cpp-vector.md
-      - STD List❗: Programming/cpp/cpp-list.md
-      - STD Map‼️: Programming/cpp/cpp-map.md
-      - STD Unordered Map‼️: Programming/cpp/cpp-unordered-map.md
-      - STD Initializer_List❕: Programming/cpp/cpp-initializer-list.md
-      - STD Set❕: Programming/cpp/cpp-set.md
-      - STD Unordered Set❕: Programming/cpp/cpp-unordered-set.md
+        - ‼️Bitset: Programming/cpp/cpp-std-bitset.md
+    - Thùng Chứa:
+      - Container: Programming/cpp/cpp-container.md
+      - Array: Programming/cpp/cpp-array.md
+      - Struct: Programming/cpp/cpp-struct.md
+      - Union: Programming/cpp/cpp-union.md
+    - Chức Năng:
+      - ❗Math Operator: Programming/cpp/cpp-operator.md
+      - ❗Bit Operator: Programming/cpp/cpp-bit-operator.md
+      - ❗Điều khiển luồng: Programming/cpp/cpp-flow-control.md
+      - ❗InOut: Programming/cpp/cpp-in-out.md
+      - ❗Vòng lặp: Programming/cpp/cpp-loop.md
+    - Function:
+      - ❗Hàm: Programming/cpp/cpp-function.md
+      - ‼️Lambda Function: Programming/cpp/cpp-lambda-function.md
+      - ‼️Function as Parameter: Programming/cpp/cpp-function-as-parameter.md
     - Class:
       - Class: Programming/cpp/cpp-class.md
-    - Feature:
-      - Math Operator❗: Programming/cpp/cpp-operator.md
-      - Bit Operator❗: Programming/cpp/cpp-bit-operator.md
-      - Điều khiển luồng❗: Programming/cpp/cpp-flow-control.md
-      - InOut❗: Programming/cpp/cpp-in-out.md
-      - Vòng lặp❗: Programming/cpp/cpp-loop.md
-    - Function:
-      - Hàm❗: Programming/cpp/cpp-function.md
-      - Lambda Function‼️: Programming/cpp/cpp-lambda-function.md
-      - Function as Parameter‼️: Programming/cpp/cpp-function-as-parameter.md
-    - STD Function:
-      - STD Iterators‼️: Programming/cpp/cpp-std-iterators.md
-      - STD Algorithms‼️: Programming/cpp/cpp-std-algorithms.md
-      - STD Math‼️: Programming/cpp/cpp-std-sort.md
-      - STD Utility‼️: Programming/cpp/cpp-std-sort.md
-      - STD IO‼️: Programming/cpp/cpp-std-sort.md
+      - Access Specifiers: Programming/cpp/cpp-access-specifiers.md
+    - Standard Library:
+      - ❗Standard Library: Programming/cpp/cpp-std-standard-library.md
+      - STD Container:
+        - STD Container: Programming/cpp/cpp-std-container.md
+        - ❗STD Linear Types: Programming/cpp/cpp-linear-types.md
+        - ❗STD Array: Programming/cpp/cpp-std-array.md
+        - ❗STD Vector: Programming/cpp/cpp-std-vector.md
+        - ❗STD List: Programming/cpp/cpp-std-list.md
+        - ‼️STD Map: Programming/cpp/cpp-std-map.md
+        - ‼️STD Unordered Map: Programming/cpp/cpp-unordered-map.md
+        - STD Initializer_List❕: Programming/cpp/cpp-initializer-list.md
+        - STD Set❕: Programming/cpp/cpp-set.md
+        - STD Unordered Set❕: Programming/cpp/cpp-unordered-set.md
+      - ‼️Iterator:  Programming/cpp/cpp-iterator.md
+      - ‼️STD Iterators: Programming/cpp/cpp-std-iterators.md
+      - ‼️STD Algorithms: Programming/cpp/cpp-std-algorithms.md
+      - ‼️STD Math: Programming/cpp/cpp-std-sort.md
+      - ‼️STD Utility: Programming/cpp/cpp-std-sort.md
+      - ‼️STD IO: Programming/cpp/cpp-std-sort.md
       - STD System ⁉️: Programming/cpp/cpp-std-sort.md
       - STD Chrono ⁉️: Programming/cpp/cpp-std-sort.md
       - STD Type_Traits ⁉️: Programming/cpp/cpp-std-sort.md
       - STD Format❕: Programming/cpp/cpp-std-sort.md
       - STD Ranges❕: Programming/cpp/cpp-std-sort.md
-    - Tiền Xử Lý:
-      - Include❗: Programming/cpp/cpp-include.md
-      - Define❗: Programming/cpp/cpp-define.md
-      - Namespace‼️: Programming/cpp/cpp-namespace.md
-      - Template‼️: Programming/cpp/cpp-template.md
-      - Input Arguments‼️: Programming/cpp/cpp-command-line-arguments.md
-      - Memory Model‼️: Programming/cpp/cpp-memory-model.md
-      - Named Requirements‼️: Programming/cpp/cpp-named-requirements.md
-    - Khái Niệm:
-      - Standard Library❗: Programming/cpp/cpp-std-standard-library.md
-      - Iterator‼️:  Programming/cpp/cpp-iterator.md
+    - Pre-Processing:
+      - ❗Include: Programming/cpp/cpp-include.md
+      - ❗Define: Programming/cpp/cpp-define.md
+      - ‼️Namespace: Programming/cpp/cpp-namespace.md
+      - ‼️Template: Programming/cpp/cpp-template.md
+      - ‼️Input Arguments: Programming/cpp/cpp-command-line-arguments.md
+      - ‼️Memory Model: Programming/cpp/cpp-memory-model.md
+      - ‼️Named Requirements: Programming/cpp/cpp-named-requirements.md
     - Build:
       - Make Tool: Programming/cpp/cpp-build-tool-make.md
       - Makefile Ex: Programming/cpp/cpp-makefile-example.md
-    - Refer&Doc: Programming/cpp/cpp-reference-document.md
+    - Refer & Doc: Programming/cpp/cpp-reference-document.md
     - Example:
       - Hello World: Programming/cpp/cpp-helloworld.md
       - My Stack: Programming/cpp/cpp-exmaple-my-stack.md
