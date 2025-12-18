@@ -129,6 +129,7 @@ nav:
       - Array: Programming/cpp/cpp-array.md
       - Struct: Programming/cpp/cpp-struct.md
       - Union: Programming/cpp/cpp-union.md
+      - Linked List: Programming/cpp/cpp-linked-list.md
     - Chức Năng:
       - ❗Math Operator: Programming/cpp/cpp-operator.md
       - ❗Bit Operator: Programming/cpp/cpp-bit-operator.md
