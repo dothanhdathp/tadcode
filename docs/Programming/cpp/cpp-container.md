@@ -20,12 +20,12 @@ Thùng chứa cổ điển hoặc có thể gọi là những cơ sở dữ li�
 - [struct](cpp-struct.md)
 - [union](cpp-union.md)
 
-### STD Cotainer
+### [STD Cotainer](cpp-std-container.md)
 
 Các thùng chứa ở đây là những thùng chứa được hỗ trợ bởi trình biên dịch trong bộ thư viện cơ bản. Nó được xây dựng dựa trên kiến thức về cơ sở dữ liệu và được chuẩn hóa, có tầm phủ sóng rộng rãi trong nhiều lĩnh vực.
-
-- [Liên kết đến](cpp-std-container.md)
 
 ### Tự Định Nghĩa
 
 Đây là các loại thùng chứa nâng cao được tự do phát triển tùy theo nhu cầu. Nó có thể phổ biến trong một lĩnh vực nào đó hoặc là được người dùng cảm thấy thú vị và tự tạo ra.
+
+- [Linked List](cpp-linked-list.md)

@@ -11,6 +11,7 @@ Một khái niệm về _container_ phổ biến trong các ngôn ngữ lập tr
 - __Sequence Container__: Là các dạng danh sách có thứ tự, một số đại diện phổ biến là
     - [Array (Chuỗi)](cpp-std-array.md): danh sách __tĩnh__. Không có khả năng mở rộng
     - [Vector](cpp-std-vector.md): Danh sách như Array nhưng cho phép mở rộng ở hai đầu
+    - [List](cpp-std-list.md): Một danh sách được thiết kế dưới dạng __Linked List__
 - __Associative Containers__:
     - [Map](cpp-map.md)
     - [Unordered Map‼](cpp-unordered-map.md)
