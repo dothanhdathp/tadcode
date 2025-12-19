@@ -27,7 +27,8 @@
 
 ## Road Map
 
-- Học [Data Type](cpp-primitive-datatypes.md)
+- [Kiểu biến nguyên thủy nguyên thủy](cpp-primitive-datatypes.md)
+- [Thư Viện Cơ Bản STD (Standard Library)](cpp-std-standard-library.md)
 
 ## Tham Khảo
 

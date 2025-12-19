@@ -116,3 +116,7 @@ int main() {
 _Nếu mà sử dụng đầu ra với hai đầu left/right ta có cấu trúc dữ liệu thứ hai là *tree*_
 
 __*TO_DO*__
+
+## Phát Triển
+
+__Linked List__ là đối tượng cơ bản. Khái niệm của kiểu dữ liệu này được sử dụng để phát triển thành hai cấu trúc dữ liệu của bộ thư viện cơ bản là [std::list](cpp-std-list.md) và [std::vector](cpp-std-vector.md).

@@ -238,3 +238,7 @@ Kết quả:
 ## Giới Hạn
 
 - [Numeric Limits](cpp-std-numeric-limits.md)
+
+## Thùng Chứa
+
+Tập hợp của nhiều biến dữ liệu sẽ tạo thành [Thùng Chứa](cpp-container.md). Các __Thùng Chứa__ sau này được nghiên cứu riêng, áp dụng các tiêu chuẩn sắp xếp, tính mở rộng, trở thành một bộ môn nghiên cứu riêng gọi là __Cấu Trúc Dữ Liệu__.

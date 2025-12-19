@@ -1,3 +1,4 @@
 # \[C++\] Array
 
-__Array__ là dạng dữ liệu kiểu chuỗi, là một dạng mở rộng của [kiểu biến](cpp-primitive-datatypes.md) 
+- [STD Array on _en.cppreference.com_](https://en.cppreference.com/w/cpp/container/array.html)
+- [STD Array on _www.geeksforgeeks.org_](https://www.geeksforgeeks.org/cpp/stdarray-in-cpp/)
