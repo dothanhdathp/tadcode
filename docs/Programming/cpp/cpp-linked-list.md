@@ -1,4 +1,5 @@
 # \[C++\] Linked List
+> Single Linked List
 
 __Linked List__ là dạng cơ sở dữ liệu cơ bản đầu tiên. Nó hoạt động the kiểu các thùng chứa đơn có một đầu liên tục. __Linked List__ có tốc độ cao, tính ổn định cũng cao và phân bổ bộ nhớ động nên khá được ưa dùng. Đây là cơ sở dữ liệu đầu tiên được học.
 
@@ -46,6 +47,7 @@ int main() {
 ```
 
 ## Linked List 2 Chiều
+> Doubly Linked List
 
 ### Cấu Trúc
 
@@ -119,4 +121,4 @@ __*TO_DO*__
 
 ## Phát Triển
 
-__Linked List__ là đối tượng cơ bản. Khái niệm của kiểu dữ liệu này được sử dụng để phát triển thành hai cấu trúc dữ liệu của bộ thư viện cơ bản là [std::list](cpp-std-list.md) và [std::vector](cpp-std-vector.md).
+__Linked List__ là đối tượng cơ bản. Khái niệm của kiểu dữ liệu này được sử dụng để phát triển thành hai cấu trúc dữ liệu của bộ thư viện cơ bản là [std::list](/Programming/cpp/cpp-std-list) và [std::vector](/Programming/cpp/cpp-std-vector). Mặc dù vậy, có điểm cần nhớ là __*std::list*__ của C++ không đại diện cho __List__, tức là ở một số ngôn ngữ lập trình khác thì cách phát triển của chúng cũng có đôi phần khác biệt.

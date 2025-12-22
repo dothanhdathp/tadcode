@@ -6,9 +6,10 @@
 
 ## Sử Dụng
 
-### Khai Báo
+### Khởi Tạo
 
-- Cơ bản có thể khai báo một `std::vector` bằng công thức `std::vector<T> __name__;` với `T` là kiểu thành phần của chuỗi.
+- Cơ bản có thể khởi tạo một `std::vector` bằng công thức `std::vector<T> __name__;` với `T` là kiểu thành phần của chuỗi.
+- Ngoài ra còn có khá nhiều cách khác để khởi tạo cấu trúc của `vector`.
 
 Đây là một thư viện dùng chung nên `std::vector` có khá nhiều cách để xây dựng __*(construct)*__. Ví dụ với dữ liệu cơ bản _interger_:
 
@@ -69,4 +70,21 @@ int main() {
 1. Cách thứ hai khai một mảng có độ lớn và giá trị khởi tạo được mặc định. Cách thứ hai thường được dùng khi muốn khởi tạo một vector mà muốn các giá trị khởi tạo được mặc định.
 1. Cách thứ ba là khai báo thông qua một mảng tĩnh.
 
-### Đưa dữ liệu vào vector
+### Vectors Iterators
+
+- __Vectors__ cũng là một cấu trúc dữ liệu cơ bản nên cách phát triển của nó cũng tuân thủ [Iterators](cpp-std-iterators.md)
+- Trong một vector luôn có hai con trỏ quan trọng nhất là `begin()` và `end()`
+- Hai con trỏ này trỏ đến vị trí đầu và cuối của mảng, được chuẩn hóa theo `std::iterator` cho các loại __*container*__ của __*C++*__
+- `rbegin()` và `rend()` là hai con trỏ ngược, thao tác với mảng nguyên thủy theo hướng ngược lại.
+- Lưu ý, các vị trí `end()` không mang giá trị, nhưng nó vẫn là con trỏ.
+
+<figure markdown="span">
+    ![](img/cpp-std-vector.png)
+    <figcaption></figcaption>
+</figure>
+
+## 
+
+## Tham Khảo
+
+- [Initializer List](/Programming/cpp/cpp-initializer-list)

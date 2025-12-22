@@ -32,5 +32,6 @@
 
 ## Tham Khảo
 
-1. Trang web tham khảo chính thống của ngôn ngữ __C++__ này ở: [https://en.cppreference.com/index.html](https://en.cppreference.com/index.html)
-1. Một trang web khác cũng phổ biến không kém là: [https://cplusplus.com/reference/](https://cplusplus.com/reference/)
+1. [Trang web tham khảo chính thống của ngôn ngữ __C++__](https://en.cppreference.com/index.html)
+1. [Cplusplus](https://cplusplus.com/reference/)
+1. [Hacking Cpp - Tổng hợp về](https://hackingcpp.com/index.html)
