@@ -175,6 +175,9 @@ nav:
       - ‼️Input Arguments: Programming/cpp/cpp-command-line-arguments.md
       - ‼️Memory Model: Programming/cpp/cpp-memory-model.md
       - ‼️Named Requirements: Programming/cpp/cpp-named-requirements.md
+    - Thread:
+      - ❗Thread: Programming/cpp/cpp-std-thread.md
+      - ❗Mutex: Programming/cpp/cpp-std-mutex.md
     - Build:
       - Make Tool: Programming/cpp/cpp-build-tool-make.md
       - Makefile Ex: Programming/cpp/cpp-makefile-example.md

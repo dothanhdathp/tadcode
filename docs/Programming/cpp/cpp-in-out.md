@@ -1,69 +1,91 @@
 # \[C++\] Input & Output
+> Chương này nói về các hoạt động đầu vào đầu ra của C++
 
-## Mô tả
+## C Type
 
-Thao tác đưa dữ liệu ra màn hình __*console (màn hình tương tác đơn giản nhất)*__. Thường được sử dụng để debug hoặc là các loại
+Kế thừa từ C nên C++ cũng có thể dùng các hàm in cơ bản của C như `printf()`, `putc()`, `scanf()`, ...
 
-## Thao tác nguyên thủy
+```cpp title="Ví Dụ Tham Khảo"
+#include <cstdio>
 
-### Mô tả
+int main() {
+    // print string
+    printf("Hello World!\n");
+    // print char
+    putchar('H');
+    // get input
+    char str_input[20];
+    scanf("%s", str_input);
+    printf("Input: %s\n", str_input);
+    return 0;
+}
+```
 
-`C++` vẫn hỗ trợ sử dụng các thao tác cổ điển được kế thừa từ ngôn ngữ `C`
+Để biết chi tiết hơn đọc thêm ở [C printf](../c/c-printf.md), [C scanf](../c/c-scanf.md).
 
-- __Input:__
-    - `putchar`/`puts`
-    - `printf`
-- __Output:__
-    - 
+## STD CIN/COUT
 
-### printf
-- Thao tác đơn giản, đẩy một chuỗi ký tự ra ngoài màn hình.
-- Phụ thuộc thư viện `stdio.h`
+`std::cin` và `std::cout` là một phần cuả thư viện _iostream_. Trong đó định nghĩa. Thư viện __*iostream*__
 
-| 1       | 2                                | 3                           |
-| :------ | :------------------------------- | :-------------------------- |
-| putchar | `int putchar(int character)`     | Viết một ký tự vào `stdout` |
-| puts    | `int puts ( const char * str );` | Viết chuỗi vào `stdout`     |
+```cpp
+#include <ios> 
+#include <streambuf> 
+#include <istream> 
+#include <ostream>
+ 
+namespace std { 
+    extern istream cin ; 
+    extern ostream cout ; 
+    extern ostream cerr ; 
+    extern ostream clog ;
 
+    extern wistream wcin ; 
+    extern wostream wcout ; 
+    extern wostream wcerr ; 
+    extern wostream wclog ; 
+}
+```
 
-- Thư viện kiểu C được kế thừa từ jngoon
-- Cấu trúc hàm: `int printf ( const char * format, ... );`
-    - Hàm này có giá trị trả về, là số ký tự được xuất ra ngoài.
+Thư viện này chứa các hàm cơ bản điều khiển đầu ra __*in/out*__. Các hàm thường dùng nhất là `std::cin` và `std::cout`.
 
-| Specifier  | Output                                                                                                                                                  | Example      |
-| :--------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------- |
-| `d` or `i` | Số nguyên, thập phân, có dấu                                                                                                                            | 392          |
-| `u`        | Số nguyên, thập phân, không dấu                                                                                                                         | 7235         |
-| `o`        | Số bát phân không dấu                                                                                                                                   | 610          |
-| `x`        | Số nguyên thập lục phân không dấu                                                                                                                       | 7ngày        |
-| `X`        | Số nguyên thập lục phân không dấu (viết hoa)                                                                                                            | 7FA          |
-| `f`        | Số thập phân dấu phẩy động, chữ thường                                                                                                                  | 392,65       |
-| `F`        | Số thập phân dấu phẩy động, chữ hoa                                                                                                                     | 392,65       |
-| `e`        | Ký hiệu khoa học (mantissa/mũ), chữ thường                                                                                                              | 3.9265e+2    |
-| `E`        | Ký hiệu khoa học (mantissa/mũ), chữ hoa                                                                                                                 | 3.9265E+2    |
-| `g`        | Sử dụng biểu diễn ngắn nhất: %e hoặc %f                                                                                                                 | 392,65       |
-| `G`        | Sử dụng biểu diễn ngắn nhất: %E hoặc %F                                                                                                                 | 392,65       |
-| `a`        | Dấu phẩy động thập lục phân, chữ thường                                                                                                                 | -0xc.90fep-2 |
-| `A`        | Dấu phẩy động thập lục phân, chữ hoa                                                                                                                    | -0XC.90FEP-2 |
-| `c`        | Tính cách                                                                                                                                               | Một          |
-| `S`        | Chuỗi ký tự                                                                                                                                             | vật mẫu      |
-| `P`        | Địa chỉ con trỏ                                                                                                                                         | b8000000     |
-| `N`        | Không có gì được in ra. Đối số tương ứng phải là một con trỏ đến một số nguyên có dấu. Số ký tự đã viết cho đến nay được lưu trữ ở vị trí được trỏ tới. |              |
-| `%`        | Ký tự % theo sau là một ký tự % khác sẽ ghi một ký tự % duy nhất vào luồng.                                                                             | %            |
+Thư viện __*iostream*__ mới là thư viện chuẩn đầu ra vào cho C++ bởi nó an toàn luồng, nhưng hầu hết mọi người thích dùng _printf()_ của C hơn vì nó nhanh hơn.
 
-Flag
+```cpp
+#include <iostream>
 
-| flags   | description                                                                                                                                                                                                                                                                                                                                                                      |
-| :------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `-`       | Căn trái trong phạm vi chiều rộng được chỉ định; Căn phải là mặc định (xem thông số phụ về chiều rộng ).                                                                                                                                                                                                                                                                         |
-| `+`       | Buộc phải thêm dấu cộng hoặc dấu trừ ( + hoặc - ) vào trước kết quả ngay cả đối với số dương.                                                                                                                                                                                                                                                                                    |
-| `(space)` | Nếu không có dấu hiệu nào được viết, một khoảng trắng sẽ được chèn vào trước giá trị.                                                                                                                                                                                                                                                                                            |
-| `#`       | Được sử dụng với các chỉ định `o, x hoặc X`, giá trị được đặt trước bằng `0, 0x hoặc 0X` tương ứng cho các giá trị khác không.<br>Được sử dụng với `a, A, e, E, f, F, g hoặc G`, nó buộc đầu ra được viết phải chứa dấu thập phân ngay cả khi không có thêm chữ số nào theo sau.<br>_Theo mặc định, nếu không có chữ số nào theo sau, thì không có dấu thập phân nào được viết._ |
-| `0`       | Thêm số bên trái bằng số không.                                                                                                                                                                                                                                                                                                                                                  |
+int main() {
+    // Output
+    std::cout << "Hello World" << std::endl;
 
+    // Input
+    int input;
+    std::cout << "Input Number: ";
+    std::cin >> input;
+    std::cout << "Input: " << input << std::endl;
+}
+```
 
-### std::cout
+## \[C++17\] Wrap in Println
 
-## cin
+Nhưng việc sử dụng std::cout khá là phiền. Ở C++17 có thể sử dụng hàm sau:
 
-## Reference (tham khảo)
+```cpp
+#include <iostream>
+
+template <typename... Args>
+void println(Args... args) {
+    (std::cout << ... << args) << std::endl; // C++17 Fold Expression
+}
+
+int main() {
+    println("Hello World!");
+    return 0;
+}
+```
+
+Hàm này đóng gói lại lệnh gọi hàm `std::cout` từ __C++__, cung cấp một hàm với giao thức khác dễ dùng, dễ đọc hơn.
+
+!!! danger "print và println (C++23)"
+    Có hai hàm __print__ và __println__ được phát triển từ __*C++23*__. Các hàm này phát triển khá là giống __Rust__, thay vì sử dụng `%s`, `%d`, ... như C, hàm này thay các đối số vào các vị trị `{}`:
+
+    Nhưng khi dựng thử nghiệm hàm đó có vẻ chưa được phổ biến cho lắn nên để sau đi.
