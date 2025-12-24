@@ -1,17 +1,114 @@
 # \[C++\] Thread
 
-Theard là các phân luồng hoạt động trong __C++__. Đa luồng giúp chương trình thực thi nhiều tác vụ cùng một lúc giúp cho hệ thống trơn tru hơn. Mặc dù đánh đổi bởi sự an toàn cũng như việc quản lý tài nguyên nhưng thật sự đa luồng rất hữu dụng.
+Đa luồng trong __C++__.
+
+## Đa Luồng
+
+- Đa luồng sử dụng thư viện `<thread>`
+- Luồng được tạo khi khai báo `std::thread __name(__function)`
+    - `__name`: Tên biến
+    - `__function`: Hàm thực thi của luồng.
+- Các luồng con sử dụng tiến trình khác biệt, nhưng chia sẻ chung không gian bộ nhớ với __*main*__ (PID)
+- Bất kể luồng con nào xảy ra lỗi khiến chương trình kết thúc, __*(crash)*__ gây sập trên toàn bộ hệ thống.
+- __Synchronous Thread__
+    - Luồng đồng bộ, thực hiện ở một luồng riêng nhưng ở _main thread_ vẫn có quyền chi phối.
+    - Có một tiến trình `join()` để trở lại _main_ khi luồng kết thúc.
+- __Asynchronous Thread__
+    - Luồng Bất Đồng Bộ, xảy ra khi thread gọi `detach()`
+    - Sau đó luồng sẽ rời khỏi sự quản lý của __*main thread*__, hoàn toàn độc lập.
+
+<figure markdown="span">
+    ![alt text](img/cpp-std-thread.png)
+    <figcaption></figcaption>
+</figure>
+
+## Khởi Tạo
+
+- Một luồng - __*thread*__ được tạo ra bằng công thức: `std::thread __name(__function__)`.
+- Sau khi được khởi tạo, luồng sẽ tự động thực thi hàm được khai báo trong luồng.
 
 ## Synchronous Thread
+> Luồng Đồng Bộ
 
-Thread là một tiến trình tách biệt với luồng chính của chương trình, nhưng vẫn sẽ sử dụng chung không gian bộ nhớ _(hệ điều hành quản lý)_. Thế nên việc sử dụng luồng ra sao là việc của hệ điều hành.
+- Luồng đồng bộ là luồng sau khi khởi tạo không gọi __*detach()*__, nói đơn giản hơn khi bạn khởi tạo luồng với `std::thread __thread(task)`, nó sẽ là luồng đồng bộ.
+- Luồng đồng bộ chịu sự chi phối của biến nơi tạo ra luồng `std::thread __thread(task)`.
+- Luồng đồng bộ luôn cần dùng `join()` để hệ điều hành thực hiện nhiệm vụ giải phóng bộ nhớ của luồng.
 
-- Trong __C++__, một luồng - __thread__ được tạo ra bằng công thức: `std::thread __name(__function__)`
-- Sau đó hàm được dùng khởi tạo sẽ ngay lập tức được khởi động.
-- Trong khi luồng, luồng tại main sẽ không bị khóa.
-- Luồng chính sẽ chờ tiến trình ở luồng con bằng hàm __join()__, tiến trình chờ này được gọi là đồng bộ luồng __*(Synchronous)*__.
+Xảy xem trước với ví dụ đơn giản sau:
 
-### Ví Dụ
+```cpp
+#include <iostream>
+#include <thread>
+#include <unistd.h>
+
+void task() {
+    // do something
+    sleep(1);
+}
+
+int main() {
+    std::thread thread_0(task);
+    thread_0.join();
+    return 0; 
+}
+```
+
+### join
+
+- Ở ví dụ trên, luồng chỉ đơn giản được khởi tạo. Trong luồng không làm gì chả chỉ chờ trong 1 giây và thoát.
+- Nếu không gọi hàm __join()__, chương trình sẽ kết thúc ở `main()` và xảy ra lỗi.
+    ```text title="Lỗi không gọi join"
+    terminate called without an active exception
+    Aborted
+    ```
+    - Lỗi này xảy ra do khi `main()` kết thúc, vì thread không được xử lý __*join()*__
+    - Khi kết thúc thì dữ liệu của `std::thread thread_0(task);` bị giải phóng khỏi __*stack*__. `thread_0` trực tiếp gọi đến hàm hủy trong khi luồng đang thực thi. Điều này gây lỗi.
+- Trong trường hợp gọi `join()` mà luồng chưa thực hiện xong, luồng đó sẽ bị dừng lại để đợi luồng con thực hiện xong mới thoát chương trình.
+- Gọi hai lần `join()` thì chương trình cũng chết với lỗi là __Invalid argument__, do bộ nhớ đã giải phóng và không thể truy cập lại.
+
+!!! danger "Ghi nhớ"
+    Thực tế ngay cả hoạt động trong luồng đã kết thúc trước khi hàm main kết thúc, luồng đồng bộ cũng không __*tự giải phóng bộ nhớ*__. Có thể thử ngược lại với hàm main đặt chờ `sleep(1)` và thread không hoạt có hành động nào cả. Lúc đó khi thoát chương trình lỗi vẫn sẽ xuất hiện.
+    
+    ```cpp
+    #include <iostream>
+    #include <thread>
+    #include <unistd.h>
+
+    void task() {
+        // do something
+    }
+
+    int main() {
+        std::thread thread_0(task);
+        sleep(1);
+        return 0; 
+    }
+    ```
+    ```text
+    terminate called without an active exception
+    Aborted
+    ```
+    - Thực tế sau khi kết thúc, luồng đồng bộ vẫn ở trạng thái chờ và tiếp tục đợi cuộc gọi đến `join()` để bộ nhớ có thể được giải phóng.
+
+### joinable
+
+`joinable()` cho biết luồng đó có sẵn sàng cho hành động `join()` hay không. Giải pháp an toàn ở đây là:
+
+```cpp
+if(thread_0.joinable()) {
+    thread_0.join();
+}
+```
+
+Tại sao lại cần __*joinable()*__? Bởi vì trong chương trình có logic luồng phức tạp có rất nhiều trường hợp việc gọi trực tiếp đến __*join()*__ sẽ gây chết chương trình. Các trường hợp khiến __*joinable()*__ trả về `false` như sau:
+
+- Khởi tạo luồng nhưng chưa gán hàm thực thi, luồng vẫn chưa hoạt động.
+- Hành động `join()` đã được thực hiện trước đó rồi.
+- Luồng đã được `detach()` và không còn trong quyền kiểm soát nữa.
+
+## Ví Dụ
+
+### Ví Dụ Luồng Đồng Bộ
 
 - Ví dụ dưới đây cho thấy sự hoạt động của hai luồng con trong một luồng chính.
 - Luồng chính hoạt động sau mỗi 0.5 giây, các luồng con là một giây.
@@ -96,7 +193,7 @@ t2 ID: 130044701697728
 Dễ thấy, các hàm in ra không có sự đồng bộ, các tiến trình được xen lận
 
 ## Asynchronous Thread
-> Luồng không đồng bộ
+> Luồng Bất Đồng Bộ
 
 - Luồng không đồng bộ là luồng được tách hoàn toàn khỏi __*main*__, hàm thực hiện việc đó là hàm __*detach()*__
 - Qua việc __*detach()*__ luồng, luồng main sẽ không còn có thể chờ luồng thực thi và đồng bộ lại nữa. Tức là khi này __join()__ sẽ không còn tác dụng.

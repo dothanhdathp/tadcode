@@ -66,6 +66,7 @@ nav:
   - Algorithm:
     - Algorithm: CS/algorithm-overview.md
     - Độ phức tạp thuật toán: CS/algorithm-algorithmic-complexity.md
+    - Lock Hierarchy: CS/algorithm-lock-hierarchy.md
     - Sorting:
       - About Sort: CS/algorithm-sort.md
       - Selection Sort: CS/algorithm-selection-sort.md
