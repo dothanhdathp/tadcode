@@ -46,7 +46,6 @@
     --md-primary-fg-color: #41586b;
 }
 
-
 /* Light theme */
 [data-md-color-scheme=default] {
   --md-default-bg-color: #e4e4e4;
@@ -204,4 +203,7 @@ div.grid-container-4-3 {
 }
 .md-typeset__table table:not([class]) {
     display: table;
+}
+.small-text {
+    font-size: 0.5em;
 }

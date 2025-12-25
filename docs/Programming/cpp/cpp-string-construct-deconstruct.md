@@ -83,7 +83,7 @@ aaaaaaaaaa
 aaaaaaaaaa
 ```
 
-### Cắt chuỗi
+### Tạo Chuỗi Từ Một Phần
 
 Hàm khởi tạo cũng có thể cắt chuỗi.
 
@@ -91,13 +91,20 @@ Hàm khởi tạo cũng có thể cắt chuỗi.
 #include <iostream>
 
 int main() {
+    // 10 Ký tự 'a'
     std::string a(10, 'a');
-    std::string b(a, 5); // Lấy 5 ký tự từ chuỗi a
-    std::string c("aaaaaaaaaa", 5); // Lấy 5 ký tự từ chuỗi gốc
-    std::string d("abcdefgh", 3, 3); // Lấy 5 ký tự từ chuỗi gốc
     std::cout << a << std::endl;
+
+    // Lấy 5 ký tự từ chuỗi a
+    std::string b(a, 5);
     std::cout << b << std::endl;
+
+    // Lấy 5 ký tự từ chuỗi gốc
+    std::string c("aaaaaaaaaa", 5);
     std::cout << c << std::endl;
+
+    // Lấy 5 ký tự từ chuỗi gốc
+    std::string d("abcdefgh", 3, 3);
     std::cout << d << std::endl;
     return 0;
 }

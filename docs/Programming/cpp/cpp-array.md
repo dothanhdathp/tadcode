@@ -108,13 +108,20 @@ int main() {
     1. Mỗi giá trị tương ứng với một nửa giá trị của `long long`
     1. Nhưng có vẻ như bị __*ngược*__? Đọc thêm về [Endianness](http://localhost:65001/OS/os-endianness/)
 
-
 ## Sử Dụng
 
 Điểm đầu tiên cần nhớ là nên khai báo chuỗi ở __*global*__ và tái sử dụng mảng là cách an toàn nhất. Tư duy đúng đắn là tạo ra một phân vùng dữ liệu gốc và tái sử dụng chúng để tránh việc khai báo và khởi tạo lặp gây __Memory Leak__.
 
 Cách thứ hai đó là nên sử dụng các cơ sở dữ liệu sẵn có như `std::array` hoặc `std::vector` thay cho việc sử dụng các mảng cổ điển. Bạn đang lập trình trên ngôn ngữ bậc cao nên dùng các công cụ phù hợp với ngôn ngữ.
 
-## STD Array
+!!! danger "Mảng là dữ liệu thuần túy"
+    Trong cách thức lập trình, ít khi người ta sử dụng mảng. Mảng thường chỉ sử dụng trong ngôn ngữ thấp hơn là C. Mảng về đơn thuần nó đại diện cho ý nghĩa như là __dữ liệu thuần túy__. Nó nguy hiểm và không an toàn, dễ đổ vỡ trong những chương trình lớn và phức tạp mặc dù nó là một trong những dạng dữ liệu đầu tiên.
 
-Mảng thuần C khá là nguy hiểm, nó liên quan trực tiếp đến địa chỉ của dữ liệu. Tránh trường hợp đó C++ cung cấp một thư viện hệ thống [std::array](cpp-std-array.md) cho mảng. Về bản chất nó vẫn giống như mảng nguyên thủy, chỉ khác duy nhất là đã được đóng gói và mở rộng nhiều giao thức an toàn để tương tác với mảng hơn lối sử dụng như mảng C thuần.
+    Thế nên khuyến khích luôn được đưa ra, nếu không phải bạn muốn có một vùng nhớ có sẵn, thuần túy chứa dữ liệu ví dụ như chuỗi văn bản, chuỗi bản tin với kích cỡ tĩnh trong giao thức, hay một chuỗi mật mã độ dài xác định (aes256), ... thì tốt nhất không dùng mảng.
+
+    C++ cung cấp khá là nhiều giao thức an toàn và tiết kiệm dữ liệu hơn là std::array và std::vector. Việc sử dụng đúng cách cũng là một phương án giúp mã dễ đọc và dễ bảo trì hơn nhiều.
+
+## Liên Kết
+
+- [std::array](cpp-std-array.md)
+- [std::vector](cpp-std-vector.md)

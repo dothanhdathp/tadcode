@@ -62,7 +62,6 @@ Bộ điều hợp vùng chứa cung cấp giao diện khác cho vùng chứa tu
 | std::flat_multiset             |  (C++23)  | điều chỉnh một vùng chứa để cung cấp một tập hợp các khóa, được sắp xếp theo các khóa                      |
 | std::flat_multimap             |  (C++23)  | điều chỉnh hai vùng chứa để cung cấp tập hợp các cặp khóa-giá trị, được sắp xếp theo khóa                  |
 
-
 Một số dạng container cần thoả mãn một số yêu cầu thiết kế trong [Named Requirements](cpp-named-requirements.md#container)
 
 ## Tham Khảo
