@@ -339,4 +339,5 @@ std::thread t2(task, 2);
 
 ## Tiếp Theo
 
-- An toàn luồng với [Mutex](cpp-std-mutex.md)
+- [An toàn luồng với Mutex](cpp-std-mutex.md)
+- [Luồng tự động an toàn std::jthread](cpp-std-jthread.md)

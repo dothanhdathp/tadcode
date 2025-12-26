@@ -34,6 +34,7 @@ plugins:
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
   - graph
+  - markmap
 
 nav:
   #############################################################################################################################################################
@@ -56,7 +57,7 @@ nav:
       - Tham Chiếu Và Tham Trị: CS/tham-chieu-va-tham-tri.md
       - OOP: CD/programming-paradigms-oop.md
     - Tham Khảo:
-      - Tốc Độ Trong Ngôn Ngữ Lập Trình: CS/common-speed-of-language.md
+      - Tốc Độ Trong Ngôn Ngữ Lập Trình: CS/c ommon-speed-of-language.md
       - Alan Turing: CS/common-alan-turing.md
   #############################################################################################################################################################
   - Data Struct:
@@ -107,7 +108,6 @@ nav:
   - C++:
     - Chung:
       - 🇻🇳 C++: Programming/cpp/cpp.md
-      - Roadmap: Programming/cpp/cpp-roadmap.md
       - Thư Viện STD: Programming/cpp/cpp-std.md
       - Cài Đặt:
         - Windows: Programming/cpp/cpp-install-for-windows.md
@@ -119,6 +119,7 @@ nav:
         - Hello World: Programming/cpp/cpp-helloworld.md
         - My Stack: Programming/cpp/cpp-exmaple-my-stack.md
         - Support Header: Programming/cpp/cpp-exmaple-support-header.md
+        - Draw Loading: Programming/cpp/cpp-exmaple-draw-loading.md
       - Refer & Doc: Programming/cpp/cpp-reference-document.md
     - Biến:
       - Primitive:
@@ -131,9 +132,8 @@ nav:
           - String: Programming/cpp/cpp-string.md
           - Tạo Và Huỷ: Programming/cpp/cpp-string-construct-deconstruct.md
           - Truy Cập: Programming/cpp/cpp-string-index.md
-        - (C++) Numeric Limits: Programming/cpp/cpp-std-numeric-limits.md
-      - Non Primitive:
         - Bitset: Programming/cpp/cpp-std-bitset.md
+      - (C++) Numeric Limits: Programming/cpp/cpp-std-numeric-limits.md
     - Thùng Chứa:
       - Container: Programming/cpp/cpp-container.md
       - Array: Programming/cpp/cpp-array.md
@@ -192,13 +192,22 @@ nav:
   #----------------------------------------#
   - Rust:
     - 🇻🇳 Rust: Programming/Rust/rust.md
-    - Prepare:
+    - Chung:
       - Install: Programming/Rust/rust-install.md
       - Prepare for Test: Programming/Rust/rust-prepare-for-test.md
+      - Document: Programming/Rust/rust-document.md
+      - Example:
+        - Example Hello World: Programming/Rust/rust-example-helloworld.md
+        - Example Variables: Programming/Rust/rust-example-variables.md
+        - Example Primitives: Programming/Rust/rust-example-primitives.md
     - Biến:
       - Variables: Programming/Rust/rust-variables.md
-      - Scalar: Programming/Rust/rust-variables-scalar-types.md
-      - Compound: Programming/Rust/rust-variables-compound-types.md
+      - Scalar Types: Programming/Rust/rust-variables-scalar-types.md
+      - Compound Types:
+        - Compound: Programming/Rust/rust-variables-compound-types.md
+        - Tuples: Programming/Rust/rust-variables-compound-types-tuples.md
+        - Array: Programming/Rust/rust-variables-compound-types-array.md
+        - Slices: Programming/Rust/rust-variables-compound-types-slices.md
     - Hàm: Programming/Rust/rust-function.md
     - Phương Thức: Programming/Rust/rust-operator.md
     - I/O Printer: Programming/Rust/rust-io-printer.md
@@ -209,11 +218,6 @@ nav:
       - While: Programming/Rust/rust-flow-control-while.md
       - For: Programming/Rust/rust-flow-control-for.md
       - Match: Programming/Rust/rust-flow-control-match.md
-    - Example:
-      - Hello World: Programming/Rust/rust-example-helloworld.md
-      - Variables: Programming/Rust/rust-example-variables.md
-      - Primitives: Programming/Rust/rust-example-primitives.md
-    - Document: Programming/Rust/rust-document.md
   #############################################################################################################################################################
   - Java:
     - 🇻🇳 Java: Programming/Java/java.md

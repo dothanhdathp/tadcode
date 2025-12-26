@@ -1,4 +1,4 @@
-# \[Rust\] Variables - Scalar Types
+# \[Rust\] Scalar
 
 > Thuộc kiểu __Biến Nguyên Thủy__, đòng đơn hướng.
 

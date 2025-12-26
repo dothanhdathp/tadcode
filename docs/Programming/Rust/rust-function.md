@@ -45,7 +45,7 @@ fn reverse_pair(pair: (i32, bool)) -> (bool, i32) {
 }
 ```
 
-> [Rust Example Primitives - Tuples](rust-example-primitives.md#tuples)
+> [Rust Example Primitives - Tuples](/Programming/Rust/rust-example-primitives#tuples)
 
 
 #### Đối Số Mảng

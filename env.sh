@@ -33,6 +33,7 @@ echo "Install requeriment"
 pip install click==8.0.4
 pip install mkdocs
 pip install pymdown-extensions
+pip install mkdocs-markmap
 pip install mkdocs-material
 pip install mkdocs_puml
 pip install mkdocs-network-graph-plugin
