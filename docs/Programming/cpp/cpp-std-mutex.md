@@ -221,4 +221,4 @@ Như ở trên việc mỗi luồng đang sử dụng khóa để khóa chéo nh
 ## Tham Khảo
 
 - [Cppreference - Mutex](https://en.cppreference.com/w/cpp/thread/mutex.html)
-- _Phân Cấp Khóa_ : __Lock Hierarchy__
+- _Phân Cấp Khóa_ : [Lock Hierarchy](/CS/algorithm-lock-hierarchy)_

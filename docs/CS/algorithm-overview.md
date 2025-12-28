@@ -13,8 +13,7 @@ markmap:
         - [Độ Phức Tạp Thuật Toán](dev-algorithm-algorithmic-complexity.md)
     - Greedy
     - Dynamic
-    - Sorting
-        - [About Sort](/CS/algorithm-sort/)
+    - [About Sorting](/CS/algorithm-sort/)
         - [Selection Sort](/CS/algorithm-selection-sort/)
         - [Bubble Sort](/CS/algorithm-bubble-sort/)
         - [Insertion Sort](/CS/algorithm-insertion-sort/)
