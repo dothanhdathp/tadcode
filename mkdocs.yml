@@ -44,20 +44,18 @@ nav:
       - Compiled Language: Programming/compiled-language.md
       - Hybrid Language: Programming/hybrid-language.md
       - Interpreted Language: Programming/interpreted-language.md
-      - Non Programming Language: NonProgramming/non-programming-language.md
+      - Non Programming Language: NonProgramming/another-non-programming-language.md
     - Memory:
       - Heap & Stack: CS/heap-and-stack.md
       - Memory Leaks: CS/common-memory-leaks.md
       - Dangling Pointers: CS/common-dangling-pointers.md
-      - Lập trình hướng đối tượng: Dev/OOP/oop.md
+      - Lập trình hướng đối tượng: CS/oop.md
       - Iterators: CS/iterators.md
       - ASCII: CS/common-ASCII.md
     - Programming Paradigms:
-      - Programming Paradigms: CS/programming-paradigms.md
       - Tham Chiếu Và Tham Trị: CS/tham-chieu-va-tham-tri.md
-      - OOP: CD/programming-paradigms-oop.md
     - Tham Khảo:
-      - Tốc Độ Trong Ngôn Ngữ Lập Trình: CS/c ommon-speed-of-language.md
+      - Tốc Độ Trong Ngôn Ngữ Lập Trình: CS/common-speed-of-language.md
       - Alan Turing: CS/common-alan-turing.md
   #############################################################################################################################################################
   - Data Struct:
@@ -86,12 +84,19 @@ nav:
   - C:
     - 🇻🇳 C: Programming/c/c.md
     - Data Types:
-      - Data Types: Programming/c/c-data-types.md
-      - Derived Data Types: Programming/c/c-derived-data-types.md
-      - User Defined Data Types: Programming/c/c-user-defined-data-types.md
-      - Chuỗi: Programming/c/c-array.md
-      - Pointer: Programming/c/c-pointer.md
+      - Basic Data Types: Programming/c/c-basic-data-types.md
+      - Derived Data Types:
+        - Pointer: Programming/c/c-pointer.md
+        - Chuỗi: Programming/c/c-array.md
+      - User Defined Data Types:
+        - Structure: Programming/c/c-struct.md
+        - Union: Programming/c/c-union.md
+        - Enum: Programming/c/c-enum.md
       - (C) Numeric Limits: Programming/c/c-numeric-limits.md
+    - Function:
+      - Function: Programming/c/c-function.md
+      - Function Pointer: Programming/c/c-function-pointer.md
+      - Lambda Function:  Programming/c/c-function-lambda-function.md
     - In/Out:
       - printf: Programming/c/c-printf.md
       - scanf: Programming/c/c-scanf.md
@@ -106,8 +111,8 @@ nav:
       - Makefile: Programming/c/c-makefile.md
   #----------------------------------------#
   - C++:
+    - 🇻🇳 C++: Programming/cpp/cpp.md
     - Chung:
-      - 🇻🇳 C++: Programming/cpp/cpp.md
       - Thư Viện STD: Programming/cpp/cpp-std.md
       - Cài Đặt:
         - Windows: Programming/cpp/cpp-install-for-windows.md
@@ -169,14 +174,14 @@ nav:
       - Iterator:  Programming/cpp/cpp-iterator.md
       - STD Iterators: Programming/cpp/cpp-std-iterators.md
       - STD Algorithms: Programming/cpp/cpp-std-algorithms.md
-      - STD Math: Programming/cpp/cpp-std-sort.md
-      - STD Utility: Programming/cpp/cpp-std-sort.md
-      - STD IO: Programming/cpp/cpp-std-sort.md
-      - STD System: Programming/cpp/cpp-std-sort.md
-      - STD Chrono: Programming/cpp/cpp-std-sort.md
-      - STD Type_Traits: Programming/cpp/cpp-std-sort.md
-      - STD Format: Programming/cpp/cpp-std-sort.md
-      - STD Ranges: Programming/cpp/cpp-std-sort.md
+      - STD Math: Programming/cpp/cpp-std-math.md
+      - STD Utility: Programming/cpp/cpp-std-utility.md
+      - STD IO: Programming/cpp/cpp-std-io.md
+      - STD System: Programming/cpp/cpp-std-system.md
+      - STD Chrono: Programming/cpp/cpp-std-chrono.md
+      - STD Type_Traits: Programming/cpp/cpp-std-type_traits.md
+      - STD Format: Programming/cpp/cpp-std-format.md
+      - STD Ranges: Programming/cpp/cpp-std-ranges.md
     - Pre-Processing:
       - Include: Programming/cpp/cpp-include.md
       - Define: Programming/cpp/cpp-define.md
