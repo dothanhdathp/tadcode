@@ -70,6 +70,7 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 ```
+
 ```bash
 ./main $(cat input_x)
 ```

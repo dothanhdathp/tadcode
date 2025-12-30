@@ -1,4 +1,6 @@
-# Giới thiệu
+# Temp
+
+> Trang này chỉ đơn giản là mark lại các đối tượng có thể được biểu diễn bởi mkdocs
 
 Tổ hợp các loại ngôn ngữ kỹ thuật.
 

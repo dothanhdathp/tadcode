@@ -1,128 +1,114 @@
 # \[C++\] Overview
 
-## C++ Overview
+Tìm cách đặt tên các cấp bậc Basic, Begin, ... mệt vl nên đổi cấp bậc này xài cho dễ hiểu
 
-1. C++ is a _cross-platform language_ (<mark>ngôn ngữ đa nền tảng</mark>), hiệu suất cao.
-1. C++ được phát triển bởi __Bjarne Stroustrup__ như là phần mở rộng của ngôn ngữ C
-1. C++ cho lập trình viên <mark>khả năng quản lý tài nguyên và bộ nhớ rất mạnh mẽ</mark>.
+- Nhập Môn
+- Luyện Khí
+- Trúc Cơ
+- Kim Đan
+- Nguyên Anh
+- Hóa Thần
 
-> - Phiên bản thường được dùng nhất là C++11
-> - Phiên bản mới nhất nhất hiện có là C++20
+```puml
+@startwbs
+* Road Map C++
 
-## Tại sao nên học C++?
+** Nhập Môn
+***_ What is C++
+***_ Why C++
+***_ C++ vs C
+***_ Cài Đặt Môi Trường
+***_ Editor
+***_ Hello World
 
-### Điểm mạnh
+** Luyện Khí
+*** Biến
+****_ Biến nguyên thủy
+****_ enum
+****_ Con trỏ
+**** Tập Hợp
+*****_ array
+*****_ struct
+*****_ union
+***_ Operator
+****_ Math
+****_ Bit
+***_ Điều khiển luồng
+*** Hàm
+****_ main
+****_ hàm chức năng
+*** Thư viện STD
+***_:=== Khái niệm về thùng chứa
+ Linked List
+ Stack, Queue
+;
+***_:=== Chuỗi
+ std::string
+;
+***_:=== Class
+ OOP
+ Class
+ Access Specifiers
+;
 
-- Phổ biến
-- Nhanh
-- Đem lại kiến thức tốt về tài nguyên máy tính
-- Ngôn ngữ tốt nhất để 
-- Hỗ trợ đa nền tảng
+** Trúc Cơ
+*** Smart Pointer
+****_ Raw Pointer
+****_:== Smart Pointer
+ - std::weak_ptr
+ - std::shared_ptr
+ - std::unique_ptr
+;
+*** STD Container
+****_:== sequence
+  **std::array**
+  **std::vector**
+  **std::list**
+  **std::deque**
+;
+****_:== associative
+  **std::set**
+  **std::map**
+  std::multiset
+  std::multimap
+;
+****_:== u_associative
+  **std::unordered_set**
+  **std::unordered_map**
+  std::unordered_multiset
+  std::unordered_multimap
+;
+****_:== adaptors
+  **std::stack**
+  **std::queue**
+  std::priority_queue
+  std::flat_set
+  std::flat_map
+  std::flat_multiset
+  std::flat_multimap
+;
+*** Pre Processing
+****_ Define
+****_ Namespace
+***_ Thread
+****_ std::thread
+*****_ std::jthread
+****_ std::mutex
+****_ std::coroutine
+*** Function
+****_ Lambda Function
+****_ Function as Parameter
+****_ Function Pointer
 
-### Điểm Yếu
+** Kim Đan
+*+*_ Template
+*+*_ System
+**+*_ IO
 
-- Khó thành thạo.
-- Khó học và cần rất nhiều kiến thức, nếu không sẽ tạo ra rất nhiều mã xấu.
-- Mặc dù hỗ trợ đa nền tảng nhưng càn có trình biên dịch hỗ trợ, C++ không thực sự làm tốt việc này.
 
-## Road Map
-
-```markmap
----
-markmap:
-    zoom: false
-    pan: false
-    duration: 0
----
-- C++
-  - Chung
-    - [C++](/Programming/cpp/cpp/)
-    - [Roadmap](/Programming/cpp/cpp-roadmap/)
-    - [Thư Viện STD](/Programming/cpp/cpp-std/)
-    - Cài Đặt
-      - [Windows](/Programming/cpp/cpp-install-for-windows/)
-      - [Linux](/Programming/cpp/cpp-install-for-linux/)
-    - Build
-      - [Make Tool](/Programming/cpp/cpp-build-tool-make/)
-      - [Makefile Ex](/Programming/cpp/cpp-makefile-example/)
-    - Example
-      - [Hello World](/Programming/cpp/cpp-helloworld/)
-      - [My Stack](/Programming/cpp/cpp-exmaple-my-stack/)
-      - [Support Header](/Programming/cpp/cpp-exmaple-support-header/)
-    - [Refer & Doc](/Programming/cpp/cpp-reference-document/)
-  - Biến
-    - Primitive
-      - [Primitive](/Programming/cpp/cpp-primitive-datatypes/)
-      - Pointer 
-        - [Pointer](/Programming/cpp/cpp-pointer/)
-        - [Smart Pointer](/Programming/cpp/cpp-smart-pointer/)
-        - [Raw Pointer](/Programming/cpp/cpp-raw-pointer/)
-      - String
-        - [String](/Programming/cpp/cpp-string/)
-        - [Tạo Và Huỷ](/Programming/cpp/cpp-string-construct-deconstruct/)
-        - [Truy Cập](/Programming/cpp/cpp-string-index/)
-      - [Bitset](/Programming/cpp/cpp-std-bitset/)
-      - Hash
-    - [(C++) Numeric Limits](/Programming/cpp/cpp-std-numeric-limits/)
-  - Thùng Chứa
-    - [Container](/Programming/cpp/cpp-container/)
-    - [Array](/Programming/cpp/cpp-array/)
-    - [Struct](/Programming/cpp/cpp-struct/)
-    - [Union](/Programming/cpp/cpp-union/)
-    - [Linked List](/Programming/cpp/cpp-linked-list/)
-  - Chức Năng
-    - [Math Operator](/Programming/cpp/cpp-operator/)
-    - [Bit Operator](/Programming/cpp/cpp-bit-operator/)
-    - [Điều khiển luồng](/Programming/cpp/cpp-flow-control/)
-    - [InOut](/Programming/cpp/cpp-in-out/)
-    - [Vòng lặp](/Programming/cpp/cpp-loop/)
-  - Function
-    - [Hàm](/Programming/cpp/cpp-function/)
-    - [Lambda Function](/Programming/cpp/cpp-lambda-function/)
-    - [Function as Parameter](/Programming/cpp/cpp-function-as-parameter/)
-  - Class
-    - [Class](/Programming/cpp/cpp-class/)
-    - [Access Specifiers](/Programming/cpp/cpp-access-specifiers/)
-  - Standard Library
-    - [Standard Library](/Programming/cpp/cpp-std-standard-library/)
-    - STD Container
-      - [STD Container](/Programming/cpp/cpp-std-container/)
-      - [STD Linear Types](/Programming/cpp/cpp-linear-types/)
-      - [STD Array](/Programming/cpp/cpp-std-array/)
-      - [STD Vector](/Programming/cpp/cpp-std-vector/)
-      - [STD List](/Programming/cpp/cpp-std-list/)
-      - [STD Map](/Programming/cpp/cpp-std-map/)
-      - [STD Unordered Map](/Programming/cpp/cpp-unordered-map/)
-      - [STD Initializer_List](/Programming/cpp/cpp-initializer-list/)
-      - [STD Set](/Programming/cpp/cpp-set/)
-      - [STD Unordered Set](/Programming/cpp/cpp-unordered-set/)
-    - [Iterator](/Programming/cpp/cpp-iterator/)
-    - [STD Iterators](/Programming/cpp/cpp-std-iterators/)
-    - [STD Algorithms](/Programming/cpp/cpp-std-algorithms/)
-    - [STD Math](/Programming/cpp/cpp-std-math/)
-    - [STD Utility](/Programming/cpp/cpp-std-utility/)
-    - [STD IO](/Programming/cpp/cpp-std-io/)
-    - [STD System](/Programming/cpp/cpp-std-system/)
-    - [STD Chrono](/Programming/cpp/cpp-std-chrono/)
-    - [STD Type_Traits](/Programming/cpp/cpp-std-type_traits/)
-    - [STD Format](/Programming/cpp/cpp-std-format/)
-    - [STD Ranges](/Programming/cpp/cpp-std-ranges/)
-  - Pre-Processing
-    - [Include](/Programming/cpp/cpp-include/)
-    - [Define](/Programming/cpp/cpp-define/)
-    - [Namespace](/Programming/cpp/cpp-namespace/)
-    - [Template](/Programming/cpp/cpp-template/)
-    - [Input Arguments](/Programming/cpp/cpp-command-line-arguments/)
-    - [Memory Model](/Programming/cpp/cpp-memory-model/)
-    - [Named Requirements](/Programming/cpp/cpp-named-requirements/)
-  - Thread
-    - [Thread](/Programming/cpp/cpp-std-thread/)
-    - [<mark class=red>Jthread</mark>](/Programming/cpp/cpp-std-jthread/)
-    - [Mutex](/Programming/cpp/cpp-std-mutex/)
+@endwbs
 ```
 
-## Tham Khảo
-
-1. [Trang web tham khảo chính thống của ngôn ngữ __C++__](https://en.cppreference.com/index.html)
-1. [Cplusplus](https://cplusplus.com/reference/)
-1. [Hacking Cpp - Tổng hợp về](https://hackingcpp.com/index.html)
+<!--
+[[/Programming/cpp/cpp-linear-types/ std::linear Types]]
+-->niệm

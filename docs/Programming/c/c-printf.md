@@ -88,7 +88,7 @@ Tác dụng của %s `%o`, `%d`, `%x`, `%p` như bảng dưới đây:
 
 ### Precision
 
-- Đối với các chỉ định số nguyên (`d` ,`i` ,`o` ,`u` ,`x` ,`X` ): `[precision]` sẽ đặt trước dấu phẩy, chỉ định số chữ số tối thiểu cần ghi. Nếu giá trị cần ghi ngắn hơn số này, kết quả sẽ được thêm số không đứng đầu. Giá trị không bị cắt bớt ngay cả khi kết quả dài hơn. Độ chính xác bằng 0 nghĩa là không có ký tự nào được ghi cho giá trị 0.
+- Đối với các chỉ định số nguyên (`d` ,`i` ,`o` ,`u` ,`x` ,`X` ): `[.precision]` sẽ đặt trước dấu phẩy, chỉ định số chữ số tối thiểu cần ghi. Nếu giá trị cần ghi ngắn hơn số này, kết quả sẽ được thêm số không đứng đầu. Giá trị không bị cắt bớt ngay cả khi kết quả dài hơn. Độ chính xác bằng 0 nghĩa là không có ký tự nào được ghi cho giá trị 0.
 - Đối với các chỉ định `a`, `A`, `e`, `E`, `f` và `F` : đây là số chữ số cần in sau dấu thập phân (theo mặc định là 6).
 - Đối với các chỉ định g và G : Đây là số chữ số có nghĩa tối đa cần in.
 - Đối với `s`: đây là số ký tự tối đa cần in. Theo mặc định, tất cả các ký tự được in cho đến khi gặp ký tự __null__ kết thúc.

@@ -35,7 +35,7 @@ markmap:
         - [Ditaa diagram](/NonProgramming/PlantUml/plantuml-ditaa-diagram/)
         - [Gantt diagram](/NonProgramming/PlantUml/plantuml-gantt-diagram/)
         - [Chronology diagram](/NonProgramming/PlantUml/plantuml-chronology-diagram/)
-        - [MindMap diagram](/NonProgramming/PlantUml/plantuml-mindmap-diagram/)
+        - [x] [MindMap diagram](/NonProgramming/PlantUml/plantuml-mindmap-diagram/)
         - [x] [WBS diagram](/NonProgramming/PlantUml/plantuml-wbs-diagram/)
         - [x] [Mathematics](/NonProgramming/PlantUml/plantuml-mathematics/)
         - [IE diagram](/NonProgramming/PlantUml/plantuml-ie-diagram/)

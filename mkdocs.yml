@@ -113,6 +113,7 @@ nav:
   - C++:
     - 🇻🇳 C++: Programming/cpp/cpp.md
     - Chung:
+      - OverviewL: Programming/cpp/cpp-overview.md
       - Thư Viện STD: Programming/cpp/cpp-std.md
       - Cài Đặt:
         - Windows: Programming/cpp/cpp-install-for-windows.md
@@ -122,7 +123,7 @@ nav:
         - Makefile Ex: Programming/cpp/cpp-makefile-example.md
       - Example:
         - Hello World: Programming/cpp/cpp-helloworld.md
-        - My Stack: Programming/cpp/cpp-exmaple-my-stack.md
+        - Stack: Programming/cpp/cpp-exmaple-my-stack.md
         - Support Header: Programming/cpp/cpp-exmaple-support-header.md
         - Draw Loading: Programming/cpp/cpp-exmaple-draw-loading.md
       - Refer & Doc: Programming/cpp/cpp-reference-document.md
@@ -340,10 +341,6 @@ markdown_extensions:
       generic: true
   - pymdownx.highlight
   - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - admonition
