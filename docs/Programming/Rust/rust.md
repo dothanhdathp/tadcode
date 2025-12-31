@@ -11,6 +11,43 @@ Rust mạnh mẽ nhất trong việc tạo ra các mã đơn giản mà an toàn
 
 ## Roadmap
 
+```puml
+@startwbs
+* [[/Programming/Rust/rust/ Rust]]
+
+** Getting Start
+***_ Overview
+****_ What is Rust
+****_ Why Rust
+****_ C++ vs Rust
+***_ Cài Đặt
+**** Windows
+**** Linux
+***_ Hello World
+*** Documents
+
+** Level_1
+***:== Variables
+  [[/Programming/Rust/rust-variables/ Auto Type]]
+  [[/Programming/Rust/rust-variables-scalar-types Scalar]]
+    i32, i64, ...
+    u32, u64, ...
+    uf2, f64, ...
+    boolean, char
+  [[/Programming/Rust/rust-variables-compound-types Compound]]
+;
+***:== Control
+-- Flow Control --
+  [[/Programming/Rust/rust-flow-control-if-else/ if/else]]
+  [[/Programming/Rust/rust-flow-control-loop/ loop]]
+  [[/Programming/Rust/rust-flow-control-while/ while]]
+  [[/Programming/Rust/rust-flow-control-for/ for]]
+  [[/Programming/Rust/rust-flow-control-match/ match]]
+;
+@endwbs
+```
+
+<!-- 
 ```markmap
 ---
 markmap:
@@ -74,3 +111,4 @@ Tài liệu này sẽ luôn gồm hai phần được liên kết với nhau là
 ## Rust Playground
 
 - [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2024)
+ -->
