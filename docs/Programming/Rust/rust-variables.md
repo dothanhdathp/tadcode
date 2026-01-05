@@ -12,11 +12,11 @@ Các kiểu biến chia làm hai loại chính là __*Primitives*__ _(tức ki�
 
 __Primitives__ cũng chia làm hai loại:
 
-- [Scalar Types](rust-variables-scalar-types.md) _(Biến Đơn Hướng)_
-- [Compound Types](rust-variables-compound-types.md) _(Biến Phức Hợp)_
+- [Scalar Types](rust-scalar-types.md) _(Biến Đơn Hướng)_
+- [Compound Types](rust-compound-types.md) _(Biến Phức Hợp)_
 
 !!! warning "Chú Ý"
-    Các phần tiếp theo cần nghiên cứu một chút ở kiểu biến [Scalar Types](rust-variables-scalar-types.md). Hãy đọc qua nếu khó hiểu.
+    Các phần tiếp theo cần nghiên cứu một chút ở kiểu biến [Scalar Types](rust-scalar-types.md). Hãy đọc qua nếu khó hiểu.
 
 ## Khai Báo Biến
 

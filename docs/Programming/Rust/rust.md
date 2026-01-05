@@ -12,103 +12,47 @@ Rust mạnh mẽ nhất trong việc tạo ra các mã đơn giản mà an toàn
 ## Roadmap
 
 ```puml
-@startwbs
-* [[/Programming/Rust/rust/ Rust]]
+@startmindmap
+!$URL = "http://localhost:65002/Programming/Rust"
 
-** Getting Start
+* [[$URL/rust/ Rust]]
+
+left side
+** Chung
 ***_ Overview
 ****_ What is Rust
 ****_ Why Rust
 ****_ C++ vs Rust
-***_ Cài Đặt
-**** Windows
-**** Linux
+*** Cài Đặt
+****_ Windows
+****_ Linux
 ***_ Hello World
-*** Documents
+***_ [[$URL/rust-document Documents]]
+***_ [[https://play.rust-lang.org/?version=stable&mode=debug&edition=2024 Playground]]
 
-** Level_1
-***:== Variables
-  [[/Programming/Rust/rust-variables/ Auto Type]]
-  [[/Programming/Rust/rust-variables-scalar-types Scalar]]
-    i32, i64, ...
-    u32, u64, ...
-    uf2, f64, ...
-    boolean, char
-  [[/Programming/Rust/rust-variables-compound-types Compound]]
+right side
+** Variables
+***_ [[$URL/rust-variables/ Variables (Auto)]]
+***_: [[$URL/rust-variables-scalar-types Scalar]]
+  i32, i64, ...
+  u32, u64, ...
+  uf2, f64, ...
+  boolean, char
 ;
-***:== Control
--- Flow Control --
-  [[/Programming/Rust/rust-flow-control-if-else/ if/else]]
-  [[/Programming/Rust/rust-flow-control-loop/ loop]]
-  [[/Programming/Rust/rust-flow-control-while/ while]]
-  [[/Programming/Rust/rust-flow-control-for/ for]]
-  [[/Programming/Rust/rust-flow-control-match/ match]]
-;
-@endwbs
+***_ [[$URL/rust-variables-compound-types Compound]]
+****_ [[$URL/rust-variables-compound-types-tuples/ Tuples]]
+****_ [[$URL/rust-variables-compound-types-array/ Array]]
+****_ [[$URL/rust-variables-compound-types-slices/ Slices]]
+***_ [[$URL/rust-variables-custom-types Custom Types]]
+** Control
+*** Flow Control
+****_ [[$URL/rust-flow-control-if-else/ if/else]]
+****_ [[$URL/rust-flow-control-loop/ loop]]
+****_ [[$URL/rust-flow-control-while/ while]]
+****_ [[$URL/rust-flow-control-for/ for]]
+****_ [[$URL/rust-flow-control-match/ match]]
+
+** System
+
+@endmindmap
 ```
-
-<!-- 
-```markmap
----
-markmap:
-    zoom: false
-    pan: false
-    duration: 0
----
-- [Rust](/Programming/Rust/rust/)
-    - Chung
-      - [Install](/Programming/Rust/rust-install/)
-      - [Prepare for Test](/Programming/Rust/rust-prepare-for-test/)
-      - Example
-        - [Example Hello World](/Programming/Rust/rust-example-helloworld/)
-        - [Example Variables](/Programming/Rust/rust-example-variables/)
-        - [Example Primitives](/Programming/Rust/rust-example-primitives/)
-      - [Document](/Programming/Rust/rust-document/)
-    - Biến
-      - [Variables](/Programming/Rust/rust-variables/)
-      - [Scalar](/Programming/Rust/rust-variables-scalar-types/)
-      - [Compound](/Programming/Rust/rust-variables-compound-types/)
-        - [Tuples](/Programming/Rust/rust-variables-compound-types-tuples/)
-        - [Array](/Programming/Rust/rust-variables-compound-types-array/)
-        - [Slices](/Programming/Rust/rust-variables-compound-types-slices/)
-      - _trait_ ?
-    - Function
-      - [Function](/Programming/Rust/rust-function/)
-      - Function As Marco
-    - Module
-    - STD
-      - Box
-    - [Phương Thức](/Programming/Rust/rust-operator/)
-    - [I/O Printer](/Programming/Rust/rust-io-printer/)
-    - Điều Khiển Luồng
-      - [Flow Control](/Programming/Rust/rust-flow-control/)
-      - [If/Else](/Programming/Rust/rust-flow-control-if-else/)
-      - [Loop](/Programming/Rust/rust-flow-control-loop/)
-      - [While](/Programming/Rust/rust-flow-control-while/)
-      - [For](/Programming/Rust/rust-flow-control-for/)
-      - [Match](/Programming/Rust/rust-flow-control-match/)
-    - Build
-      - Cargo
-```
-
-
-## Cài Đặt
-
-- [Rust Install](rust-setup.md)
-
-## Rust Document
-
-- [Rust Document](rust-document.md)
-
-Tài liệu này sẽ luôn gồm hai phần được liên kết với nhau là phần _lập trình_ và _trình biên dịch_.
-
-## 🔰 Tutorial
-
-- [Hello World](rust-example-helloworld.md)
-- [Variables](rust-variables.md)
-- [I/O Printer](rust-io-printer.md)
-
-## Rust Playground
-
-- [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2024)
- -->

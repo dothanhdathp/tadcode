@@ -4,12 +4,13 @@
 
 ```puml
 @startmindmap
+!$URL = "http://localhost:65002/Programming/cpp"
 
 * C++
 
 left side
 ** Getting Start
-*** [[/Programming/cpp/cpp-overview Overview]]
+*** [[$URL/cpp-overview Overview]]
 **** What is C++
 **** Why C++
 **** C++ vs C
@@ -30,34 +31,34 @@ left side
 right side
 ** Data Types
 *** Loại Cơ Bản
-****_: [[/Programming/cpp/cpp-fundamental-datatypes/ Fundamental]]
+****_: [[$URL/cpp-fundamental-datatypes/ Fundamental]]
   - Loại: int, float, bool, ...
   - Tính chất: Loại: const, unsigned
   - Bổ sung: int8_t, int16_t, ...
 ;
 **** Derived
-*****_ [[/Programming/cpp/cpp-array/ array]]
-*****_ [[/Programming/cpp/cpp-struct/ struct]]
-*****_ [[/Programming/cpp/cpp-union/ union]]
-***_ [[/Programming/cpp/cpp-enum/ Enum]]
-***_ [[/Programming/cpp/cpp-class/ Class]]
-****_ [[/Programming/cpp/cpp-class-access-specifiers/ Access Specifiers]]
+*****_ [[$URL/cpp-array/ array]]
+*****_ [[$URL/cpp-struct/ struct]]
+*****_ [[$URL/cpp-union/ union]]
+***_ [[$URL/cpp-enum/ Enum]]
+***_ [[$URL/cpp-class/ Class]]
+****_ [[$URL/cpp-class-access-specifiers/ Access Specifiers]]
 ****_ Đóng Gói (Encapsulation)
-****_ [[/Programming/cpp/cpp-class-inheritance/ Kế thừa (Inheritance)]]
+****_ [[$URL/cpp-class-inheritance/ Kế thừa (Inheritance)]]
 ****_ Đa hình (Polymorphism)
 ****_ Trừu tượng (Abstraction)
-*** [[/Programming/cpp/cpp-std-container/ STD Container]]
+*** [[$URL/cpp-std-container/ STD Container]]
 **** std::string
 **** //Sequence//
-*****_ [[/Programming/cpp/cpp-std-vector/ std::vector (*)]]
-*****_ [[/Programming/cpp/cpp-std-deque/ std::deque (*)]]
-*****_ [[/Programming/cpp/cpp-std-list/ std::list (*)]]
-*****_ [[/Programming/cpp/cpp-std-array/ std::array*]]
+*****_ [[$URL/cpp-std-vector/ std::vector (*)]]
+*****_ [[$URL/cpp-std-deque/ std::deque (*)]]
+*****_ [[$URL/cpp-std-list/ std::list (*)]]
+*****_ [[$URL/cpp-std-array/ std::array*]]
 *****_ std::forward_list
 *****_ std::hive
 *****_ std::inplace_vector
 **** //Associative//
-*****_ [[/Programming/cpp/cpp-std-set std::set]]
+*****_ [[$URL/cpp-std-set std::set]]
 *****_ std::map
 *****_ std::multiset
 *****_ std::multimap
@@ -91,9 +92,9 @@ right side
 ** Control
 *** Flow Control
 *** Operator
-****_ [[/Programming/cpp/cpp-arithmetic-operator/ Arithmetic Operator]]
-****_ [[/Programming/cpp/cpp-logical-operator/ Logical Operator]]
-****_ [[/Programming/cpp/cpp-bit-operator/ Bitswise Operator]]
+****_ [[$URL/cpp-arithmetic-operator/ Arithmetic Operator]]
+****_ [[$URL/cpp-logical-operator/ Logical Operator]]
+****_ [[$URL/cpp-bit-operator/ Bitswise Operator]]
 *** Error Handling
 **** try/catch
 ** System
@@ -149,5 +150,5 @@ right side
 @endendmindmap
 ```
 <!--
-[[/Programming/cpp/cpp-linear-types/ std::linear Types]]
+[[$URL/cpp-linear-types/ std::linear Types]]
 -->

@@ -62,4 +62,4 @@ let y = 10u32;
 
 ## Mở Rộng
 
-Tập hợp các kiểu của __Scalar__ sẽ trở thành [Compound Types](rust-variables-compound-types.md)
+Tập hợp các kiểu của __Scalar__ sẽ trở thành [Compound Types](rust-compound-types.md)

@@ -204,6 +204,7 @@ nav:
   - Rust:
     - 🇻🇳 Rust: Programming/Rust/rust.md
     - Chung:
+      - Overview: Programming/Rust/rust-overview.md
       - Install: Programming/Rust/rust-install.md
       - Prepare for Test: Programming/Rust/rust-prepare-for-test.md
       - Document: Programming/Rust/rust-document.md
@@ -213,12 +214,15 @@ nav:
         - Example Primitives: Programming/Rust/rust-example-primitives.md
     - Biến:
       - Variables: Programming/Rust/rust-variables.md
-      - Scalar Types: Programming/Rust/rust-variables-scalar-types.md
+      - Scalar Types: Programming/Rust/rust-scalar-types.md
       - Compound Types:
-        - Compound: Programming/Rust/rust-variables-compound-types.md
-        - Tuples: Programming/Rust/rust-variables-compound-types-tuples.md
-        - Array: Programming/Rust/rust-variables-compound-types-array.md
-        - Slices: Programming/Rust/rust-variables-compound-types-slices.md
+        - Compound Types: Programming/Rust/rust-compound-types.md
+        - Tuples: Programming/Rust/rust-tuples.md
+        - Array: Programming/Rust/rust-array.md
+        - Slices: Programming/Rust/rust-slices.md
+      - Custom Types:
+        - Struct: Programming/Rust/rust-struct.md
+        - Enum: Programming/Rust/rust-enum.md
     - Hàm: Programming/Rust/rust-function.md
     - Phương Thức: Programming/Rust/rust-operator.md
     - I/O Printer: Programming/Rust/rust-io-printer.md
