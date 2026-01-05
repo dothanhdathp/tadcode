@@ -1,14 +1,12 @@
-# \[C++\] Kiểu biến
+# \[C++\] Kiểu biến Fundamental
 
-## Primitive Data Types (Các loại biến cơ bản)
-
-### Định nghĩa
+## Định nghĩa
 
 - Các loại biến cơ bản bao gồm _bool_, _char_, _short_, _int_, _long_, _float_, _double_
 - Biến cơ bản nghĩa là các loại biến có sẵn _(không thông qua lớp gói ghém nào cả)_
 - Biến cơ bản thụ động, không có chức năng phụ gì cả.
 
-### Danh sách
+## Danh sách
 
 | Type   | 32–bit Size | 64–bit Size | Min                        | Max                       | Unsigned (Min=0)          |
 | :----- | :---------: | :---------: | :------------------------: | :-----------------------: | :-----------------------: |
@@ -20,24 +18,15 @@
 | float  | 4 byte      | 4 byte      | $-3.40282 \times 10^{38}$  | $3.40282 \times 10^{38}$  | TO_DO                     |
 | double | 8 byte      | 8 byte      | $−1,79769 \times 10^{308}$ | $1,79769 \times 10^{308}$ | TO_DO                     |
 
-### Integer (short, int)
+## Integer (short, int)
 
-Số nguyên là các số toàn bộ có thể lưu trữ cả giá trị tích cực và âm. Kích thước của INT phụ thuộc vào kiến ​​trúc hệ thống (thường là 4 byte). Có các biến thể của int có thể chứa các phạm vi số khác nhau:
+Số nguyên là các số thực nguyên bản thường dùng, không có dấu phẩy.
 
-```cpp
-int num = 42;
-```
+Tập các số nguyên trong C++ có rất nhiều loại khác nhau như `short`, `int`, `long`, `long long`. Chúng giống nhau về bản chất, khác nhau về khối lượng lưu trữ
 
-Có các biến thể của `int` có thể chứa các phạm vi số khác nhau:
+Số nguyên là số duy nhất chia thành số nguyên có dấu và không dấu. Mặc định là số có dấu.
 
-- `short` (`short int`): Phạm vi nhỏ hơn `int`.
-- `long` (`long int`): phạm vi lớn hơn `int`.
-- `long long` (`long int`): thậm chí phạm vi lớn hơn so với `long int`.
-
-
-Tập các số nguyên trong C++ có rất nhiều loại khác nhau như `short`, `int`, `long`, `long long`.
-
-#### Số nguyên dạng có dấu
+### Số nguyên dạng có dấu
 
 Về cơ bản nếu không có khai báo gì thêm thì số nguyên sẽ là __dạng số nguyên có dấu__.
 
@@ -48,7 +37,7 @@ Về cơ bản nếu không có khai báo gì thêm thì số nguyên sẽ là _
 | `long`      | 8 bytes |     `-2147483648`      |     `2147483647`      |        `-1`         |
 | `long long` | 8 bytes | `-9223372036854775808` | `9223372036854775807` |        `-1`         |
 
-#### Số nguyên không dấu
+### Số nguyên không dấu
 
 Nếu là __dạng số nguyên không dấu__, cần thêm biến `unsigned`.
 
@@ -59,7 +48,7 @@ Nếu là __dạng số nguyên không dấu__, cần thêm biến `unsigned`.
 | `unsigned long`      | 8 bytes | `0` |      `4294967295`      |      `4294967295`      |
 | `unsigned long long` | 8 bytes | `0` | `18446744073709551615` | `18446744073709551615` |
 
-### Floating-Point (float, double)
+## Floating-Point (float, double)
 
 Các loại ___floating-point___ đại diện cho các số thực, tức là, các số có điểm thập phân. Có hai loại ___floating-point___ chính:
 
@@ -71,7 +60,7 @@ Các loại ___floating-point___ đại diện cho các số thực, tức là, 
     ```c++
     double pi_high_precision = 3.1415926535;
     ```
-### Character (char)
+## Character (char)
 
 Các ký tự đại diện cho một ký tự duy nhất, chẳng hạn như chữ cái, chữ số hoặc ký hiệu. Chúng được lưu trữ bằng cách sử dụng giá trị ASCII của biểu tượng và thường chiếm 1 byte bộ nhớ.
 
@@ -79,7 +68,7 @@ Các ký tự đại diện cho một ký tự duy nhất, chẳng hạn như ch
 char letter = 'A';
 ```
 
-### Boolean (bool)
+## Boolean (bool)
 
 Booleans đại diện cho các giá trị logic: __Đúng__ (`true`) hoặc __Sai__ (`false`). bool thường chiếm 1 byte bộ nhớ.
 
@@ -87,7 +76,7 @@ Booleans đại diện cho các giá trị logic: __Đúng__ (`true`) hoặc __S
 bool is_cpp_great = true;
 ```
 
-### Ví dụ các loại biến cơ bản
+## Ví dụ các loại biến cơ bản
 
 Tổ hợp biến cơ bản của C++ gồm có:
 
@@ -95,8 +84,6 @@ Tổ hợp biến cơ bản của C++ gồm có:
 - `float` hoặc `double`: số thập phân, ví dụ như là 19.99 hoặc 19.99
 - `char` : ký tự, kiểu chữ cái đơn lẻ `a`, `b` hay `c` hoặc `+` ...
 - `bool` : giá trị logic đúng sai (`true`/`false`)
-
-Hãy thử
 
 ```c++
 int main()
@@ -112,10 +99,7 @@ int main()
 	return EXIT_SUCCESS;
 }
 ```
-
-Kết quả:
-
-```txt
+```txt title="Kết quả"
 10
 0.5
 1.5
@@ -123,47 +107,10 @@ f
 ```
 > `std::endl` để kết thúc công việc `cout` và xuống dòng.
 
-## Array - Chuỗi
-
-Chuỗi là một tập hợp có nhiều của biến, có thể là biến cơ bản hoặc không. Chuỗi được xác định bằng cách thêm `[]` đằng sau tên biến. Giữa hai dấu ngoặc sẽ là số lượng. Có thể không cần điền số lượng, nhưng để sử dụng nó tốt phải có kiến thức về con trỏ nên sẽ đề cập sau.
-
-Truy cập phần tử của chuỗi chỉ cần dùng `tên_biến[vị_trí]` với vị trí là số thứ tự của phần tử trong chuỗi, <mark>nhưng nó sẽ bắt đầu từ `0`, không phải `1`</mark>
-
-Xem ví dụ sau:
-```c++
-int main()
-{
-	int    i[5] = {1,2,3,4,5}; 
-	char   c[5] = {'H', 'e', 'l', 'l', 'o'};
-	string str = "Hello World";
-	cout << i[0] << endl; // Trả về số đầu tiên
-	cout << i[1] << endl; // Trả về số tiếp theo
-	cout << c[0] << c[1] << c[2] << c[3] << c[4] << endl; // Đầy đủ
-	cout << str << endl;  // Chuỗi ký tự
-	return EXIT_SUCCESS;
-}
-```
-
-Kết quả:
-
-```txt
-1
-2
-Hello
-Hello World
-```
-
-!!! warning "Chú ý"
-	Bạn không thể gọi đến vị trí vượt quá giới hạn của chuỗi. Ví dụ như `i[6]`
-
-### string
-
-- `string` về cơ bản là một chuỗi `char` đặc biệt được phát triển dành riêng cho ngôn ngữ `C++` cần thư viện __standard library c++__, cần sử dụng __std::string__. Mà thực tế là chả ai rảnh để viết từng ký tự cho một văn bản cả nên việc có nó là bắt buộc.
-- `string` được coi là một trong những dạng biến cơ bản bằt đầu từ `C++`. Nhưng về bản chất nó vẫn là một chuỗi những ký tự `char` nên mình để đây. Xung quanh `string` còn có rất nhiều thư viện vệ tinh hỗ trợ nên riêng kiểu biến này sẽ được tách ra làm một chương riêng.
-
-### Thay đổi biến
+## Thay đổi biến
 
 Biến có thể được gắn lại cho giá trị khác sau khi khai báo, ví dụ:
+
 ```c++
 int main() {
     int i = 0;
@@ -172,14 +119,13 @@ int main() {
     return EXIT_SUCCESS;
 }
 ```
-### Khai báo mở rộng
 
-Biến có thể được khai báo thêm một số ràng buộc điều kiện như:
+## Hằng số
 
-- `unsigned` : ràng buộc là số dương
-- `const` : không thể đổi
+- __Hằng số__ là dạng biến không thể sửa đổi nội dung sau khi khai báo.
+- __Hằng số__ khai báo bằng `const`
 
-```c++
+```c++ title="main"
 int main() {
     unsigned int ui = -1; // Sẽ bị chuyển đổi
     const int ci = 10;
@@ -188,57 +134,6 @@ int main() {
     return EXIT_SUCCESS;
 }
 ```
-
-Kết quả:
-
-```txt
+```txt title="Kết quả"
 4294967295
 ```
-
-## Ép kiểu
-
-Biến có thể ép kiểu từ loại này sang loại khác. Ép kiểu cũng có 2 kiểu:
-
-- Ép kiểu an toàn là ép kiểu từ dữ liệu thấp lên cao hoặc bằng nhau.
-- Ép kiểu dữ liệu từ cao xuống thấp là không an toàn.
-
-Xem kích thước kiểu dữ liệu ở bảng [Danh sách]( #danh-sach), cụ thể là:
-
-- Ví dụ ép kiểu an toàn là từ _bool_, _char_, _..._, kiểu dữ liệu nhỏ thành _int_, _float_, _double_ là ép kiểu an toàn.
-- Ví dụ ép kiểu không an toàn là từ kích thước lớn như _int_, _float_, _double_, _..._ sang kiểu an toàn là _bool_, _char_, _..._
-
-```c++
-int main()
-{
-	int a = 2000000000;
-	short s0 = 97;
-
-	short s1 = a;
-	long  l = a;
-	char c = s0;
-	cout << s1 << endl; // Hight -> low
-	cout << l << endl;
-	cout << c << endl;
-	return EXIT_SUCCESS; 
-}
-```
-
-Kết quả:
-
-```txt
--27648
-2000000000
-```
-
-## Biến Phức Hợp
-
-- [Pointer](cpp-pointer.md)
-- [String](cpp-string.md)
-
-## Giới Hạn
-
-- [Numeric Limits](cpp-std-numeric-limits.md)
-
-## Thùng Chứa
-
-Tập hợp của nhiều biến dữ liệu sẽ tạo thành [Thùng Chứa](cpp-container.md). Các __Thùng Chứa__ sau này được nghiên cứu riêng, áp dụng các tiêu chuẩn sắp xếp, tính mở rộng, trở thành một bộ môn nghiên cứu riêng gọi là __Cấu Trúc Dữ Liệu__.

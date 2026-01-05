@@ -113,7 +113,7 @@ nav:
   - C++:
     - 🇻🇳 C++: Programming/cpp/cpp.md
     - Chung:
-      - OverviewL: Programming/cpp/cpp-overview.md
+      - Overview: Programming/cpp/cpp-overview.md
       - Thư Viện STD: Programming/cpp/cpp-std.md
       - Cài Đặt:
         - Windows: Programming/cpp/cpp-install-for-windows.md
@@ -127,18 +127,23 @@ nav:
         - Support Header: Programming/cpp/cpp-exmaple-support-header.md
         - Draw Loading: Programming/cpp/cpp-exmaple-draw-loading.md
       - Refer & Doc: Programming/cpp/cpp-reference-document.md
+    - Roadmap: Programming/cpp/cpp2.md
     - Data Types:
       - Fundamental: Programming/cpp/cpp-fundamental-datatypes.md
       - Derived:
         - Array: Programming/cpp/cpp-array.md
         - Struct: Programming/cpp/cpp-struct.md
         - Union: Programming/cpp/cpp-union.md
-        - Class: Programming/cpp/cpp-class.md
       - Enum: Programming/cpp/cpp-enum.md
       - String:
         - String: Programming/cpp/cpp-string.md
         - Tạo Và Huỷ: Programming/cpp/cpp-string-construct-deconstruct.md
         - Truy Cập: Programming/cpp/cpp-string-index.md
+      - Class:
+        - Class: Programming/cpp/cpp-class.md
+        - Class Hàm Tạo, Hàm Hủy: Programming/cpp/cpp-class-constructor-destructor-function.md
+        - Class Access Specifiers: Programming/cpp/cpp-class-access-specifiers.md
+        - Class Kế Thừa: Programming/cpp/cpp-class-inheritance.md
       - Bitset: Programming/cpp/cpp-std-bitset.md
       - (C++) Numeric Limits: Programming/cpp/cpp-std-numeric-limits.md
     - Pointer :
@@ -159,8 +164,6 @@ nav:
       - Hàm: Programming/cpp/cpp-function.md
       - Lambda Function: Programming/cpp/cpp-lambda-function.md
       - Function as Parameter: Programming/cpp/cpp-function-as-parameter.md
-    - Class:
-      - Access Specifiers: Programming/cpp/cpp-access-specifiers.md
     - Standard Library:
       - Standard Library: Programming/cpp/cpp-std-standard-library.md
       - STD Container:
@@ -172,7 +175,7 @@ nav:
         - STD Map: Programming/cpp/cpp-std-map.md
         - STD Unordered Map: Programming/cpp/cpp-unordered-map.md
         - STD Initializer_List: Programming/cpp/cpp-initializer-list.md
-        - STD Set: Programming/cpp/cpp-set.md
+        - STD Set: Programming/cpp/cpp-std-set.md
         - STD Unordered Set: Programming/cpp/cpp-unordered-set.md
       - Iterator:  Programming/cpp/cpp-iterator.md
       - STD Iterators: Programming/cpp/cpp-std-iterators.md
