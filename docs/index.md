@@ -1,35 +1,55 @@
-# Temp
+# Coder
 
-> Trang này chỉ đơn giản là mark lại các đối tượng có thể được biểu diễn bởi mkdocs
+Hướng tới mục tiêu trở thành lập trình viên xịn xò.
 
-Tổ hợp các loại ngôn ngữ kỹ thuật.
+## Map
 
-## Road Map
+```puml
+@startmindmap
+skinparam backgroundcolor transparent
+!$URL = "http://localhost:65002/"
 
-## Topic Icon
+* This
+** Các loại NNLT
+***_ Compiled Language
+***_ Hybrid Language
+***_ Interpreted Language
+***_ Non Programming Language
+** Memory
+***_ Heap & Stack
+***_ Memory Leaks
+***_ Dangling Pointers
+***_ OOP
+***_ Iterators
+***_ ASCII
+** Programming Paradigms
+***_ Tham Chiếu Và Tham Trị
+** Tham Khảo
+***_ Tốc Độ Trong Ngôn Ngữ Lập Trình
+***_ Alan Turing
 
-Các tệp chủ đề có các ký hiệu như sau hầy hết là dành cho việc học theo __RoadMap__. Các ký hiệu đó có ý nghĩa là:
+** Data Struct
+** Algorithm
+** Data Struct
+** Design Pattern
 
-- `không có ký hiệu`: Chủ đề không quan trọng, thông tin hoặc chưa sắp xếp.
-    - Các chủ đề có màu đều là các chủ đề nên học.
-- 📕📒📗📘📙⛳📍⫷⫸◧▩▦▣▥▨▧⌀ⁱ⁹⁸⁷⁶⁵⁴³²¹⁰⩙⨊①④⑦②⑤⑧⑨⑥③⌖⋇
-    - 🔶🔸🔷🔻🔺🔹🔴🟠🟡⚪⚫🟤🟣🔵🟢®️©️™️🔅🚩🔅⭕❌💥🔖🏷️📀💿
-    - Một đề mục hoặc chủ đề mới, cốt lõi.
-- ⬜ : Thông tin thêm thôi
-- 🟩 : Chủ đề cơ bản, các chủ đề bắt đầu có thể học lúc nào cũng được.
-- 🟦 : Cấp độ cao hơn chút, nên học sau khi học xong cơ bản.
-- 🟪 : Chủ đề nâng cao hơn chút, có thể cần động não.
-- 🟥 : _chưa định nghĩa_
-- 🟨 : _chưa định nghĩa_
-- 🟧 : _chưa định nghĩa_
-- 🟫 : _chưa định nghĩa_
-- ⬛ : _chưa định nghĩa_
-- ℹ️ : Thông tin thêm. Các kiến thức này ít khi cần dùng đến.
+** Các Ngôn Ngữ Thường Dùng
+***[[$URL/Programming/c/c C]]
+***[[$URL/Programming/cpp/cpp C++]]
+***[[$URL/Programming/Rust/rust Rust]]
+***[[$URL/Programming/java/java Java]]
+***[[$URL/Programming/python/python Python]]
+*** Web
+****_ HTML
+****_ CSS
+****_ PHP
 
-Ngoài ra ký hiệu cũng được sử dụng để đánh dấu cho một bài hoặc một chủ đề thú vị nào đó. Thường là trong phần luyện tập các bài __*leetcode*__
+** Another
+***_ UML
+***_ Markdown
+***_ PlantUml
+***_ Mermaid
+***_ Mathlab
 
-## This is Header 2
-### This is Header 3
-#### This is Header 4
-##### This is Header 5
-###### This is Header 6
+@endmindmap
+```

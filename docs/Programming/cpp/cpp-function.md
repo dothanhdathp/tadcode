@@ -4,13 +4,7 @@
 
 > Hàm là một nhóm __các__ câu lệnh thực hiện một nhiệm vụ cụ thể, được tổ chức như một đơn vị riêng biệt trong một chương trình. Hàm giúp chia nhỏ mã thành các khối nhỏ hơn, dễ quản lý và có thể tái sử dụng.
 
-
-Về cơ bản có hai loại hàm trong C++:
-
-- __Các hàm thư viện chuẩn__: Các hàm được định nghĩa trước có trong thư viện chuẩn C++, chẳng hạn như sort(), strlen(), sqrt(), và nhiều hàm khác nữa. Các hàm này là một phần của thư viện chuẩn, do đó bạn cần đưa vào tệp tiêu đề thích hợp để sử dụng chúng.
-- __Hàm do người dùng định nghĩa__: Hàm do lập trình viên tạo ra để thực hiện một tác vụ cụ thể. Để tạo hàm do người dùng định nghĩa, bạn cần định nghĩa hàm và gọi hàm đó trong mã của mình.
-
-## Định nghĩa một hàm
+## Khai Báo
 
 Định dạng chung để định nghĩa hàm trong C++ là:
 ```cpp
@@ -47,7 +41,9 @@ int main() {
 
 Trong ví dụ này, hàm `addNumbers` lấy hai tham số nguyên `a` và `b`, và trả về tổng của các số. Sau đó, chúng ta gọi hàm này từ hàm ___main()___  và hiển thị kết quả.
 
-## Khai Báo Nguyên Mẫu
+## Nguyên Mẫu Hàm
+
+> Khai báo cấu trúc hàm trước rồi mới viết nội dung.
 
 - Nguyên mẫu chức năng của hàm có thể được khai báo trước mà không cần nội dung hàm. Trong ví dụ này hàm `multiplyNumbers` được khai báo trước cấu trúc với hai đối số đầu vào là _interger_ trước khi nội dung của hàm được khai báo.
 - Sau khi khai báo nguyên mẫu, nội dung của hàm có thể được viết ở bất kỳ đâu trong mã. Điều này khá là khác biệt so với ngôn ngữ C khi bắt buộc các hàm phải khai báo tuần tự.
@@ -75,9 +71,9 @@ int multiplyNumbers(int x, int y) {
 
 Trong ví dụ này, chúng ta sử dụng một nguyên mẫu hàm `multiplyNumbers()` trước khi định nghĩa nó. Theo cách này, chúng ta có thể gọi hàm từ hàm `main()` mặc dù nó chưa được định nghĩa trong mã.
 
-### Sử Dụng Chồng Chéo
+### Lỗi Chồng Chéo
 
-Đây chỉ là một ví dụ thú vị về việc các hàm sử dụng chồng chéo. Mình thấy thú vị nên để đây:
+Một ví dụ vui về việc hai hàm gọi chéo nhau đẫn đến __deadlock__. Hai hàm khóa với nhau không thể thoát.
 
 ```cpp
 #include <iostream>
@@ -402,8 +398,10 @@ Lỗi không thể build vì không thể cast từ char thành std::string
 
 - [(w3schools) Functions](https://www.w3schools.com/cpp/cpp_functions.asp)
 
-## Liên Kết
+<!-- Hidding -->
+<div style="display: none;">
 
-!!! info "Info"
-    - [Lambda Function](cpp-lambda-function.md)
-    - [Function as Parameter](cpp-function-as-parameter.md)
+- [Lambda Function](cpp-lambda-function.md)
+- [Function as Parameter](cpp-function-as-parameter.md)
+
+</div>

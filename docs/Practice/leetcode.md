@@ -14,6 +14,7 @@ markmap:
         - [Insert Interval](/Practice/leetcode-1-to-99#57-insert-interval)
         - [Largest Number](/Practice/leetcode-0179)
     - Medium
+        - [3799. Word Squares II](/Practice/leetcode-3799/)
     - Hard
-        - [Sudoku Solver](leetcode-0037)
+        - [Sudoku Solver](/Practice/leetcode-0037/)
 ```

@@ -137,3 +137,15 @@ int main() {
 ```txt title="Kết quả"
 4294967295
 ```
+
+<div style="display: none;">
+
+Link to:
+
+- [Pointer](cpp-pointer.md)
+- [Array](cpp-array.md)
+- [Struct](cpp-struct.md)
+- [Union](cpp-union.md)
+- [String](cpp-std-string.md)
+
+</div>

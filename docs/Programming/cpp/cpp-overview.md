@@ -7,7 +7,9 @@
 > - Phiên bản thường được dùng nhất là C++11
 > - Phiên bản mới nhất nhất hiện có là C++20
 
-## Tại sao nên học C++?
+## C++ Là?
+
+## Tại sao nên học C++
 
 ### Điểm mạnh
 
@@ -23,8 +25,17 @@
 - Khó học và cần rất nhiều kiến thức, nếu không sẽ tạo ra rất nhiều mã xấu.
 - Mặc dù hỗ trợ đa nền tảng nhưng càn có trình biên dịch hỗ trợ, C++ không thực sự làm tốt việc này.
 
-## Tham Khảo
+## So sánh với C
 
-1. [Trang web tham khảo chính thống của ngôn ngữ __C++__](https://en.cppreference.com/index.html)
-1. [Cplusplus](https://cplusplus.com/reference/)
-1. [Hacking Cpp - Tổng hợp về](https://hackingcpp.com/index.html)
+## Bắt Đầu
+
+Bắt đầu với các chủ đề sau:
+
+<!-- Hidding -->
+<div style="display: none;">
+
+- [Hello World](cpp-helloworld.md)
+- [Fundamental Data Type](cpp-fundamental-datatypes.md)
+- [Namespace](cpp-namespace.md)
+
+</div>

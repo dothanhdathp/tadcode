@@ -148,4 +148,4 @@ Hello World
 
 ## Tham khảo
 
-- [cplusplus - string](https://cplusplus.com/reference/string/string/)
+- [(cplusplus.com) std::string](https://cplusplus.com/reference/string/string/)

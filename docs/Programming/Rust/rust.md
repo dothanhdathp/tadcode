@@ -13,11 +13,13 @@ Rust mạnh mẽ nhất trong việc tạo ra các mã đơn giản mà an toàn
 
 ```puml
 @startmindmap
+skinparam backgroundcolor transparent
 !$URL = "http://localhost:65002/Programming/Rust"
 
 * [[$URL/rust/ Rust]]
 
 left side
+** [[http://localhost:65002/ Coder]]
 ** Chung
 ***_ Overview
 ****_ What is Rust
@@ -32,18 +34,21 @@ left side
 
 right side
 ** Variables
-***_ [[$URL/rust-variables/ Variables (Auto)]]
-***_: [[$URL/rust-variables-scalar-types Scalar]]
+*** [[$URL/rust-variables/ Variables (Auto)]]
+*** [[$URL/rust-scalar-types Scalar]]
+****_: Types
   i32, i64, ...
   u32, u64, ...
   uf2, f64, ...
   boolean, char
 ;
-***_ [[$URL/rust-variables-compound-types Compound]]
-****_ [[$URL/rust-variables-compound-types-tuples/ Tuples]]
-****_ [[$URL/rust-variables-compound-types-array/ Array]]
-****_ [[$URL/rust-variables-compound-types-slices/ Slices]]
-***_ [[$URL/rust-variables-custom-types Custom Types]]
+*** Compound Types
+****_ [[$URL/rust-tuples/ Tuples]]
+****_ [[$URL/rust-array/ Array]]
+****_ [[$URL/rust-slices/ Slices]]
+*** [[$URL/rust-custom-types Custom Types]]
+****_ Enum
+****_ Struct
 ** Control
 *** Flow Control
 ****_ [[$URL/rust-flow-control-if-else/ if/else]]
@@ -51,8 +56,10 @@ right side
 ****_ [[$URL/rust-flow-control-while/ while]]
 ****_ [[$URL/rust-flow-control-for/ for]]
 ****_ [[$URL/rust-flow-control-match/ match]]
+*** Operator
 
 ** System
+*** IO
 
 @endmindmap
 ```

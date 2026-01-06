@@ -4,16 +4,18 @@
 
 ```puml
 @startmindmap
+skinparam backgroundcolor transparent
 !$URL = "http://localhost:65002/Programming/cpp"
 
 * C++
 
 left side
+** [[http://localhost:65002/ Coder]]
 ** Getting Start
 *** [[$URL/cpp-overview Overview]]
-**** What is C++
-**** Why C++
-**** C++ vs C
+****_ What is C++
+****_ Why C++
+****_ C++ vs C
 *** Install
 **** Windows
 **** Linux
@@ -43,7 +45,7 @@ right side
 ***_ [[$URL/cpp-enum/ Enum]]
 ***_ [[$URL/cpp-class/ Class]]
 ****_ [[$URL/cpp-class-access-specifiers/ Access Specifiers]]
-****_ Đóng Gói (Encapsulation)
+****_ [[$URL/cpp-class-encapsulation/ Đóng Gói (Encapsulation)]]
 ****_ [[$URL/cpp-class-inheritance/ Kế thừa (Inheritance)]]
 ****_ Đa hình (Polymorphism)
 ****_ Trừu tượng (Abstraction)
@@ -97,22 +99,24 @@ right side
 ****_ [[$URL/cpp-bit-operator/ Bitswise Operator]]
 *** Error Handling
 **** try/catch
+
 ** System
-*** IO
+***_ [[$URL/cpp-input-output/ Input/Output]]
 **** C Type: printf, scanf
 **** iostream
+
 **** istream
 **** ostream
 **** sstream
 **** streambuf
 
 ** Function
-*** Function
+***_ [[$URL/cpp-function/ Function]]
 ****_ Overload Function
-*** Inline function
-*** Function Pointer
-*** Lambda Function
-*** std::function
+****_ Inline function
+****_ Function Pointer
+****_ Lambda Function
+***_ [[$URL/cpp-function-as-parameter/ std::function]]
 *** Recursion
 ***: Math
   sqrt, abs, sum
@@ -138,17 +142,30 @@ right side
 ***_ std::memory_order
 ***_ std::async
 ***_ std::latch
+
 ** Compile
-*** Include
-*** Define
-*** Namespace
+***_ Include
+***_ Define
+***_ Namespace
 *** Template
-**** Template Function
-**** Template Class
+****_ Template Function
+****_ Template Class
+***_ Liên Kết Thư Viện Động
+
 ** Debug
 *** assert
+
+** Optional
+*** Hướng Dẫn
+****_: Tải một mảng tĩnh
+vào chương trình.
+;
 @endendmindmap
 ```
-<!--
-[[$URL/cpp-linear-types/ std::linear Types]]
--->
+
+<!-- Hidding -->
+<div style="display: none;">
+
+- [C++ Overview](cpp-overview.md)
+
+</div>

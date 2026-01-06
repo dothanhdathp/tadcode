@@ -108,7 +108,7 @@ nav:
       - Bộ Tiền Xử Lý: Programming/c/c-preprocessor.md
       - Bộ Tiền Xử Lý: Programming/c/c-replacing-text-macros.md
     - ????:
-      - Makefile: Programming/c/c-makefile.md
+      - Makefile: Programming/c/c-makefile.mdddd
   #----------------------------------------#
   - C++:
     - 🇻🇳 C++: Programming/cpp/cpp.md
@@ -126,8 +126,7 @@ nav:
         - Stack: Programming/cpp/cpp-exmaple-my-stack.md
         - Support Header: Programming/cpp/cpp-exmaple-support-header.md
         - Draw Loading: Programming/cpp/cpp-exmaple-draw-loading.md
-      - Refer & Doc: Programming/cpp/cpp-reference-document.md
-    - Roadmap: Programming/cpp/cpp2.md
+      - Document: Programming/cpp/cpp-reference-document.md
     - Data Types:
       - Fundamental: Programming/cpp/cpp-fundamental-datatypes.md
       - Derived:
@@ -136,8 +135,8 @@ nav:
         - Union: Programming/cpp/cpp-union.md
       - Enum: Programming/cpp/cpp-enum.md
       - String:
-        - String: Programming/cpp/cpp-string.md
-        - Tạo Và Huỷ: Programming/cpp/cpp-string-construct-deconstruct.md
+        - String: Programming/cpp/cpp-std-string.md
+        - String Hàm Tạo, Hàm Huỷ: Programming/cpp/cpp-std-string-construct-deconstruct.md
         - Truy Cập: Programming/cpp/cpp-string-index.md
       - Class:
         - Class: Programming/cpp/cpp-class.md
@@ -182,12 +181,15 @@ nav:
       - STD Algorithms: Programming/cpp/cpp-std-algorithms.md
       - STD Math: Programming/cpp/cpp-std-math.md
       - STD Utility: Programming/cpp/cpp-std-utility.md
-      - STD IO: Programming/cpp/cpp-std-io.md
       - STD System: Programming/cpp/cpp-std-system.md
       - STD Chrono: Programming/cpp/cpp-std-chrono.md
       - STD Type_Traits: Programming/cpp/cpp-std-type_traits.md
       - STD Format: Programming/cpp/cpp-std-format.md
       - STD Ranges: Programming/cpp/cpp-std-ranges.md
+    - System:
+      - IO library:
+        - Input/Output: Programming/cpp/cpp-input-output.md
+        - iostream: Programming/cpp/cpp-std-iostream.md
     - Pre-Processing:
       - Include: Programming/cpp/cpp-include.md
       - Define: Programming/cpp/cpp-define.md
@@ -216,23 +218,23 @@ nav:
       - Variables: Programming/Rust/rust-variables.md
       - Scalar Types: Programming/Rust/rust-scalar-types.md
       - Compound Types:
-        - Compound Types: Programming/Rust/rust-compound-types.md
         - Tuples: Programming/Rust/rust-tuples.md
         - Array: Programming/Rust/rust-array.md
         - Slices: Programming/Rust/rust-slices.md
-      - Custom Types:
-        - Struct: Programming/Rust/rust-struct.md
-        - Enum: Programming/Rust/rust-enum.md
+      - String: Programming/Rust/rust-string.md
+      - Struct: Programming/Rust/rust-struct.md
+      - Enum: Programming/Rust/rust-enum.md
     - Hàm: Programming/Rust/rust-function.md
-    - Phương Thức: Programming/Rust/rust-operator.md
-    - I/O Printer: Programming/Rust/rust-io-printer.md
-    - Điều Khiển Luồng:
-      - Flow Control: Programming/Rust/rust-flow-control.md
-      - If/Else: Programming/Rust/rust-flow-control-if-else.md
-      - Loop: Programming/Rust/rust-flow-control-loop.md
-      - While: Programming/Rust/rust-flow-control-while.md
-      - For: Programming/Rust/rust-flow-control-for.md
-      - Match: Programming/Rust/rust-flow-control-match.md
+    - System:
+      - I/O Printer: Programming/Rust/rust-io-printer.md
+    - Control:
+      - Flow Control:
+        - If/Else: Programming/Rust/rust-flow-control-if-else.md
+        - Loop: Programming/Rust/rust-flow-control-loop.md
+        - While: Programming/Rust/rust-flow-control-while.md
+        - For: Programming/Rust/rust-flow-control-for.md
+        - Match: Programming/Rust/rust-flow-control-match.md
+      - Operator: Programming/Rust/rust-operator.md
   #############################################################################################################################################################
   - Java:
     - 🇻🇳 Java: Programming/Java/java.md
@@ -313,11 +315,12 @@ nav:
   #############################################################################################################################################################
   - Practice:
     - Prepare: Practice/practice.md
-    - Leetcode:
-      - Leetcode: Practice/leetcode.md
+    - Leetcode: Practice/leetcode.md
+    - Leetcode List:
       - Leetcode 1-99: Practice/leetcode-1-to-99.md
       - 179. Largest Number: Practice/leetcode-0179.md
       - 1486. 3 XOR Operation in an Array: Practice/leetcode-1486.md
+      - 3799. Word Squares II: Practice/leetcode-3799.md
   - Tools:
     - Tools: Tools/tools.md
     - Build Tools:

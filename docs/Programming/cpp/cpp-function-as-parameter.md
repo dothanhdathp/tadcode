@@ -1,15 +1,10 @@
-# Function As Parameter
+# std::function<br>Function As Parameter
 
-## Sử dụng hàm như là biến đầu vào
+## Mô Tả
 
-- Tương đương với lamda và có thể dùng hàm như biến truyền đầu vào (gần giống hàm `std::sort`).
-- Đây là một ý tưởng khá thú vị. Trong một số trường hợp, biến truyền đầu vào sẽ không nằm trong một số kiểu biến cơ bản hoặc là chúng sẽ cần __điều kiện__ gì đó thêm để thay đổi nội dung logic bên trong. Ví dụ như:
-    - `1.1` và `1.11`, nếu hiểu là số thì `1.11` > `1.1` nhưng xếp hạng theo dạng chuỗi (string) thì `1.11` < `1.1` vì `1.1` ngắn và tổng quát hơn.
-- Dạng điều kiện này cần thiết và được ưa chuộng gần giống như `lambda` vì tính tiện lợi, nhiều phần logic nhỏ không cần thiết phải tạo hàm ra ngoài nhưng vẫn có thể thay đổi / sửa đổi tử ngoài như một tham số có thể truyền vào.
-
-### Thư viện cần thiết
-
-- `#include <functional>`
+-  Sử dụng hàm như là biến đầu vào
+- Thay thế cho tham số đầu vào của một hàm bằng một con trỏ hàm.
+- Thư viện: `<functional>`
 
 ### Ví dụ
 
