@@ -133,7 +133,7 @@ right side
 ****_ std::exception
 
 ** Thread
-***_ std::thread
+***_ [[$URL/cpp-std-thread/ std::thread]]
 ****_ std::jthread
 ***_ std::mutex
 ****_ std::lock_guard

@@ -152,7 +152,15 @@ nav:
     - Thùng Chứa:
       - Container: Programming/cpp/cpp-container.md
       - Linked List: Programming/cpp/cpp-linked-list.md
-    - Chức Năng:
+    - Chuyển Đổi:
+      - Casting: Programming/cpp/cpp-casting.md
+      - Fundamental Cast: Programming/cpp/cpp-fundamental-convert.md
+      - String Cast: Programming/cpp/cpp-fundamental-convert.md
+      - static_cast: Programming/cpp/cpp-static_cast.md
+      - const_cast: Programming/cpp/cpp-const_cast.md
+      - dynamic_cast: Programming/cpp/cpp-dynamic_cast.md
+      - reinterpret_cast: Programming/cpp/cpp-reinterpret_cast.md
+    - Điều Khiển:
       - Arithmetic Operator: Programming/cpp/cpp-arithmetic-operator.md
       - Logical Operator: Programming/cpp/cpp-logical-operator.md
       - Bitswise Operator: Programming/cpp/cpp-bit-operator.md
@@ -202,6 +210,7 @@ nav:
       - Thread: Programming/cpp/cpp-std-thread.md
       - Jthread : Programming/cpp/cpp-std-jthread.md
       - Mutex: Programming/cpp/cpp-std-mutex.md
+      - thread_local: Programming/cpp/cpp-std-thread_local.md
   #----------------------------------------#
   - Rust:
     - 🇻🇳 Rust: Programming/Rust/rust.md

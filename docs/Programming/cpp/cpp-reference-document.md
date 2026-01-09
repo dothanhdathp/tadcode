@@ -6,6 +6,9 @@ Hai tài liệu tra cứu _đáng tin cậy_ nhất dành cho ngôn ngữ này:
 
 - [cplusplus.com](https://cplusplus.com/)
 - [en.cppreference.com](https://en.cppreference.com/w/)
+- [Daily bit(e) of C++](https://simontoth.substack.com/archive)
+
+
 
 ## Tài liệu nghiên cứu thêm
 
