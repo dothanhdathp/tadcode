@@ -123,6 +123,7 @@ nav:
         - Makefile Ex: Programming/cpp/cpp-makefile-example.md
       - Example:
         - Hello World: Programming/cpp/cpp-helloworld.md
+        - Example Test: Programming/cpp/cpp-example-test.md
         - Stack: Programming/cpp/cpp-exmaple-my-stack.md
         - Support Header: Programming/cpp/cpp-exmaple-support-header.md
         - Draw Loading: Programming/cpp/cpp-exmaple-draw-loading.md
@@ -186,11 +187,13 @@ nav:
         - STD Unordered Set: Programming/cpp/cpp-unordered-set.md
       - Iterator:  Programming/cpp/cpp-iterator.md
       - STD Iterators: Programming/cpp/cpp-std-iterators.md
-      - STD Algorithms: Programming/cpp/cpp-std-algorithms.md
+      - STD Algorithms:
+        - STD Algorithms: Programming/cpp/cpp-std-algorithms.md
+        - STD Algorithms Search: Programming/cpp/cpp-std-algorithms-search.md
+        - STD Algorithms Sort: Programming/cpp/cpp-std-algorithms-sort.md
       - STD Math: Programming/cpp/cpp-std-math.md
       - STD Utility: Programming/cpp/cpp-std-utility.md
       - STD System: Programming/cpp/cpp-std-system.md
-      - STD Chrono: Programming/cpp/cpp-std-chrono.md
       - STD Type_Traits: Programming/cpp/cpp-std-type_traits.md
       - STD Format: Programming/cpp/cpp-std-format.md
       - STD Ranges: Programming/cpp/cpp-std-ranges.md
@@ -198,10 +201,18 @@ nav:
       - IO library:
         - Input/Output: Programming/cpp/cpp-input-output.md
         - iostream: Programming/cpp/cpp-std-iostream.md
-    - Pre-Processing:
+      - Date & time:
+        - Chrono library: Programming/cpp/cpp-std-chrono-library.md
+        - System Clock: Programming/cpp/cpp-system-system-clock.md
+        - Steady Clock: Programming/cpp/cpp-system-steady-clock.md
+        - File Clock: Programming/cpp/cpp-system-file-clock.md
+      - Endianess: Programming/cpp/cpp-std-endian.md
+    - Specifier:
+      - Specifier: Programming/cpp/cpp-specifier.md
       - Include: Programming/cpp/cpp-include.md
       - Define: Programming/cpp/cpp-define.md
       - Namespace: Programming/cpp/cpp-namespace.md
+      - Constexpr: Programming/cpp/cpp-constexpr.md
       - Template: Programming/cpp/cpp-template.md
       - Input Arguments: Programming/cpp/cpp-command-line-arguments.md
       - Memory Model: Programming/cpp/cpp-memory-model.md

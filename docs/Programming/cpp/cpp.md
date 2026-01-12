@@ -104,11 +104,11 @@ right side
 ***_ [[$URL/cpp-input-output/ Input/Output]]
 **** C Type: printf, scanf
 **** iostream
-
-**** istream
-**** ostream
-**** sstream
-**** streambuf
+*****_ istream
+*****_ ostream
+*****_ sstream
+*****_ streambuf
+***_ [[$URL/cpp-std-endian/ std::endian]]
 
 ** Function
 ***_ [[$URL/cpp-function/ Function]]
@@ -118,7 +118,7 @@ right side
 ****_ Lambda Function
 ***_ [[$URL/cpp-function-as-parameter/ std::function]]
 *** Recursion
-***: Math
+***_: [[$URL/cpp-math/ Math]]
   sqrt, abs, sum
 ;
 *** STD Function
@@ -143,10 +143,11 @@ right side
 ***_ std::async
 ***_ std::latch
 
-** Compile
+** [[$URL/cpp-specifier/ Specifier]]
 ***_ Include
 ***_ Define
 ***_ Namespace
+***_ [[$URL/cpp-constexpr/ Constexpr]]
 *** Template
 ****_ Template Function
 ****_ Template Class
