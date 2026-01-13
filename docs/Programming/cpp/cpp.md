@@ -109,19 +109,25 @@ right side
 *****_ sstream
 *****_ streambuf
 ***_ [[$URL/cpp-std-endian/ std::endian]]
-
+***_ Date & time
+****_ [[$URL/cpp-std-chrono-library/ Chrono library]]
+****_ [[$URL/cpp-system-system-clock/ System Clock]]
+****_ [[$URL/cpp-system-steady-clock/ Steady Clock]]
+****_ [[$URL/cpp-system-file-clock/ File Clock]]
+***_ [[$URL/cpp-std-endian/ Endianess]]
 ** Function
 ***_ [[$URL/cpp-function/ Function]]
 ****_ Overload Function
 ****_ Inline function
 ****_ Function Pointer
 ****_ Lambda Function
+****_ [[$URL/cpp-function-recursion/ Function Recursion]]
 ***_ [[$URL/cpp-function-as-parameter/ std::function]]
-*** Recursion
 ***_: [[$URL/cpp-math/ Math]]
   sqrt, abs, sum
 ;
 *** STD Function
+****_ std::shuffle
 ****_ std::sort
 ****_ std::min, std::max
 ****_ std::range
@@ -134,13 +140,14 @@ right side
 
 ** Thread
 ***_ [[$URL/cpp-std-thread/ std::thread]]
-****_ std::jthread
+****_ [[$URL/cpp-std-jthread/ std::jthread]]
 ***_ std::mutex
 ****_ std::lock_guard
-***_ std::coroutine
+***_ [[$URL/cpp-coroutine/ Coroutine]]
 ***_ std::atomic
 ***_ std::memory_order
-***_ std::async
+***_ [[$URL/cpp-std-thread_local/ thread_local]]
+***_ [[$URL/cpp-std-async-thread/ Async Thread]]C
 ***_ std::latch
 
 ** [[$URL/cpp-specifier/ Specifier]]

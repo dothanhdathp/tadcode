@@ -34,7 +34,6 @@ plugins:
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
   - graph
-  - markmap
 
 nav:
   #############################################################################################################################################################
@@ -123,7 +122,7 @@ nav:
         - Makefile Ex: Programming/cpp/cpp-makefile-example.md
       - Example:
         - Hello World: Programming/cpp/cpp-helloworld.md
-        - Example Test: Programming/cpp/cpp-example-test.md
+        - Mẫu thử: Programming/cpp/cpp-example-test.md
         - Stack: Programming/cpp/cpp-exmaple-my-stack.md
         - Support Header: Programming/cpp/cpp-exmaple-support-header.md
         - Draw Loading: Programming/cpp/cpp-exmaple-draw-loading.md
@@ -154,9 +153,8 @@ nav:
       - Container: Programming/cpp/cpp-container.md
       - Linked List: Programming/cpp/cpp-linked-list.md
     - Chuyển Đổi:
-      - Casting: Programming/cpp/cpp-casting.md
-      - Fundamental Cast: Programming/cpp/cpp-fundamental-convert.md
-      - String Cast: Programming/cpp/cpp-fundamental-convert.md
+      - Fundamental Cast: Programming/cpp/cpp-fundamental-cast.md
+      - String Cast: Programming/cpp/cpp-string-cast.md
       - static_cast: Programming/cpp/cpp-static_cast.md
       - const_cast: Programming/cpp/cpp-const_cast.md
       - dynamic_cast: Programming/cpp/cpp-dynamic_cast.md
@@ -172,6 +170,7 @@ nav:
       - Hàm: Programming/cpp/cpp-function.md
       - Lambda Function: Programming/cpp/cpp-lambda-function.md
       - Function as Parameter: Programming/cpp/cpp-function-as-parameter.md
+      - Function Recursion: Programming/cpp/cpp-function-recursion.md
     - Standard Library:
       - Standard Library: Programming/cpp/cpp-std-standard-library.md
       - STD Container:
@@ -222,6 +221,8 @@ nav:
       - Jthread : Programming/cpp/cpp-std-jthread.md
       - Mutex: Programming/cpp/cpp-std-mutex.md
       - thread_local: Programming/cpp/cpp-std-thread_local.md
+      - Async Thread: Programming/cpp/cpp-std-async-thread.md
+      - Coroutine: Programming/cpp/cpp-coroutine.md
   #----------------------------------------#
   - Rust:
     - 🇻🇳 Rust: Programming/Rust/rust.md
