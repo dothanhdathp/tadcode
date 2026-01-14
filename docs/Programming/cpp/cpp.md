@@ -124,7 +124,10 @@ right side
 ****_ [[$URL/cpp-function-recursion/ Function Recursion]]
 ***_ [[$URL/cpp-function-as-parameter/ std::function]]
 ***_: [[$URL/cpp-math/ Math]]
-  sqrt, abs, sum
+  ├─ //sum//
+  ├─ //abs//
+  ├─ //sqrt//
+  └─ //...//
 ;
 *** STD Function
 ****_ std::shuffle
@@ -147,7 +150,7 @@ right side
 ***_ std::atomic
 ***_ std::memory_order
 ***_ [[$URL/cpp-std-thread_local/ thread_local]]
-***_ [[$URL/cpp-std-async-thread/ Async Thread]]C
+***_ [[$URL/cpp-std-async-thread/ Async Thread]]
 ***_ std::latch
 
 ** [[$URL/cpp-specifier/ Specifier]]
@@ -155,9 +158,10 @@ right side
 ***_ Define
 ***_ Namespace
 ***_ [[$URL/cpp-constexpr/ Constexpr]]
-*** Template
-****_ Template Function
-****_ Template Class
+***_: [[$URL/cpp-template/ Template]]
+  ├─ //Template Function//
+  └─ //Template Class//
+;
 ***_ Liên Kết Thư Viện Động
 
 ** Debug

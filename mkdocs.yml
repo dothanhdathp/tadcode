@@ -120,15 +120,10 @@ nav:
       - Build:
         - Make Tool: Programming/cpp/cpp-build-tool-make.md
         - Makefile Ex: Programming/cpp/cpp-makefile-example.md
-      - Example:
-        - Hello World: Programming/cpp/cpp-helloworld.md
-        - Mẫu thử: Programming/cpp/cpp-example-test.md
-        - Stack: Programming/cpp/cpp-exmaple-my-stack.md
-        - Support Header: Programming/cpp/cpp-exmaple-support-header.md
-        - Draw Loading: Programming/cpp/cpp-exmaple-draw-loading.md
       - Document: Programming/cpp/cpp-reference-document.md
     - Data Types:
       - Fundamental: Programming/cpp/cpp-fundamental-datatypes.md
+      - (C++) Numeric Limits: Programming/cpp/cpp-std-numeric-limits.md
       - Derived:
         - Array: Programming/cpp/cpp-array.md
         - Struct: Programming/cpp/cpp-struct.md
@@ -144,7 +139,8 @@ nav:
         - Class Access Specifiers: Programming/cpp/cpp-class-access-specifiers.md
         - Class Kế Thừa: Programming/cpp/cpp-class-inheritance.md
       - Bitset: Programming/cpp/cpp-std-bitset.md
-      - (C++) Numeric Limits: Programming/cpp/cpp-std-numeric-limits.md
+      - Pair: Programming/cpp/cpp-std-pair.md
+      - Tuple: Programming/cpp/cpp-std-tuple.md
     - Pointer :
       - Pointer: Programming/cpp/cpp-pointer.md
       - Smart Pointer: Programming/cpp/cpp-smart-pointer.md
@@ -223,6 +219,13 @@ nav:
       - thread_local: Programming/cpp/cpp-std-thread_local.md
       - Async Thread: Programming/cpp/cpp-std-async-thread.md
       - Coroutine: Programming/cpp/cpp-coroutine.md
+    - Example:
+      - Hello World: Programming/cpp/cpp-helloworld.md
+      - Mẫu thử: Programming/cpp/cpp-example-test.md
+      - Stack: Programming/cpp/cpp-exmaple-my-stack.md
+      - Support Header: Programming/cpp/cpp-exmaple-support-header.md
+      - Draw Loading: Programming/cpp/cpp-exmaple-draw-loading.md
+      - Tổ Hợp, Chỉnh Hợp, Giai Thừa: Programming/cpp/cpp-exmaple-permutation-compination-factorial.md
   #----------------------------------------#
   - Rust:
     - 🇻🇳 Rust: Programming/Rust/rust.md
