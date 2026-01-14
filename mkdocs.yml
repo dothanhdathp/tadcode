@@ -84,6 +84,7 @@ nav:
     - 🇻🇳 C: Programming/c/c.md
     - Data Types:
       - Basic Data Types: Programming/c/c-basic-data-types.md
+      - Boolean: Programming/c/c-bool-type.md
       - Derived Data Types:
         - Pointer: Programming/c/c-pointer.md
         - Chuỗi: Programming/c/c-array.md
@@ -95,17 +96,21 @@ nav:
     - Function:
       - Function: Programming/c/c-function.md
       - Function Pointer: Programming/c/c-function-pointer.md
-      - Lambda Function:  Programming/c/c-function-lambda-function.md
+      - Lambda Function: Programming/c/c-function-lambda-function.md
+      - Callback Function: Programming/c/c-function-callback.md
     - In/Out:
       - printf: Programming/c/c-printf.md
       - scanf: Programming/c/c-scanf.md
     - File:
+      - Xử Lý Tệp: Programming/c/c-file.md
       - fprintf: Programming/c/c-fprintf.md
     - Compiler:
       - Trình Biên Dịch: Programming/c/c-compiler.md
       - Các Giai Đoạn: Programming/c/c-translation-phases.md
       - Bộ Tiền Xử Lý: Programming/c/c-preprocessor.md
       - Bộ Tiền Xử Lý: Programming/c/c-replacing-text-macros.md
+    - Specifier:
+      - define: Programming/c/c-define.md
     - ????:
       - Makefile: Programming/c/c-makefile.mdddd
   #----------------------------------------#

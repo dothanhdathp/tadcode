@@ -4,36 +4,37 @@
 - C rất phổ biến từ những thập kỷ trước bởi tính tiện dụng và ổn định.
 - Có thể nói đây là một trong những ngôn ngữ thành công nhất.
 
-```markmap
----
-markmap:
-    zoom: false
-    pan: false
-    duration: 0
----
-- C
-    - Data Types
-        - [Basic Data Types](/Programming/c/c-basic-data-types/)
-            - int, float, bool, double, ...
-        - Derived Data Types
-            - [Pointer](/Programming/c/c-pointer/)
-            - [Chuỗi](/Programming/c/c-array/)
-            - [Function](/Programming/c/c-function/)
-        - User Defined Data Types
-            - [Enum](/Programming/c/c-enum)
-            - [Union](/Programming/c/c-union)
-            - [Structure](/Programming/c/c-struct)
-        - [(C) Numeric Limits](/Programming/c/c-numeric-limits/)
-    - In/Out
-        - [printf](/Programming/c/c-printf/)
-        - [scanf](/Programming/c/c-scanf/)
-    - File
-        - [fprintf](/Programming/c/c-fprintf/)
-    - Compiler
-        - [Trình Biên Dịch](/Programming/c/c-compiler/)
-        - [Các Giai Đoạn](/Programming/c/c-translation-phases/)
-        - [Bộ Tiền Xử Lý](/Programming/c/c-preprocessor/)
-        - [Bộ Tiền Xử Lý](/Programming/c/c-replacing-text-macros/)
-    - ????
-        - [Makefile](/Programming/c/c-makefile/)
+```puml
+@startmindmap
+skinparam backgroundcolor transparent
+!$URL = "http://localhost:65002/Programming/c"
+
+* C
+** Data Types
+***:=== [[$URL/c-basic-data-types/ Basic Data Types]]
+└─ int, float, bool, double, ...;
+*** Derived Data Types
+****_ [[$URL/c-pointer/ Pointer]]
+****_ [[$URL/c-array/ Chuỗi]]
+****_ [[$URL/c-function/ Function]]
+*** User Defined Data Types
+****_ [[$URL/c-enum Enum]]
+****_ [[$URL/c-union Union]]
+****_ [[$URL/c-struct Structure]]
+*** [[$URL/c-numeric-limits/ (C) Numeric Limits]]
+** In/Out
+***_ [[$URL/c-printf/ printf]]
+***_ [[$URL/c-scanf/ scanf]]
+** File
+***_ [[/$URLc-fprintf/ fprintf]]
+** Compiler
+***_ [[$URL/c-compiler/ Trình Biên Dịch]]
+***_ [[$URL/c-translation-phases/ Các Giai Đoạn]]
+***_ [[$URL/c-preprocessor/ Bộ Tiền Xử Lý]]
+***_ [[$URL/c-replacing-text-macros/ Bộ Tiền Xử Lý]]
+** Specifier
+***_ [[$URL/c-define/ define]]
+** ????
+***_ [[/$URLc-makefile/ Makefile]]
+@endmindmap
 ```
