@@ -37,49 +37,49 @@ plugins:
 
 nav:
   #############################################################################################################################################################
-  - Computer Sci.:
+  - Computer Science:
     - About Computer Science: index.md
-    - Các Loại NNLT:
-      - Compiled Language: Programming/compiled-language.md
-      - Hybrid Language: Programming/hybrid-language.md
-      - Interpreted Language: Programming/interpreted-language.md
-      - Non Programming Language: NonProgramming/another-non-programming-language.md
-    - Memory:
-      - Heap & Stack: CS/heap-and-stack.md
-      - Memory Leaks: CS/common-memory-leaks.md
-      - Dangling Pointers: CS/common-dangling-pointers.md
-      - Lập trình hướng đối tượng: CS/oop.md
-      - Iterators: CS/iterators.md
-      - ASCII: CS/common-ASCII.md
-    - Programming Paradigms:
-      - Tham Chiếu Và Tham Trị: CS/tham-chieu-va-tham-tri.md
-    - Tham Khảo:
+    - About Computer:
+      - Các Loại NNLT:
+        - Compiled Language: Programming/compiled-language.md
+        - Hybrid Language: Programming/hybrid-language.md
+        - Interpreted Language: Programming/interpreted-language.md
+        - Non Programming Language: NonProgramming/another-non-programming-language.md
+      - Memory:
+        - Heap & Stack: CS/heap-and-stack.md
+        - Memory Leaks: CS/common-memory-leaks.md
+        - Dangling Pointers: CS/common-dangling-pointers.md
+        - Lập trình hướng đối tượng: CS/oop.md
+        - Iterators: CS/iterators.md
+        - ASCII: CS/common-ASCII.md
+        - Tham Chiếu Và Tham Trị: CS/tham-chieu-va-tham-tri.md
+    - Data Struct:
+      - Data Struct: CS/data-struct.md
+      - Linear:
+        - Stack: CS/data-struct-stack.md
+    - Algorithm:
+      - Algorithm: CS/algorithm-overview.md
+      - Độ phức tạp thuật toán: CS/algorithm-algorithmic-complexity.md
+      - Lock Hierarchy: CS/algorithm-lock-hierarchy.md
+      - Sorting:
+        - About Sort: CS/algorithm-sort.md
+        - Selection Sort: CS/algorithm-selection-sort.md
+        - Bubble Sort: CS/algorithm-bubble-sort.md
+        - Insertion Sort: CS/algorithm-insertion-sort.md
+        - Quick Sort: CS/algorithm-quick-sort.md
+        - Counting Sort: CS/algorithm-counting-sort.md
+        - Radix Sort: CS/algorithm-radix-sort.md
+      - Hash:
+        - Hash:  CS/algorithm-hash.md
+        - FNV1a: CS/algorithm-hashing-fnv1a.md
+        - Wavefunction Collapse: CS/wavefunction-collapse.md
+    - Design Pattern:
+      - Design Pattern: CS/design-pattern.md
+      - Array: CS/data-struct-array.md
+    - Bài Viết Tham Khảo:
       - Tốc Độ Trong Ngôn Ngữ Lập Trình: CS/common-speed-of-language.md
       - Alan Turing: CS/common-alan-turing.md
   #############################################################################################################################################################
-  - Data Struct:
-    - Data Struct: CS/data-struct.md
-    - Linear:
-      - Stack: CS/data-struct-stack.md
-  - Algorithm:
-    - Algorithm: CS/algorithm-overview.md
-    - Độ phức tạp thuật toán: CS/algorithm-algorithmic-complexity.md
-    - Lock Hierarchy: CS/algorithm-lock-hierarchy.md
-    - Sorting:
-      - About Sort: CS/algorithm-sort.md
-      - Selection Sort: CS/algorithm-selection-sort.md
-      - Bubble Sort: CS/algorithm-bubble-sort.md
-      - Insertion Sort: CS/algorithm-insertion-sort.md
-      - Quick Sort: CS/algorithm-quick-sort.md
-      - Counting Sort: CS/algorithm-counting-sort.md
-      - Radix Sort: CS/algorithm-radix-sort.md
-    - Hash:
-      - Hash:  CS/algorithm-hash.md
-      - FNV1a: CS/algorithm-hashing-fnv1a.md
-      - Wavefunction Collapse: CS/wavefunction-collapse.md
-  - Design Pattern:
-    - Design Pattern: CS/design-pattern.md
-    - Array: CS/data-struct-array.md
   - C:
     - 🇻🇳 C: Programming/c/c.md
     - Data Types:
@@ -294,14 +294,14 @@ nav:
     - 🇻🇳 CSS: NonProgramming/css/css.md
     - 🇻🇳 PhP: Programming/php/php.md
   #############################################################################################################################################################
-  - A.PL:
+  - Another P. Language:
     - Another Programming Language: Programming/another-programming-language.md
     - Assembly: Programming/assembly-language.md
     - C#:
       - 🇻🇳 C#: Programming/c-sharp/c-sharp.md
     - Javascript:
       - 🇻🇳 Javascript: Programming/Javascript/javascript.md
-  - A.No.PL:
+  - Another Non PL:
     - Another Non Programming Language: NonProgramming/another-non-programming-language.md
     - UML:
       - UML: NonProgramming/UML/uml.md
@@ -340,16 +340,16 @@ nav:
     - 🇻🇳 Mermaid:
       - Mermaid: NonProgramming/Mermaid/mermaid.md
     - 🇻🇳 Matlab:
-      - Matlab: Matlab/matlab.md
+      - Matlab: NonProgramming/Matlab/matlab.md
   #############################################################################################################################################################
   - Practice:
     - Prepare: Practice/practice.md
     - Leetcode: Practice/leetcode.md
     - Leetcode List:
-      - Leetcode 1-99: Practice/leetcode-1-to-99.md
-      - 179. Largest Number: Practice/leetcode-0179.md
-      - 1486. 3 XOR Operation in an Array: Practice/leetcode-1486.md
-      - 3799. Word Squares II: Practice/leetcode-3799.md
+      - Leetcode 1-99: Practice/leetcode/leetcode-1-to-99.md
+      - 179. Largest Number: Practice/leetcode/leetcode-0179.md
+      - 1486. 3 XOR Operation in an Array: Practice/leetcode/leetcode-1486.md
+      - 3799. Word Squares II: Practice/leetcode/leetcode-3799.md
   - Tools:
     - Tools: Tools/tools.md
     - Build Tools:

@@ -7,49 +7,48 @@ Hướng tới mục tiêu trở thành lập trình viên xịn xò.
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
-!$URL = "http://localhost:65002/"
+!$URL = "http://localhost:65002"
 
-* This
-** Các loại NNLT
-***_ Compiled Language
-***_ Hybrid Language
-***_ Interpreted Language
-***_ Non Programming Language
-** Memory
-***_ Heap & Stack
-***_ Memory Leaks
-***_ Dangling Pointers
-***_ OOP
-***_ Iterators
-***_ ASCII
-** Programming Paradigms
-***_ Tham Chiếu Và Tham Trị
-** Tham Khảo
-***_ Tốc Độ Trong Ngôn Ngữ Lập Trình
-***_ Alan Turing
+* Code
 
-** Data Struct
-** Algorithm
-** Data Struct
-** Design Pattern
+** About Computer
+***_ Các loại NNLT
+****_ [[$URL/Programming/compiled-language/ Compiled Language]]
+****_ [[$URL/Programming/hybrid-language/ Hybrid Language]]
+****_ [[$URL/Programming/interpreted-language/ Interpreted Language]]
+****_ [[$URL/NonProgramming/another-non-programming-language/ Non Programming Language]]
 
-** Các Ngôn Ngữ Thường Dùng
-***[[$URL/Programming/c/c C]]
-***[[$URL/Programming/cpp/cpp C++]]
-***[[$URL/Programming/Rust/rust Rust]]
-***[[$URL/Programming/java/java Java]]
-***[[$URL/Programming/python/python Python]]
+***_ [[$URL/CS/data-struct/ Data Struct]]:
+***_ [[$URL/CS/algorithm-overview/ Algorithm]]:
+***_ [[$URL/CS/design-pattern/ Design Pattern]]:
+
+***_ Bài Viết Tham Khả0
+****_ Tốc Độ Trong Ngôn Ngữ Lập Trình
+****_ Alan Turing
+
+** Các Ngôn Ngữ\nThường Dùng
+***_ [[$URL/Programming/c/c/ C]]
+***_ [[$URL/Programming/cpp/cpp/ C++]]
+***_ [[$URL/Programming/Rust/rust/ Rust]]
+***_ [[$URL/Programming/Java/java/ Java]]
+***_ [[$URL/Programming/python/python/ Python]]
+
 *** Web
 ****_ HTML
 ****_ CSS
 ****_ PHP
 
-** Another
+** Another\nProgramming\nLanguage
+***_ Assembly
+***_ C#
+***_ Javascript
+
+** Another\nNon\nProgramming\nLanguage
 ***_ UML
 ***_ Markdown
-***_ PlantUml
-***_ Mermaid
-***_ Mathlab
+***_ [[$URL/NonProgramming/PlantUml/plantuml/ PlantUml]]
+***_ [[$URL/NonProgramming/Mermaid/mermaid/ Mermaid]]
+***_ [[$URL/NonProgramming/Matlab/matlab/ Mathlab]]
 
 @endmindmap
 ```
