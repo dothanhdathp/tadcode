@@ -214,6 +214,7 @@ nav:
       - Namespace: Programming/cpp/cpp-namespace.md
       - Constexpr: Programming/cpp/cpp-constexpr.md
       - Template: Programming/cpp/cpp-template.md
+      - Static: Programming/cpp/cpp-static.md
       - Input Arguments: Programming/cpp/cpp-command-line-arguments.md
       - Memory Model: Programming/cpp/cpp-memory-model.md
       - Named Requirements: Programming/cpp/cpp-named-requirements.md
