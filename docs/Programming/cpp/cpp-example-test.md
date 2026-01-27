@@ -32,7 +32,7 @@ int main(int argc, const char* args[]) {
 
 ## Makefile
 
-```text title="Makefile"
+```makefile title="Makefile"
 CXX = g++
 
 TARGETS = main
@@ -68,7 +68,7 @@ clean_%:
 
 Một số hàm bổ trợ được viết sẵn chỉ cần thêm vào chương trình thôi. Nên hạn chế trên các thư viện có sẵn, không nên sử dụng trong các mẫu thử.
 
-```text
+```cpp
 #include <iostream>
 #include <algorithm>
 #include <chrono>
@@ -86,6 +86,10 @@ Một số hàm bổ trợ được viết sẵn chỉ cần thêm vào chương
 
 typedef std::chrono::_V2::system_clock::time_point stime_p;
 typedef std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<signed long, std::nano>> htime_p;
+
+#define thread_sleep_s()  std::this_thread::sleep_for(std::chrono::seconds(value));
+#define thread_sleep_ms() std::this_thread::sleep_for(std::chrono::milliseconds(value));
+#define thread_sleep_ns() std::this_thread::sleep_for(std::chrono::nano(value));
 
 #define htime_now(t) htime_p t = std::chrono::high_resolution_clock::now()
 #define time_now(t)  stime_p t = std::chrono::system_clock::now()

@@ -33,7 +33,6 @@ plugins:
   - search
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
-  - graph
 
 nav:
   #############################################################################################################################################################
@@ -181,11 +180,11 @@ nav:
         - STD Vector: Programming/cpp/cpp-std-vector.md
         - STD List: Programming/cpp/cpp-std-list.md
         - STD Map: Programming/cpp/cpp-std-map.md
-        - STD Unordered Map: Programming/cpp/cpp-unordered-map.md
+        - STD Unordered Map: Programming/cpp/cpp-std-unordered-map.md
         - STD Initializer_List: Programming/cpp/cpp-initializer-list.md
         - STD Set: Programming/cpp/cpp-std-set.md
-        - STD Unordered Set: Programming/cpp/cpp-unordered-set.md
-      - Iterator:  Programming/cpp/cpp-iterator.md
+        - STD Unordered Set: Programming/cpp/cpp-std-unordered-set.md
+      - Iterator:  Programming/cpp/cpp-std-iterator.md
       - STD Iterators: Programming/cpp/cpp-std-iterators.md
       - STD Algorithms:
         - STD Algorithms: Programming/cpp/cpp-std-algorithms.md
@@ -222,6 +221,7 @@ nav:
       - Thread: Programming/cpp/cpp-std-thread.md
       - Jthread : Programming/cpp/cpp-std-jthread.md
       - Mutex: Programming/cpp/cpp-std-mutex.md
+      - Atomic: Programming/cpp/cpp-std-atomic.md
       - thread_local: Programming/cpp/cpp-std-thread_local.md
       - Async Thread: Programming/cpp/cpp-std-async-thread.md
       - Coroutine: Programming/cpp/cpp-coroutine.md

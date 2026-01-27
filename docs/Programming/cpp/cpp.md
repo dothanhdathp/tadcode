@@ -61,7 +61,7 @@ right side
 *****_ std::inplace_vector
 **** //Associative//
 *****_ [[$URL/cpp-std-set std::set]]
-*****_ std::map
+*****_ [[$URL/cpp-std-map std::map]]
 *****_ std::multiset
 *****_ std::multimap
 **** //Unordered//
@@ -144,10 +144,10 @@ right side
 ** Thread
 ***_ [[$URL/cpp-std-thread/ std::thread]]
 ****_ [[$URL/cpp-std-jthread/ std::jthread]]
-***_ std::mutex
+***_ [[$URL/cpp-std-mutex/ std::mutex]]
 ****_ std::lock_guard
 ***_ [[$URL/cpp-coroutine/ Coroutine]]
-***_ std::atomic
+***_ [[$URL/cpp-std-atomic/ std::atomic]]
 ***_ std::memory_order
 ***_ [[$URL/cpp-std-thread_local/ thread_local]]
 ***_ [[$URL/cpp-std-async-thread/ Async Thread]]
