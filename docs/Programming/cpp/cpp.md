@@ -5,12 +5,12 @@
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
-!$URL = "http://localhost:65002/Programming/cpp"
+!$URL = "http://localhost:65001/Programming/cpp"
 
 * C++
 
 left side
-** [[http://localhost:65002/ Coder]]
+** [[http://localhost:65001/ Coder]]
 ** Getting Start
 *** [[$URL/cpp-overview Overview]]
 ****_ What is C++
@@ -66,7 +66,7 @@ right side
 *****_ std::multimap
 **** //Unordered//
 *****_ std::unordered_set
-*****_ std::unordered_map
+*****_ [[std::unordered_map]]
 *****_ std::unordered_multiset
 *****_ std::unordered_multimap
 **** //Adaptors//

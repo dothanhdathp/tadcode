@@ -7,7 +7,7 @@ Hướng tới mục tiêu trở thành lập trình viên xịn xò.
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
-!$URL = "http://localhost:65002"
+!$URL = "http://localhost:65001"
 
 * Code
 

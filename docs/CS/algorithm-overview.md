@@ -3,7 +3,7 @@
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
-!$URL = "http://localhost:65002/CS"
+!$URL = "http://localhost:65001/CS"
 
 * Algorithm
 ** Kiến Thức Cơ Bản

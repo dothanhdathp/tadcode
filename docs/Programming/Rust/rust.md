@@ -14,12 +14,12 @@ Rust mạnh mẽ nhất trong việc tạo ra các mã đơn giản mà an toàn
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
-!$URL = "http://localhost:65002/Programming/Rust"
+!$URL = "http://localhost:65001/Programming/Rust"
 
 * [[$URL/rust/ Rust]]
 
 left side
-** [[http://localhost:65002/ Coder]]
+** [[http://localhost:65001/ Coder]]
 ** Chung
 ***_ Overview
 ****_ What is Rust
