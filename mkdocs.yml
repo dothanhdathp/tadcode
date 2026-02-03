@@ -32,7 +32,8 @@ theme:
 plugins:
   - search
   - plantuml:
-      puml_url: https://www.plantuml.com/plantuml/
+      # puml_url: https://www.plantuml.com/plantuml/
+      puml_url: http://localhost:8080/
   - graph
 
 nav:
@@ -229,7 +230,8 @@ nav:
     - Example:
       - Hello World: Programming/cpp/cpp-helloworld.md
       - Mẫu thử: Programming/cpp/cpp-example-test.md
-      - Stack: Programming/cpp/cpp-exmaple-my-stack.md
+      - Dev. Stack: Programming/cpp/cpp-exmaple-my-stack.md
+      - Printer: Programming/cpp/cpp-example-printer.md
       - Support Header: Programming/cpp/cpp-exmaple-support-header.md
       - Draw Loading: Programming/cpp/cpp-exmaple-draw-loading.md
       - Tổ Hợp, Chỉnh Hợp, Giai Thừa: Programming/cpp/cpp-exmaple-permutation-compination-factorial.md
@@ -349,9 +351,10 @@ nav:
     - Leetcode: Practice/leetcode.md
     - Leetcode List:
       - Leetcode 1-99: Practice/leetcode/leetcode-1-to-99.md
-      - 179. Largest Number: Practice/leetcode/leetcode-0179.md
-      - 1486. 3 XOR Operation in an Array: Practice/leetcode/leetcode-1486.md
-      - 3799. Word Squares II: Practice/leetcode/leetcode-3799.md
+      - 0079.Largest Number: Practice/leetcode/leetcode-0179.md
+      - 0875.Koko Eating Bananas: Practice/leetcode/leetcode-0875.md
+      - 1486.3 XOR Operation in an Array: Practice/leetcode/leetcode-1486.md
+      - 3799.Word Squares II: Practice/leetcode/leetcode-3799.md
   - Tools:
     - Tools: Tools/tools.md
     - Build Tools:

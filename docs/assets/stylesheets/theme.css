@@ -13,28 +13,20 @@
   src: url("/assets/fonts/JetBrainsMono-ExtraBold.ttf") format("truetype");
 }
 
+/*
+--primary-header-0-size: 28px;
+--primary-header-1-size: 24px;
+--primary-header-2-size: 22px;
+--primary-header-3-size: 20px;
+--primary-header-4-size: 18px;
+--primary-header-5-size: 16px;
+--primary-font-size: 15px;
+--primary-padding-common: 10px;
+*/
+
 :root {
     --primary-family: "PrimaryFont";
-    --primary-header-0-size: 28px;
-    --primary-header-1-size: 24px;
-    --primary-header-2-size: 22px;
-    --primary-header-3-size: 20px;
-    --primary-header-4-size: 18px;
-    --primary-header-5-size: 16px;
-    --primary-font-size: 15px; /* Light theme background */
-    --primary-padding-common: 10px;
-    --primary-linker-color: #5488e8;
-    --primary-theme-color: #6767CE; /* Light theme text */
-    --primary-theme-color-transparent: #6767CE; /* Light theme text */
-    --secondary-theme-color: #498789; /* Accent color */
-    --tertiary-theme-color: #ffae0090; /* Light theme text */
-    --quaternary-theme-color: #8b1a8f90; /* Light theme text */
-    --soft-gray-theme-color: #E2E2E2; /* Accent color */
-    --code-color: black;
-    --code-background-color: #fdddb490;
     --code-font-family: "CodeFontBold";
-    --md-bg-light-color: #d3d3e9;
-    --md-bg-dark-color: #020226;
     /* --code-font-family: 'Noto Sans Mono Light'; */
     --md-text-font: "PrimaryFont";
     --md-code-font: "CodeFont";

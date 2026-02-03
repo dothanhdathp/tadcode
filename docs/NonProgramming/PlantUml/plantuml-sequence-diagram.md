@@ -27,6 +27,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
         participant Participant as Foo
         actor       Actor       as Foo1
         boundary    Boundary    as Foo2
@@ -53,6 +54,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
         participant Red #red
         participant Green #green
         participant Blue #blue
@@ -78,6 +80,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
         participant Multiline [
             =Title
             ----
@@ -123,6 +126,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
         Alice ->     Bob : ""->   ""
         Alice ->>    Bob : ""->>  ""
         Alice -\     Bob : ""-\   ""
@@ -160,6 +164,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
         Bob -[#red]> Alice : hello
         Alice -[#0000FF]->Bob : ok
         @enduml
@@ -188,6 +193,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
         participant Alice
         participant Bob
 
@@ -224,6 +230,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
         !pragma teoz true
 
         {start} Alice -> Bob : start the process
@@ -258,6 +265,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
         A ->(10) B: text 10
         B ->(10) A: text 10
 
@@ -291,6 +299,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
         !pragma teoz true
 
         A -> B: //<<by pass>>//
@@ -340,6 +349,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
         participant User
         User -> A: DoWork
         activate A
@@ -384,6 +394,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
         participant User
 
         User -> A: DoWork
@@ -426,6 +437,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
         header Page Header
         footer Page %page% of %lastpage%
         title Example Title
@@ -452,6 +464,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         == Initialization ==
+        skinparam backgroundcolor transparent
         Alice -> Bob: Authentication Request
         Bob --> Alice: Authentication Response
         == Repetition ==
@@ -482,6 +495,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
 
         participant Alice as A
 
@@ -515,6 +529,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
 
         participant Alice as A
 
@@ -555,6 +570,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
 
         participant Alice as A
         participant Bob as B
@@ -591,6 +607,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
 
         participant Alice as A
 
@@ -623,6 +640,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
         participant Alice as A
 
         note over A
@@ -660,6 +678,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
           
+          skinparam backgroundcolor transparent
         @startuml
         participant Alice
         participant Bob
@@ -692,6 +711,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
         group Name of Group [The label]
           Alice -> Bob: Authentication Request
           Bob -> Alice: Request Responded
@@ -719,6 +739,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
         Alice -> Bob: Authentication Request
         alt successful case
             Bob -> Alice: Authentication Accepted
@@ -754,6 +775,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         @startuml
+        skinparam backgroundcolor transparent
         loop 1000 times
           Alice -> Bob: Example message
         end
@@ -788,6 +810,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
         ```puml
         group Looper [looper ]
+        skinparam backgroundcolor transparent
           Alice -> Bob: Authentication Request
           group Looper [repeat]
             Alice -> Bob: Authentication Request
@@ -825,6 +848,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
       ```puml
       @startuml
+      skinparam backgroundcolor transparent
       Alice -> Bob: Authentication Request
       alt#Gold #LightBlue Successful case
           Bob -> Alice: Authentication Accepted
@@ -868,6 +892,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
       ```puml
       @startuml
+      skinparam backgroundcolor transparent
 
       box "Internal Service"
       participant Bob
@@ -901,6 +926,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
       ```puml
       @startuml
+      skinparam backgroundcolor transparent
 
       box "Internal Service" #LightBlue
       participant Bob
@@ -941,6 +967,7 @@ Tham khảo chi tiết tại: [https://plantuml.com/sequence-diagram](https://pl
       <div style="flex: 1;">
       ```puml
       @startuml
+      skinparam backgroundcolor transparent
       !pragma teoz true
 
       box "Internal Service" #LightBlue

@@ -45,3 +45,17 @@ Alice -> Bob: Another authentication Request
 Alice <-- Bob: Another authentication Response
 @enduml
 ```
+
+## Docker Server (Ubuntu)
+
+__Plantuml Docker Server for Ubuntu__. Cách này thì tiến trình build các server sẽ khá là nhanh, mặc dù là khá tốn tài nguyên máy _(RAM)_.
+
+1. [Tải về Dockertham khảo ở đây]().
+1. Tải Về
+    ```sudo title="Tải về"
+    sudo docker pull plantuml/plantuml-server:jetty
+    ```
+1. Khởi Chạy
+    ```sudo title="Khởi chạy"
+    sudo docker run -d -p 8080:8080 plantuml/plantuml-server:jetty
+    ```
