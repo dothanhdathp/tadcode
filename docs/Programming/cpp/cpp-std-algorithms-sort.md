@@ -1,25 +1,8 @@
-# \[C++\] STD Algorithms
+# \[C++\] Sort
 
-## About Algorithms
+- `std::sort` sắp xếp lại cấu trúc dữ liệu theo thứ tự.
 
-Thư viện __Algorithms__ được phát triển riêng để thực hiện các thuật toán cơ bản trong ngôn ngữ C++. Các thuật toán này được kiểm tra nghiêm ngặt và đảm bảo an toàn ở mức độ cao.  Các thuật toán có mục đích chung bao gồm:
-
-- Sắp xếp
-- Tìm kiếm
-- Đếm
-- Các thao tác trên mảng
-
-
-
-Thư viện __Algorithms__ sử dụng
-
-```cpp
-#include <algorithm>
-```
-
-## std::sort
-
-### Mặc Định
+## Mặc Định
 
 Hàm này để sắp xếp một chuỗi các phần tử theo thứ tự. Dữ liệu đầu vào cần phải thuộc kiến trúc [STD Container](cpp-std-container.md) và đồng thời chúng cần phải thuộc dạng cấu trúc có thể sắp xếp.
 
@@ -48,9 +31,12 @@ int main() {
 0 1 1 3 3 4 4 4 5 5 6 6 
 ```
 
-### GREATER, LESS
+## std::greater và std::less
 
-Chắc chắn có nhỏ hơn thì có lớn hơn. Trường hợp muốn sắp xếp có chiều thì có thể dùng các cờ như `std::greater`, `std::less` để chuyển đổi thuật toán sắp xếp:
+- Thêm đối số `std::less<T>()` và `std::greater<T>()` vào đối số thứ ba sẽ thay đổi quy luật sắp xếp của hàm.
+    - `std::less<T>()`: Xếp từ _nhỏ đến lớn_
+    - `std::greater<T>()`: Xếp từ _lớn đến nhỏ_
+- Mặc định theo cấu trúc sẽ chọn sắp xếp từ nhỏ đến lớn. Nên về cơ bản chỉ cần nhớ đến `std::greater`. Nếu muốn sắp xếp ngược lại trên các cơ sở dữ liệu chuẩn chung.
 
 ```cpp title="main.cpp"
 #include <iostream>
@@ -80,9 +66,9 @@ int main() {
 
 Còn nhiều cờ khác có thể sử dụng như là  `std::greater_equal`, `std::less_equal`, ... nhưng gần như chả ai dùng.
 
-### Tự Định Nghĩa
+## Tự Định Nghĩa
 
-Hàm sort cũng cho phép người dùng tự định nghĩa lại về phương thức só sánh bàng [Lambd Function]().
+Hàm sort cũng cho phép người dùng tự định nghĩa lại về phương thức so  sánh bàng [Lambd Function]().
 
 ```cpp
 std::vector<int> vec = { 3, 1, 6, 5, 4, 6, 4, 3, 0, 1, 5, 4 };
@@ -91,10 +77,3 @@ std::sort(vec.begin(), vec.end(), [](int a, int b){ return a > b; });
 ```text title="Kết Quả" 
 6 6 5 5 4 4 4 3 3 1 1 0 
 ```
-
-## std::find
-
-
-
-
-## std::copy

@@ -18,6 +18,7 @@
       <div style="flex: 1;">
         ```puml
         @startmindmap
+        skinparam backgroundcolor transparent
         * root node
             * some first level node
                 * second level node

@@ -1,4 +1,4 @@
-# \[C++\] Overview
+# C++ Overview
 
 1. C++ is a _cross-platform language_ (<mark>ngôn ngữ đa nền tảng</mark>), hiệu suất cao.
 1. C++ được phát triển bởi __Bjarne Stroustrup__ như là phần mở rộng của ngôn ngữ C

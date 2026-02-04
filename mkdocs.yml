@@ -2,8 +2,8 @@ site_name: Tad Code
 theme:
   name: material
   logo: assets/logo/cat_white.png
-  text: Noto Serif Medium
-  code: Roboto Mono Medium
+  text: PrimaryFont
+  code: CodeFont
   highlightjs: true
   hljs_style: github
   hljs_style_dark: github-dark
@@ -81,217 +81,221 @@ nav:
       - Tốc Độ Trong Ngôn Ngữ Lập Trình: CS/common-speed-of-language.md
       - Alan Turing: CS/common-alan-turing.md
   #############################################################################################################################################################
-  - C:
-    - 🇻🇳 C: Programming/c/c.md
-    - Data Types:
-      - Basic Data Types: Programming/c/c-basic-data-types.md
-      - Boolean: Programming/c/c-bool-type.md
-      - Derived Data Types:
-        - Pointer: Programming/c/c-pointer.md
-        - Chuỗi: Programming/c/c-array.md
-      - User Defined Data Types:
-        - Structure: Programming/c/c-struct.md
-        - Union: Programming/c/c-union.md
-        - Enum: Programming/c/c-enum.md
-      - (C) Numeric Limits: Programming/c/c-numeric-limits.md
-    - Function:
-      - Function: Programming/c/c-function.md
-      - Function Pointer: Programming/c/c-function-pointer.md
-      - Lambda Function: Programming/c/c-function-lambda-function.md
-      - Callback Function: Programming/c/c-function-callback.md
-    - In/Out:
-      - printf: Programming/c/c-printf.md
-      - scanf: Programming/c/c-scanf.md
-    - File:
-      - Xử Lý Tệp: Programming/c/c-file.md
-      - fprintf: Programming/c/c-fprintf.md
-    - Compiler:
-      - Trình Biên Dịch: Programming/c/c-compiler.md
-      - Các Giai Đoạn: Programming/c/c-translation-phases.md
-      - Bộ Tiền Xử Lý: Programming/c/c-preprocessor.md
-      - Bộ Tiền Xử Lý: Programming/c/c-replacing-text-macros.md
-    - Specifier:
-      - define: Programming/c/c-define.md
-    - ????:
-      - Makefile: Programming/c/c-makefile.mdddd
-  #----------------------------------------#
-  - C++:
-    - 🇻🇳 C++: Programming/cpp/cpp.md
-    - Chung:
-      - Overview: Programming/cpp/cpp-overview.md
-      - Thư Viện STD: Programming/cpp/cpp-std.md
-      - Cài Đặt:
-        - Windows: Programming/cpp/cpp-install-for-windows.md
-        - Linux: Programming/cpp/cpp-install-for-linux.md
-      - Build:
-        - Make Tool: Programming/cpp/cpp-build-tool-make.md
-        - Makefile Ex: Programming/cpp/cpp-makefile-example.md
-      - Document: Programming/cpp/cpp-reference-document.md
-    - Data Types:
-      - Fundamental: Programming/cpp/cpp-fundamental-datatypes.md
-      - (C++) Numeric Limits: Programming/cpp/cpp-std-numeric-limits.md
-      - Derived:
-        - Array: Programming/cpp/cpp-array.md
-        - Struct: Programming/cpp/cpp-struct.md
-        - Union: Programming/cpp/cpp-union.md
-      - Enum: Programming/cpp/cpp-enum.md
-      - String:
-        - String: Programming/cpp/cpp-std-string.md
-        - String Hàm Tạo, Hàm Huỷ: Programming/cpp/cpp-std-string-construct-deconstruct.md
-        - Truy Cập: Programming/cpp/cpp-string-index.md
-      - Class:
-        - Class: Programming/cpp/cpp-class.md
-        - Class Hàm Tạo, Hàm Hủy: Programming/cpp/cpp-class-constructor-destructor-function.md
-        - Class Access Specifiers: Programming/cpp/cpp-class-access-specifiers.md
-        - Class Kế Thừa: Programming/cpp/cpp-class-inheritance.md
-      - Bitset: Programming/cpp/cpp-std-bitset.md
-      - Pair: Programming/cpp/cpp-std-pair.md
-      - Tuple: Programming/cpp/cpp-std-tuple.md
-    - Pointer :
-      - Pointer: Programming/cpp/cpp-pointer.md
-      - Smart Pointer: Programming/cpp/cpp-smart-pointer.md
-      - Raw Pointer: Programming/cpp/cpp-raw-pointer.md
-    - Thùng Chứa:
-      - Container: Programming/cpp/cpp-container.md
-      - Linked List: Programming/cpp/cpp-linked-list.md
-    - Chuyển Đổi:
-      - Fundamental Cast: Programming/cpp/cpp-fundamental-cast.md
-      - String Cast: Programming/cpp/cpp-string-cast.md
-      - static_cast: Programming/cpp/cpp-static_cast.md
-      - const_cast: Programming/cpp/cpp-const_cast.md
-      - dynamic_cast: Programming/cpp/cpp-dynamic_cast.md
-      - reinterpret_cast: Programming/cpp/cpp-reinterpret_cast.md
-    - Điều Khiển:
-      - Arithmetic Operator: Programming/cpp/cpp-arithmetic-operator.md
-      - Logical Operator: Programming/cpp/cpp-logical-operator.md
-      - Bitswise Operator: Programming/cpp/cpp-bit-operator.md
-      - Điều khiển luồng: Programming/cpp/cpp-flow-control.md
-      - InOut: Programming/cpp/cpp-in-out.md
-      - Vòng lặp: Programming/cpp/cpp-loop.md
-    - Function:
-      - Hàm: Programming/cpp/cpp-function.md
-      - Lambda Function: Programming/cpp/cpp-lambda-function.md
-      - Function as Parameter: Programming/cpp/cpp-function-as-parameter.md
-      - Function Recursion: Programming/cpp/cpp-function-recursion.md
-    - Standard Library:
-      - Standard Library: Programming/cpp/cpp-std-standard-library.md
-      - STD Container:
-        - STD Container: Programming/cpp/cpp-std-container.md
-        - STD Linear Types: Programming/cpp/cpp-linear-types.md
-        - STD Array: Programming/cpp/cpp-std-array.md
-        - STD Vector: Programming/cpp/cpp-std-vector.md
-        - STD List: Programming/cpp/cpp-std-list.md
-        - STD Map: Programming/cpp/cpp-std-map.md
-        - STD Unordered Map: Programming/cpp/cpp-std-unordered-map.md
-        - STD Initializer_List: Programming/cpp/cpp-initializer-list.md
-        - STD Set: Programming/cpp/cpp-std-set.md
-        - STD Unordered Set: Programming/cpp/cpp-std-unordered-set.md
-      - Iterator:  Programming/cpp/cpp-std-iterator.md
-      - STD Iterators: Programming/cpp/cpp-std-iterators.md
-      - STD Algorithms:
-        - STD Algorithms: Programming/cpp/cpp-std-algorithms.md
-        - STD Algorithms Search: Programming/cpp/cpp-std-algorithms-search.md
-        - STD Algorithms Sort: Programming/cpp/cpp-std-algorithms-sort.md
-      - STD Math: Programming/cpp/cpp-std-math.md
-      - STD Utility: Programming/cpp/cpp-std-utility.md
-      - STD System: Programming/cpp/cpp-std-system.md
-      - STD Type_Traits: Programming/cpp/cpp-std-type_traits.md
-      - STD Format: Programming/cpp/cpp-std-format.md
-      - STD Ranges: Programming/cpp/cpp-std-ranges.md
-    - System:
-      - IO library:
-        - Input/Output: Programming/cpp/cpp-input-output.md
-        - iostream: Programming/cpp/cpp-std-iostream.md
-      - Date & time:
-        - Chrono library: Programming/cpp/cpp-std-chrono-library.md
-        - System Clock: Programming/cpp/cpp-system-system-clock.md
-        - Steady Clock: Programming/cpp/cpp-system-steady-clock.md
-        - File Clock: Programming/cpp/cpp-system-file-clock.md
-      - Endianess: Programming/cpp/cpp-std-endian.md
-    - Specifier:
-      - Specifier: Programming/cpp/cpp-specifier.md
-      - Include: Programming/cpp/cpp-include.md
-      - Define: Programming/cpp/cpp-define.md
-      - Namespace: Programming/cpp/cpp-namespace.md
-      - Constexpr: Programming/cpp/cpp-constexpr.md
-      - Template: Programming/cpp/cpp-template.md
-      - Static: Programming/cpp/cpp-static.md
-      - Input Arguments: Programming/cpp/cpp-command-line-arguments.md
-      - Memory Model: Programming/cpp/cpp-memory-model.md
-      - Named Requirements: Programming/cpp/cpp-named-requirements.md
-    - Thread:
-      - Thread: Programming/cpp/cpp-std-thread.md
-      - Jthread : Programming/cpp/cpp-std-jthread.md
-      - Mutex: Programming/cpp/cpp-std-mutex.md
-      - Atomic: Programming/cpp/cpp-std-atomic.md
-      - thread_local: Programming/cpp/cpp-std-thread_local.md
-      - Async Thread: Programming/cpp/cpp-std-async-thread.md
-      - Coroutine: Programming/cpp/cpp-coroutine.md
-    - Example:
-      - Hello World: Programming/cpp/cpp-helloworld.md
-      - Mẫu thử: Programming/cpp/cpp-example-test.md
-      - Dev. Stack: Programming/cpp/cpp-exmaple-my-stack.md
-      - Printer: Programming/cpp/cpp-example-printer.md
-      - Support Header: Programming/cpp/cpp-exmaple-support-header.md
-      - Draw Loading: Programming/cpp/cpp-exmaple-draw-loading.md
-      - Tổ Hợp, Chỉnh Hợp, Giai Thừa: Programming/cpp/cpp-exmaple-permutation-compination-factorial.md
-  #----------------------------------------#
-  - Rust:
-    - 🇻🇳 Rust: Programming/Rust/rust.md
-    - Chung:
-      - Overview: Programming/Rust/rust-overview.md
-      - Install: Programming/Rust/rust-install.md
-      - Prepare for Test: Programming/Rust/rust-prepare-for-test.md
-      - Document: Programming/Rust/rust-document.md
+  - Ngôn Ngữ Lập Trình:
+  ##
+    - C:
+      - Về C: Programming/c/c.md
+      - Data Types:
+        - Basic Data Types: Programming/c/c-basic-data-types.md
+        - Boolean: Programming/c/c-bool-type.md
+        - Derived Data Types:
+          - Pointer: Programming/c/c-pointer.md
+          - Chuỗi: Programming/c/c-array.md
+        - User Defined Data Types:
+          - Structure: Programming/c/c-struct.md
+          - Union: Programming/c/c-union.md
+          - Enum: Programming/c/c-enum.md
+        - (C) Numeric Limits: Programming/c/c-numeric-limits.md
+      - Function:
+        - Function: Programming/c/c-function.md
+        - Function Pointer: Programming/c/c-function-pointer.md
+        - Lambda Function: Programming/c/c-function-lambda-function.md
+        - Callback Function: Programming/c/c-function-callback.md
+      - In/Out:
+        - printf: Programming/c/c-printf.md
+        - scanf: Programming/c/c-scanf.md
+      - File:
+        - Xử Lý Tệp: Programming/c/c-file.md
+        - fprintf: Programming/c/c-fprintf.md
+      - Compiler:
+        - Trình Biên Dịch: Programming/c/c-compiler.md
+        - Các Giai Đoạn: Programming/c/c-translation-phases.md
+        - Bộ Tiền Xử Lý: Programming/c/c-preprocessor.md
+        - Bộ Tiền Xử Lý: Programming/c/c-replacing-text-macros.md
+      - Specifier:
+        - define: Programming/c/c-define.md
+      - ????:
+        - Makefile: Programming/c/c-makefile.md
+  ## 
+    - C++:
+      - Về C++: Programming/cpp/cpp.md
+      - Chung:
+        - Overview: Programming/cpp/cpp-overview.md
+        - Thư Viện STD: Programming/cpp/cpp-std.md
+        - Cài Đặt:
+          - Windows: Programming/cpp/cpp-install-for-windows.md
+          - Linux: Programming/cpp/cpp-install-for-linux.md
+        - Build:
+          - Make Tool: Programming/cpp/cpp-build-tool-make.md
+          - Makefile Ex: Programming/cpp/cpp-makefile-example.md
+        - Document: Programming/cpp/cpp-reference-document.md
+      - Data Types:
+        - Fundamental: Programming/cpp/cpp-fundamental-datatypes.md
+        - (C++) Numeric Limits: Programming/cpp/cpp-std-numeric-limits.md
+        - Derived:
+          - Array: Programming/cpp/cpp-array.md
+          - Struct: Programming/cpp/cpp-struct.md
+          - Union: Programming/cpp/cpp-union.md
+        - Enum: Programming/cpp/cpp-enum.md
+        - String:
+          - String: Programming/cpp/cpp-std-string.md
+          - String Hàm Tạo, Hàm Huỷ: Programming/cpp/cpp-std-string-construct-deconstruct.md
+          - Truy Cập: Programming/cpp/cpp-string-index.md
+        - Class:
+          - Class: Programming/cpp/cpp-class.md
+          - Class Hàm Tạo, Hàm Hủy: Programming/cpp/cpp-class-constructor-destructor-function.md
+          - Class Access Specifiers: Programming/cpp/cpp-class-access-specifiers.md
+          - Class Kế Thừa: Programming/cpp/cpp-class-inheritance.md
+      - Pointer :
+        - Pointer: Programming/cpp/cpp-pointer.md
+        - Smart Pointer: Programming/cpp/cpp-smart-pointer.md
+        - Raw Pointer: Programming/cpp/cpp-raw-pointer.md
+      - Thùng Chứa:
+        - Container: Programming/cpp/cpp-container.md
+        - Linked List: Programming/cpp/cpp-linked-list.md
+      - Chuyển Đổi:
+        - Fundamental Cast: Programming/cpp/cpp-fundamental-cast.md
+        - String Cast: Programming/cpp/cpp-string-cast.md
+        - static_cast: Programming/cpp/cpp-static_cast.md
+        - const_cast: Programming/cpp/cpp-const_cast.md
+        - dynamic_cast: Programming/cpp/cpp-dynamic_cast.md
+        - reinterpret_cast: Programming/cpp/cpp-reinterpret_cast.md
+      - Điều Khiển:
+        - Arithmetic Operator: Programming/cpp/cpp-arithmetic-operator.md
+        - Logical Operator: Programming/cpp/cpp-logical-operator.md
+        - Bitswise Operator: Programming/cpp/cpp-bit-operator.md
+        - Điều khiển luồng: Programming/cpp/cpp-flow-control.md
+        - InOut: Programming/cpp/cpp-in-out.md
+        - Vòng lặp: Programming/cpp/cpp-loop.md
+      - Function:
+        - Hàm: Programming/cpp/cpp-function.md
+        - Lambda Function: Programming/cpp/cpp-lambda-function.md
+        - Function as Parameter: Programming/cpp/cpp-function-as-parameter.md
+        - Function Recursion: Programming/cpp/cpp-function-recursion.md
+      - Standard Library:
+        - Standard Library: Programming/cpp/cpp-std-standard-library.md
+        - ⚙️ Group Container:
+          - STD Container: Programming/cpp/cpp-std-container.md
+          - STD Linear Types: Programming/cpp/cpp-linear-types.md
+          - STD Array: Programming/cpp/cpp-std-array.md
+          - STD Vector: Programming/cpp/cpp-std-vector.md
+          - STD List: Programming/cpp/cpp-std-list.md
+          - STD Map: Programming/cpp/cpp-std-map.md
+          - STD Unordered Map: Programming/cpp/cpp-std-unordered-map.md
+          - STD Initializer_List: Programming/cpp/cpp-initializer-list.md
+          - STD Set: Programming/cpp/cpp-std-set.md
+          - STD Unordered Set: Programming/cpp/cpp-std-unordered-set.md
+        - ⚙️ Group Algorithms:
+          - STD Algorithms: Programming/cpp/cpp-std-algorithms.md
+          - STD Search: Programming/cpp/cpp-std-algorithms-search.md
+          - STD Sort: Programming/cpp/cpp-std-algorithms-sort.md
+        - ⚙️ Group Iterator:
+          - STD Iterators: Programming/cpp/cpp-std-iterators.md
+        - ⚙️ Group Utility:
+          - STD Utility: Programming/cpp/cpp-std-utility.md
+          - Các Kiểu Mở Rộng:
+            - Bitset: Programming/cpp/cpp-std-bitset.md
+            - Pair: Programming/cpp/cpp-std-pair.md
+            - Tuple: Programming/cpp/cpp-std-tuple.md
+        - STD Math: Programming/cpp/cpp-std-math.md
+        - STD System: Programming/cpp/cpp-std-system.md
+        - STD Type_Traits: Programming/cpp/cpp-std-type_traits.md
+        - STD Format: Programming/cpp/cpp-std-format.md
+        - STD Ranges: Programming/cpp/cpp-std-ranges.md
+      - System:
+        - IO library:
+          - Input/Output: Programming/cpp/cpp-input-output.md
+          - iostream: Programming/cpp/cpp-std-iostream.md
+        - Date & time:
+          - Chrono library: Programming/cpp/cpp-std-chrono-library.md
+          - System Clock: Programming/cpp/cpp-system-system-clock.md
+          - Steady Clock: Programming/cpp/cpp-system-steady-clock.md
+          - File Clock: Programming/cpp/cpp-system-file-clock.md
+        - Endianess: Programming/cpp/cpp-std-endian.md
+      - Specifier:
+        - Specifier: Programming/cpp/cpp-specifier.md
+        - Include: Programming/cpp/cpp-include.md
+        - Define: Programming/cpp/cpp-define.md
+        - Namespace: Programming/cpp/cpp-namespace.md
+        - Constexpr: Programming/cpp/cpp-constexpr.md
+        - Template: Programming/cpp/cpp-template.md
+        - Static: Programming/cpp/cpp-static.md
+        - Input Arguments: Programming/cpp/cpp-command-line-arguments.md
+        - Memory Model: Programming/cpp/cpp-memory-model.md
+        - Named Requirements: Programming/cpp/cpp-named-requirements.md
+      - Thread:
+        - Thread: Programming/cpp/cpp-std-thread.md
+        - Jthread : Programming/cpp/cpp-std-jthread.md
+        - Mutex: Programming/cpp/cpp-std-mutex.md
+        - Atomic: Programming/cpp/cpp-std-atomic.md
+        - thread_local: Programming/cpp/cpp-std-thread_local.md
+        - Async Thread: Programming/cpp/cpp-std-async-thread.md
+        - Coroutine: Programming/cpp/cpp-coroutine.md
       - Example:
-        - Example Hello World: Programming/Rust/rust-example-helloworld.md
-        - Example Variables: Programming/Rust/rust-example-variables.md
-        - Example Primitives: Programming/Rust/rust-example-primitives.md
-    - Biến:
-      - Variables: Programming/Rust/rust-variables.md
-      - Scalar Types: Programming/Rust/rust-scalar-types.md
-      - Compound Types:
-        - Tuples: Programming/Rust/rust-tuples.md
-        - Array: Programming/Rust/rust-array.md
-        - Slices: Programming/Rust/rust-slices.md
-      - String: Programming/Rust/rust-string.md
-      - Struct: Programming/Rust/rust-struct.md
-      - Enum: Programming/Rust/rust-enum.md
-    - Hàm: Programming/Rust/rust-function.md
-    - System:
-      - I/O Printer: Programming/Rust/rust-io-printer.md
-    - Control:
-      - Flow Control:
-        - If/Else: Programming/Rust/rust-flow-control-if-else.md
-        - Loop: Programming/Rust/rust-flow-control-loop.md
-        - While: Programming/Rust/rust-flow-control-while.md
-        - For: Programming/Rust/rust-flow-control-for.md
-        - Match: Programming/Rust/rust-flow-control-match.md
-      - Operator: Programming/Rust/rust-operator.md
-  #############################################################################################################################################################
-  - Java:
-    - 🇻🇳 Java: Programming/Java/java.md
-    - Overview:
-      - JDK, JRE và JVM: Programming/Java/java-jdk-jre-jvm.md
-      - Install: Programming/Java/java-install.md
-      - HelloWorld: Programming/Java/java-helloworld.md
-    - Basic:
-      - Basic Syntax: Programming/Java/java-basic-synctax.md
-      - Datatypes & Variables: Programming/Java/java-basic-datatypes-and-variables.md
-  - Kotlin:
-    - 🇻🇳 Kotlin: Programming/Kotlin/kotlin.md
-    - Basic Concept: Programming/Kotlin/kotlin-basic-tour.md
-  - Python:
-    - 🇻🇳 Python: Programming/Python/python.md
-    - Cài đặt:
-      - Window: Programming/Python/python-install-windows.md
-      - Resased Version: Programming/Python/python-resased-version.md
-      - Any Version: Programming/Python/python-any-version.md
-    - Cơ bản:
-      - Căn bản: Programming/Python/python-basic-concept.md
-      - String: Programming/Python/python-string.md
-      - Toán tử: Programming/Python/python-operator.md
-      - Điều khiển luồng: Programming/Python/python-control-flow-statements.md
+        - Hello World: Programming/cpp/cpp-helloworld.md
+        - Mẫu thử: Programming/cpp/cpp-example-test.md
+        - Dev. Stack: Programming/cpp/cpp-exmaple-my-stack.md
+        - Printer: Programming/cpp/cpp-example-printer.md
+        - Support Header: Programming/cpp/cpp-exmaple-support-header.md
+        - Draw Loading: Programming/cpp/cpp-exmaple-draw-loading.md
+        - Tổ Hợp, Chỉnh Hợp, Giai Thừa: Programming/cpp/cpp-exmaple-permutation-compination-factorial.md
+  ##
+    - Rust:
+      - Về Rust: Programming/Rust/rust.md
+      - Chung:
+        - Overview: Programming/Rust/rust-overview.md
+        - Install: Programming/Rust/rust-install.md
+        - Prepare for Test: Programming/Rust/rust-prepare-for-test.md
+        - Document: Programming/Rust/rust-document.md
+        - Example:
+          - Example Hello World: Programming/Rust/rust-example-helloworld.md
+          - Example Variables: Programming/Rust/rust-example-variables.md
+          - Example Primitives: Programming/Rust/rust-example-primitives.md
+      - Biến:
+        - Variables: Programming/Rust/rust-variables.md
+        - Scalar Types: Programming/Rust/rust-scalar-types.md
+        - Compound Types:
+          - Tuples: Programming/Rust/rust-tuples.md
+          - Array: Programming/Rust/rust-array.md
+          - Slices: Programming/Rust/rust-slices.md
+        - String: Programming/Rust/rust-string.md
+        - Struct: Programming/Rust/rust-struct.md
+        - Enum: Programming/Rust/rust-enum.md
+      - Hàm: Programming/Rust/rust-function.md
+      - System:
+        - I/O Printer: Programming/Rust/rust-io-printer.md
+      - Control:
+        - Flow Control:
+          - If/Else: Programming/Rust/rust-flow-control-if-else.md
+          - Loop: Programming/Rust/rust-flow-control-loop.md
+          - While: Programming/Rust/rust-flow-control-while.md
+          - For: Programming/Rust/rust-flow-control-for.md
+          - Match: Programming/Rust/rust-flow-control-match.md
+        - Operator: Programming/Rust/rust-operator.md
+  ##
+    - Java:
+      - 🇻🇳 Java: Programming/Java/java.md
+      - Overview:
+        - JDK, JRE và JVM: Programming/Java/java-jdk-jre-jvm.md
+        - Install: Programming/Java/java-install.md
+        - HelloWorld: Programming/Java/java-helloworld.md
+      - Basic:
+        - Basic Syntax: Programming/Java/java-basic-synctax.md
+        - Datatypes & Variables: Programming/Java/java-basic-datatypes-and-variables.md
+    - Kotlin:
+      - 🇻🇳 Kotlin: Programming/Kotlin/kotlin.md
+      - Basic Concept: Programming/Kotlin/kotlin-basic-tour.md
+    - Python:
+      - 🇻🇳 Python: Programming/Python/python.md
+      - Cài đặt:
+        - Window: Programming/Python/python-install-windows.md
+        - Resased Version: Programming/Python/python-resased-version.md
+        - Any Version: Programming/Python/python-any-version.md
+      - Cơ bản:
+        - Căn bản: Programming/Python/python-basic-concept.md
+        - String: Programming/Python/python-string.md
+        - Toán tử: Programming/Python/python-operator.md
+        - Điều khiển luồng: Programming/Python/python-control-flow-statements.md
   #############################################################################################################################################################
   - Web:
     - 🇻🇳 HTML: NonProgramming/html/html.md

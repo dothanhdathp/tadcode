@@ -16,13 +16,13 @@ Phải nói là có rất rất nhiều loại thuật toán sắp xếp
 
 | Type                                              | Type                 | Type                                       |
 | :------------------------------------------------ | :------------------- | :----------------------------------------- |
-| [Selection Sort](dev-algorithm-selection-sort.md) | Bingo Sort Algorithm | Pancake sorting                            |
-| [Bubble Sort](dev-algorithm-bubble-sort.md)       | ShellSort            | BogoSort or Permutation Sort               |
-| [Insertion Sort](dev-algorithm-insertion-sort.md) | TimSort              | Gnome Sort                                 |
+| [Selection Sort](algorithm-selection-sort.md) | Bingo Sort Algorithm | Pancake sorting                            |
+| [Bubble Sort](algorithm-bubble-sort.md)       | ShellSort            | BogoSort or Permutation Sort               |
+| [Insertion Sort](algorithm-insertion-sort.md) | TimSort              | Gnome Sort                                 |
 | Merge Sort                                        | Comb Sort            | Sleep Sort – The King of Laziness          |
-| [Quick Sort](dev-algorithm-quick-sort.md)         | Pigeonhole Sort      | Structure Sorting in C++                   |
+| [Quick Sort](algorithm-quick-sort.md)         | Pigeonhole Sort      | Structure Sorting in C++                   |
 | Heap Sort                                         | Cycle Sort           | Stooge Sort                                |
-| [Counting Sort](dev-algorithm-counting-sort.md)   | Cocktail Sort        | Tag Sort (To get both sorted and original) |
+| [Counting Sort](algorithm-counting-sort.md)   | Cocktail Sort        | Tag Sort (To get both sorted and original) |
 | Radix Sort                                        | Strand Sort          | Tree Sort                                  |
 | Bucket Sort                                       | Bitonic Sort         | Odd-Even Sort / Brick Sort                 |
 | 3-way Merge Sort                                  |                      |                                            |
@@ -31,12 +31,12 @@ Phải nói là có rất rất nhiều loại thuật toán sắp xếp
 
 | Sorting Algorithm                                 | Average Case  |   Best Case   |  Worst Case   | Note |
 | :------------------------------------------------ | :-----------: | :-----------: | :-----------: | :--: |
-| [Bubble Sort](dev-algorithm-bubble-sort.md)       |   $O(n^2)$    |    $O(n)$     |   $O(n^2)$    |      |
-| [Insertion Sort](dev-algorithm-insertion-sort.md) |   $O(n^2)$    |    $O(n)$     |   $O(n^2)$    |      |
-| [Selection Sort](dev-algorithm-selection-sort.md) |   $O(n^2)$    |   $O(n^2)$    |   $O(n^2)$    |      |
-| [Quick Sort](dev-algorithm-quick-sort.md)         | $O(n.log(n))$ | $O(n.log(n))$ |   $O(n^2)$    |      |
+| [Bubble Sort](algorithm-bubble-sort.md)       |   $O(n^2)$    |    $O(n)$     |   $O(n^2)$    |      |
+| [Insertion Sort](algorithm-insertion-sort.md) |   $O(n^2)$    |    $O(n)$     |   $O(n^2)$    |      |
+| [Selection Sort](algorithm-selection-sort.md) |   $O(n^2)$    |   $O(n^2)$    |   $O(n^2)$    |      |
+| [Quick Sort](algorithm-quick-sort.md)         | $O(n.log(n))$ | $O(n.log(n))$ |   $O(n^2)$    |      |
 | Merge Sort                                        | $O(n.log(n))$ | $O(n.log(n))$ | $O(n.log(n))$ |      |
 | Heap Sort                                         | $O(n.log(n))$ | $O(n.log(n))$ | $O(n.log(n))$ |      |
-| [Counting Sort](dev-algorithm-counting-sort.md)   |   $O(n+k)$    |   $O(n+k)$    |   $O(n+k)$    |      |
+| [Counting Sort](algorithm-counting-sort.md)   |   $O(n+k)$    |   $O(n+k)$    |   $O(n+k)$    |      |
 | Radix Sort                                        |   $O(n*k)$    |   $O(n*k)$    |   $O(n*k)$    |      |
 | Bucket Sort                                       |   $O(n+k)$    |   $O(n+k)$    |   $O(n^2)$    |      |

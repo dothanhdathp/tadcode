@@ -1,4 +1,4 @@
-# \[Cpp\] Unordered Map
+# \[C++\] Unordered Map
 
 - Là dạng cấu trúc dữ liệu dạng __*key-value*__ giống như __std::map__ trừ trường _key_ là trường sẽ sử dụng __*hash table*__ để phát triển.
 - Vì thuật toán _hash_ cơ bản không hoạt động với các dạng dữ liệu phức tạp, do đó chỉ có các dữ liệu kiểu [fundamental](cpp-fundamental-datatypes.md) mới có thể sử dụng.
@@ -18,7 +18,7 @@ std::unordered_map<int, std::string> m2 =
 };
 ```
 
-### Copy Ceonstructor
+### Copy Constructor
 
 ```cpp
 std::unordered_map<int, std::string> m3 = m2;
@@ -39,7 +39,7 @@ std::vector<std::pair<std::bitset<8>, int>> v = {{0x12, 1}, {0x01,-1}};
 std::unordered_map<std::bitset<8>, double> m5(v.begin(), v.end());
 ```
 
-## Duyệt Mảng
+## Duyệt Phần Tử
 
 ```cpp
 std::unordered_map<int, float> umap;
@@ -48,8 +48,9 @@ for(auto ir : umap) {
 }
 ```
 
-## Thông số
+## Truy Vấn
 
+- `umap.size()`: trả về số lượng phần tử.
 - `umap.size()`: trả về số lượng phần tử.
 
 ## Truy cập phần tử

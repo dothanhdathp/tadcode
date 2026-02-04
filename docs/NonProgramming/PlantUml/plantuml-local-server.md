@@ -59,3 +59,12 @@ __Plantuml Docker Server for Ubuntu__. Cách này thì tiến trình build các 
     ```sudo title="Khởi chạy"
     sudo docker run -d -p 8080:8080 plantuml/plantuml-server:jetty
     ```
+1. Dừng tiến trình
+    - Tìm kiếm tiến trình bằng lệnh sau. Tìm kiếm miền __CONTAINER ID__/__NAMES__
+        ```sudo
+        sudo docker ps
+        ```
+    - sudo docker stop với __CONTAINER ID__/__NAMES__ bên trên
+        ```sudo
+        sudo docker rm 
+        ```
