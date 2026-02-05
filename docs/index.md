@@ -7,48 +7,33 @@ Hướng tới mục tiêu trở thành lập trình viên xịn xò.
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
-!$URL = "http://localhost:65001"
+!$URL = "/Programming"
 
 * Code
 
-** About Computer
+** Computer Science
 ***_ Các loại NNLT
-****_ [[$URL/Programming/compiled-language/ Compiled Language]]
-****_ [[$URL/Programming/hybrid-language/ Hybrid Language]]
-****_ [[$URL/Programming/interpreted-language/ Interpreted Language]]
-****_ [[$URL/NonProgramming/another-non-programming-language/ Non Programming Language]]
-
+****_ [[$URL/compiled-language/ Compiled Language]]
+****_ [[$URL/hybrid-language/ Hybrid Language]]
+****_ [[$URL/interpreted-language/ Interpreted Language]]
 ***_ [[$URL/CS/data-struct/ Data Struct]]:
 ***_ [[$URL/CS/algorithm-overview/ Algorithm]]:
 ***_ [[$URL/CS/design-pattern/ Design Pattern]]:
 
-***_ Bài Viết Tham Khả0
-****_ Tốc Độ Trong Ngôn Ngữ Lập Trình
-****_ Alan Turing
+** [[$URL/compiled-language Complied Language]]
+***_ [[$URL/c/c/ C]]
+***_ [[$URL/cpp/cpp/ C++]]
+***_ [[$URL/Rust/rust/ Rust]]
+** [[$URL/interpreted-hybrid-language Interpreted & Hybrid]]
+***_ [[$URL/Java/java/ Java]]
+***_ [[$URL/python/python/ Python]]
+***_ [[$URL/Kotlin/kotlin/ Kotlin]]
 
-** Các Ngôn Ngữ\nThường Dùng
-***_ [[$URL/Programming/c/c/ C]]
-***_ [[$URL/Programming/cpp/cpp/ C++]]
-***_ [[$URL/Programming/Rust/rust/ Rust]]
-***_ [[$URL/Programming/Java/java/ Java]]
-***_ [[$URL/Programming/python/python/ Python]]
-
-*** Web
-****_ HTML
-****_ CSS
-****_ PHP
-
-** Another\nProgramming\nLanguage
-***_ Assembly
-***_ C#
-***_ Javascript
-
-** Another\nNon\nProgramming\nLanguage
-***_ UML
-***_ Markdown
-***_ [[$URL/NonProgramming/PlantUml/plantuml/ PlantUml]]
-***_ [[$URL/NonProgramming/Mermaid/mermaid/ Mermaid]]
-***_ [[$URL/NonProgramming/Matlab/matlab/ Mathlab]]
+** Web
+***_ HTML
+***_ CSS
+***_ PHP
+***_ [[$URL/Javascript/javascript Javascript]]
 
 @endmindmap
 ```

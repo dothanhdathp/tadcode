@@ -5,12 +5,12 @@
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
-!$URL = "http://localhost:65001/Programming/cpp"
+!$URL = "/Programming/cpp"
 
 * C++
 
 left side
-** [[http://localhost:65001/ Coder]]
+** [[/ Coder]]
 ** Getting Start
 *** [[$URL/cpp-overview Overview]]
 ****_ What is C++

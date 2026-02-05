@@ -63,6 +63,8 @@ Máy tính không hiểu các kịch bản này, nó cần một người chuy�
 
 ```puml
 @startuml
+skinparam backgroundcolor transparent
+
 database    "High Level\nLanguage"   as HLL
 database    "Medium Level\nLanguage" as MLL
 database    "Low Level\nLanguage"    as LLL
@@ -113,6 +115,8 @@ end
 
 ```puml
 @startmindmap
+skinparam backgroundcolor transparent
+
 * Programming Language
 right side
 **[#AABBCC] Variables

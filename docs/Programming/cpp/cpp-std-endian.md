@@ -2,7 +2,7 @@
 
 Công cụ này sử dụng để kiểm tra endian hệ thống đang sử dụng.
 
-Tham khảo endian tại bài [Endianness](http://localhost:65001/OS/os-endianness/)
+Tham khảo endian tại bài [Endianness](/OS/os-endianness/)
 
 ```c++
 #include <iostream>

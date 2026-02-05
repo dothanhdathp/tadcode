@@ -14,17 +14,18 @@ Rust mạnh mẽ nhất trong việc tạo ra các mã đơn giản mà an toàn
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
-!$URL = "http://localhost:65001/Programming/Rust"
+!$URL = "/Programming/Rust"
 
 * [[$URL/rust/ Rust]]
 
 left side
-** [[http://localhost:65001/ Coder]]
-** Chung
-***_ Overview
-****_ What is Rust
-****_ Why Rust
-****_ C++ vs Rust
+**_ [[/ Coder]]
+
+right side
+** Khởi Đầu
+***_ What is Rust
+***_ Why Rust
+***_ C++ vs Rust
 *** Cài Đặt
 ****_ Windows
 ****_ Linux
@@ -32,21 +33,17 @@ left side
 ***_ [[$URL/rust-document Documents]]
 ***_ [[https://play.rust-lang.org/?version=stable&mode=debug&edition=2024 Playground]]
 
-right side
-** Variables
-*** [[$URL/rust-variables/ Variables (Auto)]]
-*** [[$URL/rust-scalar-types Scalar]]
-****_: Types
-  i32, i64, ...
-  u32, u64, ...
-  uf2, f64, ...
-  boolean, char
+** [[$URL/rust-variables/ Variables]]
+***_: [[$URL/rust-scalar-types Scalar Types]]
+  ├─ i32, i64, u32, u64, ...
+  ├─ f32, f64, ...
+  └─ boolean, char, ...
 ;
-*** Compound Types
+***_ Compound Types
 ****_ [[$URL/rust-tuples/ Tuples]]
 ****_ [[$URL/rust-array/ Array]]
 ****_ [[$URL/rust-slices/ Slices]]
-*** [[$URL/rust-custom-types Custom Types]]
+***_ [[$URL/rust-custom-types Custom Types]]
 ****_ Enum
 ****_ Struct
 ** Control

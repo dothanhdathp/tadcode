@@ -81,8 +81,10 @@ nav:
       - Tốc Độ Trong Ngôn Ngữ Lập Trình: CS/common-speed-of-language.md
       - Alan Turing: CS/common-alan-turing.md
   #############################################################################################################################################################
-  - Ngôn Ngữ Lập Trình:
-  ##
+  - Complied:
+    - Complied Language: Programming/compiled-language.md
+    - Assembly:
+      - Assembly: Programming/assembly/assembly.md
     - C:
       - Về C: Programming/c/c.md
       - Data Types:
@@ -116,7 +118,6 @@ nav:
         - define: Programming/c/c-define.md
       - ????:
         - Makefile: Programming/c/c-makefile.md
-  ## 
     - C++:
       - Về C++: Programming/cpp/cpp.md
       - Chung:
@@ -239,7 +240,8 @@ nav:
         - Support Header: Programming/cpp/cpp-exmaple-support-header.md
         - Draw Loading: Programming/cpp/cpp-exmaple-draw-loading.md
         - Tổ Hợp, Chỉnh Hợp, Giai Thừa: Programming/cpp/cpp-exmaple-permutation-compination-factorial.md
-  ##
+    - C#:
+      - C#: Programming/c-sharp/c-sharp.md
     - Rust:
       - Về Rust: Programming/Rust/rust.md
       - Chung:
@@ -272,9 +274,10 @@ nav:
           - For: Programming/Rust/rust-flow-control-for.md
           - Match: Programming/Rust/rust-flow-control-match.md
         - Operator: Programming/Rust/rust-operator.md
-  ##
+  - Interpreted & Hybrid:
+    - Interpreted & Hybrid: interpreted-hybrid-language.md
     - Java:
-      - 🇻🇳 Java: Programming/Java/java.md
+      - Java: Programming/Java/java.md
       - Overview:
         - JDK, JRE và JVM: Programming/Java/java-jdk-jre-jvm.md
         - Install: Programming/Java/java-install.md
@@ -283,10 +286,10 @@ nav:
         - Basic Syntax: Programming/Java/java-basic-synctax.md
         - Datatypes & Variables: Programming/Java/java-basic-datatypes-and-variables.md
     - Kotlin:
-      - 🇻🇳 Kotlin: Programming/Kotlin/kotlin.md
+      - Kotlin: Programming/Kotlin/kotlin.md
       - Basic Concept: Programming/Kotlin/kotlin-basic-tour.md
     - Python:
-      - 🇻🇳 Python: Programming/Python/python.md
+      - Python: Programming/Python/python.md
       - Cài đặt:
         - Window: Programming/Python/python-install-windows.md
         - Resased Version: Programming/Python/python-resased-version.md
@@ -296,70 +299,13 @@ nav:
         - String: Programming/Python/python-string.md
         - Toán tử: Programming/Python/python-operator.md
         - Điều khiển luồng: Programming/Python/python-control-flow-statements.md
-  #############################################################################################################################################################
   - Web:
-    - 🇻🇳 HTML: NonProgramming/html/html.md
-    - 🇻🇳 CSS: NonProgramming/css/css.md
-    - 🇻🇳 PhP: Programming/php/php.md
-  #############################################################################################################################################################
-  - Another P. Language:
-    - Another Programming Language: Programming/another-programming-language.md
-    - Assembly: Programming/assembly-language.md
-    - C#:
-      - 🇻🇳 C#: Programming/c-sharp/c-sharp.md
+    - HTML: Web/html/html.md
+    - CSS: Web/css/css.md
+    - PhP: Web/php/php.md
     - Javascript:
-      - 🇻🇳 Javascript: Programming/Javascript/javascript.md
-  - Another Non PL:
-    - Another Non Programming Language: NonProgramming/another-non-programming-language.md
-    - UML:
-      - UML: NonProgramming/UML/uml.md
-      - UML Class Diagram: NonProgramming/UML/uml-class-diagram.md
-    - 🇻🇳 Markdown: NonProgramming/Markdown/markdown.md
-    - 🇻🇳 PlantUml:
-      - PlantUml: NonProgramming/PlantUml/plantuml.md
-      - Local Server: NonProgramming/PlantUml/plantuml-local-server.md
-      - UML Diagrams:
-        - Sequence diagram 🏲: NonProgramming/PlantUml/plantuml-sequence-diagram.md
-        - Usecase diagram: NonProgramming/PlantUml/plantuml-usecase-diagram.md
-        - Class diagram 🏲: NonProgramming/PlantUml/plantuml-class-diagram.md
-        - Object diagram: NonProgramming/PlantUml/plantuml-object-diagram.md
-        - Activity diagram 🏲: NonProgramming/PlantUml/plantuml-activity-diagram.md
-        - Component diagram: NonProgramming/PlantUml/plantuml-component-diagram.md
-        - Deployment diagram: NonProgramming/PlantUml/plantuml-deployment-diagram.md
-        - State diagram: NonProgramming/PlantUml/plantuml-state-diagram.md
-        - Timing diagram: NonProgramming/PlantUml/plantuml-timing-diagram.md
-      - Non-UML Diagrams:
-        - JSON data: NonProgramming/PlantUml/plantuml-json-data.md
-        - YAML data: NonProgramming/PlantUml/plantuml-yaml-data.md
-        - EBNF diagram: NonProgramming/PlantUml/plantuml-ebnf-diagram.md
-        - Regex diagram: NonProgramming/PlantUml/plantuml-regex-diagram.md
-        - Network diagram (nwdiag): NonProgramming/PlantUml/plantuml-network-diagram-nwdiag.md
-        - UI mockups (salt): NonProgramming/PlantUml/plantuml-ui-mockups-salt.md
-        - Archimate diagram: NonProgramming/PlantUml/plantuml-archimate-diagram.md
-        - SDL: NonProgramming/PlantUml/plantuml-sdl.md
-        - Ditaa diagram: NonProgramming/PlantUml/plantuml-ditaa-diagram.md
-        - Gantt diagram: NonProgramming/PlantUml/plantuml-gantt-diagram.md
-        - Chronology diagram: NonProgramming/PlantUml/plantuml-chronology-diagram.md
-        - MindMap diagram 🏲: NonProgramming/PlantUml/plantuml-mindmap-diagram.md
-        - WBS diagram 🏲: NonProgramming/PlantUml/plantuml-wbs-diagram.md
-        - Mathematics: NonProgramming/PlantUml/plantuml-mathematics.md
-        - IE diagram: NonProgramming/PlantUml/plantuml-ie-diagram.md
-        - ER diagram: NonProgramming/PlantUml/plantuml-er-diagram.md
-    - 🇻🇳 Mermaid:
-      - Mermaid: NonProgramming/Mermaid/mermaid.md
-    - 🇻🇳 Matlab:
-      - Matlab: NonProgramming/Matlab/matlab.md
-  #############################################################################################################################################################
-  - Practice:
-    - Prepare: Practice/practice.md
-    - Leetcode: Practice/leetcode.md
-    - Leetcode List:
-      - Leetcode 1-99: Practice/leetcode/leetcode-1-to-99.md
-      - 0079.Largest Number: Practice/leetcode/leetcode-0179.md
-      - 0875.Koko Eating Bananas: Practice/leetcode/leetcode-0875.md
-      - 1486.3 XOR Operation in an Array: Practice/leetcode/leetcode-1486.md
-      - 3799.Word Squares II: Practice/leetcode/leetcode-3799.md
-  - Tools:
+      - Javascript: Web/Javascript/javascript.md
+  - Compiler/VM:
     - Tools: Tools/tools.md
     - Build Tools:
       - GNU:
@@ -379,6 +325,15 @@ nav:
         - Example: Tools/make-example.md
       - Cmake:
         - Cmake: Tools/cmake.md
+  - Practice:
+    - Prepare: Practice/practice.md
+    - Leetcode: Practice/leetcode.md
+    - Leetcode List:
+      - Leetcode 1-99: Practice/leetcode/leetcode-1-to-99.md
+      - 0079.Largest Number: Practice/leetcode/leetcode-0179.md
+      - 0875.Koko Eating Bananas: Practice/leetcode/leetcode-0875.md
+      - 1486.3 XOR Operation in an Array: Practice/leetcode/leetcode-1486.md
+      - 3799.Word Squares II: Practice/leetcode/leetcode-3799.md
 
 extra_css:
   - assets/stylesheets/theme.css

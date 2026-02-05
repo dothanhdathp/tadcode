@@ -1,4 +1,4 @@
-# Assembly language
+# \[Assembly\] Hợp Ngữ
 
 ## Khái Niệm
 
@@ -7,7 +7,6 @@ __Assembly language__ dịch ra là __Hợp ngữ__
 Hợp ngữ là ngôn ngữ gần nhất với máy tính. Hợp ngữ 
 
 Ngôn ngữ hội không phải là một ngôn ngữ phổ quát duy nhất; đúng hơn, có nhiều ngôn ngữ hợp ngữ khác nhau, mỗi ngôn ngữ gắn liền với một kiến ​​trúc máy tính hoặc họ bộ xử lý cụ thể. Điều này là do mỗi loại CPU có các lệnh mã máy riêng và hợp ngữ là cách thể hiện trực tiếp, dễ đọc của các lệnh đó.
-
 
 ## Các Ngôn Ngữ
 

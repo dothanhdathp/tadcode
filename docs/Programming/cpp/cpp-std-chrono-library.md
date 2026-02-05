@@ -8,5 +8,5 @@ Thư viện __Chrono__ xử lý các vấn đề liên quan đến thời gian g
 
 ## Time Type
 
-- `std::time_t` là cấu hình chuẩn thời gian theo hệ [POSIX](http://localhost:65001/OS/os-posix-and-win32/)
+- `std::time_t` là cấu hình chuẩn thời gian theo hệ [POSIX](/OS/os-posix-and-win32/)
 

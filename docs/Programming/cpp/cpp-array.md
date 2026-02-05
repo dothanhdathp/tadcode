@@ -106,7 +106,7 @@ int main() {
 - Kết quả như có thể thấy đấy là:
     1. Giá trị của `arr[0]` và `arr[1]` bị thay đổi.
     1. Mỗi giá trị tương ứng với một nửa giá trị của `long long`
-    1. Nhưng có vẻ như bị __*ngược*__? Đọc thêm về [Endianness](http://localhost:65001/OS/os-endianness/)
+    1. Nhưng có vẻ như bị __*ngược*__? Đọc thêm về [Endianness](/OS/os-endianness/)
 
 ## Sử Dụng
 

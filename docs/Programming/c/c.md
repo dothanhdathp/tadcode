@@ -7,7 +7,7 @@
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
-!$URL = "http://localhost:65001/Programming/c"
+!$URL = "/Programming/c"
 
 * C
 ** Data Types
