@@ -275,7 +275,7 @@ nav:
           - Match: Programming/Rust/rust-flow-control-match.md
         - Operator: Programming/Rust/rust-operator.md
   - Interpreted & Hybrid:
-    - Interpreted & Hybrid: interpreted-hybrid-language.md
+    - Interpreted & Hybrid: Programming/interpreted-hybrid-language.md
     - Java:
       - Java: Programming/Java/java.md
       - Overview:
