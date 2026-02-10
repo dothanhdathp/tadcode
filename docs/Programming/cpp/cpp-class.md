@@ -1,4 +1,4 @@
-# \[C++\] Class
+# Class
 
 - __class__ về cơ bản giống như [struct](cpp-struct.md), nó thường được biết đến nhiều hơn với vai trò trong lập trình hướng đối tượng.
 - __class__ và __struct__ giống nhau đến 99% trong cấu trúc bộ nhớ. Hầu hết sự khác biệt đến từ cách sử dụng. Về cơ bản class giống như struct có thêm _plugin_, một số thay đổi đáng kể như:
@@ -18,3 +18,37 @@ Một lớp gồm 4 thành phần chính:
 ## Khai báo
 
 Không khác lắm với struct ở kết cấu đầu tiên. Trừ việc các phần tử trong class là __*private*__ (xem qua [Class Access Specifiers](cpp-class-access-specifiers.md)).
+
+## Hàm Tạo Hàm Hủy
+
+```cpp
+class ExampleClass {
+    ExampleClass() {};
+    virtual ~Example() {};
+};
+```
+
+```cpp
+class ExampleClass {
+public:
+    ExampleClass() {};
+    virtual ~Example() {};
+private:
+    int id = 10;
+};
+```
+
+```cpp
+class ExampleClass {
+public:
+    ExampleClass(int id) : private_id(id) {
+
+    };
+    virtual ~Example() {};
+    int getId() {
+        return private_id;
+    };
+private:
+    int private_id;
+};
+```

@@ -35,6 +35,7 @@ plugins:
       # puml_url: https://www.plantuml.com/plantuml/
       puml_url: http://localhost:8080/
   - graph
+  # - macros
 
 nav:
   #############################################################################################################################################################
@@ -126,12 +127,8 @@ nav:
         - Cài Đặt:
           - Windows: Programming/cpp/cpp-install-for-windows.md
           - Linux: Programming/cpp/cpp-install-for-linux.md
-        - Build:
-          - Make Tool: Programming/cpp/cpp-build-tool-make.md
-          - Makefile Ex: Programming/cpp/cpp-makefile-example.md
-        - Document: Programming/cpp/cpp-reference-document.md
-      - Data Types:
-        - Fundamental: Programming/cpp/cpp-fundamental-datatypes.md
+      - Cơ Bản:
+        - Fundamental Data Types: Programming/cpp/cpp-fundamental-datatypes.md
         - (C++) Numeric Limits: Programming/cpp/cpp-std-numeric-limits.md
         - Derived:
           - Array: Programming/cpp/cpp-array.md
@@ -147,20 +144,11 @@ nav:
           - Class Hàm Tạo, Hàm Hủy: Programming/cpp/cpp-class-constructor-destructor-function.md
           - Class Access Specifiers: Programming/cpp/cpp-class-access-specifiers.md
           - Class Kế Thừa: Programming/cpp/cpp-class-inheritance.md
-      - Pointer :
+        - Casting: Programming/cpp/cpp-fundamental-cast.md
+        - String Cast: Programming/cpp/cpp-string-cast.md
         - Pointer: Programming/cpp/cpp-pointer.md
-        - Smart Pointer: Programming/cpp/cpp-smart-pointer.md
-        - Raw Pointer: Programming/cpp/cpp-raw-pointer.md
-      - Thùng Chứa:
         - Container: Programming/cpp/cpp-container.md
         - Linked List: Programming/cpp/cpp-linked-list.md
-      - Chuyển Đổi:
-        - Fundamental Cast: Programming/cpp/cpp-fundamental-cast.md
-        - String Cast: Programming/cpp/cpp-string-cast.md
-        - static_cast: Programming/cpp/cpp-static_cast.md
-        - const_cast: Programming/cpp/cpp-const_cast.md
-        - dynamic_cast: Programming/cpp/cpp-dynamic_cast.md
-        - reinterpret_cast: Programming/cpp/cpp-reinterpret_cast.md
       - Điều Khiển:
         - Arithmetic Operator: Programming/cpp/cpp-arithmetic-operator.md
         - Logical Operator: Programming/cpp/cpp-logical-operator.md
@@ -175,7 +163,35 @@ nav:
         - Function Recursion: Programming/cpp/cpp-function-recursion.md
       - Standard Library:
         - Standard Library: Programming/cpp/cpp-std-standard-library.md
-        - ⚙️ Group Container:
+        - ⚙️ Iterator:
+          - STD Iterators: Programming/cpp/cpp-std-iterators.md
+        - ⚙️ Utility:
+          - STD Utility: Programming/cpp/cpp-std-utility.md
+          - STD Math: Programming/cpp/cpp-std-math.md
+          - IO library:
+            - Input/Output: Programming/cpp/cpp-input-output.md
+            - iostream: Programming/cpp/cpp-std-iostream.md
+          - Các Kiểu Mở Rộng:
+            - Bitset: Programming/cpp/cpp-std-bitset.md
+            - Pair: Programming/cpp/cpp-std-pair.md
+            - Tuple: Programming/cpp/cpp-std-tuple.md
+          - Casting:
+            - Static Cast: Programming/cpp/cpp-static_cast.md
+            - Const Cast: Programming/cpp/cpp-const_cast.md
+            - Dynamic Cast: Programming/cpp/cpp-dynamic_cast.md
+            - Reinterpret Cast: Programming/cpp/cpp-reinterpret_cast.md
+          - Quản Lý Tài Nguyên:
+            - Smart Pointer: Programming/cpp/cpp-smart-pointer.md
+            - Shared Pointer: Programming/cpp/cpp-shared-ptr.md
+            - Weak Pointer: Programming/cpp/cpp-weak-ptr.md
+            - Unique Pointer: Programming/cpp/cpp-unique-ptr.md
+          - Date & Time:
+            - Chrono library: Programming/cpp/cpp-std-chrono-library.md
+            - System Clock: Programming/cpp/cpp-system-system-clock.md
+            - Steady Clock: Programming/cpp/cpp-system-steady-clock.md
+            - File Clock: Programming/cpp/cpp-system-file-clock.md
+          - Endianess: Programming/cpp/cpp-std-endian.md
+        - ⚙️ Container:
           - STD Container: Programming/cpp/cpp-std-container.md
           - STD Linear Types: Programming/cpp/cpp-linear-types.md
           - STD Array: Programming/cpp/cpp-std-array.md
@@ -186,33 +202,14 @@ nav:
           - STD Initializer_List: Programming/cpp/cpp-initializer-list.md
           - STD Set: Programming/cpp/cpp-std-set.md
           - STD Unordered Set: Programming/cpp/cpp-std-unordered-set.md
-        - ⚙️ Group Algorithms:
+        - ⚙️ Algorithms:
           - STD Algorithms: Programming/cpp/cpp-std-algorithms.md
           - STD Search: Programming/cpp/cpp-std-algorithms-search.md
           - STD Sort: Programming/cpp/cpp-std-algorithms-sort.md
-        - ⚙️ Group Iterator:
-          - STD Iterators: Programming/cpp/cpp-std-iterators.md
-        - ⚙️ Group Utility:
-          - STD Utility: Programming/cpp/cpp-std-utility.md
-          - Các Kiểu Mở Rộng:
-            - Bitset: Programming/cpp/cpp-std-bitset.md
-            - Pair: Programming/cpp/cpp-std-pair.md
-            - Tuple: Programming/cpp/cpp-std-tuple.md
-        - STD Math: Programming/cpp/cpp-std-math.md
         - STD System: Programming/cpp/cpp-std-system.md
         - STD Type_Traits: Programming/cpp/cpp-std-type_traits.md
         - STD Format: Programming/cpp/cpp-std-format.md
         - STD Ranges: Programming/cpp/cpp-std-ranges.md
-      - System:
-        - IO library:
-          - Input/Output: Programming/cpp/cpp-input-output.md
-          - iostream: Programming/cpp/cpp-std-iostream.md
-        - Date & time:
-          - Chrono library: Programming/cpp/cpp-std-chrono-library.md
-          - System Clock: Programming/cpp/cpp-system-system-clock.md
-          - Steady Clock: Programming/cpp/cpp-system-steady-clock.md
-          - File Clock: Programming/cpp/cpp-system-file-clock.md
-        - Endianess: Programming/cpp/cpp-std-endian.md
       - Specifier:
         - Specifier: Programming/cpp/cpp-specifier.md
         - Include: Programming/cpp/cpp-include.md
@@ -232,6 +229,11 @@ nav:
         - thread_local: Programming/cpp/cpp-std-thread_local.md
         - Async Thread: Programming/cpp/cpp-std-async-thread.md
         - Coroutine: Programming/cpp/cpp-coroutine.md
+      - Build:
+        - GNU G++: Programming/cpp/cpp-gnu-g-plus-plus.md
+        - Make Tool: Programming/cpp/cpp-build-tool-make.md
+        - Makefile Ex: Programming/cpp/cpp-makefile-example.md
+      - Document: Programming/cpp/cpp-reference-document.md
       - Example:
         - Hello World: Programming/cpp/cpp-helloworld.md
         - Mẫu thử: Programming/cpp/cpp-example-test.md
