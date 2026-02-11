@@ -1,4 +1,4 @@
-# \[C++\] HelloWorld
+# HelloWorld
 
 ## Nội dung
 

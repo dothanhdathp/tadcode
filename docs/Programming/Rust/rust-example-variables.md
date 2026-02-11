@@ -1,4 +1,4 @@
-# \[Rust\] Example<br>Variables
+# Example<br>Variables
 
 ## Các Loại Biến Nguyên Thuỷ
 

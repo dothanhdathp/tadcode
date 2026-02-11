@@ -1,4 +1,4 @@
-# \[C\] Define
+# Define
 
 __Define__ là cách định nghĩa lại 
 

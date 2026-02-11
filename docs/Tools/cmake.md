@@ -1,4 +1,4 @@
-# \[Tools\] CMake
+# CMake
 
 __CMake__ là một công cụ __Meta-Build System__, siêu xây dựng.
 

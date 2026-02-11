@@ -1,4 +1,4 @@
-# \[C++\] Async Thread
+# Async Thread
 
 __Async Thread__ là dạng khởi tạo một luồng thực thi một tác vụ nào đó trong khi luồng chính vẫn hoạt động. Đến một thời điểm nào đó luồng sẽ bắt đầu quay trở lại và lấy giá trị của biến đó.
 - Nếu thực thi thành công thì giá trị sẽ được trả về.

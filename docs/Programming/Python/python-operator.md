@@ -1,4 +1,4 @@
-# [Python] Toán tử
+# Toán tử
 
 ## Toán tử số học
 

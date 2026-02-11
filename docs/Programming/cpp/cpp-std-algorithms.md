@@ -1,4 +1,4 @@
-# \[C++\] STD Algorithms
+# STD Algorithms
 
 ## About Algorithms
 

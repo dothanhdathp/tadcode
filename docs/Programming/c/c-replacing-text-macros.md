@@ -1,4 +1,4 @@
-# \[C\] Replacing text macros
+# Replacing text macros
 
 > Nguồn: [https://en.cppreference.com/w/c/preprocessor/replace.html](https://en.cppreference.com/w/c/preprocessor/replace.html)
 

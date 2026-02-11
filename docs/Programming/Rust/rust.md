@@ -1,4 +1,4 @@
-# \[Rust\] About Rust
+# About Rust
 
 Rust là một ngôn ngữ lập trình hệ thống hiện đại tập trung vào __tính an toàn__, __tốc độ__ và __tính đồng thời__. Ngôn ngữ này đạt được những mục tiêu này nhờ __*tính bảo mật bộ nhớ*__ mà không cần sử dụng cơ chế thu gom rác.
 

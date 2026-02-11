@@ -1,4 +1,4 @@
-# \[Rust\] Mảng
+# Mảng
 
 Mảng là kiếu phức hợp thứ hai, là tập hợp các giá trị có cùng một kiểu được tập hợp lại thành một mảng với độ dài xác định.
 

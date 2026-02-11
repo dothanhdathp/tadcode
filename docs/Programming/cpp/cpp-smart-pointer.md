@@ -1,4 +1,4 @@
-# \[Cpp\] Smart Pointer
+# Smart Pointer
 
 > [Smart Pointers in Geeksforgeeks](https://www.geeksforgeeks.org/cpp/smart-pointers-cpp/)
 

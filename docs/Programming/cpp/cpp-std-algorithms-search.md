@@ -1,4 +1,4 @@
-# \[C++\] Algorithms Search
+# Algorithms Search
 
 ## Min Max
 

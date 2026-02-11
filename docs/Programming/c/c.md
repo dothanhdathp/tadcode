@@ -1,4 +1,4 @@
-# \[C\] About C Language
+# About C Language
 
 - Ngôn ngữ này nhanh.
 - C rất phổ biến từ những thập kỷ trước bởi tính tiện dụng và ổn định.

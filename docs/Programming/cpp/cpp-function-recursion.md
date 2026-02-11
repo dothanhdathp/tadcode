@@ -1,4 +1,4 @@
-# \[C++\] Hàm Đệ Quy
+# Hàm Đệ Quy
 
 ## Định nghĩa
 

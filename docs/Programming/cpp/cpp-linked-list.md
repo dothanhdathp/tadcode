@@ -1,4 +1,4 @@
-# \[C++\] Linked List
+# Linked List
 > Single Linked List
 
 __Linked List__ là dạng cơ sở dữ liệu cơ bản đầu tiên. Nó hoạt động the kiểu các thùng chứa đơn có một đầu liên tục. __Linked List__ có tốc độ cao, tính ổn định cũng cao và phân bổ bộ nhớ động nên khá được ưa dùng. Đây là cơ sở dữ liệu đầu tiên được học.

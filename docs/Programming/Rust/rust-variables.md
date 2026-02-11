@@ -1,4 +1,4 @@
-# \[Rust\] Biến
+# Biến
 
 > Biến là thành phần cơ bản trong mọi ngôn ngữ lập trình.
 

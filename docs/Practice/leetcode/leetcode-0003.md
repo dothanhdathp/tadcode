@@ -1,4 +1,4 @@
-# \[LeetCode\] 3. Longest Substring Without Repeating Characters
+# 3. Longest Substring Without Repeating Characters
 
 !!! warning "Warning"
     Tiết kiệm bộ nhớ chứ tốc độ thì như hạch

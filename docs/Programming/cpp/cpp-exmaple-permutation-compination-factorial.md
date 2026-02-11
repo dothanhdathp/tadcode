@@ -1,4 +1,4 @@
-# \[C++\] Tổ Hợp, Chỉnh Hợp, Giai Thừa
+# Tổ Hợp, Chỉnh Hợp, Giai Thừa
 
 - __Permutation__: _Tổ Hợp_
 - __Compination__: _Chỉnh Hợp_

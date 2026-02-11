@@ -1,4 +1,4 @@
-# \[C++\] Sort
+# Sort
 
 - `std::sort` sắp xếp lại cấu trúc dữ liệu theo thứ tự.
 

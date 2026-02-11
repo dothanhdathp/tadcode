@@ -1,4 +1,4 @@
-# \[C++\] Mẩu Thử
+# Mẩu Thử
 
 __Mẩu Thử__ chứa các thành phần cơ bản để bắt đầu thử nghiện code C++ một cách nhanh với tiện nhất. Yêu cầu đơn giản chỉ cần một tệp `main.cpp` thuần chứa mã gốc và cài đặt `g++`, `make` để chạy.
 

@@ -1,1 +1,1 @@
-# \[C++\] Define
+# Define

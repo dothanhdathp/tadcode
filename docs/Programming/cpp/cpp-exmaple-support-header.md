@@ -1,4 +1,4 @@
-# \[C++\] Support Header
+# Support Header
 
 Mình không biết thế nào nhưng cái này để hỗ trợ viết code làm bài leetcode cho tiện.
 

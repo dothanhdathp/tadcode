@@ -1,4 +1,4 @@
-# \[C++\] Bitset
+# Bitset
 
 > Source: [std::bitset](https://en.cppreference.com/w/cpp/utility/bitset.html)
 

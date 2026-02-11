@@ -1,4 +1,4 @@
-# \[Common\] Tốc Độ Trong Ngôn Ngữ Lập Trình
+# Tốc Độ Trong Ngôn Ngữ Lập Trình
 
 ## Thế giới xoay quanh C,C++ và Java
 

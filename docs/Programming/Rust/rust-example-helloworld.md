@@ -1,4 +1,4 @@
-# \[Rust\] HelloWorld
+# HelloWorld
 
 ## Bắt đầu với rustc
 

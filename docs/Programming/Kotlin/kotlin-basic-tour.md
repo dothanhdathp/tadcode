@@ -1,4 +1,4 @@
-# \[Kotlin\] Basic Concept
+# Basic Concept
 
 Với những ngôn ngữ bậc cao, cú pháp đã tối giản hoá đến mức tối đa các phương thức được sử dụng rồi. Thế nên chỉ cần đi qua một lượt các ví dụ đơn giản là hòm hòm nắm được ngôn ngữ này.
 

@@ -1,4 +1,4 @@
-# \[C++\]\[Class\] Hàm tạo, hàm hủy
+# Hàm tạo, hàm hủy
 
 ## Hàm Tạo
 

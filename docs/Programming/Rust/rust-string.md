@@ -1,1 +1,1 @@
-# \[Rust\] String
+# String

@@ -1,4 +1,4 @@
-# \[C++\] String Init
+# String Init
 
 ## Yêu Cầu
 

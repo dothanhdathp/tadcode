@@ -1,1 +1,1 @@
-# \[Rust\] Slices
+# Slices

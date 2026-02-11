@@ -1,4 +1,4 @@
-# \[Java\] Install
+# Install
 
 ## Windows
 

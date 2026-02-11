@@ -1,4 +1,4 @@
-# \[C++\] String
+# String
 
 ## Khái niệm
 

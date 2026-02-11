@@ -1,4 +1,4 @@
-# \[Rust\] Tuples
+# Tuples
 
 > Nhiều dạng dữ liệu khác nhau được tập hợp lại với nhau gọi là __Tuples__
 

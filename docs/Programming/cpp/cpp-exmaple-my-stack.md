@@ -1,4 +1,4 @@
-# \[C++\] My Stack
+# My Stack
 
 Tự viết lại một lớp stack theo ý của mình bằng con trỏ và áp dụng __*template*__
 

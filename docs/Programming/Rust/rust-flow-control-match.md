@@ -1,4 +1,4 @@
-# \[Rust\] Match
+# Match
 
 > Giải pháp thay thế cho `switch/case`
 

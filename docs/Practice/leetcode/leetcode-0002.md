@@ -1,4 +1,4 @@
-# \[LeetCode\] 2. Add Two Numbers
+# 2. Add Two Numbers
 
 ### 2.1 Mô Tả
 

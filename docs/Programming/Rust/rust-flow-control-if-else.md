@@ -1,4 +1,4 @@
-# \[Rust\] If/Else
+# If/Else
 
 ## Mặc Định
 

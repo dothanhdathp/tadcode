@@ -1,4 +1,4 @@
-# \[C++\] System Clock
+# System Clock
 
 __System Clock__ chính là đồng hồ của hệ thống.
 

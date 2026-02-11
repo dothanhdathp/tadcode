@@ -1,4 +1,4 @@
-# \[C++\] Enum
+# Enum
 
 > Giống với ngôn ngữ [\[C Enum\]](/Programming/c/c-enum/)
 

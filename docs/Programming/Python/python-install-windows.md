@@ -1,4 +1,4 @@
-# \[Python\] Cài đặt cho Windows
+# Cài đặt cho Windows
 
 ## Tải về cài đặt
 

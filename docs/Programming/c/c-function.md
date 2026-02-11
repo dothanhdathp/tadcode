@@ -1,1 +1,1 @@
-# \[C\] Function
+# Function

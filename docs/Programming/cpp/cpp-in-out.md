@@ -1,4 +1,4 @@
-# \[C++\] Input & Output
+# Input & Output
 > Chương này nói về các hoạt động đầu vào đầu ra của C++
 
 ## C Type

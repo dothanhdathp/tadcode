@@ -1,4 +1,4 @@
-# \[Rust\] Install
+# Install
 
 ## Tải về bản cài đặt
 

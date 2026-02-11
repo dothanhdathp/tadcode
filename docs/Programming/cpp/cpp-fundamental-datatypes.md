@@ -1,4 +1,4 @@
-# \[C++\] Kiểu biến Fundamental
+# Kiểu biến Fundamental
 
 ## Định nghĩa
 

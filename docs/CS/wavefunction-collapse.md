@@ -1,4 +1,4 @@
-# \[Algorithm\] The Wavefunction Collapse
+# The Wavefunction Collapse
 
 > Tạm dịch là __Mô Hình Hàm Sóng Sụp Đổ__
 

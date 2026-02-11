@@ -1,4 +1,4 @@
-# \[C++\] Fundamental Cast
+# Fundamental Cast
 
 __Fundamental Cast__ nói về các chuyển đổi kiểu giữa các loại cơ bản.
 

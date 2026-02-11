@@ -1,4 +1,4 @@
-# \[C++\] Vector
+# Vector
 
 `std::vector` là một dạng __*mảng động một chiều*__. Đây là cấu trúc dữ liệu quan trọng trong lập trình cạnh tranh nói riêng và lập trình nói chung.
 

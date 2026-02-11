@@ -1,4 +1,4 @@
-# \[C++\] Class Access Specifiers
+# Class Access Specifiers
 
 > Phân bổ quyền truy cập
 

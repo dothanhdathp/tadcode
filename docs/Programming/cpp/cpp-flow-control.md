@@ -1,4 +1,4 @@
-# \[C++\] Một số lệnh điều khiển
+# Một số lệnh điều khiển
 
 - Có ba các điều khiển luồng cơ bản là:
     - Điều kiện `IF/ELSE`

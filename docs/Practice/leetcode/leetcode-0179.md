@@ -1,4 +1,4 @@
-# \[Leetcode\] 179. Largest Number
+# 179. Largest Number
 
 ## Đề bài
 

@@ -1,4 +1,4 @@
-# \[C++\] Draw Loading
+# Draw Loading
 
 > Vẽ Loading Process bằng C++
 

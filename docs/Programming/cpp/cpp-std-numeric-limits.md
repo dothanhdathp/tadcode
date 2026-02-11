@@ -1,4 +1,4 @@
-# \[C++\] Numeric Limits
+# Numeric Limits
 
 > Tham khảo: [https://en.cppreference.com/w/cpp/types/numeric_limits.html](https://en.cppreference.com/w/cpp/types/numeric_limits.html)
 

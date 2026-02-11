@@ -1,4 +1,4 @@
-# \[Rust\] Example<br>Primitives
+# Example<br>Primitives
 
 ## Primitives
 

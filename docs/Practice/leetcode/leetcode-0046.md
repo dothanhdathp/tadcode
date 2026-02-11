@@ -1,4 +1,4 @@
-# \[LeetCode\] 46. Permutations (Hoán vị)
+# 46. Permutations (Hoán vị)
 
 > - Link: [https://leetcode.com/problems/permutations/description/](https://leetcode.com/problems/permutations/description/)
 > - 🌟 Bài này cực hay!

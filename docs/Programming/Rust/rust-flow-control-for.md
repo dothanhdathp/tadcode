@@ -1,4 +1,4 @@
-# \[Rust\] For
+# For
 
 - __*for*__ là lệnh lặp trong một chuỗi số. Từ `a..b` thì nó sẽ từ `a` đến `b-1`. Ví dụ:
 

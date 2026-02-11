@@ -1,4 +1,4 @@
-# \[C++\] Toán Tử Toán Học
+# Toán Tử Toán Học
 
 Các phép toán số học căn bản đề cập đến các phương thức thực hiện các phép toán thông thường __Cộng__, __Trừ__, __Nhân__, __Chia lấy nguyên__ và __Chia lấy dư__
 

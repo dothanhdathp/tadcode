@@ -1,4 +1,4 @@
-# \[CS\] Heap & Stack
+# Heap & Stack
 
 Ngăn xếp (__stack__) và vùng nhớ (__heap__) là hai vùng nhớ cơ bản được các chương trình sử dụng trong quá trình thực thi. Chúng phục vụ các mục đích khác nhau trong việc lưu trữ dữ liệu trong quá trình thực thi chương trình. __*Đây là kiến thức quan trọng đối với mọi lập trình viên nếu muốn viết chương trình hoạt động tốt và ổn định.*__
 

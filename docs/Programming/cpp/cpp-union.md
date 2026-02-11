@@ -1,4 +1,4 @@
-# \[C++\] Union
+# Union
 
 ## Định nghĩa
 

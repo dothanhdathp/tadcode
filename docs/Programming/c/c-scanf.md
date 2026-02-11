@@ -1,4 +1,4 @@
-# \[C\] Scanf
+# Scanf
 
 ## Mô Tả
 

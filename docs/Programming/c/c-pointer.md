@@ -1,4 +1,4 @@
-# \[C\] Pointer
+# Pointer
 
 ## Định Nghĩa
 

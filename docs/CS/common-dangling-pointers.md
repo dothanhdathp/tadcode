@@ -1,4 +1,4 @@
-# \[Com\] Dangling Pointers
+# Dangling Pointers
 
 Trong C++, con trỏ cho phép quản lý bộ nhớ trực tiếp, nhưng chúng cũng có thể dẫn đến các vấn đề như con trỏ treo lơ lửng. Con trỏ lơ lửng xảy ra khi con trỏ tiếp tục tham chiếu đến bộ nhớ đã được giải phóng hoặc không còn hợp lệ. Điều này có thể gây ra hành vi không thể đoán trước, sự cố và rủi ro bảo mật. Trong bài viết này, chúng tôi sẽ giải thích con trỏ lơ lửng là gì, cung cấp ví dụ và thảo luận về các phương pháp hiệu quả để ngăn chặn chúng, giúp bạn viết mã C++ an toàn và đáng tin cậy hơn.
 

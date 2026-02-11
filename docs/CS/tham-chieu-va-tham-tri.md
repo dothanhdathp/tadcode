@@ -1,4 +1,4 @@
-# \[Common\] Tham Chiếu Và Tham Trị
+# Tham Chiếu Và Tham Trị
 
 > Tham Khảo: [Tham Chiếu Và Tham Trị trong C++](https://codelearn.io/sharing/tham-chieu-va-tham-tri-trong-cpp)
 

@@ -1,4 +1,4 @@
-# \[\] Linear Types
+# Linear Types
 
 ## STD Stack (LIFO)
 

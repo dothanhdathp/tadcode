@@ -1,4 +1,4 @@
-# \[C++\] Named Requirements
+# Named Requirements
 
 > Tham khảo: [https://en.cppreference.com/w/cpp/iterator/concepts.html](https://en.cppreference.com/w/cpp/iterator/concepts.html)
 

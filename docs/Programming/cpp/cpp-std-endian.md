@@ -1,4 +1,4 @@
-# \[C++\] std::endian
+# std::endian
 
 Công cụ này sử dụng để kiểm tra endian hệ thống đang sử dụng.
 

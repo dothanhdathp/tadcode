@@ -1,4 +1,4 @@
-# \[C++\] Chrono library
+# Chrono library
 
 Thư viện __Chrono__ xử lý các vấn đề liên quan đến thời gian gồm ba dạng đồng hồ chính là:
 

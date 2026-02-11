@@ -1,4 +1,4 @@
-# \[C\] Basic Data Types
+# Basic Data Types
 
 ## Data Types
 

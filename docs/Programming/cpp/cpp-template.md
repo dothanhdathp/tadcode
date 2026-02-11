@@ -1,4 +1,4 @@
-# \[Cpp\] Template
+# Template
 
 ## Định Nghĩa
 

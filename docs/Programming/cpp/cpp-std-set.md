@@ -1,2 +1,2 @@
-# \[C++\] STD Set
+# STD Set
 

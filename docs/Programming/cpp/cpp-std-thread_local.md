@@ -1,4 +1,4 @@
-# \[C++\] thread_local
+# thread_local
 
 - `thread_local` là một loại _keyword_ trong C++.
 - `thread_local` khai báo một biến trở thành một biến độc lập trên luồng.

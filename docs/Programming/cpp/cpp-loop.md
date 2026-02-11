@@ -1,4 +1,4 @@
-# \[C++\] Vòng lặp
+# Vòng lặp
 
 ## Vòng lặp
 

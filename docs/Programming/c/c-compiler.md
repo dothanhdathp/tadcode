@@ -1,4 +1,4 @@
-# \[C\] Compiler
+# Compiler
 
 __Trình Biên Dịch__ này đơn giản nói về việc chuyển dịch dữ liệu từ __*C source file*__ sang thành mã máy.
 

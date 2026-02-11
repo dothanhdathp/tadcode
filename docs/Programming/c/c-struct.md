@@ -1,4 +1,4 @@
-# \[C\] Struct
+# Struct
 
 - __struct__ là cấu trúc để hợp một nhóm các giá trị vào một nhóm.
 - Việc thực thi có thế tương tác với từng thành phần trong __struct__

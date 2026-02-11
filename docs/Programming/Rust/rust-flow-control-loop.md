@@ -1,4 +1,4 @@
-# \[Rust\] Loop
+# Loop
 
 ## Cơ Bản
 

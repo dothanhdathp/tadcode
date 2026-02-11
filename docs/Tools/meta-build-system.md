@@ -1,4 +1,4 @@
-# \[Tools\] Build System
+# Build System
 
 ## Build System
 

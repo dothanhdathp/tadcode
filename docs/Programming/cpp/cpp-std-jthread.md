@@ -1,4 +1,4 @@
-# \[C++\] JThread
+# JThread
 
 > (since C++20) `std::jthread` được phát triển từ sau __C++20__
 

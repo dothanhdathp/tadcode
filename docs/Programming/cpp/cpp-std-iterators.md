@@ -1,4 +1,4 @@
-# \[C++\] Iterators
+# Iterators
 
 __*Iterators*__ là Là "keo dán" giữa các thành phần của [Container](cpp-std-container.md) (std::vector, std::list, ...) với các Algorithms (sort, find).
 

@@ -1,4 +1,4 @@
-# \[C\] Printf
+# Printf
 
 ## Thư viện
 

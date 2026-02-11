@@ -1,4 +1,4 @@
-# \[C++\] Unique Pointer
+# Unique Pointer
 
 ## Unique Pointer
 

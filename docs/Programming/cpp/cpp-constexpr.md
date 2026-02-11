@@ -1,4 +1,4 @@
-# \[C++\] Constexpr
+# Constexpr
 
 __Constexpr__ là khai báo cho biết một biến hoặc hàm sẽ có cấu trúc tĩnh và có thể xử lý ở tiến trình __pre-prcessing__.
 

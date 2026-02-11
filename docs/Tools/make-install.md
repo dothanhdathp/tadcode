@@ -1,4 +1,4 @@
-# \[Make\] Install
+# Install
 
 ## Windows
 

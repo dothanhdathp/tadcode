@@ -1,4 +1,4 @@
-# \[C++\] String Index
+# String Index
 
 ## Iterators
 

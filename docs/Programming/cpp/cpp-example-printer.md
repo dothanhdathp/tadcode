@@ -1,4 +1,4 @@
-# \[C++\] Exampler Printer
+# Exampler Printer
 
 > Các hàm viết sẵn đẩy kết quả ra ngoài màn hình hỗ trợ cho việc debug/lập trình.
 

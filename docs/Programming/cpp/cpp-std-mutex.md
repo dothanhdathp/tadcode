@@ -1,4 +1,4 @@
-# \[C++\] Mutex
+# Mutex
 
 Lớp `mutex` là một lớp nguyên thủy đồng bộ hóa có thể được sử dụng để bảo vệ dữ liệu được chia sẻ khỏi bị nhiều luồng truy cập đồng thời.
 

@@ -1,4 +1,4 @@
-# \[Rust\] While
+# While
 
 ## Cơ Bản
 

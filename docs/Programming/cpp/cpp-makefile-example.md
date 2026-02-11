@@ -1,4 +1,4 @@
-# \[C++\] Makefile Example
+# Makefile Example
 
 ```text title="Makefile"
 CXX = g++

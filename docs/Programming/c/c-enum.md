@@ -1,4 +1,4 @@
-# \[C\] Enum
+# Enum
 
 __Enum__ là dạng một vùng nhớ nhiều dữ liệu dạng __interger__. Nó chỉ có một tác dụng là định nghĩa dạng __*const*__, gán cho số một cái tên nào đó để định danh.
 

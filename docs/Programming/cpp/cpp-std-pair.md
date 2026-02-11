@@ -1,4 +1,4 @@
-# \[C++\] STD Pair
+# STD Pair
 
 - Pair tạo ra một cặp các giá trị được liên kết với nhau (khá là giống với dạng __*struct*__). Chỉ khác là vì nó được định nghĩa chung trong thư viện chuẩn nên các thao tác với con trỏ dạng __*interator*__ có thể được kế thừa sử dụng.
 - Muốn sử dụng `std::pair`, cần sử dụng thư viện `<utility>`

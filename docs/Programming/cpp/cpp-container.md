@@ -1,4 +1,4 @@
-# \[C++\] Thùng Chứa
+# Thùng Chứa
 
 __*Thùng Chứa*__ hay __*Container*__ là khái niệm chỉ một tập hợp của nhiều dữ liệu nguyên thủy lại với nhau. Nó có thể có/hoặc không có cấu trúc
 

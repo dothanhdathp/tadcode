@@ -1,4 +1,4 @@
-# \[C++\] Steady Clock
+# Steady Clock
 
 - __Steady Clock__ là đồng hồ với bộ đếm chính xác. Nó không đại diện hay phụ thuộc vào biến số đồng hồ của hệ điều hành.
 - __Steady Clock__ thường được sử dụng để tính thời gian hoạt động của chương trình hoặc một đoạn chương trình.

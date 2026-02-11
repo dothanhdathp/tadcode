@@ -1,4 +1,4 @@
-# \[C\] Callback Function
+# Callback Function
 
 __Callback Function__ là cách truyền một hàm vào trong một hàm khác để hàm đó có thể gọi đến bất cứ lúc nào.
 

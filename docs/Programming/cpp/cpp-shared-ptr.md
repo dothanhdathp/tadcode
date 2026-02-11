@@ -1,4 +1,4 @@
-# \[C++\] Shared Pointer
+# Shared Pointer
 
 > [Shared Pointer](https://en.cppreference.com/w/cpp/memory/shared_ptr.html)
 

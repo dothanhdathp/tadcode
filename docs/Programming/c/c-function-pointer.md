@@ -1,4 +1,4 @@
-# \[C\] Function Pointer
+# Function Pointer
 
 __Con trỏ hàm__ _(Function Pointer)_
 

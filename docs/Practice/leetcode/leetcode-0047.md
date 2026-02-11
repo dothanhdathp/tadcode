@@ -1,4 +1,4 @@
-# \[LeetCode\] 47. Permutations II
+# 47. Permutations II
 
 > link: [https://leetcode.com/problems/permutations-ii/description/](https://leetcode.com/problems/permutations-ii/description/)
 

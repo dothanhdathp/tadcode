@@ -1,4 +1,4 @@
-# \[C++\] Coroutine
+# Coroutine
 
 __Coroutine__ là chế độ chạy xen kẽ giả thread. Chúng được sinh ra để chia sẻ tài nguyên trên một luồng để tối ưu hóa tài nguyên máy một cách triệt để.
 

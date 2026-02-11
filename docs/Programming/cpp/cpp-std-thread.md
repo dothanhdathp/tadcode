@@ -1,4 +1,4 @@
-# \[C++\] Thread
+# Thread
 
 Đa luồng trong __C++__.
 

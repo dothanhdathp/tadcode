@@ -1,4 +1,4 @@
-# \[LeetCode\] 57. Insert Interval
+# 57. Insert Interval
 
 > _Source: [https://leetcode.com/problems/insert-interval/](https://leetcode.com/problems/insert-interval/)_
 

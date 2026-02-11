@@ -1,4 +1,4 @@
-# \[Rust\] Print
+# Print
 
 ## Các hàm output
 

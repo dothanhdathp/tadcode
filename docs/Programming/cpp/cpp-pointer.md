@@ -1,4 +1,4 @@
-# \[C++\] Con trỏ (Pointer)
+# Con trỏ (Pointer)
 
 ## Khái niệm
 

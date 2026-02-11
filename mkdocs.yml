@@ -124,9 +124,7 @@ nav:
       - Chung:
         - Overview: Programming/cpp/cpp-overview.md
         - Thư Viện STD: Programming/cpp/cpp-std.md
-        - Cài Đặt:
-          - Windows: Programming/cpp/cpp-install-for-windows.md
-          - Linux: Programming/cpp/cpp-install-for-linux.md
+        - Cài Đặt: Programming/cpp/cpp-install.md
       - Cơ Bản:
         - Fundamental Data Types: Programming/cpp/cpp-fundamental-datatypes.md
         - (C++) Numeric Limits: Programming/cpp/cpp-std-numeric-limits.md

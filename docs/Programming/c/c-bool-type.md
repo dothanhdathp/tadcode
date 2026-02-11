@@ -1,4 +1,4 @@
-# \[C\] Boolean
+# Boolean
 
 Dạng `bool` không có sẵn, nó được định nghĩa trong thư viện __stdbool.h__. Về cơ bản nó vẫn theo _logic_ cũ xử lý __*if/else*__ case. Sai với không và đúng với các trường hợp còn lại. Nó được định nghĩa như sau:
 

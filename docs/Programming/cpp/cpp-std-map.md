@@ -1,4 +1,4 @@
-# \[C++\] STD Map
+# STD Map
 
 - __std::map__ là cấu trúc dữ liệu dạng bản đồ theo cặp __*key-value*__, nghĩa là mỗi phần tử của _std::map_ chính là một phần tử _std::pair_ và được xếp vào thành _std::set_, thế nên:
 

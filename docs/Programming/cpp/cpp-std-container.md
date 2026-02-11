@@ -1,4 +1,4 @@
-# \[C++\] STD Container
+# STD Container
 
 Các __Container__ đại diện cho các thùng chứa, hay dễ hiểu hơn chính là tập hợp của các loại __dữ liệu (biến)__ theo một kiến trúc được đặt tên.
 

@@ -1,4 +1,4 @@
-# \[Rust\] Hàm
+# Hàm
 
 ## Định Nghĩa
 

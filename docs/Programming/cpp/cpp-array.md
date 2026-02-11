@@ -1,4 +1,4 @@
-# \[Cpp\] Array - Chuỗi Cổ Điển
+# Array - Chuỗi Cổ Điển
 
 Chuỗi là cấu trúc đơn giản nhất. Nó gồm các dữ liệu được xếp liên tục nhau có __số lượng phần tử__ khai báo sẵn. Tức là sau khi chuỗi đã được tạo, nó không có khả năng mở rộng bộ nhớ đã có. Để hiểu được tại sao hãy đọc về cách máy tính phân bổ bộ nhớ cho __Heap__ và __Stack__.
 

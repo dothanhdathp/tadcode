@@ -1,4 +1,4 @@
-# \[C\] Phases of translation
+# Phases of translation
 
 Tệp nguồn C được trình biên dịch xử lý như thể các giai đoạn sau diễn ra theo thứ tự chính xác này. Việc triển khai thực tế có thể kết hợp các hành động này hoặc xử lý chúng theo cách khác nhau miễn là hành vi đó giống nhau.
 

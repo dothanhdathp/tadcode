@@ -1,4 +1,4 @@
-# \[C++\] Static
+# Static
 
 ## Khái Niệm
 

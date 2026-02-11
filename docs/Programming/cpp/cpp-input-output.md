@@ -1,4 +1,4 @@
-# \[C++\] Input/Output
+# Input/Output
 
 > Theo [iolibrary](https://cplusplus.com/reference/iolibrary/)
 

@@ -1,4 +1,4 @@
-# \[C++\] Lambda Function
+# Lambda Function
 
 ## Định nghĩa
 

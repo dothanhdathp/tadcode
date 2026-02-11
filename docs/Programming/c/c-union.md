@@ -1,4 +1,4 @@
-# \[C\] Union
+# Union
 
 __Union__ là dạng một vùng nhớ nhiều kiểu dữ liệu.
 

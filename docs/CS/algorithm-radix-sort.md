@@ -1,4 +1,4 @@
-# \[Algorithm\] Radix Sort
+# Radix Sort
 
 ```c++ title="My Implement"
 void radix_sort(std::vector<int> &vec, int imax)

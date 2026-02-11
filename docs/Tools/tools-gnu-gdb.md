@@ -1,4 +1,4 @@
-# \[Tools\] GDB
+# GDB
 
 __GDB__ là công cụ dùng để hỗ trợ gỡ lỗi trên các chương trình __C/C++__. Công cụ này rất hay.
 

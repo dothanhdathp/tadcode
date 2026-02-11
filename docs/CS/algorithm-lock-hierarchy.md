@@ -1,4 +1,4 @@
-# \[Alg.\] Lock Hierarchy
+# Lock Hierarchy
 
 __Lock Hierarchy__ - _Hệ Thống Phân Cấp Khóa_ - là chỉ cách thức phân bổ quyền truy cập vào các khu vực bộ nhớ.
 

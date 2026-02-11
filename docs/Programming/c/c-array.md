@@ -1,4 +1,4 @@
-# \[C\] Array
+# Array
 
 ## Khái Niệm
 

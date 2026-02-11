@@ -1,4 +1,4 @@
-# \[LeetCode\] 37. Sudoku Solver
+# 37. Sudoku Solver
 
 ## 37.1 Lịch sử
 

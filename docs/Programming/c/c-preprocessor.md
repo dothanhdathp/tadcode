@@ -1,4 +1,4 @@
-# \[C\] Preprocessor
+# Preprocessor
 
 ## Định Nghĩa
 

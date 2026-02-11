@@ -1,4 +1,4 @@
-# \[Rust\] Phương Thức
+# Phương Thức
 
 ## Các Phương Thức Cơ Bản
 

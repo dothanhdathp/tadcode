@@ -1,4 +1,4 @@
-# \[Rust\] Prepare for Test
+# Prepare for Test
 
 > Chuẩn bị một số thứ cần thiết để chạy thử
 

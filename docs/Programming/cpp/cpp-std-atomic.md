@@ -1,4 +1,4 @@
-# \[C++\] Atomic
+# Atomic
 
 __atomic__ là loại biến đặc biệt sẽ tự đồng bộ hóa, an toàn với luồng và đảm bảo chương trình diễn ra theo thứ tự dự đoán được. Thường dùng trong lập trình đa luồng.
 

@@ -1,4 +1,4 @@
-# \[C++\] Namespace
+# Namespace
 
 __namespace__ chia cách các chức năng code, hàm,... hay nói đơn giản là nó sẽ phân vùng các chức năng có trong ngôn ngữ thành các thành phần khác nhau.
 

@@ -1,4 +1,4 @@
-# \[Assembly\] Hợp Ngữ
+# Hợp Ngữ
 
 ## Khái Niệm
 

@@ -1,4 +1,4 @@
-# \[C++\] Roadmap
+# Roadmap
 
 ```puml
 @startwbs
