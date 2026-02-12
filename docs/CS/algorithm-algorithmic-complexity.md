@@ -21,12 +21,51 @@ Giải trong bài thuật toán, $n$ được tính là số trường hợp th�
 
 Các hàm số thường dùng là $O(n)$, $O(n^2)$, $O(n+k)$, $O(n.log(n))$, ... được biểu thị dưới này. Có thể lấy hai ví dụ đơn giản là hàm số $(x^2)$ và $(x*log(x))$. Mặc dù xuất phát điểm gần tương tự nhau nhưng càng nhiều trường hợp thì $(x^2)$ tưang nhanh hơn nhiều so với $(x*log(x))$.
 
+## Big O Notation
+
+Dù có nhiều phân tích nhưng chính yếu chỉ có một vài __Big-O__ phổ biến như bảng dưới này. Các mức độ ví dụ như $O(n^3)$ sẽ rơi vào các khoảng từ $O(n^2) \rarr O(2^n)$. Dù sao các trường hợp đó đều là các trường hợp tệ, phải xử lý rồi.
+
 <figure markdown="span">
-    ![](img/dev-algorithm-grapth.png)
+    ![alt text](image/image-algorithm-algorithmic-complexity.png)
     <figcaption>Đồ thị tốc độ tăng của một số thuật toán</figcaption>
 </figure>
+
+### O(1)
+
+<figure markdown="span">
+    ![alt text](image/image-big-o1.gif)
+    <figcaption></figcaption>
+</figure>
+
+__Độ phức tạp thời gian không đổi__. Thời gian chạy của thuật toán là không đổi và không phụ thuộc vào kích thước đầu vào. Ví dụ: việc truy cập một phần tử trong một mảng theo chỉ mục của nó là O(1) vì việc này mất cùng một khoảng thời gian cho dù mảng có lớn đến đâu.
+
+### O(n)
+
+<figure markdown="span">
+    ![alt text](image/image-big-on.gif)
+    <figcaption></figcaption>
+</figure>
+
+__Độ phức tạp thời gian tuyến tính__. Thời gian chạy của thuật toán tăng tuyến tính với kích thước đầu vào. Ví dụ: việc lặp qua một mảng có kích thước n là O(n) vì thời gian để lặp qua mảng tỷ lệ thuận với kích thước của mảng.
+
+### O(n^2)
+
+<figure markdown="span">
+    ![alt text](image/image-big-o-n-pow-2.gif)
+    <figcaption></figcaption>
+</figure>
+
+Độ phức tạp thời gian bậc hai. Thời gian chạy của thuật toán tăng bậc hai theo kích thước đầu vào. Ví dụ: lặp qua một mảng có kích thước n và sau đó lặp lại qua một mảng có kích thước n là O$(n^2)$ vì phải mất `n*n` các thao tác cần hoàn thành.
+
+Ngay cả khi vòng lặp bên trong không chạy hết chiều dài của vòng lặp bên ngoài thì độ phức tạp về thời gian vẫn là O(n^2) vì vòng lặp bên ngoài chạy n lần và vòng lặp bên trong chạy tỷ lệ thuận với độ dài của mảng đầu vào.
+
+### O(m*m)
+
+Đây là độ phức tạp về thời gian của một vòng lặp lồng nhau trong đó vòng lặp bên trong chạy m lần cho mỗi lần lặp của vòng lặp bên ngoài. Ví dụ: lặp qua một mảng có kích thước n và sau đó lặp qua một mảng có kích thước m là $O(n*m)$ vì phải mất các thao tác `n*m` để hoàn thành.
+
+### TO_DO
 
 
 ## Tham Khảo
 
-- [Competitive Programmers Handbook, Chapter 2 Time complexity](http://localhost:8002/Program/competitive-programmers-handbook/2/)
+- [Big O Notation Cheat Sheet](https://neetcode.io/courses/lessons/big-o-notation)

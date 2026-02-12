@@ -2,6 +2,9 @@
 
 ## Roadmap
 
+<!-- ***_ Container: Programming/cpp/cpp-container.md
+***_ Linked List: Programming/cpp/cpp-linked-list.md -->
+
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
@@ -9,67 +12,127 @@ skinparam backgroundcolor transparent
 
 * C++
 
-left side
-** [[/ Coder]]
-** Getting Start
-*** [[$URL/cpp-overview Overview]]
-****_ What is C++
-****_ Why C++
-****_ C++ vs C
-*** Install
-**** Windows
-**** Linux
-**:= Data Struct
-//in global content//
-;
-*** Container
-****_ Stack
-****_ Queue
-****_ Deque
-****_ Linked List
-*** OOP
-*** RAII
+** Chung
+***_ [[$URL/cpp-overview Overview]]
+***_ [[$URL/cpp-std Thư Viện STD]]
+***_ [[$URL/cpp-install Cài Đặt]]
 
-right side
-** Data Types
-*** Loại Cơ Bản
+** Cơ Bản
+*** Kiểu Biến
 ****_: [[$URL/cpp-fundamental-datatypes/ Fundamental]]
   - Loại: int, float, bool, ...
   - Tính chất: Loại: const, unsigned
   - Bổ sung: int8_t, int16_t, ...
 ;
+****_ [[$URL/cpp-std-numeric-limits/ (C++) Numeric Limits]]
 **** Derived
-*****_ [[$URL/cpp-array/ array]]
-*****_ [[$URL/cpp-struct/ struct]]
-*****_ [[$URL/cpp-union/ union]]
-***_ [[$URL/cpp-enum/ Enum]]
-***_ [[$URL/cpp-class/ Class]]
-****_ [[$URL/cpp-class-access-specifiers/ Access Specifiers]]
-****_ [[$URL/cpp-class-encapsulation/ Đóng Gói (Encapsulation)]]
-****_ [[$URL/cpp-class-inheritance/ Kế thừa (Inheritance)]]
-****_ Đa hình (Polymorphism)
-****_ Trừu tượng (Abstraction)
-*** [[$URL/cpp-std-container/ STD Container]]
-**** std::string
-**** //Sequence//
-*****_ [[$URL/cpp-std-vector/ std::vector (*)]]
-*****_ [[$URL/cpp-std-deque/ std::deque (*)]]
-*****_ [[$URL/cpp-std-list/ std::list (*)]]
-*****_ [[$URL/cpp-std-array/ std::array*]]
+*****_ [[$URL/cpp-enum/ Enum]]
+*****_ [[$URL/cpp-array/ Array]]
+*****_ [[$URL/cpp-struct/ Struct]]
+*****_ [[$URL/cpp-union/ Union]]
+*** [[$URL/cpp-std-string String]]
+****_ [[$URL/cpp-string-construct-deconstruct String Constructor]]
+****_ [[$URL/cpp-string-index Truy Cập]]
+****_ [[$URL/cpp-string-cast String Cast]]
+*** Pointer
+****_ [[$URL/cpp-pointer Khái niệm]]
+****_ [[$URL/cpp-pointer-array Con trỏ mảng]]
+****_ [[$URL/cpp-dimension-array-pointer Con trỏ đa chìều]]
+*** [[$URL/cpp-fundamental-cast Ép kiểu]]
+*** [[$URL/cpp-function Hàm]]
+****_ [[$URL/cpp-lambda-function Lambda Function]]
+****_ [[$URL/cpp-function-as-parameter Function as Parameter]]
+****_ [[$URL/cpp-function-recursion Function Recursion]]
+
+** [[$URL/cpp-class/ Class]]
+***_ [[$URL/cpp-class-constructor-destructor-function Hàm Tạo, Hàm Hủy]]
+***_ [[$URL/cpp-class-access-specifiers/ Access Specifiers]]
+***_ [[$URL/cpp-class-encapsulation/ Đóng Gói (Encapsulation)]]
+***_ [[$URL/cpp-class-inheritance/ Kế thừa (Inheritance)]]
+***_ [[$URL/cpp-class-polymorphism Đa hình (Polymorphism)]]
+***_ [[$URL/cpp-class-abstraction Trừu tượng (Abstraction)]]
+
+** Điều Khiển
+***_ [[$URL/cpp-arithmetic-operator Toán tử số học]]
+***_ [[$URL/cpp-logical-operator Toán tử logic]]
+***_ [[$URL/cpp-bit-operator Toán tử bitwise]]
+***_ [[$URL/cpp-flow-control Điều khiển luồng]]
+***_ [[$URL/cpp-loop Vòng lặp]]
+***_ Error Handling
+***_ Try Catch
+
+** Specifier
+***_ [[$URL/cpp-specifier Specifier]]
+***_ [[$URL/cpp-include Include]]
+***_ [[$URL/cpp-define Define]]
+***_ [[$URL/cpp-namespace Namespace]]
+***_ [[$URL/cpp-constexpr Constexpr]]
+***_ [[$URL/cpp-template Template]]
+***_ [[$URL/cpp-static Static]]
+***_ [[$URL/cpp-command-line-arguments Input Arguments]]
+***_ [[$URL/cpp-memory-model Memory Model]]
+***_ [[$URL/cpp-named-requirements Named Requirements]]
+
+**: [[$URL/cpp-std-standard-library ⚙️ Standard Library]]
+    //thư viện cơ bản//;
+*** [[$URL/cpp-std-iterators ⚙️ STD Iterator]]
+*** [[$URL/cpp-std-utility ⚙️ STD Utility]]
+**** [[$URL/cpp-std-math STD Math]]
+**** [[$URL/cpp-std-math IO library]]
+*****_ [[$URL/cpp-input-output Input/Output]]
+*****_ [[$URL/cpp-std-iostream iostream]]
+**** Các Kiểu Mở Rộng
+*****_ [[$URL/cpp-std-bitset Bitset]]
+*****_ [[$URL/cpp-std-pair Pair]]
+*****_ [[$URL/cpp-std-tuple Tuple]]
+**** Casting
+*****_ [[$URL/cpp-static_cast Static Cast]]
+*****_ [[$URL/cpp-const_cast Const Cast]]
+*****_ [[$URL/cpp-dynamic_cast Dynamic Cast]]
+*****_ [[$URL/cpp-reinterpret_cast Reinterpret Cast]]
+**** Quản Lý Tài Nguyên
+*****_ [[$URL/cpp-smart-pointer Smart Pointer]]
+******_ [[$URL/cpp-shared-ptr Shared Pointer]]
+******_ [[$URL/cpp-weak-ptr Weak Pointer]]
+******_ [[$URL/cpp-unique-ptr Unique Pointer]]
+**** Date & Time
+*****_ [[$URL/cpp-std-chrono-library Chrono library]]
+*****_ [[$URL/cpp-system-system-clock System Clock]]
+*****_ [[$URL/cpp-system-steady-clock Steady Clock]]
+*****_ [[$URL/cpp-system-file-clock File Clock]]
+**** Khác
+*****_ std::shuffle
+*****_ std::sort
+*****_ std::min, std::max
+*****_ std::range
+*****_ std::unique
+*****_ std::distance
+*****_ std::regex
+*****_ std::random
+*****_ std::memory
+*****_ std::exception
+**** [[$URL/cpp-std-endian Endianess]]
+*** [[$URL/cpp-std-container ⚙️ STD Container]]
+**** Sequence
+*****_ [[$URL/cpp-std-array STD Array]]
+*****_ [[$URL/cpp-std-vector STD Vector]]
+*****_ [[$URL/cpp-std-list STD List]]
+*****_ [[$URL/cpp-initializer-list STD Initializer_List]]
+*****_ std::deque
 *****_ std::forward_list
 *****_ std::hive
 *****_ std::inplace_vector
-**** //Associative//
-*****_ [[$URL/cpp-std-set std::set]]
-*****_ [[$URL/cpp-std-map std::map]]
+**** Associative
+****_ [[$URL/cpp-std-map STD Map]]
+****_ [[$URL/cpp-std-set STD Set]]
 *****_ std::multiset
 *****_ std::multimap
-**** //Unordered//
-*****_ std::unordered_set
-*****_ [[$URL/cpp-std-unordered-map std::unordered_map]]
+**** Unordered
+*****_ [[$URL/cpp-std-unordered-map STD Unordered Map]]
+*****_ [[$URL/cpp-std-unordered-set STD Unordered Set]]
 *****_ std::unordered_multiset
 *****_ std::unordered_multimap
-**** //Adaptors//
+**** Adaptors
 *****_ std::stack
 *****_ std::queue
 *****_ std::priority_queue
@@ -77,69 +140,13 @@ right side
 *****_ std::flat_map
 *****_ std::flat_multiset
 *****_ std::flat_multimap
-**** //__another__//
-*****_ std::initializer_list
-
-** Pointer
-*** Khái niệm
-****_ Con trỏ biến
-****_ Con trỏ mảng
-****_ Con trỏ đa chìều
-**** Raw Pointer
-**** Smart Pointer
-*****_ std::weak_ptr
-*****_ std::shared_ptr
-*****_ std::unique_ptr
-
-** Control
-*** Flow Control
-*** Operator
-****_ [[$URL/cpp-arithmetic-operator/ Arithmetic Operator]]
-****_ [[$URL/cpp-logical-operator/ Logical Operator]]
-****_ [[$URL/cpp-bit-operator/ Bitswise Operator]]
-*** Error Handling
-**** try/catch
-
-** System
-***_ [[$URL/cpp-input-output/ Input/Output]]
-**** C Type: printf, scanf
-**** iostream
-*****_ istream
-*****_ ostream
-*****_ sstream
-*****_ streambuf
-***_ [[$URL/cpp-std-endian/ std::endian]]
-***_ Date & time
-****_ [[$URL/cpp-std-chrono-library/ Chrono library]]
-****_ [[$URL/cpp-system-system-clock/ System Clock]]
-****_ [[$URL/cpp-system-steady-clock/ Steady Clock]]
-****_ [[$URL/cpp-system-file-clock/ File Clock]]
-***_ [[$URL/cpp-std-endian/ Endianess]]
-** Function
-***_ [[$URL/cpp-function/ Function]]
-****_ Overload Function
-****_ Inline function
-****_ Function Pointer
-****_ Lambda Function
-****_ [[$URL/cpp-function-recursion/ Function Recursion]]
-***_ [[$URL/cpp-function-as-parameter/ std::function]]
-***_: [[$URL/cpp-math/ Math]]
-  ├─ //sum//
-  ├─ //abs//
-  ├─ //sqrt//
-  └─ //...//
-;
-*** STD Function
-****_ std::shuffle
-****_ std::sort
-****_ std::min, std::max
-****_ std::range
-****_ std::unique
-****_ std::distance
-****_ std::regex
-****_ std::random
-****_ std::memory
-****_ std::exception
+*** [[$URL/cpp-std-algorithms ⚙️ STD Algorithms]]
+****_ [[$URL/cpp-std-algorithms-search STD Search]]
+****_ [[$URL/cpp-std-algorithms-sort STD Sort]]
+***_ [[$URL/cpp-std-system (?) STD System]]
+***_ [[$URL/cpp-std-type_traits (?) STD Type_Traits]]
+***_ [[$URL/cpp-std-format (?) STD Format]]
+***_ [[$URL/cpp-std-ranges (?) STD Ranges]]
 
 ** Thread
 ***_ [[$URL/cpp-std-thread/ std::thread]]
@@ -153,26 +160,7 @@ right side
 ***_ [[$URL/cpp-std-async-thread/ Async Thread]]
 ***_ std::latch
 
-** [[$URL/cpp-specifier/ Specifier]]
-***_ Include
-***_ Define
-***_ Namespace
-***_ [[$URL/cpp-constexpr/ Constexpr]]
-***_: [[$URL/cpp-template/ Template]]
-  ├─ //Template Function//
-  └─ //Template Class//
-;
-***_ Liên Kết Thư Viện Động
-
-** Debug
-*** assert
-
-** Optional
-*** Hướng Dẫn
-****_: Tải một mảng tĩnh
-vào chương trình.
-;
-@endendmindmap
+@endmindmap
 ```
 
 <!-- Hidding -->

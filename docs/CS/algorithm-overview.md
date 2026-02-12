@@ -1,5 +1,7 @@
 # Algorithm
 
+## MindMap
+
 ```puml
 @startmindmap
 skinparam backgroundcolor transparent
@@ -53,3 +55,7 @@ skinparam backgroundcolor transparent
 ***_ [[$URL/algorithm-lock-hierarchy/ Lock Hierarchy]]
 @endmindmap
 ```
+
+## Tham Khảo
+
+- [Algorithms Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)

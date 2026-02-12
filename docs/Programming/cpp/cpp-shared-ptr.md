@@ -23,7 +23,7 @@
 
 ## Lý Do
 
-lỗi rò rỉ bộ nhớ (memory leaks) và các vấn đề về con trỏ treo ([dangling pointers](../../CS/common-dangling-pointers.md)). Lỗi này hay xảy ra khi hai hoặc nhiều lớp cùng tạo và sở hữu con trỏ để truy cập vào một vùng dữ liệu chung.
+lỗi rò rỉ bộ nhớ (memory leaks) và các vấn đề về con trỏ treo ([dangling pointers](/CS/common-dangling-pointers/)). Lỗi này hay xảy ra khi hai hoặc nhiều lớp cùng tạo và sở hữu con trỏ để truy cập vào một vùng dữ liệu chung.
 
 - Bởi vì các lớp không có thông tin về nhau nên sau khi kết thúc 
 

@@ -1,8 +1,9 @@
-# String Init
+# String Constructor
 
 ## Yêu Cầu
 
 - Yêu cầu khai báo [namespace](cpp-namespace.md) của [thư viện std](cpp-std-standard-library.md).
+- Đúng ra thư viện này nên được để trong thư viện chuẩn (STD), nhưng string trở thành một trong những phần thiết yếu quan trọng của các ngôn ngữ lập trình nên để nó ở đây.
 
 ## Định Nghĩa
 

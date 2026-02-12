@@ -77,15 +77,14 @@ nav:
         - Wavefunction Collapse: CS/wavefunction-collapse.md
     - Design Pattern:
       - Design Pattern: CS/design-pattern.md
-      - Array: CS/data-struct-array.md
     - Bài Viết Tham Khảo:
       - Tốc Độ Trong Ngôn Ngữ Lập Trình: CS/common-speed-of-language.md
       - Alan Turing: CS/common-alan-turing.md
   #############################################################################################################################################################
+  - Assembly:
+    - Assembly: Programming/assembly/assembly.md
   - Complied:
     - Complied Language: Programming/compiled-language.md
-    - Assembly:
-      - Assembly: Programming/assembly/assembly.md
     - C:
       - Về C: Programming/c/c.md
       - Data Types:
@@ -129,36 +128,40 @@ nav:
         - Fundamental Data Types: Programming/cpp/cpp-fundamental-datatypes.md
         - (C++) Numeric Limits: Programming/cpp/cpp-std-numeric-limits.md
         - Derived:
+          - Enum: Programming/cpp/cpp-enum.md
           - Array: Programming/cpp/cpp-array.md
           - Struct: Programming/cpp/cpp-struct.md
           - Union: Programming/cpp/cpp-union.md
-        - Enum: Programming/cpp/cpp-enum.md
         - String:
           - String: Programming/cpp/cpp-std-string.md
-          - String Hàm Tạo, Hàm Huỷ: Programming/cpp/cpp-std-string-construct-deconstruct.md
+          - String Constructor: Programming/cpp/cpp-string-construct-deconstruct.md
           - Truy Cập: Programming/cpp/cpp-string-index.md
-        - Class:
-          - Class: Programming/cpp/cpp-class.md
-          - Class Hàm Tạo, Hàm Hủy: Programming/cpp/cpp-class-constructor-destructor-function.md
-          - Class Access Specifiers: Programming/cpp/cpp-class-access-specifiers.md
-          - Class Kế Thừa: Programming/cpp/cpp-class-inheritance.md
-        - Casting: Programming/cpp/cpp-fundamental-cast.md
-        - String Cast: Programming/cpp/cpp-string-cast.md
-        - Pointer: Programming/cpp/cpp-pointer.md
-        - Container: Programming/cpp/cpp-container.md
-        - Linked List: Programming/cpp/cpp-linked-list.md
+          - String Cast: Programming/cpp/cpp-string-cast.md
+        - Pointer:
+          - Khái niệm: Programming/cpp/cpp-pointer.md
+          - Con trỏ mảng: Programming/cpp/cpp-pointer-array.md
+          - Con trỏ đa chìều: Programming/cpp/cpp-dimension-array-pointer.md
+        - Ép Kiểu: Programming/cpp/cpp-fundamental-cast.md
+        - Hàm:
+          - Hàm: Programming/cpp/cpp-function.md
+          - Lambda Function: Programming/cpp/cpp-lambda-function.md
+          - Function as Parameter: Programming/cpp/cpp-function-as-parameter.md
+          - Function Recursion: Programming/cpp/cpp-function-recursion.md
+          - Function Recursion: Programming/cpp/cpp-function-recursion.md
+        # - Container: Programming/cpp/cpp-container.md
+        # - Linked List: Programming/cpp/cpp-linked-list.md
+      - Class:
+        - Class: Programming/cpp/cpp-class.md
+        - Class Hàm Tạo, Hàm Hủy: Programming/cpp/cpp-class-constructor-destructor-function.md
+        - Class Access Specifiers: Programming/cpp/cpp-class-access-specifiers.md
+        - Class Kế Thừa: Programming/cpp/cpp-class-inheritance.md
       - Điều Khiển:
-        - Arithmetic Operator: Programming/cpp/cpp-arithmetic-operator.md
-        - Logical Operator: Programming/cpp/cpp-logical-operator.md
-        - Bitswise Operator: Programming/cpp/cpp-bit-operator.md
+        - Toán tử số học: Programming/cpp/cpp-arithmetic-operator.md
+        - Toán tử logic: Programming/cpp/cpp-logical-operator.md
+        - Toán tử bitwise: Programming/cpp/cpp-bit-operator.md
         - Điều khiển luồng: Programming/cpp/cpp-flow-control.md
-        - InOut: Programming/cpp/cpp-in-out.md
         - Vòng lặp: Programming/cpp/cpp-loop.md
-      - Function:
-        - Hàm: Programming/cpp/cpp-function.md
-        - Lambda Function: Programming/cpp/cpp-lambda-function.md
-        - Function as Parameter: Programming/cpp/cpp-function-as-parameter.md
-        - Function Recursion: Programming/cpp/cpp-function-recursion.md
+      - InOut: Programming/cpp/cpp-in-out.md
       - Standard Library:
         - Standard Library: Programming/cpp/cpp-std-standard-library.md
         - ⚙️ Iterator:
@@ -191,7 +194,6 @@ nav:
           - Endianess: Programming/cpp/cpp-std-endian.md
         - ⚙️ Container:
           - STD Container: Programming/cpp/cpp-std-container.md
-          - STD Linear Types: Programming/cpp/cpp-linear-types.md
           - STD Array: Programming/cpp/cpp-std-array.md
           - STD Vector: Programming/cpp/cpp-std-vector.md
           - STD List: Programming/cpp/cpp-std-list.md
@@ -325,6 +327,9 @@ nav:
         - Example: Tools/make-example.md
       - Cmake:
         - Cmake: Tools/cmake.md
+  - AI:
+    - Machine Learning:
+      - Machine Learning: AI/ai-machine-learning.md
   - Practice:
     - Prepare: Practice/practice.md
     - Leetcode: Practice/leetcode.md
