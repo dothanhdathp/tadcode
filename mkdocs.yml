@@ -35,7 +35,7 @@ plugins:
       # puml_url: https://www.plantuml.com/plantuml/
       puml_url: http://localhost:8080/
   - graph
-  # - macros
+  - macros
 
 nav:
   #############################################################################################################################################################
@@ -245,16 +245,10 @@ nav:
     - C#:
       - C#: Programming/c-sharp/c-sharp.md
     - Rust:
-      - Về Rust: Programming/Rust/rust.md
-      - Chung:
-        - Overview: Programming/Rust/rust-overview.md
-        - Install: Programming/Rust/rust-install.md
+      - Getting Start:
+        - Rust: Programming/Rust/rust.md
+        - Cài Đặt: Programming/Rust/rust-install.md
         - Prepare for Test: Programming/Rust/rust-prepare-for-test.md
-        - Document: Programming/Rust/rust-document.md
-        - Example:
-          - Example Hello World: Programming/Rust/rust-example-helloworld.md
-          - Example Variables: Programming/Rust/rust-example-variables.md
-          - Example Primitives: Programming/Rust/rust-example-primitives.md
       - Biến:
         - Variables: Programming/Rust/rust-variables.md
         - Scalar Types: Programming/Rust/rust-scalar-types.md
@@ -266,8 +260,6 @@ nav:
         - Struct: Programming/Rust/rust-struct.md
         - Enum: Programming/Rust/rust-enum.md
       - Hàm: Programming/Rust/rust-function.md
-      - System:
-        - I/O Printer: Programming/Rust/rust-io-printer.md
       - Control:
         - Flow Control:
           - If/Else: Programming/Rust/rust-flow-control-if-else.md
@@ -276,6 +268,13 @@ nav:
           - For: Programming/Rust/rust-flow-control-for.md
           - Match: Programming/Rust/rust-flow-control-match.md
         - Operator: Programming/Rust/rust-operator.md
+      - System:
+        - I/O Printer: Programming/Rust/rust-io-printer.md
+      - Document: Programming/Rust/rust-document.md
+      - Example:
+        - Example Hello World: Programming/Rust/rust-example-helloworld.md
+        - Example Variables: Programming/Rust/rust-example-variables.md
+        - Example Primitives: Programming/Rust/rust-example-primitives.md
   - Interpreted & Hybrid:
     - Interpreted & Hybrid: Programming/interpreted-hybrid-language.md
     - Java:
@@ -335,10 +334,11 @@ nav:
     - Leetcode: Practice/leetcode.md
     - Leetcode List:
       - Leetcode 1-99: Practice/leetcode/leetcode-1-to-99.md
-      - 0079.Largest Number: Practice/leetcode/leetcode-0179.md
-      - 0875.Koko Eating Bananas: Practice/leetcode/leetcode-0875.md
-      - 1486.3 XOR Operation in an Array: Practice/leetcode/leetcode-1486.md
-      - 3799.Word Squares II: Practice/leetcode/leetcode-3799.md
+      - "0079": Practice/leetcode/leetcode-0179.md
+      - "0039": Practice/leetcode/leetcode-0039.md
+      - "0875": Practice/leetcode/leetcode-0875.md
+      - "1486": Practice/leetcode/leetcode-1486.md
+      - "3799": Practice/leetcode/leetcode-3799.md
 
 extra_css:
   - assets/stylesheets/theme.css

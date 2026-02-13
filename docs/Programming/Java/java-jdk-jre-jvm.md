@@ -33,10 +33,10 @@ Hiểu được sự khác biệt giữa JDK, JRE và JVM đóng vai trò rất 
 
 JVM gồm <u>__4 nhiệm vụ chính__</u>:
 
-1. Load code
-1. Verifies code
-1. Executes code
-1. Provides runtime enviroment
+1. Load code _(Tải mã)_
+1. Verifies code _(Xác minh mã)_
+1. Executes code _(Thực thi mã)_
+1. Provides runtime enviroment _(Cung cấp môi trường thời gian chạy)_
 
 ## JDK
 
