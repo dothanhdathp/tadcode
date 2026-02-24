@@ -1,0 +1,450 @@
+site_name: Tad Code
+theme:
+  name: material
+  logo: assets/logo/cat_white.png
+  text: PrimaryFont
+  code: CodeFont
+  highlightjs: true
+  hljs_style: github
+  hljs_style_dark: github-dark
+  palette:
+  - scheme: default
+    primary: indigo
+    accent: pink
+    toggle:
+      icon: material/brightness-4
+      name: Switch to dark mode
+  - scheme: slate
+    primary: indigo
+    accent: pink
+    toggle:
+      icon: material/brightness-7
+      name: Switch to light mode
+  features:
+    - content.code.annotation
+    - content.code.copy
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.instant
+    - navigation.footer
+    - navigation.tracking
+
+plugins:
+  - search
+  - plantuml:
+      # puml_url: https://www.plantuml.com/plantuml/
+      puml_url: http://localhost:8080/
+  - graph
+  # - macros
+
+nav:
+  #############################################################################################################################################################
+  - Computer Science:
+    - About Computer Science: index.md
+    - About Computer:
+      # - Các Loại NNLT:
+      #   - Compiled Language: Programming/compiled-language.md
+      #   - Interpreted Language: Programming/interpreted-language.md
+      #   - Non Programming Language: NonProgramming/another-non-programming-language.md
+      - Memory:
+        - Heap & Stack: CS/heap-and-stack.md
+        - Memory Leaks: CS/common-memory-leaks.md
+        - Dangling Pointers: CS/common-dangling-pointers.md
+        - Lập trình hướng đối tượng: CS/oop.md
+        - Iterators: CS/iterators.md
+        - ASCII: CS/common-ASCII.md
+        - Tham Chiếu Và Tham Trị: CS/tham-chieu-va-tham-tri.md
+    - Data Struct:
+      - Data Struct: CS/data-struct.md
+      - Linear:
+        - Stack: CS/data-struct-stack.md
+    - Algorithm:
+      - Algorithm: CS/algorithm-overview.md
+      - Độ phức tạp thuật toán: CS/algorithm-algorithmic-complexity.md
+      - Lock Hierarchy: CS/algorithm-lock-hierarchy.md
+      - Sorting:
+        - About Sort: CS/algorithm-sort.md
+        - Selection Sort: CS/algorithm-selection-sort.md
+        - Bubble Sort: CS/algorithm-bubble-sort.md
+        - Insertion Sort: CS/algorithm-insertion-sort.md
+        - Quick Sort: CS/algorithm-quick-sort.md
+        - Counting Sort: CS/algorithm-counting-sort.md
+        - Radix Sort: CS/algorithm-radix-sort.md
+      - Hash:
+        - Hash:  CS/algorithm-hash.md
+        - FNV1a: CS/algorithm-hashing-fnv1a.md
+        - Wavefunction Collapse: CS/wavefunction-collapse.md
+    - Design Pattern:
+      - Design Pattern: CS/design-pattern.md
+    - Bài Viết Tham Khảo:
+      - Tốc Độ Trong Ngôn Ngữ Lập Trình: CS/common-speed-of-language.md
+      - Alan Turing: CS/common-alan-turing.md
+  #############################################################################################################################################################
+  - Assembly:
+    - Assembly: Programming/assembly/assembly.md
+  - Complied:
+    - Complied Language: Programming/compiled-language.md
+    - C:
+      - Về C: Programming/c/c.md
+      - Data Types:
+        - Basic Data Types: Programming/c/c-basic-data-types.md
+        - Boolean: Programming/c/c-bool-type.md
+        - Derived Data Types:
+          - Pointer: Programming/c/c-pointer.md
+          - Chuỗi: Programming/c/c-array.md
+        - User Defined Data Types:
+          - Structure: Programming/c/c-struct.md
+          - Union: Programming/c/c-union.md
+          - Enum: Programming/c/c-enum.md
+        - (C) Numeric Limits: Programming/c/c-numeric-limits.md
+      - Function:
+        - Function: Programming/c/c-function.md
+        - Function Pointer: Programming/c/c-function-pointer.md
+        - Lambda Function: Programming/c/c-function-lambda-function.md
+        - Callback Function: Programming/c/c-function-callback.md
+      - In/Out:
+        - printf: Programming/c/c-printf.md
+        - scanf: Programming/c/c-scanf.md
+      - File:
+        - Xử Lý Tệp: Programming/c/c-file.md
+        - fprintf: Programming/c/c-fprintf.md
+      - Compiler:
+        - Trình Biên Dịch: Programming/c/c-compiler.md
+        - Các Giai Đoạn: Programming/c/c-translation-phases.md
+        - Bộ Tiền Xử Lý: Programming/c/c-preprocessor.md
+        - Bộ Tiền Xử Lý: Programming/c/c-replacing-text-macros.md
+      - Specifier:
+        - define: Programming/c/c-define.md
+      - ????:
+        - Makefile: Programming/c/c-makefile.md
+    - C++:
+      - Về C++: Programming/cpp/cpp.md
+      - Chung:
+        - Overview: Programming/cpp/cpp-overview.md
+        - Thư Viện STD: Programming/cpp/cpp-std.md
+        - Cài Đặt: Programming/cpp/cpp-install.md
+      - Cơ Bản:
+        - Fundamental Data Types: Programming/cpp/cpp-fundamental-datatypes.md
+        - (C++) Numeric Limits: Programming/cpp/cpp-std-numeric-limits.md
+        - Derived:
+          - Enum: Programming/cpp/cpp-enum.md
+          - Array: Programming/cpp/cpp-array.md
+          - Struct: Programming/cpp/cpp-struct.md
+          - Union: Programming/cpp/cpp-union.md
+        - String:
+          - String: Programming/cpp/cpp-std-string.md
+          - String Constructor: Programming/cpp/cpp-string-construct-deconstruct.md
+          - Truy Cập: Programming/cpp/cpp-string-index.md
+          - String Cast: Programming/cpp/cpp-string-cast.md
+        - Pointer:
+          - Khái niệm: Programming/cpp/cpp-pointer.md
+          - Con trỏ mảng: Programming/cpp/cpp-pointer-array.md
+          - Con trỏ đa chìều: Programming/cpp/cpp-dimension-array-pointer.md
+        - Ép Kiểu: Programming/cpp/cpp-fundamental-cast.md
+        - Hàm:
+          - Hàm: Programming/cpp/cpp-function.md
+          - Lambda Function: Programming/cpp/cpp-lambda-function.md
+          - Function as Parameter: Programming/cpp/cpp-function-as-parameter.md
+          - Function Recursion: Programming/cpp/cpp-function-recursion.md
+          - Function Recursion: Programming/cpp/cpp-function-recursion.md
+        # - Container: Programming/cpp/cpp-container.md
+        # - Linked List: Programming/cpp/cpp-linked-list.md
+      - Class:
+        - Class: Programming/cpp/cpp-class.md
+        - Class Hàm Tạo, Hàm Hủy: Programming/cpp/cpp-class-constructor-destructor-function.md
+        - Class Access Specifiers: Programming/cpp/cpp-class-access-specifiers.md
+        - Class Kế Thừa: Programming/cpp/cpp-class-inheritance.md
+      - Điều Khiển:
+        - Toán tử số học: Programming/cpp/cpp-arithmetic-operator.md
+        - Toán tử logic: Programming/cpp/cpp-logical-operator.md
+        - Toán tử bitwise: Programming/cpp/cpp-bit-operator.md
+        - Điều khiển luồng: Programming/cpp/cpp-flow-control.md
+        - Vòng lặp: Programming/cpp/cpp-loop.md
+      - InOut: Programming/cpp/cpp-in-out.md
+      - Standard Library:
+        - Standard Library: Programming/cpp/cpp-std-standard-library.md
+        - ⚙️ Iterator:
+          - STD Iterators: Programming/cpp/cpp-std-iterators.md
+        - ⚙️ Utility:
+          - STD Utility: Programming/cpp/cpp-std-utility.md
+          - STD Math: Programming/cpp/cpp-std-math.md
+          - IO library:
+            - Input/Output: Programming/cpp/cpp-input-output.md
+            - iostream: Programming/cpp/cpp-std-iostream.md
+          - Các Kiểu Mở Rộng:
+            - Bitset: Programming/cpp/cpp-std-bitset.md
+            - Pair: Programming/cpp/cpp-std-pair.md
+            - Tuple: Programming/cpp/cpp-std-tuple.md
+          - Casting:
+            - Static Cast: Programming/cpp/cpp-static_cast.md
+            - Const Cast: Programming/cpp/cpp-const_cast.md
+            - Dynamic Cast: Programming/cpp/cpp-dynamic_cast.md
+            - Reinterpret Cast: Programming/cpp/cpp-reinterpret_cast.md
+          - Quản Lý Tài Nguyên:
+            - Smart Pointer: Programming/cpp/cpp-smart-pointer.md
+            - Shared Pointer: Programming/cpp/cpp-shared-ptr.md
+            - Weak Pointer: Programming/cpp/cpp-weak-ptr.md
+            - Unique Pointer: Programming/cpp/cpp-unique-ptr.md
+          - Date & Time:
+            - Chrono library: Programming/cpp/cpp-std-chrono-library.md
+            - System Clock: Programming/cpp/cpp-system-system-clock.md
+            - Steady Clock: Programming/cpp/cpp-system-steady-clock.md
+            - File Clock: Programming/cpp/cpp-system-file-clock.md
+          - Endianess: Programming/cpp/cpp-std-endian.md
+        - ⚙️ Container:
+          - STD Container: Programming/cpp/cpp-std-container.md
+          - STD Array: Programming/cpp/cpp-std-array.md
+          - STD Stack: Programming/cpp/cpp-std-stack.md
+          - STD Queue: Programming/cpp/cpp-std-queue.md
+          - STD Vector: Programming/cpp/cpp-std-vector.md
+          - STD List: Programming/cpp/cpp-std-list.md
+          - STD Map: Programming/cpp/cpp-std-map.md
+          - STD Unordered Map: Programming/cpp/cpp-std-unordered-map.md
+          - STD Initializer_List: Programming/cpp/cpp-initializer-list.md
+          - STD Set: Programming/cpp/cpp-std-set.md
+          - STD Unordered Set: Programming/cpp/cpp-std-unordered-set.md
+        - ⚙️ Algorithms:
+          - STD Algorithms: Programming/cpp/cpp-std-algorithms.md
+          - STD Search: Programming/cpp/cpp-std-algorithms-search.md
+          - STD Sort: Programming/cpp/cpp-std-algorithms-sort.md
+        - STD System: Programming/cpp/cpp-std-system.md
+        - STD Type_Traits: Programming/cpp/cpp-std-type_traits.md
+        - STD Format: Programming/cpp/cpp-std-format.md
+        - STD Ranges: Programming/cpp/cpp-std-ranges.md
+      - Specifier:
+        - Specifier: Programming/cpp/cpp-specifier.md
+        - Include: Programming/cpp/cpp-include.md
+        - Define: Programming/cpp/cpp-define.md
+        - Namespace: Programming/cpp/cpp-namespace.md
+        - Constexpr: Programming/cpp/cpp-constexpr.md
+        - Template: Programming/cpp/cpp-template.md
+        - Static: Programming/cpp/cpp-static.md
+        - Input Arguments: Programming/cpp/cpp-command-line-arguments.md
+        - Memory Model: Programming/cpp/cpp-memory-model.md
+        - Named Requirements: Programming/cpp/cpp-named-requirements.md
+      - Thread:
+        - Thread: Programming/cpp/cpp-std-thread.md
+        - Jthread : Programming/cpp/cpp-std-jthread.md
+        - Mutex: Programming/cpp/cpp-std-mutex.md
+        - Atomic: Programming/cpp/cpp-std-atomic.md
+        - thread_local: Programming/cpp/cpp-std-thread_local.md
+        - Async Thread: Programming/cpp/cpp-std-async-thread.md
+        - Coroutine: Programming/cpp/cpp-coroutine.md
+      - Build:
+        - GNU G++: Programming/cpp/cpp-gnu-g-plus-plus.md
+        - Make Tool: Programming/cpp/cpp-build-tool-make.md
+        - Makefile Ex: Programming/cpp/cpp-makefile-example.md
+      - Document: Programming/cpp/cpp-reference-document.md
+      - Example:
+        - Hello World: Programming/cpp/cpp-helloworld.md
+        - Mẫu thử: Programming/cpp/cpp-example-test.md
+        - Dev. Stack: Programming/cpp/cpp-exmaple-my-stack.md
+        - Printer: Programming/cpp/cpp-example-printer.md
+        - Support Header: Programming/cpp/cpp-exmaple-support-header.md
+        - Draw Loading: Programming/cpp/cpp-exmaple-draw-loading.md
+        - Tổ Hợp, Chỉnh Hợp, Giai Thừa: Programming/cpp/cpp-exmaple-permutation-compination-factorial.md
+    - C#:
+      - C#: Programming/c-sharp/c-sharp.md
+    - Rust:
+      - Getting Start:
+        - Rust: Programming/Rust/rust.md
+        - Cài Đặt: Programming/Rust/rust-install.md
+        - Prepare for Test: Programming/Rust/rust-prepare-for-test.md
+      - Biến:
+        - Variables: Programming/Rust/rust-variables.md
+        - Scalar Types: Programming/Rust/rust-scalar-types.md
+        - Compound Types:
+          - Tuples: Programming/Rust/rust-tuples.md
+          - Array: Programming/Rust/rust-array.md
+          - Slices: Programming/Rust/rust-slices.md
+        - String: Programming/Rust/rust-string.md
+        - Struct: Programming/Rust/rust-struct.md
+        - Enum: Programming/Rust/rust-enum.md
+      - Hàm: Programming/Rust/rust-function.md
+      - Control:
+        - Flow Control:
+          - If/Else: Programming/Rust/rust-flow-control-if-else.md
+          - Loop: Programming/Rust/rust-flow-control-loop.md
+          - While: Programming/Rust/rust-flow-control-while.md
+          - For: Programming/Rust/rust-flow-control-for.md
+          - Match: Programming/Rust/rust-flow-control-match.md
+        - Operator: Programming/Rust/rust-operator.md
+      - System:
+        - I/O Printer: Programming/Rust/rust-io-printer.md
+      - Document: Programming/Rust/rust-document.md
+      - Example:
+        - Example Hello World: Programming/Rust/rust-example-helloworld.md
+        - Example Variables: Programming/Rust/rust-example-variables.md
+        - Example Primitives: Programming/Rust/rust-example-primitives.md
+  - Interpreted & Hybrid:
+    - Interpreted & Hybrid: Programming/interpreted-hybrid-language.md
+    - Java:
+      - Java: Programming/Java/java.md
+      - Overview:
+        - JDK, JRE và JVM: Programming/Java/java-jdk-jre-jvm.md
+        - Install: Programming/Java/java-install.md
+        - HelloWorld: Programming/Java/java-helloworld.md
+      - Basic:
+        - Basic Syntax: Programming/Java/java-basic-synctax.md
+        - Datatypes & Variables: Programming/Java/java-basic-datatypes-and-variables.md
+    - Kotlin:
+      - Kotlin: Programming/Kotlin/kotlin.md
+      - Basic Concept: Programming/Kotlin/kotlin-basic-tour.md
+    - Python:
+      - Python: Programming/Python/python.md
+      - Cài đặt:
+        - Window: Programming/Python/python-install-windows.md
+        - Resased Version: Programming/Python/python-resased-version.md
+        - Any Version: Programming/Python/python-any-version.md
+      - Cơ bản:
+        - Căn bản: Programming/Python/python-basic-concept.md
+        - String: Programming/Python/python-string.md
+        - Toán tử: Programming/Python/python-operator.md
+        - Điều khiển luồng: Programming/Python/python-control-flow-statements.md
+  - Web:
+    - HTML: Web/html/html.md
+    - CSS: Web/css/css.md
+    - PhP: Web/php/php.md
+    - Javascript:
+      - Javascript: Web/Javascript/javascript.md
+  - Compiler/VM:
+    - Tools: Tools/tools.md
+    - Build Tools:
+      - GNU:
+        - GNU 🏲: Tools/tools-gnu.md
+        - GCC: Tools/tools-gnu-gcc.md
+        - G++: Tools/tools-gnu-g++.md
+        - GDB: Tools/tools-gnu-gdb.md
+      - LLVM:
+        - LLVM 🏲: Tools/tools-llvm.md
+      - Clang:
+        - Clang 🏲: Tools/tools-clang.md
+    - Meta-Build System:
+      - Meta-Build System: Tools/meta-build-system.md
+      - Make:
+        - Make: Tools/make.md
+        - Install: Tools/make-install.md
+        - Example: Tools/make-example.md
+      - Cmake:
+        - Cmake: Tools/cmake.md
+  - Frameworks:
+    - Frameworks: Frameworks/frameworks.md
+    - GStreamer:
+      - GStreamer: Frameworks/GStreamer/gstreamer.md
+      - Khái Niệm:
+        - Giới Thiệu: Frameworks/GStreamer/gstreamer-overview.md
+        - Tải về và cài đặt: Frameworks/GStreamer/gstreamer-install-and-setup.md
+        - Khái Niệm Cơ Bản: Frameworks/GStreamer/gstreamer-gstreamer-concepts.md
+      - Gst Tools:
+        - Gst Tools: Frameworks/GStreamer/gstreamer-tools.md
+        - gst-launch-1.0: Frameworks/GStreamer/gstreamer-gst-launch.md
+        - gst-inspect-1.0: Frameworks/GStreamer/gstreamer-gst-inspect.md
+        - ges-launch-1.0: Frameworks/GStreamer/gstreamer-ges-launch.md
+      - Lib:
+        - Source:
+          - Video: Frameworks/GStreamer/gstreamer-element-video-source.md
+          - Audio: Frameworks/GStreamer/gstreamer-tools-stream-video.md
+          - Playbin: Frameworks/GStreamer/gstreamer-tools-stream-video.md
+        - Test: Frameworks/GStreamer/gstreamer-tools-stream-video.md
+      - Basic Tutorials:
+        - Tutorial: Frameworks/GStreamer/gstreamer-b-tutorial.md
+        - Hello world!: Frameworks/GStreamer/gstreamer-b-hello-world.md
+        - Đường Ống Động: Frameworks/GStreamer/gstreamer-b-dynamic-pipelines.md
+        - Pipeline Graphs: Frameworks/GStreamer/gstreamer-b-pipeline-graphs.md
+      - Stream Video: Frameworks/GStreamer/gstreamer-tools-stream-video.md
+      - Pipeline Samples:
+        - Intro:  Frameworks/GStreamer/gstreamer-pipeline-samples.md
+        - Tips for Debug: Frameworks/GStreamer/gstreamer-pipeline-samples-tips-for-debug.md
+        - Video: Frameworks/GStreamer/gstreamer-pipeline-samples-video.md
+        - Audio: Frameworks/GStreamer/gstreamer-pipeline-samples-audio.md
+        - Mux Video and Audio: Frameworks/GStreamer/gstreamer-pipeline-samples-mux-video-and-audio.md
+        - Media File: Frameworks/GStreamer/gstreamer-pipeline-samples-media-file.md
+        - Network Streaming: Frameworks/GStreamer/gstreamer-pipeline-samples-network-streaming.md
+        - Mixing: Frameworks/GStreamer/gstreamer-pipeline-samples-mixing.md
+        - SHM (Shared Memory): Frameworks/GStreamer/gstreamer-pipeline-samples-shm.md
+        - Fallbacksrc: Frameworks/GStreamer/gstreamer-pipeline-samples-fallbacksrc.md
+        - Live Stream, ...: Frameworks/GStreamer/gstreamer-pipeline-samples-live-stream.md
+        - Python Opencv: Frameworks/GStreamer/gstreamer-pipeline-samples-python-opencv.md
+      - Another:
+        - Graphs: Frameworks/GStreamer/gstreamer-pipeline-graphs.md
+      - Ubuntu Tutorial:
+        - Tutorial 1: Frameworks/GStreamer/gstreamer-ubuntu-tutorial-1.md
+      - Bắt đầu với Windows:
+        - Geting Start: Frameworks/GStreamer/gstreamer-windows.md
+      - Bắt đầu với Android:
+        - Geting Start: Frameworks/GStreamer/gstreamer-android.md
+        - Dựng thư viện: Frameworks/GStreamer/gstreamer-android-build-gstreamer.md
+        - Android Tutorial:
+          - GStreamer 1: Frameworks/GStreamer/gstreamer-android-tutorial-1.md
+          - GStreamer 2: Frameworks/GStreamer/gstreamer-android-tutorial-2.md
+          - GStreamer 3: Frameworks/GStreamer/gstreamer-android-tutorial-3.md
+          - GStreamer 4: Frameworks/GStreamer/gstreamer-android-tutorial-4.md
+          - NamiDtv2Example:
+            - NamiDtv2Example: Frameworks/GStreamer/gstreamer-android-nami-dtvbt2-example.md
+            - Full Chart: Frameworks/GStreamer/gstreamer-android-nami-dtvbt2-example-full-chart.md
+      - Example:
+        - Pipeline Graphs Example: Frameworks/GStreamer/gstreamer-example-pipeline-graphs-main.md
+  - Library:
+    - Library: Library/library.md
+    - FTXUI:
+      - FTXUI: Library/FTXUI/ftxui.md
+      - Build: Library/FTXUI/ftxui-build.md
+      - Example: Library/FTXUI/ftxui-example.md
+    - NanoHTTPD:
+      - Getting Start: Library/NanoHTTPD/nanohttpd.md
+  - AI:
+    - Machine Learning:
+      - Machine Learning: AI/ai-machine-learning.md
+  - Practice:
+    - Prepare: Practice/practice.md
+    - Leetcode: Practice/leetcode.md
+    - Leetcode List:
+      - Leetcode 1-99: Practice/leetcode/leetcode-1-to-99.md
+      - "0001": Practice/leetcode/leetcode-0001.md
+      - "0002": Practice/leetcode/leetcode-0002.md
+      - "0003": Practice/leetcode/leetcode-0003.md
+      - "0011": Practice/leetcode/leetcode-0011.md
+      - "0037": Practice/leetcode/leetcode-0037.md
+      - "0046": Practice/leetcode/leetcode-0046.md
+      - "0047": Practice/leetcode/leetcode-0047.md
+      - "0057": Practice/leetcode/leetcode-0057.md
+      - "0079": Practice/leetcode/leetcode-0179.md
+      - "0039": Practice/leetcode/leetcode-0039.md
+      - "0875": Practice/leetcode/leetcode-0875.md
+      - "1486": Practice/leetcode/leetcode-1486.md
+      - "3799": Practice/leetcode/leetcode-3799.md
+extra_css:
+  - assets/stylesheets/theme.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences:
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+extra_javascript:
+  - assets/scripts/katex.js
+  - assets/scripts/keyevent.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/dothanhdathp
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/tad.zeila?locale=vi_VN
+
+copyright:
+  ☕ Made by Tad Zeila!
