@@ -11,20 +11,26 @@ Về cơ bản, _gstreamer_ là một đường ống
 Trong _gstreamer_ có 4 khái niệm cơ bản sau
 
 - __Elements__ là các thành phần cơ bản nhất của gstreamer
-- __pipeline__ là đường ống, bao gồm một hoặc nhiều các khối Elements cơ bản.
+- __Pipeline__ là đường ống, bao gồm một hoặc nhiều các khối Elements cơ bản.
 - __Pad__ có thể coi như là các ổ cắm, chúng dùng để cho các Elements giao tiếp và kết nối với nhau hoặc truyền dữ liệu giữa hai nguyên tố (Elements). Có thể coi các Pads
 - __Bus__ là đường riêng, cái mà gstreamer mở ra để đưa các thông báo lỗi ra ngoài hoặc nhận các cơ chế điều khiển từ bên ngoài. Bus giúp người dùng có thể can thiệp vào tiến trình của đường ống giữa lúc đường ống đang hoạt động.
 
-
 ## Foundations
+
+> [_Gstreamer Foundations_](https://gstreamer.freedesktop.org/documentation/application-development/introduction/basics.html)
 
 Bài này giới thiệu <u>các khái niệm cơ bản của __Gstreamer__</u>. Hiểu được các khái niệm này sẽ rất quan trọng trong việc đọc bất kỳ phần còn lại của hướng dẫn này, tất cả chúng đều cho rằng sự hiểu biết về các khái niệm cơ bản này.
 
 - __Elements__: Elements là thành phần quan trọng nhất của GStreammer
-- __Bins__: 
-- __Bus__: 
+- __Bins__: Là các thùng chứa, gồm nhiều thành phần **Elements** được gộp lại với nhau để thực hiện một nhiệm vụ, mục đích chung.
+- __Bus__: Là đường nối giữa các thành phần. Bus có trách nhiệm truyền và gửi đi các bản tin có trong đường ống. Trao đổi trạng thái và điểu khiển.
 
-### Pads and capabilities
+### Pads and Capabilities
+
+- **Pads**: ???
+
+- **Capabilities**: ???
+
 
 ### Buffers and Events
 
@@ -37,10 +43,6 @@ Bài này giới thiệu <u>các khái niệm cơ bản của __Gstreamer__</u>.
     ![alt text](img/gstreamer-foundations-1.png)
     <figcaption></figcaption>
 </figure>
-
-## Tham khảo
-
-- [Foundations](https://gstreamer.freedesktop.org/documentation/application-development/introduction/basics.html?gi-language=c)
 
 ## Phân tích
 

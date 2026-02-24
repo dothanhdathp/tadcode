@@ -64,8 +64,6 @@ skinparam backgroundcolor transparent
 @endmindmap
 ```
 
-## Main Topic
+## Topic
 
-- [FTXUI](./FTXUI/ftxui.md)
-- [NanoHTTPD](./NanoHTTPD/nanohttpd.md)
 - [GStreamer](./GStreamer/gstreamer.md)

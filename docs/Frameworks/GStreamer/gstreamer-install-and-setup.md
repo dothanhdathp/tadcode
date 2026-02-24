@@ -19,7 +19,7 @@ Các Hệ Điều Hành Hỗ Trợ Là
 
 ## Linux
 
-!!! abstract "Abstract"
+!!! quote "Note"
     __GStreamer__ được tích hợp sẵn trong tất cả các bản phân phối Linux. Chúng tôi khuyên bạn nên sử dụng phiên bản mới nhất của một bản phân phối có tốc độ phát triển nhanh như __Fedora__, __Ubuntu__ _(không phải LTS)_, __Debian__ sid hoặc __OpenSuse__ để nhận bản phát hành __GStreamer__ mới nhất.
 
 === "Ubuntu/Debian"
