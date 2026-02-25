@@ -19,14 +19,14 @@ skinparam backgroundcolor transparent
 
 ** [[/Programming/compiled-language/ Compiled Language]]
 ***_ [[/Programming/c/c/ C]]
-***_ [[/Programming/cpp/cpp/ C++]]
+***_ =[[/Programming/cpp/cpp/ C++]]
 ***_ [[/Programming/c-sharp/c-sharp/ C#]]
-***_ [[/Programming/Rust/rust/ Rust]]
+***_ =[[/Programming/Rust/rust/ Rust]]
 
 ** [[/Programming/interpreted-hybrid-language/ Interpreted & Hybrid]]
-***_ [[/Programming/Java/java/ Java]]
+***_ =[[/Programming/Java/java/ Java]]
 ***_ [[/Programming/Kotlin/kotlin/ Kotlin]]
-***_ [[/Programming/python/python/ Python]]
+***_ =[[/Programming/python/python/ Python]]
 
 ** Web
 ***_ HTML

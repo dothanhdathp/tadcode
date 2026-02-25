@@ -140,7 +140,7 @@ nav:
           - Khái niệm: Programming/cpp/cpp-pointer.md
           - Con trỏ mảng: Programming/cpp/cpp-pointer-array.md
           - Con trỏ đa chìều: Programming/cpp/cpp-dimension-array-pointer.md
-        - Ép Kiểu: Programming/cpp/cpp-fundamental-cast.md
+        - Casting: Programming/cpp/cpp-casting.md
         - Hàm:
           - Hàm: Programming/cpp/cpp-function.md
           - Lambda Function: Programming/cpp/cpp-lambda-function.md
@@ -164,7 +164,7 @@ nav:
       - Standard Library:
         - Standard Library: Programming/cpp/cpp-std-standard-library.md
         - ⚙️ Iterator:
-          - STD Iterators: Programming/cpp/cpp-std-iterators.md
+          - STD Iterator: Programming/cpp/cpp-std-iterator.md
         - ⚙️ Utility:
           - STD Utility: Programming/cpp/cpp-std-utility.md
           - STD Math: Programming/cpp/cpp-std-math.md
@@ -203,6 +203,8 @@ nav:
           - STD Initializer_List: Programming/cpp/cpp-initializer-list.md
           - STD Set: Programming/cpp/cpp-std-set.md
           - STD Unordered Set: Programming/cpp/cpp-std-unordered-set.md
+          - STD Multiset: Programming/cpp-std-multiset.md
+          - STD Multimap: Programming/cpp-std-multimap.md
         - ⚙️ Algorithms:
           - STD Algorithms: Programming/cpp/cpp-std-algorithms.md
           - STD Search: Programming/cpp/cpp-std-algorithms-search.md

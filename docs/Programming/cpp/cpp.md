@@ -38,7 +38,7 @@ skinparam backgroundcolor transparent
 ****_ [[$URL/cpp-pointer Khái niệm]]
 ****_ [[$URL/cpp-pointer-array Con trỏ mảng]]
 ****_ [[$URL/cpp-dimension-array-pointer Con trỏ đa chìều]]
-*** [[$URL/cpp-fundamental-cast Ép kiểu]]
+*** [[$URL/cpp-casting Casting]]
 *** [[$URL/cpp-function Hàm]]
 ****_ [[$URL/cpp-lambda-function Lambda Function]]
 ****_ [[$URL/cpp-function-as-parameter Function as Parameter]]
@@ -82,10 +82,10 @@ skinparam backgroundcolor transparent
 *****_ [[$URL/cpp-input-output Input/Output]]
 *****_ [[$URL/cpp-std-iostream iostream]]
 **** Các Kiểu Mở Rộng
-*****_ [[$URL/cpp-std-bitset Bitset]]
+*****_ =[[$URL/cpp-std-bitset Bitset]]
 *****_ [[$URL/cpp-std-pair Pair]]
 *****_ [[$URL/cpp-std-tuple Tuple]]
-**** Casting
+**** [[$URL/cpp-casting Casting]]
 *****_ [[$URL/cpp-static_cast Static Cast]]
 *****_ [[$URL/cpp-const_cast Const Cast]]
 *****_ [[$URL/cpp-dynamic_cast Dynamic Cast]]
@@ -115,7 +115,7 @@ skinparam backgroundcolor transparent
 *** [[$URL/cpp-std-container ⚙️ STD Container]]
 **** Sequence
 *****_ [[$URL/cpp-std-array STD Array]]
-*****_ [[$URL/cpp-std-vector STD Vector]]
+*****_ =[[$URL/cpp-std-vector STD Vector]]
 *****_ [[$URL/cpp-std-list STD List]]
 *****_ [[$URL/cpp-initializer-list STD Initializer_List]]
 *****_ std::deque
@@ -123,13 +123,13 @@ skinparam backgroundcolor transparent
 *****_ std::hive
 *****_ std::inplace_vector
 **** Associative
-****_ [[$URL/cpp-std-map STD Map]]
 ****_ [[$URL/cpp-std-set STD Set]]
-*****_ std::multiset
-*****_ std::multimap
+****_ [[$URL/cpp-std-multiset STD Multiset]]
+****_ [[$URL/cpp-std-map STD Map]]
+****_ [[$URL/cpp-std-multimap STD Multimap]]
 **** Unordered
-*****_ [[$URL/cpp-std-unordered-map STD Unordered Map]]
-*****_ [[$URL/cpp-std-unordered-set STD Unordered Set]]
+*****_ =[[$URL/cpp-std-unordered-map STD Unordered Map]]
+*****_ =[[$URL/cpp-std-unordered-set STD Unordered Set]]
 *****_ std::unordered_multiset
 *****_ std::unordered_multimap
 **** Adaptors
