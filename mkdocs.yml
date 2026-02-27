@@ -30,7 +30,8 @@ theme:
     - navigation.tracking
 
 plugins:
-  - search
+  - search:
+      lang: vi
   - plantuml:
       # puml_url: https://www.plantuml.com/plantuml/
       puml_url: http://localhost:8080/
@@ -62,6 +63,7 @@ nav:
       - Algorithm: CS/algorithm-overview.md
       - Độ phức tạp thuật toán: CS/algorithm-algorithmic-complexity.md
       - Lock Hierarchy: CS/algorithm-lock-hierarchy.md
+      - K-means Clustering: CS/algorithm-k-means-clustering.md
       - Sorting:
         - About Sort: CS/algorithm-sort.md
         - Selection Sort: CS/algorithm-selection-sort.md
@@ -80,9 +82,9 @@ nav:
       - Tốc Độ Trong Ngôn Ngữ Lập Trình: CS/common-speed-of-language.md
       - Alan Turing: CS/common-alan-turing.md
   #############################################################################################################################################################
-  - Assembly:
+  - Mã Máy:
     - Assembly: Programming/assembly/assembly.md
-  - Complied:
+  - Biên Dịch:
     - Complied Language: Programming/compiled-language.md
     - C:
       - Về C: Programming/c/c.md
@@ -278,7 +280,7 @@ nav:
         - Example Hello World: Programming/Rust/rust-example-helloworld.md
         - Example Variables: Programming/Rust/rust-example-variables.md
         - Example Primitives: Programming/Rust/rust-example-primitives.md
-  - Interpreted & Hybrid:
+  - Bán Thông Dịch:
     - Interpreted & Hybrid: Programming/interpreted-hybrid-language.md
     - Java:
       - Java: Programming/Java/java.md
@@ -369,11 +371,11 @@ nav:
         - Python Opencv: Frameworks/GStreamer/gstreamer-pipeline-samples-python-opencv.md
       - Another:
         - Graphs: Frameworks/GStreamer/gstreamer-pipeline-graphs.md
-      - Ubuntu Tutorial:
+      - GStreamer on Ubuntu:
         - Tutorial 1: Frameworks/GStreamer/gstreamer-ubuntu-tutorial-1.md
-      - Bắt đầu với Windows:
+      - GStreamer on Windows:
         - Geting Start: Frameworks/GStreamer/gstreamer-windows.md
-      - Bắt đầu với Android:
+      - GStreamer on Android:
         - Geting Start: Frameworks/GStreamer/gstreamer-android.md
         - Dựng thư viện: Frameworks/GStreamer/gstreamer-android-build-gstreamer.md
         - Android Tutorial:
