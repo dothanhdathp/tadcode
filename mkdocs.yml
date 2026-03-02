@@ -392,7 +392,14 @@ nav:
     - Library: Library/library.md
     - FTXUI:
       - FTXUI: Library/FTXUI/ftxui.md
-      - Build: Library/FTXUI/ftxui-build.md
+      - FTXUI Build: Library/FTXUI/ftxui-build.md
+      - FTXUI Overview: Library/FTXUI/ftxui-overview.md
+      - FTXUI Screen:
+        - FTXUI Screen: Library/FTXUI/ftxui-screen.md
+      - FTXUI Dom:
+        - FTXUI Screen: Library/FTXUI/ftxui-dom.md
+      - FTXUI Component:
+        - FTXUI Screen: Library/FTXUI/ftxui-component.md
       - Example: Library/FTXUI/ftxui-example.md
     - NanoHTTPD:
       - Getting Start: Library/NanoHTTPD/nanohttpd.md

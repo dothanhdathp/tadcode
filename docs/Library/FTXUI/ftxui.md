@@ -10,4 +10,4 @@
 ## Getting Start
 
 - [Hello World](ftxui-example.md)
-- [Build](ftxui-example.md)
+- [Example](ftxui-example.md)

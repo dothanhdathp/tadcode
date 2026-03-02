@@ -16,7 +16,7 @@ Cấu trúc tệp như này:
 │       ├── dom
 │       ├── screen
 │       └── util
-├── lib
+├── libs
 │   ├── libftxui-component.a
 │   ├── libftxui-dom.a
 │   ├── libftxui-screen.a
@@ -28,7 +28,7 @@ Cấu trúc tệp như này:
 
 Trong đó:
 
-- `lib`: Thư mục này chứa các tệp thư viện được dựng ở trên là `libftxui-component.a`, `libftxui-dom.a` và `libftxui-screen.a`. Đó là ba thư viện gốc của __ftxui__. Ngoài ra còn có một thư viện `libncurses.a` để vẽ.
+- `libs`: Thư mục này chứa các tệp thư viện được dựng ở trên là `libftxui-component.a`, `libftxui-dom.a` và `libftxui-screen.a`. Đó là ba thư viện gốc của __ftxui__. Ngoài ra còn có một thư viện `libncurses.a` để vẽ.
 - `src`: Chứa các tệp lập trình chương trình.
 - `include/ftxui`: Chứa các tệp ___header___ của thư viện __ftxui__
 - `out`: Thư mục này được đưa ra để chứa các tệp kết xuất (tệp `main.exe`)
@@ -38,37 +38,37 @@ Trong đó:
 Tệp `Makefile`
 
 ```cmake title="Makefile"
-# Compiler
 CXX = g++
 
-# Compiler flags
-CXXFLAGS = -std=c++17 -Wall -Wextra -static -static-libgcc -static-libstdc++ -I./include/
+TARGETS = main
+BFLAGS = -std=c++17 -O2 -Wall
+CFLAGS = -I./include
+LDLIBS =  -L./libs -lncurses -lftxui-component -lftxui-dom -lftxui-screen
 
-# Linker flags
-LDFLAGS = -L./lib/ -lftxui-component -lftxui-dom -lftxui-screen -lncurses
+$(TARGETS): %: %.cpp
+	$(CXX) $(BFLAGS) $(CFLAGS) $< -o $@ $(LDLIBS) $(LDLIBS)
 
-# Source files
-SRCS = ./src/main.cpp
+all: $(TARGETS)
+	echo Done!
 
-# Output executable
-TARGET = ./out/main
+remake_%:
+	rm -rf $*
+	$(CXX) $(BFLAGS) $(CFLAGS) $*.cpp -o $* $(LDLIBS)
 
-# Default target
-all: $(TARGET)
+.PHONY: clean
+clean: $(TARGETS)
+	@echo "Cleaning all targets..."
+	rm -f $(TARGETS)
 
-# Build the target
-$(TARGET): $(SRCS)
-	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRCS) $(LDFLAGS)
-
-# Clean up build files
-clean:
-	rm -f $(TARGET)
-
-# Phony targets
-.PHONY: all clean
+.PHONY: clean_%
+clean_%:
+	@echo "Cleaning target: $*"
+	rm -f $*
 ```
 
-### Ví dụ đầu tiên
+## Ví dụ đầu tiên
+
+### Code
 
 ```cpp title="main.cpp"
 #include <ftxui/dom/elements.hpp>
@@ -78,23 +78,22 @@ clean:
 int main() {
   using namespace ftxui;
  
-  // Create a simple document with three text elements.
   Element document = hbox({
-    text("left")   | border,
-    text("middle") | border | flex,
-    text("right")  | border,
+    text("Hello World"),
   });
  
-  // Create a screen with full width and height fitting the document.
-  auto screen = Screen::Create(
-    Dimension::Full(),       // Width
-    Dimension::Fit(document) // Height
-  );
- 
-  // Render the document onto the screen.
+  auto screen = Screen::Create(Dimension::Full(), Dimension::Fit(document));
   Render(screen, document);
- 
-  // Print the screen to the console.
   screen.Print();
 }
 ```
+```text title="Kết Quả"
+Hello World
+```
+
+### Các Thành Phần
+
+Trong ví dụ trên có ba thành phần đáng chú ý là:
+
+- __Element__ document là bản đóng gói chung.
+- `hbox({ text("Hello World"), })`
