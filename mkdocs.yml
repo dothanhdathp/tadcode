@@ -99,6 +99,10 @@ nav:
           - Union: Programming/c/c-union.md
           - Enum: Programming/c/c-enum.md
         - (C) Numeric Limits: Programming/c/c-numeric-limits.md
+        - Type Qualifier:
+          - const: Programming/c/c-const.md
+          - volatile: Programming/c/c-volatile.md
+          - restrict: Programming/c/c-restrict.md
       - Function:
         - Function: Programming/c/c-function.md
         - Function Pointer: Programming/c/c-function-pointer.md
@@ -200,13 +204,13 @@ nav:
           - STD Queue: Programming/cpp/cpp-std-queue.md
           - STD Vector: Programming/cpp/cpp-std-vector.md
           - STD List: Programming/cpp/cpp-std-list.md
-          - STD Map: Programming/cpp/cpp-std-map.md
-          - STD Unordered Map: Programming/cpp/cpp-std-unordered-map.md
           - STD Initializer_List: Programming/cpp/cpp-initializer-list.md
           - STD Set: Programming/cpp/cpp-std-set.md
+          - STD Map: Programming/cpp/cpp-std-map.md
           - STD Unordered Set: Programming/cpp/cpp-std-unordered-set.md
-          - STD Multiset: Programming/cpp-std-multiset.md
-          - STD Multimap: Programming/cpp-std-multimap.md
+          - STD Unordered Map: Programming/cpp/cpp-std-unordered-map.md
+          - STD Multiset: Programming/cpp/cpp-std-multiset.md
+          - STD Multimap: Programming/cpp/cpp-std-multimap.md
         - ⚙️ Algorithms:
           - STD Algorithms: Programming/cpp/cpp-std-algorithms.md
           - STD Search: Programming/cpp/cpp-std-algorithms-search.md
@@ -220,6 +224,7 @@ nav:
         - Include: Programming/cpp/cpp-include.md
         - Define: Programming/cpp/cpp-define.md
         - Namespace: Programming/cpp/cpp-namespace.md
+        - CV Type Qualifiers: Programming/cpp/cpp-cv-type-qualifiers.md
         - Constexpr: Programming/cpp/cpp-constexpr.md
         - Template: Programming/cpp/cpp-template.md
         - Static: Programming/cpp/cpp-static.md
@@ -400,7 +405,10 @@ nav:
         - FTXUI Screen: Library/FTXUI/ftxui-dom.md
       - FTXUI Component:
         - FTXUI Screen: Library/FTXUI/ftxui-component.md
-      - Example: Library/FTXUI/ftxui-example.md
+      - FTXUI Research:
+        - FTXUI Class Ref.: Library/FTXUI/ftxui-class-reference.md
+      - FTXUI Example: Library/FTXUI/ftxui-example.md
+      - FTXUI Note: Library/FTXUI/ftxui-note.md
     - NanoHTTPD:
       - Getting Start: Library/NanoHTTPD/nanohttpd.md
   - AI:

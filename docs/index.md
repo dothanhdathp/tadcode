@@ -26,7 +26,7 @@ skinparam backgroundcolor transparent
 ** [[/Programming/interpreted-hybrid-language/ Interpreted & Hybrid]]
 ***_ =[[/Programming/Java/java/ Java]]
 ***_ [[/Programming/Kotlin/kotlin/ Kotlin]]
-***_ =[[/Programming/python/python/ Python]]
+***_ =[[/Programming/Python/python/ Python]]
 
 ** Web
 ***_ HTML

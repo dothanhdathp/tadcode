@@ -18,10 +18,14 @@ skinparam backgroundcolor transparent
 ****_ [[$URL/c-array/ Chuỗi]]
 ****_ [[$URL/c-function/ Function]]
 *** User Defined Data Types
-****_ [[$URL/c-enum Enum]]
-****_ [[$URL/c-union Union]]
-****_ [[$URL/c-struct Structure]]
+****_ [[$URL/c-enum/ Enum]]
+****_ [[$URL/c-union/ Union]]
+****_ [[$URL/c-struct/ Structure]]
 *** [[$URL/c-numeric-limits/ (C) Numeric Limits]]
+*** Type Qualifier
+****_ [[$URL/c-const/ const]]
+****_ [[$URL/c-volatile/ volatile]]
+****_ [[$URL/c-restrict/ restrict]]
 ** In/Out
 ***_ [[$URL/c-printf/ printf]]
 ***_ [[$URL/c-scanf/ scanf]]

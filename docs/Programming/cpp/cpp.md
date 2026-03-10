@@ -149,7 +149,7 @@ skinparam backgroundcolor transparent
 ***_ [[$URL/cpp-std-ranges (?) STD Ranges]]
 
 ** Thread
-***_ [[$URL/cpp-std-thread/ std::thread]]
+***_ =[[$URL/cpp-std-thread/ std::thread]]
 ****_ [[$URL/cpp-std-jthread/ std::jthread]]
 ***_ [[$URL/cpp-std-mutex/ std::mutex]]
 ****_ std::lock_guard
