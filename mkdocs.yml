@@ -82,9 +82,7 @@ nav:
       - Tốc Độ Trong Ngôn Ngữ Lập Trình: CS/common-speed-of-language.md
       - Alan Turing: CS/common-alan-turing.md
   #############################################################################################################################################################
-  - Mã Máy:
-    - Assembly: Programming/assembly/assembly.md
-  - Biên Dịch:
+  - Comp.L:
     - Complied Language: Programming/compiled-language.md
     - C:
       - Về C: Programming/c/c.md
@@ -310,6 +308,9 @@ nav:
         - String: Programming/Python/python-string.md
         - Toán tử: Programming/Python/python-operator.md
         - Điều khiển luồng: Programming/Python/python-control-flow-statements.md
+  - Mã Máy:
+    - Assembly: Programming/assembly/assembly.md
+    - Tổng Quan: Programming/assembly/assembly-overview.md
   - Web:
     - HTML: Web/html/html.md
     - CSS: Web/css/css.md
