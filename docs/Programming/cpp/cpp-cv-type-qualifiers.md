@@ -2,8 +2,8 @@
 
 **cv** là viết tắt của _**(const and volatile)**_. Nó kế thừa hai _keyword_ gốc của C là:
 
-- [const](../c/c-const.md)
-- [volatile](../c/c-volatile.md)
+- [const](../c/c-const.md): Biến tĩnh, mô tả tính chất không thể sửa đổi của giá trị.
+- [volatile](../c/c-volatile.md) Biến cục bộ, tính chất _**dễ bay hơi**_, nó thường dùng để khai báo giá trị găn với các chân mạch cục bộ (jum) hoặc các biến xử lý ngắt, ... Ý nghĩa của nó đơn giản là đánh dấu một biến mà giá trị của nó không phụ thuộc vào logic của chương trình, cái này giúp cho các compiler sẽ không cố gắng xử lý nó như một biến thông thường mà như là một đối tượng độc lập. Trên thực tế nếu là một đối số không có thay đổi trong nội hàm của chương trình, các trình biên dịch đôi khi loại bỏ nó ra khỏi chương trình hoặc tối ưu nó khiến chương trình lỗi.
 
 ## mutable specifier
 
@@ -38,4 +38,4 @@ public:
 
 Trong ví dụ này, **mutex** cần được khai báo nhưng nó không được lập trình viên sửa đổi, nó được sử dụng bên trong thư viện và thay đổi biến thành viên mỗi khi khóa luồng. Nhưng vì hàm get là hàm const nên việc sử dụng biến có khả năng thay đổi là bị ngăn cấm bởi trình biên dịch.
 
-Khai báo **mutable** cho phép **std::mutex** được sử dụng bên trong hàm **const**.
+Khai báo **mutable** cho phép **std::mutex** được sử dụng bên trong hàm **const** - các hàm không có sự can thiệp sửa đổi từ bên ngoài.

@@ -119,7 +119,9 @@ nav:
         - Bộ Tiền Xử Lý: Programming/c/c-replacing-text-macros.md
       - Specifier:
         - define: Programming/c/c-define.md
-      - ????:
+        - static: Programming/c/c-static.md
+      - Signal Handler: Programming/c/c-signal-handler.md
+      - Build:
         - Makefile: Programming/c/c-makefile.md
     - C++:
       - Về C++: Programming/cpp/cpp.md
@@ -151,20 +153,18 @@ nav:
           - Function as Parameter: Programming/cpp/cpp-function-as-parameter.md
           - Function Recursion: Programming/cpp/cpp-function-recursion.md
           - Function Recursion: Programming/cpp/cpp-function-recursion.md
-        # - Container: Programming/cpp/cpp-container.md
-        # - Linked List: Programming/cpp/cpp-linked-list.md
-      - Class:
-        - Class: Programming/cpp/cpp-class.md
-        - Class Hàm Tạo, Hàm Hủy: Programming/cpp/cpp-class-constructor-destructor-function.md
-        - Class Access Specifiers: Programming/cpp/cpp-class-access-specifiers.md
-        - Class Kế Thừa: Programming/cpp/cpp-class-inheritance.md
       - Điều Khiển:
         - Toán tử số học: Programming/cpp/cpp-arithmetic-operator.md
         - Toán tử logic: Programming/cpp/cpp-logical-operator.md
         - Toán tử bitwise: Programming/cpp/cpp-bit-operator.md
         - Điều khiển luồng: Programming/cpp/cpp-flow-control.md
         - Vòng lặp: Programming/cpp/cpp-loop.md
-      - InOut: Programming/cpp/cpp-in-out.md
+      - Class:
+        - Class: Programming/cpp/cpp-class.md
+        - Class Hàm Tạo, Hàm Hủy: Programming/cpp/cpp-class-constructor-destructor-function.md
+        - Class Access Specifiers: Programming/cpp/cpp-class-access-specifiers.md
+        - Class Kế Thừa: Programming/cpp/cpp-class-inheritance.md
+        - InOut: Programming/cpp/cpp-in-out.md
       - Standard Library:
         - Standard Library: Programming/cpp/cpp-std-standard-library.md
         - ⚙️ Iterator:
@@ -223,6 +223,7 @@ nav:
         - Define: Programming/cpp/cpp-define.md
         - Namespace: Programming/cpp/cpp-namespace.md
         - CV Type Qualifiers: Programming/cpp/cpp-cv-type-qualifiers.md
+        - mutable: Programming/cpp/cpp-mutable.md
         - Constexpr: Programming/cpp/cpp-constexpr.md
         - Template: Programming/cpp/cpp-template.md
         - Static: Programming/cpp/cpp-static.md
@@ -237,6 +238,8 @@ nav:
         - thread_local: Programming/cpp/cpp-std-thread_local.md
         - Async Thread: Programming/cpp/cpp-std-async-thread.md
         - Coroutine: Programming/cpp/cpp-coroutine.md
+      - Signal Handler:
+        - Signal: Programming/cpp/cpp-signal-handler.md
       - Build:
         - GNU G++: Programming/cpp/cpp-gnu-g-plus-plus.md
         - Make Tool: Programming/cpp/cpp-build-tool-make.md
