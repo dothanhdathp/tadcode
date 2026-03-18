@@ -12,6 +12,8 @@
 
 ```puml
 @startmindmap
+skinparam backgroundcolor transparent
+
 * **Scalar Types**
 ** Khai Báo
 ** Loại
@@ -112,3 +114,6 @@ Ngoài việc có thể khai báo trực tiếp, các số nguyên còn có th�
 ```rust title="Ví dụ"
 let x:i64 = 100_000_000_000; // 100000000000
 ```
+
+!!! note "Note"
+    Tiếp theo là đến các loại phức tạp hơn [Compound Types](rust-compound-types.md)

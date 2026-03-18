@@ -2,33 +2,24 @@
 
 > Nhiều dạng dữ liệu khác nhau được tập hợp lại với nhau gọi là __Tuples__
 
-Tính chất:
-
-- Tập hợp của các biến có kiểu dữ liệu. Chúng có thể cùng hoặc khác kiểu.
-- Các phần tử được đánh thứ tự từ `0`.
-- __Tuples__ có độ dài cố định. Không thể thêm hoặc bớt phần tử ra khỏi __Tuples__ trong quá trình chạy.
-- Các giá trị của tuple được bao bọc trong dấu __ngoặc đơn__ và phân cách với nhau bằng __dấu phẩy__.
-- __Tuples__ có thể được khai báo tự động. Tức là nếu không có thêm yêu cầu về kiểu, nó sẽ chạy theo hướng 
+!!! abstract "Ghi Chú"
+    1. Tup có thể cùng hoặc khác kiểu.
+    1. Các phần tử được đánh thứ tự từ `0`.
+    1. <mark>__Tuples__ có độ dài cố định. Không thể thêm hoặc bớt phần tử ra khỏi __Tuples__.</mark>
+    1. Các giá trị của tuple được bao bọc trong dấu __ngoặc đơn__ `()`, phân cách với nhau bằng __dấu phẩy__.
+    1. Nếu không khai báo kiểu, các phần tử tự ép kiểu.
+    1. [Truy cập phần tử qua dấu `.`](#truy-van-bang-tri-so) hoặc [gán bằng một cụm biến khác.](#truy-van-bang-cum-bien)
+    1. `println!` có thể in trực tiếp **Tuples** nhưng chỉ với tập hợp 12 phần tử.
 
 ## Khai Báo
 
-### Khai Báo Tự Động
-
-Với cách khai báo tự động, các kiểu sẽ được tự động lựa chọn kiểu theo luật.
-
-```rust
-fn main() {
-    let tup = (500, 6.4, 1);
-}
-```
-
-### Khai Báo Thủ Công
-
-Với cách khai báo thủ công sẽ phải thêm kiểu vào cho từng thành phần của __Tuples__. Khuyến nghị nên dùng cách khai báo này để tránh trường hợp bị vượt ngưỡng hoặc là vượt ngưỡng khoảng giá trị. Đồng thời làm rõ mục đích sử dụng của các phần tử của __Tuples__ hơn.
+- Với cách khai báo tự động, các kiểu sẽ được tự động lựa chọn kiểu theo luật.
+- Với cách khai báo thủ công sẽ phải thêm kiểu vào cho từng thành phần của __Tuples__. Khuyến nghị nên dùng cách khai báo này để tránh trường hợp bị vượt ngưỡng hoặc là vượt ngưỡng khoảng giá trị. Đồng thời làm rõ mục đích sử dụng của các phần tử của __Tuples__ hơn.
 
 ```rust
 fn main() {
-    let tup: (i32, f64, u8) = (500, 6.4, 1);
+    let tup = (500, 6.4, 1);                 // Khai báo tự động
+    let tup: (i32, f64, u8) = (500, 6.4, 1); // Khai báo thủ công
 }
 ```
 
@@ -62,7 +53,7 @@ fn main() {
 
 ## In Dữ Liệu
 
-__Tuples__ vẫn là kiểu biến nguyên thủy thế nên các phương thức IO cơ bản có hoạt động với __Tuples__. Nhưng chú ý <mark>phương thức IO cơ bản không in được tuple quá 12 thành phần</mark>. _(Điều này thật là vớ vẩn, làm không đến nơi đến chốn)_.
+__Tuples__ vẫn là kiểu biến nguyên thủy thế nên các phương thức IO cơ bản có hoạt động với __Tuples__. Nhưng chú ý <mark>phương thức IO cơ bản không in được tuple quá 12 thành phần</mark>.
 
 Để có thể in thì thay vì sử dụng `{}` thì sẽ dùng `{:?}` với ý nghĩa là dạng dữ liệu tự do cần xác định.
 

@@ -1,48 +1,33 @@
 # Mảng
+> [Nguồn](https://doc.rust-lang.org/std/primitive.array.html)
 
 Mảng là kiếu phức hợp thứ hai, là tập hợp các giá trị có cùng một kiểu được tập hợp lại thành một mảng với độ dài xác định.
 
-- Tập các giá trị có cùng một kiểu.
-- Kích thước xác định. Không thể thay đổi sau khi khai báo.
-- Các giá trị của mảng được bao bọc trong dấu __ngoặc vuông__ và phân cách với nhau bằng __dấu phẩy__.
-- Nhìn chung thì cách thức vận hành của __Mảng__ khá là giống với cách thức vận hàng của __Tuples__ với các phần tử có cùng kiểu.
+!!! abstract "Ghi Chú"
+    - Tập các giá trị có cùng một kiểu.
+    - Kích thước xác định. Không thể thay đổi sau khi khai báo.
+    - Khai báo dùng `x:[T;S] = [A,B,C,...]`
+    - Nếu dùng `[T;S] = [D;S]` _(`D` là giá trị mặc định)_
+    - Có thể bỏ qua kiểu, lúc này hệ thống sẽ tự ép kiểu mặc định.
+    - Truy cập phần tử dùng `[index]`
 
 ## Khai Báo
 
-### Khai Báo Tự Động
-
-Khai báo tự do giống như cách khai báo với __Tuples__. Nếu các dữ liệu có cùng kiểu nó sẽ được chuyển về dạng __Array__ thông qua quá trình tự động xác định kiểu.
-
-```rust
-fn main() {
-    let arr = [1, 2, 3, 4, 5];
-}
-```
-
-### Khai Báo Thủ Công
-
-Khai báo thủ công với cấu trúc `[T; length]` với `T` là kiểu là `length` là độ dài của chuỗi. Ví dụ này là khai báo một chuỗi có 5 phần tử với dạng số nguyên __32-bít__.
+- Khai báo tự do giống như cách khai báo với __Tuples__. Nếu các dữ liệu có cùng kiểu nó sẽ được chuyển về dạng __Array__ thông qua quá trình tự động xác định kiểu.
+- Khai báo thủ công với cấu trúc `[T; length]` với `T` là kiểu là `length` là độ dài của chuỗi.
+- Có thể rút gọn khai báo như cách ba với, lúc này tất cả các phần tử của mảng sẽ có cùng một giá trị mặc định.
 
 ```rust
 fn main() {
-    let arr: [i32; 5] = [1, 2, 3, 4, 5];
+    let arr = [1, 2, 3, 4, 5];           // Khai báo tự do
+    let arr: [i32; 5] = [1, 2, 3, 4, 5]; // Khai báo với số lượng phần tử
+    let arr: [i32; 500] = [0; 500];      // Khai báo với số lượng phần tử + giá trị mặc định
 }
 ```
-
-Nếu muốn khởi tạo mảng với các giá trị mặc định giống nhau thì làm như dưới đây:
-
-```rust
-fn main() {
-    let arr: [i32; 500] = [0; 500];
-}
-```
-
-- _Mảng trên có 500 phần tử với giá trị là `0`_
 
 ## Truy Vấn Giá Trị
 
 Truy vấn giá trị trong Array có điển khác với __Tuples__. Về việc khác nhau này có thể hiểu nó gần giống như cách thức truy vấn ở các ngôn ngữ cổ điển như __C/C++__, đó là truy vấn địa chỉ bằng dấu `[i]` với __*i*__ là _index_ bắt đầu từ `0`
-
 
 ```rust
 fn main() {

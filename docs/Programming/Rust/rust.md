@@ -26,7 +26,7 @@ right side
 ***_ What is Rust
 ***_ Why Rust
 ***_ C++ vs Rust
-*** Cài Đặt
+*** [[$URL/rust-install/ Cài Đặt]]
 ****_ Windows
 ****_ Linux
 ***_ Hello World

@@ -1,5 +1,19 @@
 # Install
 
+<div class="sticky-note" markdown="1">
+<div class="sticky-note-header">:::</div>
+```bash title="Tải về từ source"
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source "$HOME/.cargo/env"
+rustc --version
+```
+```bash title="Tải về tiêu chuẩn"
+sudo apt update
+sudo apt install rustc
+rustc --version
+```
+</div>
+
 ## Tải về bản cài đặt
 
 - Cài đặt Rust từ [trang chủ](https://www.rust-lang.org/).
@@ -69,23 +83,18 @@ pacman -S mingw-w64-x86_64-rust
 ### Cách 1: Install Rust Using
 
 - Tải về qua `curl`
-
-```bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
-
+    ```bash
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    ```
 - Nhấn Enter để tiến hành cài đặt mặc định.
 - Cài đặt `source`
-
-```bash
-source "$HOME/.cargo/env"
-```
-
+    ```bash
+    source "$HOME/.cargo/env"
+    ```
 - Cuối cùng là kiểm tra phiên bản:
-
-```bash
-rustc --version
-```
+    ```bash
+    rustc --version
+    ```
 
 ### Cách 2: Install Rust Using APT
 

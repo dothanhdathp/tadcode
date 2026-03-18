@@ -264,6 +264,7 @@ nav:
         - Variables: Programming/Rust/rust-variables.md
         - Scalar Types: Programming/Rust/rust-scalar-types.md
         - Compound Types:
+          - Compound Types: Programming/Rust/rust-compound-types.md
           - Tuples: Programming/Rust/rust-tuples.md
           - Array: Programming/Rust/rust-array.md
           - Slices: Programming/Rust/rust-slices.md
@@ -281,6 +282,8 @@ nav:
         - Operator: Programming/Rust/rust-operator.md
       - System:
         - I/O Printer: Programming/Rust/rust-io-printer.md
+      - Cargo:
+        - Start Cargo: Programming/Rust/rust-start-vs-cargo.md
       - Document: Programming/Rust/rust-document.md
       - Example:
         - Example Hello World: Programming/Rust/rust-example-helloworld.md
@@ -458,6 +461,7 @@ markdown_extensions:
 extra_javascript:
   - assets/scripts/katex.js
   - assets/scripts/keyevent.js
+  - assets/scripts/draggable.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 

@@ -1,6 +1,15 @@
 # Biến
-
 > Biến là thành phần cơ bản trong mọi ngôn ngữ lập trình.
+
+<div class="sticky-note" markdown="1">   
+<div class="sticky-note-header">:::</div>
+
+- `let` để khai báo biến.
+- `let mut` khi biến có thể thay đổi.
+- Biến trong Rust tự xác định kiểu.
+- Khi muốn khai báo kiểu, thêm kiểu vào sau tên biến. Ví dụ `x:i32`
+
+</div>
 
 ## Định Nghĩa
 
