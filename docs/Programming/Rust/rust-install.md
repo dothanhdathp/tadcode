@@ -9,7 +9,7 @@ rustc --version
 ```
 ```bash title="Tải về tiêu chuẩn"
 sudo apt update
-sudo apt install rustc
+sudo apt install rustc -y
 rustc --version
 ```
 </div>
