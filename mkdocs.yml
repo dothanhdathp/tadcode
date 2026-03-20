@@ -400,6 +400,15 @@ nav:
             - Full Chart: Frameworks/GStreamer/gstreamer-android-nami-dtvbt2-example-full-chart.md
       - Example:
         - Pipeline Graphs Example: Frameworks/GStreamer/gstreamer-example-pipeline-graphs-main.md
+    - Qt:
+      - Qt: Frameworks/Qt/qt.md
+      - Install:
+        - Install Qt: Frameworks/Qt/qt-install.md
+        - Build Qt: Frameworks/Qt/qt-build.md
+      - Getting Start:
+        - Hello World: Frameworks/Qt/qt-eg-hello-world.md
+        - Hello World Qml: Frameworks/Qt/qt-eg-hello-world-qml.md
+      - Qml: Frameworks/Qt/qt-qml.md
   - Library:
     - Library: Library/library.md
     - FTXUI:

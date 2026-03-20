@@ -40,6 +40,7 @@ skinparam backgroundcolor transparent
 
 ** [[/Frameworks/frameworks/ Framework]]
 ***_ [[/Frameworks/GStreamer/gstreamer/ GStreamer]]
+***_ [[/Frameworks/Qt/qt/ Qt]]
 
 @endmindmap
 ```
