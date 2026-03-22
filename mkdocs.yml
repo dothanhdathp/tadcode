@@ -258,11 +258,14 @@ nav:
     - Rust:
       - Getting Start:
         - Rust: Programming/Rust/rust.md
-        - Cài Đặt: Programming/Rust/rust-install.md
+        - Cài Đặt: Programming/Rust/Rustrust-install.md
         - Prepare for Test: Programming/Rust/rust-prepare-for-test.md
-      - Biến:
+        - VSCode Setup: Programming/Rust/rust-vscode-setup.md
+      - Variables:
         - Variables: Programming/Rust/rust-variables.md
+        - Scope: Programming/Rust/rust-variables-scope.md
         - Scalar Types: Programming/Rust/rust-scalar-types.md
+        - Casting: Programming/Rust/rust-variables-casting.md
         - Compound Types:
           - Compound Types: Programming/Rust/rust-compound-types.md
           - Tuples: Programming/Rust/rust-tuples.md
@@ -280,6 +283,9 @@ nav:
           - For: Programming/Rust/rust-flow-control-for.md
           - Match: Programming/Rust/rust-flow-control-match.md
         - Operator: Programming/Rust/rust-operator.md
+      - Cargo:
+        - Start With Cargo: Programming/Rust/rust-start-with-cargo.md
+        - Cargo Toml: Programming/Rust/rust-cargo-toml.md
       - System:
         - I/O Printer: Programming/Rust/rust-io-printer.md
       - Cargo:
