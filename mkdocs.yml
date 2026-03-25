@@ -406,6 +406,8 @@ nav:
             - Full Chart: Frameworks/GStreamer/gstreamer-android-nami-dtvbt2-example-full-chart.md
       - Example:
         - Pipeline Graphs Example: Frameworks/GStreamer/gstreamer-example-pipeline-graphs-main.md
+    - ImTui:
+      - Pipeline Graphs Example: Frameworks/ImTui/imtui.md
     - Qt:
       - Qt: Frameworks/Qt/qt.md
       - Install:
