@@ -129,6 +129,9 @@ nav:
         - Overview: Programming/cpp/cpp-overview.md
         - Thư Viện STD: Programming/cpp/cpp-std.md
         - Cài Đặt: Programming/cpp/cpp-install.md
+        - Code Rules:
+          - Code Rules: Programming/cpp/cpp-code-rules.md
+          - Comment Rules: Programming/cpp/cpp-install.md
       - Cơ Bản:
         - Fundamental Data Types: Programming/cpp/cpp-fundamental-datatypes.md
         - (C++) Numeric Limits: Programming/cpp/cpp-std-numeric-limits.md
@@ -331,7 +334,7 @@ nav:
       - Javascript: Web/Javascript/javascript.md
   - Compiler/VM:
     - Tools: Tools/tools.md
-    - Build Tools:
+    - Trình Dịch:
       - GNU:
         - GNU 🏲: Tools/tools-gnu.md
         - GCC: Tools/tools-gnu-gcc.md
@@ -341,7 +344,7 @@ nav:
         - LLVM 🏲: Tools/tools-llvm.md
       - Clang:
         - Clang 🏲: Tools/tools-clang.md
-    - Meta-Build System:
+    - Hệ Thống Xây Dựng:
       - Meta-Build System: Tools/meta-build-system.md
       - Make:
         - Make: Tools/make.md
@@ -349,6 +352,9 @@ nav:
         - Example: Tools/make-example.md
       - Cmake:
         - Cmake: Tools/cmake.md
+        - Getting Start Linux: Tools/cmake-getting-start.md
+      - Cmake (Windows):
+        - Getting Start: Tools/cmake-windows-getting-start.md
   - Frameworks:
     - Frameworks: Frameworks/frameworks.md
     - GStreamer:

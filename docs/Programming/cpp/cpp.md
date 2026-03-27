@@ -1,6 +1,6 @@
 # C++
 
-## Roadmap
+## Nội Dung
 
 <!-- ***_ Container: Programming/cpp/cpp-container.md
 ***_ Linked List: Programming/cpp/cpp-linked-list.md -->
@@ -169,3 +169,6 @@ skinparam backgroundcolor transparent
 - [C++ Overview](cpp-overview.md)
 
 </div>
+
+## Biên Dịch
+
