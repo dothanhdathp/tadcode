@@ -1,2 +1,0 @@
-# Bắt Đầu Với Ubuntu
-
