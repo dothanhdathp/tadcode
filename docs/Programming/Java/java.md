@@ -19,6 +19,7 @@ Nó được sử dụng cho:
 - Và còn nhiều hơn thế nữa!
 
 ## Tại sao nên sử dụng Java?
+
 - Java hoạt động trên nhiều nền tảng khác nhau (Windows, Mac, Linux, Raspberry Pi, v.v.)
 - Đây là một trong những ngôn ngữ lập trình phổ biến nhất trên thế giới
 - Nó có nhu cầu lớn trong thị trường việc làm hiện nay

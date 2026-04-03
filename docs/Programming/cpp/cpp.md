@@ -12,10 +12,10 @@ skinparam backgroundcolor transparent
 
 * C++
 
-** Chung
+** Làm Quen
 ***_ [[$URL/cpp-overview Overview]]
-***_ [[$URL/cpp-std Thư Viện STD]]
 ***_ [[$URL/cpp-install Cài Đặt]]
+***_ HelloWorld
 
 ** Cơ Bản
 *** Kiểu Biến

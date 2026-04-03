@@ -34,7 +34,9 @@ std::bitset<16> b4("1010"); // construct with bits strings
 0000000000001010
 ```
 
-## Operator
+## Function
+
+### Operator
 
 | Operator | Effect                                 |
 | :------: | :------------------------------------- |
@@ -48,27 +50,31 @@ std::bitset<16> b4("1010"); // construct with bits strings
 |   `<<`   | Thực hiện toán tử __dịch trái__        |
 |   `>>`   | Thực hiện toán tử __dịch phải__        |
 
-## Function
+### Member Operator
 
-- `bool all()` : Kiểm tra nếu __*tất cả các bit*__ được set thành __True__
-- `bool any()` : Kiểm tra nếu __*có ít nhất một bit*__ được set thành __True__
-- `bool none()` : Kiểm tra nếu __*không có bit nào*__ được set thành __True__
-- `bool test( std::size_t pos ) const;`: Trả về giá trị bit tại vị trí _pos_.
-    - Hàm này khác `[]` là có  thực hiện hành vi <u>kiểm tra giới hạn</u>.
-    - Khi vượt quá giới hạn hàm này sẽ văng ra __*throw*__ `std::out_of_range`
-- `bitset& set( std::size_t pos, bool value = true);`: Đặt giá trị của một bit tại vị trí __*pos*__ thành giá trị `1`.
-    - Hàm này trả về địa chỉ của __*bitset*__ được dùng
-    - Nếu dùng độc lập _(không đưa vào tham số pos)_, hàm này sẽ đặt lại tất cả giá trị của __*bitset*__ thành `1`
-    - Khi vượt quá giới hạn hàm này sẽ văng ra __*throw*__ `std::out_of_range`
-- `bitset& reset( std::size_t pos, bool value = true);`: Đặt giá trị của một bit tại vị trí __*pos*__ thành giá trị `0`.
-    - Hàm này trả về địa chỉ của __*bitset*__ được dùng
-    - Nếu dùng độc lập _(không đưa vào tham số pos)_, hàm này sẽ đặt lại tất cả giá trị của __*bitset*__ thành `0`
-    - Khi vượt quá giới hạn hàm này sẽ văng ra __*throw*__ `std::out_of_range`
-- `bitset& flip( std::size_t pos);`: Chuyển đổi giá trị của bit tại vị trí __*pos*__ thành giá trị đối lập. _(`0` thành `1` và ngược lại)_
-    - Hàm này trả về địa chỉ của __*bitset*__ được dùng
-    - Nếu dùng độc lập _(không đưa vào tham số pos)_, hàm này đảo bit tất cả các bit có trong __*bitset*__
-    - Khi vượt quá giới hạn hàm này sẽ văng ra __*throw*__ `std::out_of_range`
+| Function Name                                                |       Return       | Desciption                                                                                                        | Throw                 |
+| :----------------------------------------------------------- | :----------------: | :---------------------------------------------------------------------------------------------------------------- | :-------------------- |
+| **all**()                                                    |      **bool**      | Kiểm tra nếu __*tất cả các bit*__ được set thành __True__                                                         |                       |
+| **any**()                                                    |      **bool**      | Kiểm tra nếu __*có ít nhất một bit*__ được set thành __True__                                                     |                       |
+| **none**()                                                   |      **bool**      | Kiểm tra nếu __*không có bit nào*__ được set thành __True__                                                       |                       |
+| **test**(_std::size_t pos_) **const**;                       |      **bool**      | Trả về giá trị bit tại vị trí _pos_.                                                                              | **std::out_of_range** |
+| **set**(_std::size_t pos_, _**bool**_ _value_ = **true**)    |  **std::bitset&**  | Đặt giá trị của một bit tại vị trí __*pos*__ thành giá trị `1`.                                                   |                       |
+| **reset**( _std::size_t pos_, _**bool**_ _value_ = **true**) |  **std::bitset&**  | Đặt giá trị của một bit tại vị trí __*pos*__ thành giá trị `0`.                                                   |                       |
+| **flip**( _std::size_t pos_ )                                |  **std::bitset&**  | Chuyển đổi, lật giá trị của bit tại vị trí __*pos*__/tất cả thành giá trị đối lập. _(`0` thành `1` và ngược lại)_ |                       |
+| **to_string**()                                              |    std::string     |                                                                                                                   |                       |
+| **to_ulong**()                                               |   unsigned long    |                                                                                                                   |                       |
+| **to_ullong**()                                              | unsigned long long |                                                                                                                   |                       |
 
+### Non-Member Operator
+
+| Operator | Effect |
+| :------: | :----- |
+|   `&`    |        |
+|   `|`    |        |
+|   `^`    |        |
+|   `<<`   |        |
+|   `>>`   |        |
+ 
 ## Convert
 
 `std::bitset` hỗ trợ ba kiểu chuyển đổi dữ liệu:
