@@ -1,5 +1,7 @@
 # 1. Two Sum
 
+<a href="javascript:void(0);" onclick="openSlide('http://localhost:65000/leetcode/leetcode1.html')">Xem Slide bài giảng</a>
+
 ```cpp
 class Solution {
 public:
@@ -13,7 +15,7 @@ public:
                 return {i, it->second};
             } else {
                 umap[target-nums[i]]=i;
-            }
+            }json
         }
         return {};
     }

@@ -44,10 +44,12 @@ std::unordered_map<int, std::string> m4 = std::move(m2);
 
 Tái tạo lại bản đồ dựa trên 
 
+{% raw %}
 ```cpp
 std::vector<std::pair<std::bitset<8>, int>> v = {{0x12, 1}, {0x01,-1}};
 std::unordered_map<std::bitset<8>, double> m5(v.begin(), v.end());
 ```
+{% endraw %}
 
 ## Thành Viên
 

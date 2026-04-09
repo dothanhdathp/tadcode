@@ -4,6 +4,7 @@ theme:
   logo: assets/logo/cat_white.png
   text: PrimaryFont
   code: CodeFont
+  custom_dir: custom_theme
   highlightjs: true
   hljs_style: github
   hljs_style_dark: github-dark
@@ -36,7 +37,7 @@ plugins:
       # puml_url: https://www.plantuml.com/plantuml/
       puml_url: http://localhost:8080/
   - graph
-  # - macros
+  - macros
 
 nav:
   #############################################################################################################################################################

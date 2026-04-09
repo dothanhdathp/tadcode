@@ -7,6 +7,7 @@
 
 Bài này đầu vào là chuỗi `vector<int>` có giá trị khác biệt hoàn toàn. Đầu ra yêu cầu đưa ra toàn bộ tổ hợp hoán vị của chuỗi đó. Ví dụ:
 
+{% raw %}
 ```text
 In:
 {1,2}
@@ -20,9 +21,11 @@ Out:
  {1,3,2}, {3,1,2},
  {1,2,3}, {2,1,3}}
 ```
+{% endraw %}
 
 Với cách làm hiện tại của mình là dùng đệ quy:
 
+{% raw %}
 ```c++
 vector<vector<int>> permute(vector<int> nums) {
 	vector<vector<int>> ans;
@@ -47,6 +50,7 @@ vector<vector<int>> permute(vector<int> nums) {
 	return ans;
 }
 ```
+{% endraw %}
 
 1. Trả về khi chuỗi dài 1, 2.
 2. Nếu lớn hơn 1 và hai thì tách thành từng chuỗi con. Ví dụ {1,2,3} thì lần lượt đưa vào là:
