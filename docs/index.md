@@ -34,14 +34,6 @@ skinparam backgroundcolor transparent
 ***_ PHP
 ***_ [[/Web/Javascript/javascript/ Javascript]]
 
-** [[/Library/library/ Library]]
-***_ [[/Library/FTXUI/ftxui/ FTXUI]]
-***_ [[/Library/NanoHTTPD/nano-httpd/ NanoHTTPD]]
-
-** [[/Frameworks/frameworks/ Framework]]
-***_ [[/Frameworks/GStreamer/gstreamer/ GStreamer]]
-***_ [[/Frameworks/Qt/qt/ Qt]]
-
 @endmindmap
 ```
 

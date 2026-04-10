@@ -4,10 +4,10 @@
 
 | ID   |   1    | 2                                                                        |
 | :--- | :----: | :----------------------------------------------------------------------- |
-| 0001 |  Easy  | {{ linkslide("leetcode/leetcode1.html", "Two Sum") }}                    |
+| 0001 |  Easy  | {{ linkslide("Two Sum", "leetcode/leetcode1.html") }}                    |
 | 0002 |        | [Add Two Numbers](leetcode-0002)                                         |
 | 0003 |        | [Longest Substring Without Repeating Characters](leetcode-0003)          |
-| 0011 |  Easy  | {{ linkslide("leetcode/leetcode11.html", "Container With Most Water") }} |
+| 0011 |  Easy  | {{ linkslide("Container With Most Water", "leetcode/leetcode11.html") }} |
 | 0037 |  Hard  | [Sudoku Solver](leetcode-0037)                                           |
 | 0037 |  Hard  | [Sudoku Solver](leetcode-0037)                                           |
 | 0039 |        | [Combination Sum](leetcode-0039)                                         |

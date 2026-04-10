@@ -49,7 +49,7 @@ Cơ sở của thuật toán băm __FNV__ được lấy từ một ý tưởng 
     }
     ```
 
-### Hàm băm cho số 64-bit
+#### Hàm băm cho số 64-bit
 
 === "C++"
     ```cpp

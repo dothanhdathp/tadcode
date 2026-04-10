@@ -41,8 +41,8 @@ plugins:
 
 nav:
   #############################################################################################################################################################
-  # - Tad Code: index.md
   - Computer Science:
+    - General: index.md
     - About Computer:
       # - Các Loại NNLT:
       #   - Compiled Language: Programming/compiled-language.md
@@ -398,6 +398,8 @@ markdown_extensions:
       clickable_checkbox: true
 
 extra_javascript:
+  - assets/scripts/tablesort.min.js
+  - assets/scripts/tablesort.js
   - assets/scripts/katex.js
   - assets/scripts/keyevent.js
   - assets/scripts/draggable.js
