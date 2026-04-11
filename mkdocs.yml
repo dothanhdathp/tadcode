@@ -263,7 +263,7 @@ nav:
   - Rust:
     - Getting Start:
       - Rust: Programming/Rust/rust.md
-      - Cài Đặt: Programming/Rust/Rustrust-install.md
+      - Cài Đặt: Programming/Rust/rust-install.md
       - Prepare for Test: Programming/Rust/rust-prepare-for-test.md
       - VSCode Setup: Programming/Rust/rust-vscode-setup.md
     - Variables:
