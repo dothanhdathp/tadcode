@@ -1,6 +1,6 @@
 # C++ Overview
 
-{{ book("C++ Language", "code-learn-cpp", "chapter_1.html") }}
+{{ book("C++ Language", "code-learn-cpp") }}
 
 code-learn-cpp
 
