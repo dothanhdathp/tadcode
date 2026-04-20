@@ -1,5 +1,9 @@
 # C++
 
+## Sách
+
+{{ book("Tài liệu C++", "code-learn-cpp") }}
+
 ## Nội Dung
 
 <!-- ***_ Container: Programming/cpp/cpp-container.md

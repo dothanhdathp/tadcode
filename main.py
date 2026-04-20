@@ -4,5 +4,5 @@ def define_env(env):
         return f'''<a href="javascript:void(0);" onclick="openSlide('http://localhost:65000/{html_path}')">⧉ {title}</a>'''
 
     @env.macro
-    def book(title, book, page="index.html"):
+    def book(title, book, page=""):
         return f'''[{title}](http://localhost:65000/book/{book}/{page})'''
