@@ -14,6 +14,9 @@ document.addEventListener('keydown', function (event) {
             localStorage.setItem('gridWidth', 'full');
         }
     }
+    if (event.ctrlKey && event.key === 'Escape') {
+        closeSlide();
+    }
 });
 
 // Apply saved mode on page load
