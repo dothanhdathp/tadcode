@@ -1,5 +1,11 @@
 # About Rust
 
+## Book
+
+{{ book("Rust Book", "code-learn-rust") }}
+
+## Intro
+
 Rust là một ngôn ngữ lập trình hệ thống hiện đại tập trung vào __tính an toàn__, __tốc độ__ và __tính đồng thời__. Ngôn ngữ này đạt được những mục tiêu này nhờ __*tính bảo mật bộ nhớ*__ mà không cần sử dụng cơ chế thu gom rác.
 
 Rust mạnh mẽ nhất trong việc tạo ra các mã đơn giản mà an toàn. Hầu hết là nhờ bộ __quy tắc lặp trình chặt chẽ__ được sử dụng trong trình biên dịch. Mặc dù đã cố gắng áp dụng các __khái niệm tiên tiến__ mà an toàn từ những ngôn ngữ bậc cao như _tự động xác định kiểu biến an toàn_, nhưng dù vậy __*Rust*__ vẫn
